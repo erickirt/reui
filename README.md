@@ -8,7 +8,7 @@
 [![React](https://img.shields.io/badge/React-18%2B-blue?logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4%2B-blue?logo=tailwindcss)](https://tailwindcss.com/)
 
-**Go beyond AI defaults and streamline high-end shadcn projects faster without touching the essentials. 1000+ free components and composed examples built with realistic dashboard layouts.**
+**Go beyond AI defaults and streamline high-end shadcn projects faster without touching the essentials. 1,105 free components and composed examples built with realistic dashboard layouts.**
 
 [Explore the component catalog](https://reui.io/components) · [Component Docs](https://reui.io/docs) · [ReUI Pro](https://reui.io) · [GitHub](https://github.com/keenthemes/reui)
 
@@ -18,21 +18,21 @@
 
 ## About ReUI
 
-ReUI is a free, open-source component library for the [shadcn/ui](https://ui.shadcn.com/) ecosystem. Explore 1,000+ production-ready components across 71 categories, each shown inside realistic dashboard layouts—not isolated demos—and copy them directly into your React projects.
+ReUI is a free, open-source component library for the [shadcn/ui](https://ui.shadcn.com/) ecosystem. Explore 1,105 production-ready components across 74 categories, each shown inside realistic dashboard layouts (not isolated demos), and copy them directly into your React projects.
 
 ### Why ReUI?
 
-- **19 In-House component primitives not in default shadcn/ui** — Data Grid, Event Calendar, Gantt, Kanban, Filters, Sortable, Timeline, Stepper, Tree, and more, built for real-world dashboard requirements
-- **1000+ registry components** — Reusable examples composed from shadcn/ui primitives into real-world product flows
-- **Dual Component library support** — Radix UI and Base UI versions for all 19 in-house components
+- **22 In-House component primitives not in default shadcn/ui** - Data Grid, Event Calendar, Gantt, Kanban, Filters, Cascader, Code Block, Sortable, Timeline, Stepper, Tree, and more, built for real-world dashboard requirements
+- **1,105 registry components** - Reusable examples composed from shadcn/ui primitives into real-world product flows
+- **Dual Component library support** - Radix UI and Base UI versions for all 22 in-house components
 - **Compatible with Shadcn Create styles and settings** — Vega, Nova, Maia, Lyra & Mira.
 
 ---
 
 ## Key Features
 
-- **1,000+ free examples** — Production-ready, copy-paste layouts for dashboards, forms, tables, and more
-- **19 In-house Components** — Custom in-house components not found in base shadcn/ui
+- **1,105 free examples** - Production-ready, copy-paste layouts for dashboards, forms, tables, and more
+- **22 In-house Components** - Custom in-house components not found in base shadcn/ui
 - **Copy-and-Own Model** — No npm package, no lock-in. Own the source code in your repo
 - **Dual API** — Radix UI and Base UI versions for all in-house components
 - **Shadcn Compatible** — Built on shadcn primitives and Tailwind CSS
@@ -44,9 +44,9 @@ ReUI is a free, open-source component library for the [shadcn/ui](https://ui.sha
 
 ## Custom In-House Components
 
-ReUI provides in total: **19 custom in-house components** not found in base shadcn/ui.
+ReUI provides in total: **22 custom in-house components** not found in base shadcn/ui.
 
-### In-House Components (20)
+### In-House Components (22)
 
 Custom-built, shadcn-compatible components not available in base shadcn/ui. Each is maintained by the Keenthemes team, ships full component API documentation, props reference, and usage examples, and is available in both Radix UI and Base UI flavors at [reui.io/docs](https://reui.io/docs).
 
@@ -56,13 +56,15 @@ Custom-built, shadcn-compatible components not available in base shadcn/ui. Each
 | **Autocomplete** | 12 | Searchable input with async filtering and keyboard navigation | [Preview](https://reui.io/components/autocomplete) | [Radix UI](https://reui.io/docs/components/radix/autocomplete) | [Base UI](https://reui.io/docs/components/base/autocomplete) |
 | **Badge** | 25 | Status indicators with multiple styles, sizes, and dot variants | [Preview](https://reui.io/components/badge) | [Radix UI](https://reui.io/docs/components/radix/badge) | [Base UI](https://reui.io/docs/components/base/badge) |
 | **Cascader** | 20 | Nested multi-level combobox with drill-down, columns and tree modes, breadcrumbs, search, async levels and custom rows | [Preview](https://reui.io/components/cascader) | [Radix UI](https://reui.io/docs/components/radix/cascader) | [Base UI](https://reui.io/docs/components/base/cascader) |
-| **Data Grid** | 30 | Advanced table powered by TanStack Table + Virtual with DnD, pinning, resizing, and infinite scroll | [Preview](https://reui.io/components/data-grid) | [Radix UI](https://reui.io/docs/components/radix/data-grid) | [Base UI](https://reui.io/docs/components/base/data-grid) |
+| **Code Block** | 27 | Shiki-highlighted code block for docs, diff review, AI chat and streaming agent output | [Preview](https://reui.io/components/code-block) | [Radix UI](https://reui.io/docs/components/radix/code-block) | [Base UI](https://reui.io/docs/components/base/code-block) |
+| **Data Grid** | 34 | Advanced table powered by TanStack Table + Virtual with DnD, pinning, resizing, and infinite scroll | [Preview](https://reui.io/components/data-grid) | [Radix UI](https://reui.io/docs/components/radix/data-grid) | [Base UI](https://reui.io/docs/components/base/data-grid) |
 | **Date Selector** | 4 | Flexible date range picker with calendar UI and preset ranges | [Preview](https://reui.io/components/date-selector) | [Radix UI](https://reui.io/docs/components/radix/date-selector) | [Base UI](https://reui.io/docs/components/base/date-selector) |
 | **Event Calendar** | 5 | Headless-first calendar with month, week, day, N-day, and agenda views, drag-and-drop scheduling, recurring events, time zones, and an external CRUD contract | [Preview](https://reui.io/components/event-calendar) | [Radix UI](https://reui.io/docs/components/radix/event-calendar) | [Base UI](https://reui.io/docs/components/base/event-calendar) |
 | **Filters** | 12 | Stepped filter builder with nested attributes, popover value editors and a boolean query tree, in chip or advanced chrome | [Preview](https://reui.io/components/filters) | [Radix UI](https://reui.io/docs/components/radix/filters) | [Base UI](https://reui.io/docs/components/base/filters) |
 | **Frame** | 19 | Card-like wrapper for panels and content areas | [Preview](https://reui.io/components/frame) | [Radix UI](https://reui.io/docs/components/radix/frame) | [Base UI](https://reui.io/docs/components/base/frame) |
-| **Gantt** | 5 | Headless-first gantt with split tree and timeline panes, day-to-year scales, zoom, drag and resize scheduling, progress, summary rollups, and an external CRUD contract | [Preview](https://reui.io/components/gantt) | [Radix UI](https://reui.io/docs/components/radix/gantt) | [Base UI](https://reui.io/docs/components/base/gantt) |
+| **Gantt** | 7 | Headless-first gantt with split tree and timeline panes, day-to-year scales, zoom, drag and resize scheduling, progress, summary rollups, and an external CRUD contract | [Preview](https://reui.io/components/gantt) | [Radix UI](https://reui.io/docs/components/radix/gantt) | [Base UI](https://reui.io/docs/components/base/gantt) |
 | **Icon Stack** | 6 | Layered isometric icon illustrations for empty states and feature visuals | [Preview](https://reui.io/components/icon-stack) | [Radix UI](https://reui.io/docs/components/radix/icon-stack) | [Base UI](https://reui.io/docs/components/base/icon-stack) |
+| **Icon Tile** | 17 | Icon tile for list row media, feature cards, empty states and dashboard tiles | [Preview](https://reui.io/components/icon-tile) | [Radix UI](https://reui.io/docs/components/radix/icon-tile) | [Base UI](https://reui.io/docs/components/base/icon-tile) |
 | **Kanban** | 6 | Drag-and-drop task boards built on DnD Kit with dynamic overlays and composable cards | [Preview](https://reui.io/components/kanban) | [Radix UI](https://reui.io/docs/components/radix/kanban) | [Base UI](https://reui.io/docs/components/base/kanban) |
 | **Number Field** | 6 | Numeric input with increment/decrement controls and formatting | [Preview](https://reui.io/components/number-field) | [Radix UI](https://reui.io/docs/components/radix/number-field) | [Base UI](https://reui.io/docs/components/base/number-field) |
 | **Phone Input** | 8 | International phone number input with country selector and formatting | [Preview](https://reui.io/components/phone-input) | [Radix UI](https://reui.io/docs/components/radix/phone-input) | [Base UI](https://reui.io/docs/components/base/phone-input) |
@@ -148,7 +150,7 @@ npx shadcn@latest add @reui/c-filters-5
 
 ### Quick Start
 
-1. **Browse the catalog** — Visit [reui.io/components](https://reui.io/components) to explore 1,000+ composed examples (`c-*` blocks)
+1. **Browse the catalog** - Visit [reui.io/components](https://reui.io/components) to explore 1,105 composed examples (`c-*` blocks)
 2. **Copy code** — Each example includes a ready-to-use code snippet
 3. **Customize** — Modify with your Tailwind CSS tokens and design system
 4. **Own it** — The code lives in your repo, not a package
@@ -179,8 +181,8 @@ A one-time license then unlocks the premium catalog on the same shadcn/ui founda
 
 | Feature | Access | Description | Live preview & docs |
 |---------|--------|-------------|---------------------|
-| **490+ Pro Blocks** | Pro | Full-page sections across Application, Solutions, eCommerce, Data Grid, and Marketing — including Event Calendar, Gantt, and Kanban board layouts | [Blocks](https://reui.io/blocks) · [Application](https://reui.io/blocks/application) · [Solutions](https://reui.io/blocks/solutions) · [eCommerce](https://reui.io/blocks/ecommerce) · [Data Grid](https://reui.io/blocks/data-grid) · [Marketing](https://reui.io/blocks/marketing) |
-| **562 Motion Icons** | Ultimate | Hand-crafted icons in 4 styles (Outline, Solid, Duotone, Filled) with hover animation — 2,248 variants | [Icons catalog](https://reui.io/icons) |
+| **533 Pro Blocks** | Pro | Full-page sections across Application, Data Grid, Solutions, eCommerce, Marketing, and AI & Agents, including Event Calendar, Gantt, and Kanban board layouts | [Blocks](https://reui.io/blocks) · [Application](https://reui.io/blocks/application) · [Data Grid](https://reui.io/blocks/data-grid) · [Solutions](https://reui.io/blocks/solutions) · [eCommerce](https://reui.io/blocks/ecommerce) · [Marketing](https://reui.io/blocks/marketing) · [AI & Agents](https://reui.io/blocks/ai-agents) |
+| **638 Motion Icons** | Ultimate | Hand-crafted icons in 4 styles (Outline, Solid, Duotone, Filled) with hover animation, 2,552 variants | [Icons catalog](https://reui.io/icons) |
 | **MCP Server** | Free | Connect any coding agent (Claude, Codex, Cursor, v0, Lovable, Replit, OpenCode, VS Code, Zed) to the ReUI registry for live scored search, inline component APIs, and one-command shadcn installs | [MCP Server docs](https://reui.io/mcp) |
 | **Agent Skill** | Free | One command teaches your agent the ReUI workflow — search → install → read the real API → adapt by reuse → audit; agent-agnostic, no license | [Agent Skill docs](https://reui.io/docs/agent-skills) |
 | **Workspace** | Pro | ReUI account with favorites, collections, and team access | [Sign in](https://reui.io/account) |
