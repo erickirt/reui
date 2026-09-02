@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bench: tanstack</title>
+    <style>
+      html, body { margin: 0; font: 14px system-ui, sans-serif; }
+      #controls { display: flex; gap: 8px; padding: 8px; align-items: center; }
+      #grid { height: 640px; }
+    </style>
+  </head>
+  <body>
+    <div id="controls">
+      <label>Filter <input id="filter" type="search" placeholder="type a city" /></label>
+      <span id="status">loading</span>
+    </div>
+    <div id="grid"></div>
+    <script type="module" src="/src/tanstack.tsx"></script>
+  </body>
+</html>

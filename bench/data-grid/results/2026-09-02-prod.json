@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-02",
+  "rows": 100000,
+  "runs": 3,
+  "results": {
+    "ag-grid": {
+      "firstPaint": 48,
+      "ready": 300,
+      "scrollP50": 8.3,
+      "scrollP95": 9.6,
+      "scrolledPx": 24000,
+      "filterMs": 73.8,
+      "jsBytes": 1350897,
+      "runs": 3,
+      "url": "http://localhost:4173/ag-grid.html?rows=100000"
+    },
+    "tanstack (ReUI Data Grid engine)": {
+      "firstPaint": 288,
+      "ready": 291,
+      "scrollP50": 8.3,
+      "scrollP95": 11,
+      "scrolledPx": 24000,
+      "filterMs": 130,
+      "jsBytes": 273892,
+      "runs": 3,
+      "url": "http://localhost:4173/tanstack.html?rows=100000"
+    },
+    "reui (live block)": {
+      "firstPaint": 1340,
+      "ready": 2170,
+      "scrollP50": 8.3,
+      "scrollP95": 48.3,
+      "scrolledPx": 3404,
+      "filterMs": 32.6,
+      "jsBytes": 959176,
+      "runs": 3,
+      "url": "https://reui.io/preview/base/data-grid-virtualization-1?embed=1"
+    }
+  }
+}

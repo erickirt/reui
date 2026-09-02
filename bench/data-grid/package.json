@@ -1,0 +1,30 @@
+{
+  "name": "reui-bench-data-grid",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Reproducible data grid benchmark: AG Grid Community against the ReUI Data Grid engine (TanStack Table + TanStack Virtual) on the same 100K rows, plus the live ReUI virtualization block by URL.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "bench": "node --experimental-strip-types bench.mts"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.13.12",
+    "ag-grid-community": "^36.1.0",
+    "ag-grid-react": "^36.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "playwright": "^1.58.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
