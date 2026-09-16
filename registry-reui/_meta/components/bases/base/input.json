@@ -8,6 +8,7 @@
         "input"
       ],
       "description": "Basic input",
+      "descriptionLong": "Basic input. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -32,6 +33,7 @@
         "input"
       ],
       "description": "Input with label",
+      "descriptionLong": "Input with label. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-2 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -56,6 +58,7 @@
         "input"
       ],
       "description": "Input with description",
+      "descriptionLong": "Input with description. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -80,6 +83,7 @@
         "input"
       ],
       "description": "Disabled input",
+      "descriptionLong": "Disabled input. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -104,6 +108,7 @@
         "input"
       ],
       "description": "Input with error message",
+      "descriptionLong": "Input with error message. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -128,6 +133,7 @@
         "input"
       ],
       "description": "Input with character counter",
+      "descriptionLong": "Input with character counter. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -152,6 +158,7 @@
         "input"
       ],
       "description": "Input with password type",
+      "descriptionLong": "Input with password type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-7 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -176,6 +183,7 @@
         "input"
       ],
       "description": "Input with phone type",
+      "descriptionLong": "Input with phone type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-8 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -200,6 +208,7 @@
         "input"
       ],
       "description": "Input with URL type",
+      "descriptionLong": "Input with URL type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-9 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -224,6 +233,7 @@
         "input"
       ],
       "description": "Input with number type",
+      "descriptionLong": "Input with number type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-10 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -248,6 +258,7 @@
         "input"
       ],
       "description": "Input with date type",
+      "descriptionLong": "Input with date type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-11 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -272,6 +283,7 @@
         "input"
       ],
       "description": "Input with file type",
+      "descriptionLong": "Input with file type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-12 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -296,6 +308,7 @@
         "input"
       ],
       "description": "Input with required indicator",
+      "descriptionLong": "Input with required indicator. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-13 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -320,6 +333,7 @@
         "input"
       ],
       "description": "Input with time type",
+      "descriptionLong": "Input with time type. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-14 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -344,6 +358,7 @@
         "input"
       ],
       "description": "Complex input form with multiple fields",
+      "descriptionLong": "Complex input form with multiple fields. Built by composing Button, Field, Input, Select. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-15 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -370,6 +385,7 @@
         "input"
       ],
       "description": "Input label with tooltip",
+      "descriptionLong": "Input label with tooltip. Built by composing Field, Input, Tooltip. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-16 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -395,6 +411,7 @@
         "input"
       ],
       "description": "Input label with badge",
+      "descriptionLong": "Input label with badge. Built by composing Badge, Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-17 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -420,6 +437,7 @@
         "input"
       ],
       "description": "Input label with optional badge",
+      "descriptionLong": "Input label with optional badge. Built by composing Badge, Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-18 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -445,6 +463,7 @@
         "input"
       ],
       "description": "Input label with link and visibility toggle",
+      "descriptionLong": "Input label with link and visibility toggle. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-19 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -469,6 +488,7 @@
         "input"
       ],
       "description": "Input with horizontal orientation",
+      "descriptionLong": "Input with horizontal orientation. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-20 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -493,6 +513,7 @@
         "input"
       ],
       "description": "Input with multiple error messages",
+      "descriptionLong": "Input with multiple error messages. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-21 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -517,11 +538,14 @@
         "input"
       ],
       "description": "Basic password strength with dynamic hint and icons",
+      "descriptionLong": "Basic password strength with dynamic hint and icons. Built by composing Field, Input. Uses cn alongside the shadcn primitives. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-22 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/input/c-input-22.tsx",
@@ -541,6 +565,7 @@
         "input"
       ],
       "description": "Advanced password strength indicator with progress",
+      "descriptionLong": "Advanced password strength indicator with progress. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-23 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -565,6 +590,7 @@
         "input"
       ],
       "description": "Input with pulsed background animation",
+      "descriptionLong": "Input with pulsed background animation. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-24 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -589,6 +615,7 @@
         "input"
       ],
       "description": "Input with custom focus ring",
+      "descriptionLong": "Input with custom focus ring. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-25 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -613,6 +640,7 @@
         "input"
       ],
       "description": "Input with subtle background",
+      "descriptionLong": "Input with subtle background. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-26 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -637,6 +665,7 @@
         "input"
       ],
       "description": "Input with bottom border only",
+      "descriptionLong": "Input with bottom border only. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-27 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -661,6 +690,7 @@
         "input"
       ],
       "description": "Color input",
+      "descriptionLong": "Color input. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-28 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -685,6 +715,7 @@
         "input"
       ],
       "description": "Range input with value indicator",
+      "descriptionLong": "Range input with value indicator. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-29 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -709,6 +740,7 @@
         "input"
       ],
       "description": "Pill-shaped input",
+      "descriptionLong": "Pill-shaped input. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-30 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"
@@ -733,6 +765,7 @@
         "input"
       ],
       "description": "Minimal input without borders or background",
+      "descriptionLong": "Minimal input without borders or background. Built by composing Field, Input. A free, open source shadcn input example you can install with npx shadcn@latest add @reui/c-input-31 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input"

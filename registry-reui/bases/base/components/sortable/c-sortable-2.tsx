@@ -9,7 +9,7 @@ import {
 } from "@/registry-reui/bases/base/reui/sortable"
 import { toast } from "sonner"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 interface GridItem {

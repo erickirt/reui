@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRightIcon } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 
 export function CTABlock({ className }: { className?: string }) {

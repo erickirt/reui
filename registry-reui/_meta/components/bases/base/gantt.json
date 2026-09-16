@@ -8,6 +8,7 @@
         "gantt"
       ],
       "description": "Gantt chart with settings menu and schedulable rows",
+      "descriptionLong": "Gantt chart with settings menu and schedulable rows. Built by composing Button, Card, Gantt, Gantt I18n, Gantt Nav and 8 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -46,6 +47,7 @@
         "gantt"
       ],
       "description": "Gantt chart with drag-to-reorder tree rows",
+      "descriptionLong": "Gantt chart with drag-to-reorder tree rows. Built by composing Card, Gantt, Gantt Nav, Gantt Types, Gantt View. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-2 and edit as your own code.",
       "registryDependencies": [
         "card",
         "gantt",
@@ -76,6 +78,7 @@
         "gantt"
       ],
       "description": "Gantt chart with quarter roadmap and rollups",
+      "descriptionLong": "Gantt chart with quarter roadmap and rollups. Built by composing Button, Card, Gantt, Gantt Nav, Gantt Types and 1 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -107,6 +110,7 @@
         "gantt"
       ],
       "description": "Gantt chart with weekly capacity board",
+      "descriptionLong": "Gantt chart with weekly capacity board. Built by composing Avatar, Button, Card, Gantt, Gantt Nav and 2 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-4 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -139,6 +143,7 @@
         "gantt"
       ],
       "description": "Gantt chart with task table and progress",
+      "descriptionLong": "Gantt chart with task table and progress. Built by composing Avatar, Badge, Button, Card, Gantt and 3 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-5 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -172,6 +177,7 @@
         "gantt"
       ],
       "description": "Gantt chart with as-built baseline tracking",
+      "descriptionLong": "Gantt chart with as-built baseline tracking. Built by composing Card, Gantt, Gantt Nav, Gantt Types, Gantt View. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "gantt",
@@ -202,6 +208,7 @@
         "gantt"
       ],
       "description": "Gantt chart with dependency arrows and milestones",
+      "descriptionLong": "Gantt chart with dependency arrows and milestones. Built by composing Card, Gantt, Gantt Nav, Gantt Types, Gantt View. Uses date-fns alongside the shadcn primitives. A free, open source shadcn gantt example you can install with npx shadcn@latest add @reui/c-gantt-7 and edit as your own code.",
       "registryDependencies": [
         "card",
         "gantt",

@@ -20,7 +20,7 @@ import type { CalendarView } from "@/registry-reui/bases/radix/reui/event-calend
 import { addDays, format } from "date-fns"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Calendar } from "@/registry/bases/radix/ui/calendar"
 import {

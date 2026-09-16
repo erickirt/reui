@@ -6,8 +6,8 @@ import {
   AlertDescription,
   AlertTitle,
 } from "@/registry-reui/bases/base/reui/alert"
+import { cn } from "cn"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Card, CardContent } from "@/registry/bases/base/ui/card"
 import { Progress } from "@/registry/bases/base/ui/progress"
@@ -234,11 +234,11 @@ export default function Pattern({
           {visibleDefaultImages.map((defaultImg) => (
             <Card
               key={defaultImg.id}
-              className="bg-accent/50 group/item rounded-md relative flex shrink-0 items-center justify-center p-0 shadow-none"
+              className="bg-accent/50 group/item relative flex shrink-0 items-center justify-center rounded-md p-0 shadow-none"
             >
               <img
                 src={defaultImg.src}
-                className="rounded-md h-[120px] w-full object-cover"
+                className="h-[120px] w-full rounded-md object-cover"
                 alt={defaultImg.alt}
               />
 
@@ -322,7 +322,7 @@ export default function Pattern({
               className="size-4"
             />
           </div>
-          <h3 className="text-2sm text-foreground mb-0.5 font-semibold">
+          <h3 className="text-foreground mb-0.5 text-sm font-semibold">
             Choose a file or drag & drop here.
           </h3>
           <span className="text-secondary-foreground mb-3 block text-xs font-normal">
@@ -338,12 +338,9 @@ export default function Pattern({
       {images.length > 0 && (
         <div className="mt-6 space-y-3">
           {images.map((imageFile) => (
-            <Card
-              key={imageFile.id}
-              className="rounded-md p-0 shadow-none"
-            >
+            <Card key={imageFile.id} className="rounded-md p-0 shadow-none">
               <CardContent className="flex items-center gap-2 p-3">
-                <div className="border-border rounded-md flex size-[32px] shrink-0 items-center justify-center border">
+                <div className="border-border flex size-[32px] shrink-0 items-center justify-center rounded-md border">
                   <IconPlaceholder
                     lucide="ImageIcon"
                     tabler="IconPhoto"

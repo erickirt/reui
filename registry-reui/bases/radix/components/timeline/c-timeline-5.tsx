@@ -8,7 +8,7 @@ import {
   TimelineTitle,
 } from "@/registry-reui/bases/radix/reui/timeline"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 const milestones = [
   {

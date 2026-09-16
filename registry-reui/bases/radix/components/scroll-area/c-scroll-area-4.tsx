@@ -1,4 +1,4 @@
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/radix/ui/scroll-area"
 
 export default function Pattern() {

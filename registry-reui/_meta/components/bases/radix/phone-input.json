@@ -8,6 +8,7 @@
         "phone-input"
       ],
       "description": "Basic phone input",
+      "descriptionLong": "Basic phone input. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-1 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -31,6 +32,7 @@
         "phone-input"
       ],
       "description": "Small phone input",
+      "descriptionLong": "Small phone input. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-2 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -54,6 +56,7 @@
         "phone-input"
       ],
       "description": "Large phone input",
+      "descriptionLong": "Large phone input. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-3 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -77,6 +80,7 @@
         "phone-input"
       ],
       "description": "Disabled phone input",
+      "descriptionLong": "Disabled phone input. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-4 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -100,6 +104,7 @@
         "phone-input"
       ],
       "description": "Phone input with preset value",
+      "descriptionLong": "Phone input with preset value. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-5 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -123,6 +128,7 @@
         "phone-input"
       ],
       "description": "Phone input with error state",
+      "descriptionLong": "Phone input with error state. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-6 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -146,6 +152,7 @@
         "phone-input"
       ],
       "description": "Phone input with specific default country",
+      "descriptionLong": "Phone input with specific default country. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-7 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],
@@ -169,6 +176,7 @@
         "phone-input"
       ],
       "description": "Read-only phone input",
+      "descriptionLong": "Read-only phone input. Built with the Phone Input component. A free, open source shadcn phone input example you can install with npx shadcn@latest add @reui/c-phone-input-8 and edit as your own code.",
       "registryDependencies": [
         "phone-input"
       ],

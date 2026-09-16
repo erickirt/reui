@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { ButtonGroup } from "@/registry/bases/base/ui/button-group"
 import { Input } from "@/registry/bases/base/ui/input"
 import {

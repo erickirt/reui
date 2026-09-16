@@ -7,7 +7,7 @@ import {
 } from "@/lib/docs-registry-options"
 import { highlightCode } from "@/lib/highlight-code"
 import { transformIcons } from "@/lib/icons"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { CodeCollapsibleWrapper } from "@/components/code-collapsible-wrapper"
 import { ComponentSourceClient } from "@/components/component-source-client"
 import { CopyButton } from "@/components/copy-button"

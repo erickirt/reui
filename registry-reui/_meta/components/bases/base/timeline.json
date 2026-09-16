@@ -8,6 +8,7 @@
         "timeline"
       ],
       "description": "Basic timeline.",
+      "descriptionLong": "Basic timeline. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-1 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -32,6 +33,7 @@
         "timeline"
       ],
       "description": "Timeline with roadmap.",
+      "descriptionLong": "Timeline with roadmap. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-2 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -56,6 +58,7 @@
         "timeline"
       ],
       "description": "Timeline with order status.",
+      "descriptionLong": "Timeline with order status. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-3 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -80,6 +83,7 @@
         "timeline"
       ],
       "description": "Timeline with git activity.",
+      "descriptionLong": "Timeline with git activity. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-4 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -104,10 +108,13 @@
         "timeline"
       ],
       "description": "Timeline with milestones.",
+      "descriptionLong": "Timeline with milestones. Built with the Timeline component. Uses cn alongside the shadcn primitives. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-5 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/timeline/c-timeline-5.tsx",
@@ -128,6 +135,7 @@
         "timeline"
       ],
       "description": "Timeline with pipeline steps.",
+      "descriptionLong": "Timeline with pipeline steps. Built by composing Avatar, Badge, Collapsible, Frame, Spinner and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-6 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -136,7 +144,9 @@
         "spinner",
         "timeline"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/timeline/c-timeline-6.tsx",
@@ -157,10 +167,13 @@
         "timeline"
       ],
       "description": "Timeline with roadmap items.",
+      "descriptionLong": "Timeline with roadmap items. Built with the Timeline component. Uses cn alongside the shadcn primitives. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-7 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/timeline/c-timeline-7.tsx",
@@ -181,6 +194,7 @@
         "timeline"
       ],
       "description": "Vertical timeline",
+      "descriptionLong": "Vertical timeline. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-8 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -205,6 +219,7 @@
         "timeline"
       ],
       "description": "Horizontal timeline with leading labels",
+      "descriptionLong": "Horizontal timeline with leading labels. Built with the Timeline component. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-9 and edit as your own code.",
       "registryDependencies": [
         "timeline"
       ],
@@ -229,11 +244,14 @@
         "timeline"
       ],
       "description": "Deployment log timeline",
+      "descriptionLong": "Deployment log timeline. Built by composing Badge, Timeline. Uses cn alongside the shadcn primitives. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "timeline"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/timeline/c-timeline-10.tsx",
@@ -254,6 +272,7 @@
         "timeline"
       ],
       "description": "Activity feed timeline with user avatars",
+      "descriptionLong": "Activity feed timeline with user avatars. Built by composing Avatar, Timeline. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-11 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "timeline"
@@ -279,11 +298,14 @@
         "timeline"
       ],
       "description": "Compact horizontal milestone timeline",
+      "descriptionLong": "Compact horizontal milestone timeline. Built by composing Badge, Timeline. Uses cn alongside the shadcn primitives. A free, open source shadcn timeline example you can install with npx shadcn@latest add @reui/c-timeline-12 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "timeline"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/timeline/c-timeline-12.tsx",

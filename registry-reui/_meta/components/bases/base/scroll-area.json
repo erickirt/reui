@@ -8,6 +8,7 @@
         "scroll-area"
       ],
       "description": "Basic scroll area",
+      "descriptionLong": "Basic scroll area. Built with the Scroll Area component. A free, open source shadcn scroll area example you can install with npx shadcn@latest add @reui/c-scroll-area-1 and edit as your own code.",
       "registryDependencies": [
         "scroll-area"
       ],
@@ -31,6 +32,7 @@
         "scroll-area"
       ],
       "description": "Scroll area with horizontal scrollbar",
+      "descriptionLong": "Scroll area with horizontal scrollbar. Built with the Scroll Area component. A free, open source shadcn scroll area example you can install with npx shadcn@latest add @reui/c-scroll-area-2 and edit as your own code.",
       "registryDependencies": [
         "scroll-area"
       ],
@@ -54,6 +56,7 @@
         "scroll-area"
       ],
       "description": "Scroll area with both scrollbars",
+      "descriptionLong": "Scroll area with both scrollbars. Built with the Scroll Area component. A free, open source shadcn scroll area example you can install with npx shadcn@latest add @reui/c-scroll-area-3 and edit as your own code.",
       "registryDependencies": [
         "scroll-area"
       ],
@@ -77,10 +80,13 @@
         "scroll-area"
       ],
       "description": "Scroll area with fade effect",
+      "descriptionLong": "Scroll area with fade effect. Built with the Scroll Area component. Uses cn alongside the shadcn primitives. A free, open source shadcn scroll area example you can install with npx shadcn@latest add @reui/c-scroll-area-4 and edit as your own code.",
       "registryDependencies": [
         "scroll-area"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/scroll-area/c-scroll-area-4.tsx",
@@ -100,6 +106,7 @@
         "scroll-area"
       ],
       "description": "Scroll area with scrollbar gutter",
+      "descriptionLong": "Scroll area with scrollbar gutter. Built with the Scroll Area component. A free, open source shadcn scroll area example you can install with npx shadcn@latest add @reui/c-scroll-area-5 and edit as your own code.",
       "registryDependencies": [
         "scroll-area"
       ],

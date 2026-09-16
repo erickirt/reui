@@ -3,7 +3,7 @@
 import * as React from "react"
 import { decodePreset } from "shadcn/preset"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig } from "@/hooks/use-config"
 import { Button } from "@/components/ui/button"
 import {

@@ -8,6 +8,7 @@
         "button"
       ],
       "description": "Default button",
+      "descriptionLong": "Default button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-1 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -31,6 +32,7 @@
         "button"
       ],
       "description": "Secondary button",
+      "descriptionLong": "Secondary button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-2 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -54,6 +56,7 @@
         "button"
       ],
       "description": "Outline button",
+      "descriptionLong": "Outline button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-3 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -77,6 +80,7 @@
         "button"
       ],
       "description": "Ghost button",
+      "descriptionLong": "Ghost button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-4 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -100,6 +104,7 @@
         "button"
       ],
       "description": "Destructive button",
+      "descriptionLong": "Destructive button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-5 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -123,6 +128,7 @@
         "button"
       ],
       "description": "Link button variant",
+      "descriptionLong": "Link button variant. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-6 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -146,6 +152,7 @@
         "button"
       ],
       "description": "Extra small button",
+      "descriptionLong": "Extra small button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-7 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -169,6 +176,7 @@
         "button"
       ],
       "description": "Small button",
+      "descriptionLong": "Small button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-8 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -192,6 +200,7 @@
         "button"
       ],
       "description": "Large button",
+      "descriptionLong": "Large button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-9 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -215,6 +224,7 @@
         "button"
       ],
       "description": "Disabled button",
+      "descriptionLong": "Disabled button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-10 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -238,6 +248,7 @@
         "button"
       ],
       "description": "Icon button",
+      "descriptionLong": "Icon button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-11 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -261,6 +272,7 @@
         "button"
       ],
       "description": "Button with an icon on the right",
+      "descriptionLong": "Button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-12 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -284,6 +296,7 @@
         "button"
       ],
       "description": "Button in a loading state",
+      "descriptionLong": "Button in a loading state. Built by composing Button, Spinner. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-13 and edit as your own code.",
       "registryDependencies": [
         "button",
         "spinner"
@@ -308,6 +321,7 @@
         "button"
       ],
       "description": "Button with an icon on the left",
+      "descriptionLong": "Button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-14 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -331,6 +345,7 @@
         "button"
       ],
       "description": "Button with an invalid state highlight",
+      "descriptionLong": "Button with an invalid state highlight. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-15 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -354,6 +369,7 @@
         "button"
       ],
       "description": "Secondary button with an icon on the left",
+      "descriptionLong": "Secondary button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-16 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -377,6 +393,7 @@
         "button"
       ],
       "description": "Secondary button with an icon on the right",
+      "descriptionLong": "Secondary button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-17 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -400,6 +417,7 @@
         "button"
       ],
       "description": "Outline button with an icon on the left",
+      "descriptionLong": "Outline button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-18 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -423,6 +441,7 @@
         "button"
       ],
       "description": "Outline button with an icon on the right",
+      "descriptionLong": "Outline button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-19 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -446,6 +465,7 @@
         "button"
       ],
       "description": "Ghost button with an icon on the left",
+      "descriptionLong": "Ghost button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-20 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -469,6 +489,7 @@
         "button"
       ],
       "description": "Ghost button with an icon on the right",
+      "descriptionLong": "Ghost button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-21 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -492,6 +513,7 @@
         "button"
       ],
       "description": "Destructive button with an icon on the left",
+      "descriptionLong": "Destructive button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-22 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -515,6 +537,7 @@
         "button"
       ],
       "description": "Destructive button with an icon on the right",
+      "descriptionLong": "Destructive button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-23 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -538,6 +561,7 @@
         "button"
       ],
       "description": "Extra small icon button",
+      "descriptionLong": "Extra small icon button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-24 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -561,6 +585,7 @@
         "button"
       ],
       "description": "Small icon button",
+      "descriptionLong": "Small icon button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-25 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -584,6 +609,7 @@
         "button"
       ],
       "description": "Large (lg) icon-only button",
+      "descriptionLong": "Large (lg) icon-only button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-26 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -607,6 +633,7 @@
         "button"
       ],
       "description": "Button rendered as a Next.js Link",
+      "descriptionLong": "Button rendered as a Next.js Link. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-27 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -630,6 +657,7 @@
         "button"
       ],
       "description": "Link button with an icon on the left",
+      "descriptionLong": "Link button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-28 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -653,6 +681,7 @@
         "button"
       ],
       "description": "Link button with an icon on the right",
+      "descriptionLong": "Link button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-29 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -676,6 +705,7 @@
         "button"
       ],
       "description": "Large button with an icon on the left",
+      "descriptionLong": "Large button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-30 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -699,6 +729,7 @@
         "button"
       ],
       "description": "Large button with an icon on the right",
+      "descriptionLong": "Large button with an icon on the right. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-31 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -722,6 +753,7 @@
         "button"
       ],
       "description": "Outline button with an invalid state",
+      "descriptionLong": "Outline button with an invalid state. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-32 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -745,6 +777,7 @@
         "button"
       ],
       "description": "Ghost button with an invalid state",
+      "descriptionLong": "Ghost button with an invalid state. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-33 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -768,6 +801,7 @@
         "button"
       ],
       "description": "Button with an icon on the left",
+      "descriptionLong": "Button with an icon on the left. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-34 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -791,6 +825,7 @@
         "button"
       ],
       "description": "Ghost button with more/less toggle",
+      "descriptionLong": "Ghost button with more/less toggle. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-35 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -814,6 +849,7 @@
         "button"
       ],
       "description": "Social login buttons with Remix Icons",
+      "descriptionLong": "Social login buttons with Remix Icons. Built with the Button component. Uses @remixicon/react alongside the shadcn primitives. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-36 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -839,6 +875,7 @@
         "button"
       ],
       "description": "Outline like button with count",
+      "descriptionLong": "Outline like button with count. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-37 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -862,6 +899,7 @@
         "button"
       ],
       "description": "Star button with count",
+      "descriptionLong": "Star button with count. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-38 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -885,6 +923,7 @@
         "button"
       ],
       "description": "Button with an unread badge",
+      "descriptionLong": "Button with an unread badge. Built by composing Badge, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-39 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button"
@@ -909,6 +948,7 @@
         "button"
       ],
       "description": "Button with icon, label, and shortcut keys",
+      "descriptionLong": "Button with icon, label, and shortcut keys. Built by composing Button, Kbd. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-40 and edit as your own code.",
       "registryDependencies": [
         "button",
         "kbd"
@@ -933,8 +973,10 @@
         "button"
       ],
       "description": "Copy button with feedback",
+      "descriptionLong": "Copy button with feedback. Built by composing Button, Use Copy To Clipboard. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-41 and edit as your own code.",
       "registryDependencies": [
-        "button"
+        "button",
+        "use-copy-to-clipboard"
       ],
       "dependencies": [],
       "files": [
@@ -956,9 +998,11 @@
         "button"
       ],
       "description": "Icon-only copy button with feedback",
+      "descriptionLong": "Icon-only copy button with feedback. Built by composing Button, Tooltip, Use Copy To Clipboard. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-42 and edit as your own code.",
       "registryDependencies": [
         "button",
-        "tooltip"
+        "tooltip",
+        "use-copy-to-clipboard"
       ],
       "dependencies": [],
       "files": [
@@ -980,10 +1024,13 @@
         "button"
       ],
       "description": "Animated hamburger / close toggle button",
+      "descriptionLong": "Animated hamburger / close toggle button. Built with the Button component. Uses cn alongside the shadcn primitives. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-43 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/button/c-button-43.tsx",
@@ -1003,6 +1050,7 @@
         "button"
       ],
       "description": "Async action button with loading and success states",
+      "descriptionLong": "Async action button with loading and success states. Built by composing Button, Spinner. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-44 and edit as your own code.",
       "registryDependencies": [
         "button",
         "spinner"
@@ -1027,6 +1075,7 @@
         "button"
       ],
       "description": "Outline button with inline count badge",
+      "descriptionLong": "Outline button with inline count badge. Built by composing Badge, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-45 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button"
@@ -1051,6 +1100,7 @@
         "button"
       ],
       "description": "Button with status dot badge",
+      "descriptionLong": "Button with status dot badge. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-46 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1074,6 +1124,7 @@
         "button"
       ],
       "description": "Ghost button with a status badge",
+      "descriptionLong": "Ghost button with a status badge. Built by composing Badge, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-47 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button"
@@ -1098,6 +1149,7 @@
         "button"
       ],
       "description": "Icon button with notification badge",
+      "descriptionLong": "Icon button with notification badge. Built by composing Badge, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-48 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button"
@@ -1122,6 +1174,7 @@
         "button"
       ],
       "description": "Go back link button",
+      "descriptionLong": "Go back link button. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-49 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1145,6 +1198,7 @@
         "button"
       ],
       "description": "Go back link button with animation",
+      "descriptionLong": "Go back link button with animation. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-50 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1168,6 +1222,7 @@
         "button"
       ],
       "description": "Expanding button from icon to label",
+      "descriptionLong": "Expanding button from icon to label. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-51 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1191,6 +1246,7 @@
         "button"
       ],
       "description": "Multi-line button with icon, title & description",
+      "descriptionLong": "Multi-line button with icon, title & description. Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-52 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1214,6 +1270,7 @@
         "button"
       ],
       "description": "Sliding Icon Button (Hover reveal)",
+      "descriptionLong": "Sliding Icon Button (Hover reveal). Built with the Button component. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-53 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1237,6 +1294,7 @@
         "button"
       ],
       "description": "Shortcut Tooltip Button (Kbd hints)",
+      "descriptionLong": "Shortcut Tooltip Button (Kbd hints). Built by composing Button, Kbd, Tooltip. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-54 and edit as your own code.",
       "registryDependencies": [
         "button",
         "kbd",
@@ -1262,6 +1320,7 @@
         "button"
       ],
       "description": "Button with avatar",
+      "descriptionLong": "Button with avatar. Built by composing Avatar, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-55 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -1286,6 +1345,7 @@
         "button"
       ],
       "description": "Outline button with avatar",
+      "descriptionLong": "Outline button with avatar. Built by composing Avatar, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-56 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -1310,6 +1370,7 @@
         "button"
       ],
       "description": "Small button with avatar",
+      "descriptionLong": "Small button with avatar. Built by composing Avatar, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-57 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -1334,6 +1395,7 @@
         "button"
       ],
       "description": "Small outline button with avatar",
+      "descriptionLong": "Small outline button with avatar. Built by composing Avatar, Button. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-58 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -1358,6 +1420,7 @@
         "button"
       ],
       "description": "Social login buttons with Remix icons",
+      "descriptionLong": "Social login buttons with Remix icons. Built with the Button component. Uses @remixicon/react alongside the shadcn primitives. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-59 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1383,6 +1446,7 @@
         "button"
       ],
       "description": "Social icon-only buttons with Remix icons",
+      "descriptionLong": "Social icon-only buttons with Remix icons. Built with the Button component. Uses @remixicon/react alongside the shadcn primitives. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-60 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -1408,10 +1472,13 @@
         "button"
       ],
       "description": "Theme toggle button with animated moon and sun icons",
+      "descriptionLong": "Theme toggle button with animated moon and sun icons. Built with the Button component. Uses cn alongside the shadcn primitives. A free, open source shadcn button example you can install with npx shadcn@latest add @reui/c-button-61 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/button/c-button-61.tsx",

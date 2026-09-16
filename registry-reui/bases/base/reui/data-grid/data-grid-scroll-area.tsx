@@ -5,7 +5,7 @@ import type { PointerEvent, ReactNode } from "react"
 import { useDataGrid } from "@/registry-reui/bases/base/reui/data-grid/data-grid"
 import { ScrollArea as ScrollAreaPrimitive } from "@base-ui/react/scroll-area"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 
 const MIN_THUMB_SIZE = 24
 const FALLBACK_SCROLLBAR_SIZE = 12

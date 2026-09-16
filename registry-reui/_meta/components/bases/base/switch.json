@@ -8,6 +8,7 @@
         "switch"
       ],
       "description": "Basic switch.",
+      "descriptionLong": "Basic switch. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"
@@ -32,6 +33,7 @@
         "switch"
       ],
       "description": "Switch with description.",
+      "descriptionLong": "Switch with description. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-2 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"
@@ -56,6 +58,7 @@
         "switch"
       ],
       "description": "Disabled switch.",
+      "descriptionLong": "Disabled switch. Built by composing Label, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-3 and edit as your own code.",
       "registryDependencies": [
         "label",
         "switch"
@@ -80,6 +83,7 @@
         "switch"
       ],
       "description": "Switch in different sizes.",
+      "descriptionLong": "Switch in different sizes. Built by composing Label, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-4 and edit as your own code.",
       "registryDependencies": [
         "label",
         "switch"
@@ -104,6 +108,7 @@
         "switch"
       ],
       "description": "Switch group",
+      "descriptionLong": "Switch group. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"
@@ -128,6 +133,7 @@
         "switch"
       ],
       "description": "Switch list in card with separators",
+      "descriptionLong": "Switch list in card with separators. Built by composing Card, Field, Separator, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "field",
@@ -154,6 +160,7 @@
         "switch"
       ],
       "description": "Switch list in card with icons",
+      "descriptionLong": "Switch list in card with icons. Built by composing Card, Field, Separator, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-7 and edit as your own code.",
       "registryDependencies": [
         "card",
         "field",
@@ -180,6 +187,7 @@
         "switch"
       ],
       "description": "Switch in frame",
+      "descriptionLong": "Switch in frame. Built by composing Field, Frame, Separator, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-8 and edit as your own code.",
       "registryDependencies": [
         "field",
         "frame",
@@ -206,6 +214,7 @@
         "switch"
       ],
       "description": "Switch with tooltip info",
+      "descriptionLong": "Switch with tooltip info. Built by composing Field, Switch, Tooltip. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-9 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch",
@@ -231,6 +240,7 @@
         "switch"
       ],
       "description": "Switch with badges",
+      "descriptionLong": "Switch with badges. Built by composing Badge, Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -256,6 +266,7 @@
         "switch"
       ],
       "description": "Colored switches",
+      "descriptionLong": "Colored switches. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-11 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"
@@ -280,6 +291,7 @@
         "switch"
       ],
       "description": "Destructive switch with confirmation text",
+      "descriptionLong": "Destructive switch with confirmation text. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-12 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"
@@ -304,6 +316,7 @@
         "switch"
       ],
       "description": "Compact settings table with switches",
+      "descriptionLong": "Compact settings table with switches. Built by composing Separator, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-13 and edit as your own code.",
       "registryDependencies": [
         "separator",
         "switch"
@@ -328,6 +341,7 @@
         "switch"
       ],
       "description": "Switch with descriptions in card grid",
+      "descriptionLong": "Switch with descriptions in card grid. Built by composing Field, Switch. A free, open source shadcn switch example you can install with npx shadcn@latest add @reui/c-switch-14 and edit as your own code.",
       "registryDependencies": [
         "field",
         "switch"

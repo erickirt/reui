@@ -8,6 +8,7 @@
         "breadcrumb"
       ],
       "description": "Basic breadcrumb",
+      "descriptionLong": "Basic breadcrumb. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-1 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -31,6 +32,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with dropdown menu",
+      "descriptionLong": "Breadcrumb with dropdown menu. Built by composing Breadcrumb, Button, Dropdown Menu. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-2 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb",
         "button",
@@ -56,6 +58,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with Next.js link",
+      "descriptionLong": "Breadcrumb with Next.js link. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-3 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -79,6 +82,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with a custom slash separator",
+      "descriptionLong": "Breadcrumb with a custom slash separator. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-4 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -102,6 +106,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with icons for each item",
+      "descriptionLong": "Breadcrumb with icons for each item. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-5 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -125,6 +130,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with ellipsis for long paths",
+      "descriptionLong": "Breadcrumb with ellipsis for long paths. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-6 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -148,6 +154,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb items with avatars",
+      "descriptionLong": "Breadcrumb items with avatars. Built by composing Avatar, Breadcrumb. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-7 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "breadcrumb"
@@ -172,6 +179,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with double chevron separators",
+      "descriptionLong": "Breadcrumb with double chevron separators. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-8 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -195,6 +203,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb inside card",
+      "descriptionLong": "Breadcrumb inside card. Built by composing Breadcrumb, Card. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-9 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb",
         "card"
@@ -219,6 +228,7 @@
         "breadcrumb"
       ],
       "description": "Pill-style breadcrumb inside frame",
+      "descriptionLong": "Pill-style breadcrumb inside frame. Built by composing Breadcrumb, Frame. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-10 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb",
         "frame"
@@ -243,6 +253,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb items containing badge with count",
+      "descriptionLong": "Breadcrumb items containing badge with count. Built by composing Badge, Breadcrumb. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-11 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "breadcrumb"
@@ -267,6 +278,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb starting with home icon item",
+      "descriptionLong": "Breadcrumb starting with home icon item. Built by composing Breadcrumb, Button. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-12 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb",
         "button"
@@ -291,6 +303,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with a custom separator",
+      "descriptionLong": "Breadcrumb with a custom separator. Built with the Breadcrumb component. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-13 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb"
       ],
@@ -314,6 +327,7 @@
         "breadcrumb"
       ],
       "description": "Button-style breadcrumb",
+      "descriptionLong": "Button-style breadcrumb. Built by composing Breadcrumb, Button. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-14 and edit as your own code.",
       "registryDependencies": [
         "breadcrumb",
         "button"
@@ -338,6 +352,7 @@
         "breadcrumb"
       ],
       "description": "Breadcrumb with project, user and document info",
+      "descriptionLong": "Breadcrumb with project, user and document info. Built by composing Avatar, Breadcrumb, Frame. A free, open source shadcn breadcrumb example you can install with npx shadcn@latest add @reui/c-breadcrumb-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "breadcrumb",

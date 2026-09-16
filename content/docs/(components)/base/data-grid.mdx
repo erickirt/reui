@@ -526,7 +526,7 @@ The component that renders the actual HTML table. It automatically handles data 
 
 ### DataGridPagination
 
-The component for table pagination controls. The record info comes from the `recordCount` prop on `DataGrid`, and the page buttons come from `table.getPageCount()`, so they only render when there is more than one page. In v9 `getPageCount()` is `pageCount ?? Math.ceil(rowCount / pageSize)` and `rowCount` falls back to the pre-paginated row count, so a grid whose `data` holds only the current page must pass `rowCount` or `pageCount` to `useTable` or the buttons never appear.
+The component for table pagination controls. The record info comes from the `recordCount` prop on `DataGrid`, and the page buttons come from `table.getPageCount()`, so they only render when there is more than one page. The page row is an adaptive window: the first page, the run around the current one, and the last page, with a clickable ellipsis standing in for each hidden stretch. The last page is therefore always one click away, and the row does not change width as you page. In v9 `getPageCount()` is `pageCount ?? Math.ceil(rowCount / pageSize)` and `rowCount` falls back to the pre-paginated row count, so a Data Grid whose `data` holds only the current page must pass `rowCount` or `pageCount` to `useTable` or the buttons never appear.
 
 | Prop                | Type        | Default                             | Description                                                                   |
 | :------------------ | :---------- | :---------------------------------- | :---------------------------------------------------------------------------- |
@@ -535,7 +535,7 @@ The component for table pagination controls. The record info comes from the `rec
 | `rowsPerPageLabel`  | `string`    | `"Rows per page"`                   | Visible label rendered next to the page size selector.                        |
 | `info`              | `string`    | `"{from} - {to} of {count}"`        | Template for the record info. `{count}` is `recordCount`.                     |
 | `infoSkeleton`      | `ReactNode` | `<Skeleton className="h-8 w-60" />` | Placeholder shown instead of the record info while `isLoading` is set.        |
-| `moreLimit`         | `number`    | `5`                                 | The number of page buttons to show before truncating.                         |
+| `moreLimit`         | `number`    | `5`                                 | Page buttons in the truncated middle, counting the first and last page. An ellipsis stands in for each hidden stretch, and the row holds a steady width as you page. Rounded down to an odd count, minimum 3. |
 | `previousPageLabel` | `string`    | `"Go to previous page"`             | Accessible label for the previous page button.                                |
 | `nextPageLabel`     | `string`    | `"Go to next page"`                 | Accessible label for the next page button.                                    |
 | `ellipsisText`      | `string`    | `"..."`                             | Text to display for the ellipsis button.                                      |

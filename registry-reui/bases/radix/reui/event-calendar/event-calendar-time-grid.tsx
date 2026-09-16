@@ -52,7 +52,7 @@ import type {
 import { addDays, addMinutes, differenceInMinutes, format } from "date-fns"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/radix/ui/scroll-area"
 
 /** Current time, refreshed on an interval and on tab focus. */
@@ -896,6 +896,15 @@ function EventCalendarTimeGutter({
   )
 }
 
+/**
+ * Inline size of the timed-block track. It stops short of the day column's end
+ * edge so the bare strip beside a full-width block is still the column itself,
+ * and a press there reaches the column's own create handler - the empty space
+ * Google Calendar and Notion Calendar both reserve for "new event next to this
+ * one". Consumers opt out with classNames.dayColumn: "[--ec-event-gutter:0px]".
+ */
+const EVENT_TRACK_WIDTH = "(100% - var(--ec-event-gutter, 0.75rem))"
+
 /** Absolute overlay block positioned by minutes (ghosts + drafts). */
 function minuteBlockStyle(
   startMin: number,
@@ -1137,7 +1146,6 @@ function EventCalendarDayColumn({
         const zIndex = segment.occurrence.event.zIndex ?? 10 + column
         // Strict side-by-side columns - no cascade overlap (fade-truncate +
         // hover reveal carry the legibility); the ring separates neighbors.
-        const colPct = 100 / columnCount
         return (
           <div
             key={segment.occurrence.key}
@@ -1148,8 +1156,8 @@ function EventCalendarDayColumn({
             style={
               {
                 ...minuteBlockStyle(startMin, endMin, boundsStartMin),
-                left: `${column * colPct}%`,
-                width: `${span * colPct}%`,
+                left: `calc(${EVENT_TRACK_WIDTH} * ${column / columnCount})`,
+                width: `calc(${EVENT_TRACK_WIDTH} * ${span / columnCount})`,
                 "--ec-z": zIndex,
               } as CSSProperties
             }
@@ -1350,6 +1358,7 @@ function EventCalendarDaysView(props: TimeGridViewProps) {
 }
 
 export {
+  EVENT_TRACK_WIDTH,
   EventCalendarDayView,
   EventCalendarDaysView,
   EventCalendarNowIndicator,

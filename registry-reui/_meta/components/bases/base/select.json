@@ -8,6 +8,7 @@
         "select"
       ],
       "description": "A basic select component with a list of options",
+      "descriptionLong": "A basic select component with a list of options. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -32,6 +33,7 @@
         "select"
       ],
       "description": "Select with icons and placeholder state",
+      "descriptionLong": "Select with icons and placeholder state. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-2 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -56,6 +58,7 @@
         "select"
       ],
       "description": "Select component with grouped options and labels",
+      "descriptionLong": "Select component with grouped options and labels. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -80,6 +83,7 @@
         "select"
       ],
       "description": "Select component with a large list of options",
+      "descriptionLong": "Select component with a large list of options. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -104,6 +108,7 @@
         "select"
       ],
       "description": "Select component with small trigger size",
+      "descriptionLong": "Select component with small trigger size. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -128,6 +133,7 @@
         "select"
       ],
       "description": "Select component with a subscription plan style",
+      "descriptionLong": "Select component with a subscription plan style. Built by composing Field, Item, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "item",
@@ -153,6 +159,7 @@
         "select"
       ],
       "description": "Select component with item alignment disabled",
+      "descriptionLong": "Select component with item alignment disabled. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-7 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -177,6 +184,7 @@
         "select"
       ],
       "description": "Select component within a Field with label and description",
+      "descriptionLong": "Select component within a Field with label and description. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-8 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -201,6 +209,7 @@
         "select"
       ],
       "description": "Select component in an invalid state",
+      "descriptionLong": "Select component in an invalid state. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-9 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -225,6 +234,7 @@
         "select"
       ],
       "description": "Select component in a disabled state",
+      "descriptionLong": "Select component in a disabled state. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-10 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -249,6 +259,7 @@
         "select"
       ],
       "description": "Select component inside a Dialog",
+      "descriptionLong": "Select component inside a Dialog. Built by composing Button, Dialog, Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -275,6 +286,7 @@
         "select"
       ],
       "description": "Select component with multiple selection",
+      "descriptionLong": "Select component with multiple selection. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-12 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -299,6 +311,7 @@
         "select"
       ],
       "description": "Select component inline with Input",
+      "descriptionLong": "Select component inline with Input. Built by composing Input, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-13 and edit as your own code.",
       "registryDependencies": [
         "input",
         "select"
@@ -323,6 +336,7 @@
         "select"
       ],
       "description": "Select component with Button side by side",
+      "descriptionLong": "Select component with Button side by side. Built by composing Button, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-14 and edit as your own code.",
       "registryDependencies": [
         "button",
         "select"
@@ -347,6 +361,7 @@
         "select"
       ],
       "description": "Select component with item alignment enabled",
+      "descriptionLong": "Select component with item alignment enabled. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-15 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -371,6 +386,7 @@
         "select"
       ],
       "description": "Select with custom access level descriptions",
+      "descriptionLong": "Select with custom access level descriptions. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-16 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -395,11 +411,14 @@
         "select"
       ],
       "description": "Select with colored bullets for status",
+      "descriptionLong": "Select with colored bullets for status. Built by composing Field, Select. Uses cn alongside the shadcn primitives. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-17 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/select/c-select-17.tsx",
@@ -419,6 +438,7 @@
         "select"
       ],
       "description": "Select with user avatars",
+      "descriptionLong": "Select with user avatars. Built by composing Avatar, Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-18 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "field",
@@ -444,6 +464,7 @@
         "select"
       ],
       "description": "Select with status badges",
+      "descriptionLong": "Select with status badges. Built by composing Badge, Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-19 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -469,6 +490,7 @@
         "select"
       ],
       "description": "Select with indicator on the left side",
+      "descriptionLong": "Select with indicator on the left side. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-20 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -493,11 +515,14 @@
         "select"
       ],
       "description": "Select with clear button",
+      "descriptionLong": "Select with clear button. Built by composing Field, Select. Uses cn alongside the shadcn primitives. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-21 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/select/c-select-21.tsx",
@@ -517,6 +542,7 @@
         "select"
       ],
       "description": "Select with custom chevrons up down icon",
+      "descriptionLong": "Select with custom chevrons up down icon. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-22 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -541,12 +567,15 @@
         "select"
       ],
       "description": "Multi-select with overlapping dots",
+      "descriptionLong": "Multi-select with overlapping dots. Built by composing Badge, Field, Select. Uses cn alongside the shadcn primitives. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-23 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
         "select"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/select/c-select-23.tsx",
@@ -566,6 +595,7 @@
         "select"
       ],
       "description": "Select with grouped options and separators",
+      "descriptionLong": "Select with grouped options and separators. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-24 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -590,6 +620,7 @@
         "select"
       ],
       "description": "Country picker select with flag emojis",
+      "descriptionLong": "Country picker select with flag emojis. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-25 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -614,6 +645,7 @@
         "select"
       ],
       "description": "Status filter select with colored dots",
+      "descriptionLong": "Status filter select with colored dots. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-26 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -638,6 +670,7 @@
         "select"
       ],
       "description": "Select with description text per option",
+      "descriptionLong": "Select with description text per option. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-27 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -662,6 +695,7 @@
         "select"
       ],
       "description": "Timezone select with UTC offsets",
+      "descriptionLong": "Timezone select with UTC offsets. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-28 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -686,6 +720,7 @@
         "select"
       ],
       "description": "Select with avatar items for team member assignment",
+      "descriptionLong": "Select with avatar items for team member assignment. Built by composing Avatar, Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-29 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "field",
@@ -711,6 +746,7 @@
         "select"
       ],
       "description": "Priority select with colored badges",
+      "descriptionLong": "Priority select with colored badges. Built by composing Badge, Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-30 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -736,6 +772,7 @@
         "select"
       ],
       "description": "Font family select with preview",
+      "descriptionLong": "Font family select with preview. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-31 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -760,6 +797,7 @@
         "select"
       ],
       "description": "Select with icon-labeled categories",
+      "descriptionLong": "Select with icon-labeled categories. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-32 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -784,6 +822,7 @@
         "select"
       ],
       "description": "Size variant select with small trigger",
+      "descriptionLong": "Size variant select with small trigger. Built by composing Field, Select. A free, open source shadcn select example you can install with npx shadcn@latest add @reui/c-select-33 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"

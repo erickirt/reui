@@ -3,7 +3,7 @@ import { type RegistryItem } from "shadcn/schema"
 
 import { getCanonicalComponentDocPath } from "@/lib/component-doc-paths"
 import { filterAvailableBases } from "@/lib/registry-bases"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { BASES } from "@/registry/bases"
 
 export function DocsBaseSwitcher({

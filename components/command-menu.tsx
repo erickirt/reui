@@ -7,7 +7,8 @@ import { IconArrowRight } from "@tabler/icons-react"
 import { Component, CornerDownLeftIcon, SearchIcon } from "lucide-react"
 
 import type { ComponentCategoryInfo } from "@/lib/component-stats"
-import { cn, normalizeSlug } from "@/lib/utils"
+import { cn } from "cn"
+import { normalizeSlug } from "@/lib/utils"
 import { useMutationObserver } from "@/hooks/use-mutation-observer"
 import { Button } from "@/components/ui/button"
 import {

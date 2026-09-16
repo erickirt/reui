@@ -16,6 +16,7 @@
   "dependencies": {
     "@headless-tree/core": "^1.6.3",
     "@headless-tree/react": "^1.6.3",
+    "cn": "^0.3.0",
     "radix-ui": "^1.4.3"
   },
   "peerDependencies": {

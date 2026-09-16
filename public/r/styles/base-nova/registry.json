@@ -8,7 +8,8 @@
       "title": "Alert",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -50,7 +51,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [
         "scroll-area"
@@ -70,7 +72,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1787,7 +1790,9 @@
       "type": "registry:block",
       "title": "Avatar group with hover effect",
       "description": "Avatar group with hover effect",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar"
       ],
@@ -1807,7 +1812,9 @@
       "type": "registry:block",
       "title": "Avatar group with hover effect and tooltips",
       "description": "Avatar group with hover effect and tooltips",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "tooltip"
@@ -3715,7 +3722,8 @@
       "description": "Copy button with feedback",
       "dependencies": [],
       "registryDependencies": [
-        "button"
+        "button",
+        "@reui/use-copy-to-clipboard"
       ],
       "files": [
         {
@@ -3736,7 +3744,8 @@
       "dependencies": [],
       "registryDependencies": [
         "button",
-        "tooltip"
+        "tooltip",
+        "@reui/use-copy-to-clipboard"
       ],
       "files": [
         {
@@ -3754,7 +3763,9 @@
       "type": "registry:block",
       "title": "Animated hamburger / close toggle button",
       "description": "Animated hamburger / close toggle button",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button"
       ],
@@ -4168,7 +4179,9 @@
       "type": "registry:block",
       "title": "Theme toggle button with animated moon and sun icons",
       "description": "Theme toggle button with animated moon and sun icons",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button"
       ],
@@ -4618,7 +4631,9 @@
       "type": "registry:block",
       "title": "Rating scale using numerical buttons",
       "description": "Rating scale using numerical buttons",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group"
@@ -4662,7 +4677,9 @@
       "type": "registry:block",
       "title": "Button group with select status addon",
       "description": "Button group with select status addon",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button-group",
         "input",
@@ -4790,7 +4807,9 @@
       "type": "registry:block",
       "title": "Button group with dropdown menu and view toggle",
       "description": "Button group with dropdown menu and view toggle",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -4833,7 +4852,9 @@
       "type": "registry:block",
       "title": "Segmented control with dropdown inside button group",
       "description": "Segmented control with dropdown inside button group",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -4876,7 +4897,9 @@
       "type": "registry:block",
       "title": "View switcher button group",
       "description": "View switcher button group",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group"
@@ -4983,7 +5006,9 @@
       "type": "registry:block",
       "title": "Vertical button group",
       "description": "Vertical button group",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group"
@@ -5004,7 +5029,9 @@
       "type": "registry:block",
       "title": "Model selector with tier badges",
       "description": "Model selector with tier badges",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "button",
@@ -5027,7 +5054,9 @@
       "type": "registry:block",
       "title": "Segmented order type selector",
       "description": "Segmented order type selector",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -5092,7 +5121,9 @@
       "type": "registry:block",
       "title": "Environment switcher with indicator",
       "description": "Environment switcher with indicator",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -5114,7 +5145,9 @@
       "type": "registry:block",
       "title": "Compact time interval selector",
       "description": "Compact time interval selector",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group"
@@ -5157,7 +5190,9 @@
       "type": "registry:block",
       "title": "Toolbar filter with export and view toggle",
       "description": "Toolbar filter with export and view toggle",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -5179,7 +5214,9 @@
       "type": "registry:block",
       "title": "Vertical nav links with icons",
       "description": "Vertical nav links with icons",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group"
@@ -5378,7 +5415,9 @@
       "type": "registry:block",
       "title": "Agent mode selector with credit cap dropdown",
       "description": "Agent mode selector with credit cap dropdown",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -5815,6 +5854,7 @@
       "title": "Calendar with event list",
       "description": "Calendar with event list",
       "dependencies": [
+        "cn",
         "little-date"
       ],
       "registryDependencies": [
@@ -5863,6 +5903,7 @@
       "title": "Calendar with date picker",
       "description": "Calendar with date picker",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -5887,6 +5928,7 @@
       "title": "Calendar with date range picker",
       "description": "Calendar with date range picker",
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -5913,6 +5955,7 @@
       "title": "Calendar with date picker and year view",
       "description": "Calendar with date picker and year view",
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -5940,6 +5983,7 @@
       "title": "Calendar with date and appointment picker",
       "description": "Calendar with date and appointment picker",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -5966,6 +6010,7 @@
       "title": "Calendar with date picker and presets",
       "description": "Calendar with date picker and presets",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -5991,6 +6036,7 @@
       "title": "Range calendar with date picker and presets",
       "description": "Range calendar with date picker and presets",
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -6040,6 +6086,7 @@
       "title": "Calendar with date and time range picker",
       "description": "Calendar with date and time range picker",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -6291,7 +6338,9 @@
       "type": "registry:block",
       "title": "Expandable billing usage card",
       "description": "Expandable billing usage card",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "card",
@@ -6313,7 +6362,9 @@
       "type": "registry:block",
       "title": "Deployment status summary card",
       "description": "Deployment status summary card",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "card"
       ],
@@ -6612,7 +6663,9 @@
       "type": "registry:block",
       "title": "Carousel with overlay thumbnail navigation",
       "description": "Carousel with overlay thumbnail navigation",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "carousel"
       ],
@@ -6632,7 +6685,9 @@
       "type": "registry:block",
       "title": "Carousel with dots navigation and content overlays",
       "description": "Carousel with dots navigation and content overlays",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "card",
         "carousel"
@@ -6804,7 +6859,9 @@
       "type": "registry:block",
       "title": "Carousel with thumbnail navigation",
       "description": "Carousel with thumbnail navigation",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "carousel"
       ],
@@ -6922,7 +6979,9 @@
       "type": "registry:block",
       "title": "Columns mode with independently scrolling panels.",
       "description": "A media library in Miller columns where all three panes overflow and each scrolls on its own.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "button",
@@ -6972,7 +7031,9 @@
       "type": "registry:block",
       "title": "Async drill-down that loads before it navigates.",
       "description": "Async drill-down that loads before it navigates.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "button",
@@ -6997,7 +7058,9 @@
       "type": "registry:block",
       "title": "Virtualized level with thousands of rows.",
       "description": "Six unevenly sized regions of country markets, windowed so only the visible rows ever mount.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "button",
@@ -7072,7 +7135,9 @@
       "type": "registry:block",
       "title": "Status and priority colour dots via renderLabel.",
       "description": "Status and priority colour dots via renderLabel.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/cascader",
@@ -7097,7 +7162,9 @@
       "type": "registry:block",
       "title": "Multi-select permissions with checkboxes and a selection cap.",
       "description": "Multi-select permissions with checkboxes and a selection cap.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/cascader",
@@ -7122,7 +7189,9 @@
       "type": "registry:block",
       "title": "Expense accounts with a colour inherited down each branch.",
       "description": "Expense accounts with a colour inherited down each branch.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/cascader",
@@ -7236,7 +7305,9 @@
       "type": "registry:block",
       "title": "Custom rows with avatars and role badges.",
       "description": "Custom rows pairing avatars with outline role badges that color-code seniority.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "@reui/badge",
@@ -7454,6 +7525,7 @@
       "title": "Animated monochrome bar chart",
       "description": "Animated monochrome bar chart",
       "dependencies": [
+        "cn",
         "motion",
         "recharts"
       ],
@@ -8493,7 +8565,9 @@
       "type": "registry:block",
       "title": "Long file with expand",
       "description": "Collapsed at a line budget with an expand control and a line offset.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/code-block",
         "scroll-area"
@@ -9621,7 +9695,9 @@
       "type": "registry:block",
       "title": "A status change combobox",
       "description": "A status change combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "combobox",
@@ -9643,7 +9719,9 @@
       "type": "registry:block",
       "title": "A priority change combobox",
       "description": "A priority change combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "combobox",
@@ -9665,7 +9743,9 @@
       "type": "registry:block",
       "title": "A lead selection combobox",
       "description": "A lead selection combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "button",
@@ -9689,7 +9769,9 @@
       "type": "registry:block",
       "title": "A multi-member selection combobox",
       "description": "A multi-member selection combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "button",
@@ -9714,6 +9796,7 @@
       "title": "A date selection combobox with an optional custom picker dialog",
       "description": "A date selection combobox with an optional custom picker dialog",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -9739,7 +9822,9 @@
       "type": "registry:block",
       "title": "A multi-label selection combobox with a no-label mode",
       "description": "A multi-label selection combobox with a no-label mode",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "combobox",
@@ -9761,7 +9846,9 @@
       "type": "registry:block",
       "title": "A team selection combobox",
       "description": "A team selection combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "combobox",
@@ -9783,7 +9870,9 @@
       "type": "registry:block",
       "title": "An assignee selection combobox",
       "description": "An assignee selection combobox",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "button",
@@ -10568,7 +10657,8 @@
       "title": "Data grid with sticky header",
       "description": "Data grid with sticky header",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "avatar",
@@ -11228,7 +11318,8 @@
       "title": "Data grid without table borders",
       "description": "Data grid without table borders",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "avatar",
@@ -11313,7 +11404,8 @@
       "title": "Data grid with row selection",
       "description": "Data grid with row selection",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "avatar",
@@ -11602,7 +11694,9 @@
       "type": "registry:block",
       "title": "Dialog with custom close button",
       "description": "Dialog with custom close button",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "dialog",
@@ -11940,7 +12034,9 @@
       "type": "registry:block",
       "title": "User profile dropdown menu with theme toggle and status selector",
       "description": "User profile dropdown menu with theme toggle and status selector",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "@reui/badge",
@@ -12722,6 +12818,7 @@
       "title": "Event calendar with create and edit dialog",
       "description": "Month calendar with event CRUD in one dialog: open from an empty day, an event, or Add event, commit via apiRef. Title, color, start, duration, all-day fields. ReUI EventCalendar, Nav, Toolbar; shadcn Dialog, Field, Select, Switch. Scheduling apps.",
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -13077,7 +13174,9 @@
       "type": "registry:block",
       "title": "Cover image upload.",
       "description": "Cover image upload.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13100,7 +13199,9 @@
       "type": "registry:block",
       "title": "Avatar upload",
       "description": "Avatar upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13122,7 +13223,9 @@
       "type": "registry:block",
       "title": "Basic drag and drop file upload",
       "description": "Basic drag and drop file upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13145,7 +13248,9 @@
       "type": "registry:block",
       "title": "Gallery file upload",
       "description": "Gallery file upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13170,7 +13275,9 @@
       "type": "registry:block",
       "title": "Progress file upload",
       "description": "Progress file upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "@reui/badge",
@@ -13195,7 +13302,9 @@
       "type": "registry:block",
       "title": "Table file upload",
       "description": "Table file upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "@reui/badge",
@@ -13220,7 +13329,9 @@
       "type": "registry:block",
       "title": "Image upload",
       "description": "Image upload",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13245,6 +13356,7 @@
       "title": "Image upload with sorting.",
       "description": "Image upload with sorting.",
       "dependencies": [
+        "cn",
         "sonner"
       ],
       "registryDependencies": [
@@ -13271,7 +13383,9 @@
       "type": "registry:block",
       "title": "Card file upload.",
       "description": "Card file upload.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/alert",
         "button",
@@ -13295,7 +13409,9 @@
       "type": "registry:block",
       "title": "Everything in one filter bar",
       "description": "Multi-select, nested fields, async options and stacked values.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "@reui/filters",
@@ -13321,7 +13437,8 @@
       "title": "Nested groups in a popover",
       "description": "A data grid paged, sorted and totalled under a popover builder.",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "avatar",
@@ -13356,7 +13473,9 @@
       "type": "registry:block",
       "title": "Nested groups inline, walked back out",
       "description": "The builder inline, beside its own tree read back as an expression.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "button",
@@ -13383,7 +13502,9 @@
       "type": "registry:block",
       "title": "Controlled, sized and translated",
       "description": "One controlled query, three locales and every change reported.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "@reui/badge",
@@ -13435,7 +13556,9 @@
       "type": "registry:block",
       "title": "Status and priority colour badges",
       "description": "Colour-coded options and badges in the chip.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "@reui/filters",
@@ -13541,7 +13664,8 @@
       "title": "Filtering a table",
       "description": "The query tree compiled to a row predicate.",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "avatar",
@@ -13574,7 +13698,9 @@
       "type": "registry:block",
       "title": "Choice controls as editors",
       "description": "Toggle group, radios, checkboxes, select and switch.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "checkbox",
@@ -13605,7 +13731,9 @@
       "type": "registry:block",
       "title": "Typed values in shadcn inputs",
       "description": "An input group, a term list, code slots and a validated domain.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/filters",
@@ -15177,7 +15305,9 @@
       "type": "registry:block",
       "title": "Basic password strength with dynamic hint and icons",
       "description": "Basic password strength with dynamic hint and icons",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "field",
         "input"
@@ -16165,7 +16295,9 @@
       "type": "registry:block",
       "title": "API request input with method selector and send action",
       "description": "API request input with method selector and send action",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -16899,7 +17031,9 @@
       "type": "registry:block",
       "title": "Feature roadmap kanban with progress",
       "description": "Feature roadmap kanban with progress",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "@reui/frame",
@@ -17977,7 +18111,9 @@
       "type": "registry:block",
       "title": "Pagination with circle buttons.",
       "description": "Pagination with circle buttons.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "pagination"
@@ -19173,7 +19309,9 @@
       "type": "registry:block",
       "title": "Emoji reaction rating",
       "description": "Emoji reaction rating",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -19485,7 +19623,9 @@
       "type": "registry:block",
       "title": "Scroll area with fade effect",
       "description": "Scroll area with fade effect",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "scroll-area"
       ],
@@ -19741,7 +19881,9 @@
       "type": "registry:block",
       "title": "Select with colored bullets for status",
       "description": "Select with colored bullets for status",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "field",
         "select"
@@ -19848,7 +19990,9 @@
       "type": "registry:block",
       "title": "Select with clear button",
       "description": "Select with clear button",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "field",
         "select"
@@ -19890,7 +20034,9 @@
       "type": "registry:block",
       "title": "Multi-select with overlapping dots",
       "description": "Multi-select with overlapping dots",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "field",
@@ -20718,7 +20864,9 @@
       "type": "registry:block",
       "title": "Slider with tick marks",
       "description": "Slider with tick marks",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "label",
         "slider"
@@ -21441,6 +21589,7 @@
       "title": "Sortable list of items with grid layout",
       "description": "Sortable list of items with grid layout",
       "dependencies": [
+        "cn",
         "sonner"
       ],
       "registryDependencies": [
@@ -21914,7 +22063,9 @@
       "type": "registry:block",
       "title": "Stepper with segmented progress bar",
       "description": "Stepper with segmented progress bar",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/stepper"
@@ -23219,7 +23370,9 @@
       "type": "registry:block",
       "title": "Deployment log timeline",
       "description": "Deployment log timeline",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "@reui/timeline"
@@ -23263,7 +23416,9 @@
       "type": "registry:block",
       "title": "Compact horizontal milestone timeline",
       "description": "Compact horizontal milestone timeline",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/badge",
         "@reui/timeline"
@@ -23348,7 +23503,9 @@
       "type": "registry:block",
       "title": "Timeline with milestones.",
       "description": "Timeline with milestones.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/timeline"
       ],
@@ -23369,7 +23526,9 @@
       "type": "registry:block",
       "title": "Timeline with pipeline steps.",
       "description": "Timeline with pipeline steps.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "avatar",
         "@reui/badge",
@@ -23395,7 +23554,9 @@
       "type": "registry:block",
       "title": "Timeline with roadmap items.",
       "description": "Timeline with roadmap items.",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "@reui/timeline"
       ],
@@ -24569,7 +24730,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-async",
@@ -24665,7 +24827,8 @@
       "title": "Cascader Columns",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -24704,7 +24867,8 @@
       "title": "Cascader Footer",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -24743,7 +24907,8 @@
       "title": "Cascader Item",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -24782,7 +24947,8 @@
       "title": "Cascader Nav",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -24840,6 +25006,7 @@
       "title": "Shadcn code block with Shiki highlighting, streaming, diffs, folding and per-line interaction for AI chat UIs.",
       "description": "Shadcn code block with Shiki highlighting, streaming, diffs, folding and per-line interaction for AI chat UIs.",
       "dependencies": [
+        "cn",
         "shiki"
       ],
       "registryDependencies": [
@@ -24912,7 +25079,8 @@
         "@dnd-kit/sortable",
         "@dnd-kit/utilities",
         "@tanstack/react-table",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/badge",
@@ -24997,7 +25165,8 @@
       "title": "Data Grid Cell Selection",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -25017,7 +25186,8 @@
       "title": "Data Grid Column Filter",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/badge",
@@ -25041,7 +25211,8 @@
       "title": "Data Grid Column Header",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -25096,7 +25267,9 @@
       "type": "registry:ui",
       "title": "Data Grid Pagination",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/data-grid",
@@ -25117,7 +25290,8 @@
       "title": "Data Grid Scroll Area",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/data-grid"
@@ -25136,7 +25310,8 @@
       "title": "Data Grid Table",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -25186,7 +25361,8 @@
         "@dnd-kit/modifiers",
         "@dnd-kit/sortable",
         "@dnd-kit/utilities",
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -25208,7 +25384,8 @@
       "description": "",
       "dependencies": [
         "@tanstack/react-table",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/data-grid",
@@ -25229,6 +25406,7 @@
       "title": "Date Selector",
       "description": "",
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -25256,6 +25434,7 @@
       "dependencies": [
         "@base-ui/react",
         "@date-fns/tz",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25352,6 +25531,7 @@
       "description": "Chronological agenda grouped by day - a day header row plus a clean time / dot / title table.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25376,7 +25556,8 @@
       "title": "Active-view switchboard rendering month, week, day, N-days, or agenda; swappable per view via the components prop.",
       "description": "Active-view switchboard rendering month, week, day, N-days, or agenda; swappable per view via the components prop.",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/event-calendar",
@@ -25422,6 +25603,7 @@
       "description": "The reusable event chip/bar/block - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25486,6 +25668,7 @@
       "description": "ARIA-grid month view with week rows, day cells, event chips, and overflow counts.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25512,6 +25695,7 @@
       "description": "Composable navigation - Today, prev/next, period title, view switcher dropdown, and a free toolbar slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25559,6 +25743,7 @@
       "description": "Resource-columns day grid for booking scenarios - one time axis, one column per resource, full drag, resize, and drag-create.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25585,6 +25770,7 @@
       "description": "Shared week/day/N-days engine - hour gutter, minute-positioned events, all-day row, drag ghosts, now indicator, and configurable scrolling.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25625,6 +25811,7 @@
       "description": "",
       "dependencies": [
         "class-variance-authority",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -25733,7 +25920,9 @@
       "type": "registry:ui",
       "title": "Filters Advanced",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "dropdown-menu",
@@ -25763,7 +25952,9 @@
       "type": "registry:ui",
       "title": "Filters Builder",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/cascader",
@@ -25790,7 +25981,9 @@
       "type": "registry:ui",
       "title": "Filters Chip",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -25885,7 +26078,9 @@
       "type": "registry:ui",
       "title": "Filters Editors",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -26000,7 +26195,8 @@
       "title": "Frame",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26019,6 +26215,7 @@
       "dependencies": [
         "@base-ui/react",
         "@date-fns/tz",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -26091,7 +26288,8 @@
       "title": "The interactive gantt bar - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "description": "The interactive gantt bar - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "context-menu",
@@ -26177,6 +26375,7 @@
       "description": "Composable navigation - Today, view selector, prev/next, go-to-date, period title, and a free toolbar slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -26239,6 +26438,7 @@
       "description": "The gantt body - split resizable tree/timeline panes with synced scrolling, multi-column tree, grouped two-row header, day through year scales, zoom, drag-to-pan, lanes, drag and resize.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -26266,7 +26466,9 @@
       "type": "registry:ui",
       "title": "Layered icon illustration container",
       "description": "Layered icon illustration container",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -26283,7 +26485,8 @@
       "description": "Square container that gives icons a consistent surface",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26303,7 +26506,8 @@
         "@base-ui/react",
         "@dnd-kit/core",
         "@dnd-kit/sortable",
-        "@dnd-kit/utilities"
+        "@dnd-kit/utilities",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26321,7 +26525,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [
         "label"
@@ -26340,6 +26545,7 @@
       "title": "Phone Input",
       "description": "",
       "dependencies": [
+        "cn",
         "react-phone-number-input"
       ],
       "registryDependencies": [
@@ -26362,7 +26568,8 @@
       "title": "Rating",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26397,7 +26604,8 @@
         "@base-ui/react",
         "@dnd-kit/core",
         "@dnd-kit/sortable",
-        "@dnd-kit/utilities"
+        "@dnd-kit/utilities",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26414,7 +26622,8 @@
       "title": "Stepper",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26431,7 +26640,8 @@
       "title": "Timeline",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -26449,7 +26659,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "@headless-tree/core"
+        "@headless-tree/core",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [

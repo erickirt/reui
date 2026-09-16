@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRightIcon, CheckIcon, XIcon } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 import { Heading } from "@/components/custom/heading"
 import { PageGridBackdrop } from "@/components/page-grid-backdrop"

@@ -8,6 +8,7 @@
         "resizable"
       ],
       "description": "Horizontal resizable layout",
+      "descriptionLong": "Horizontal resizable layout. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-1 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -32,6 +33,7 @@
         "resizable"
       ],
       "description": "Vertical resizable layout.",
+      "descriptionLong": "Vertical resizable layout. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-2 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -56,6 +58,7 @@
         "resizable"
       ],
       "description": "Nested mixed-direction resizable layout.",
+      "descriptionLong": "Nested mixed-direction resizable layout. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-3 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -80,6 +83,7 @@
         "resizable"
       ],
       "description": "Nested resizable",
+      "descriptionLong": "Nested resizable. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-4 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -104,6 +108,7 @@
         "resizable"
       ],
       "description": "Handle with animated pill indicator",
+      "descriptionLong": "Handle with animated pill indicator. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-5 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -128,6 +133,7 @@
         "resizable"
       ],
       "description": "Handle pill with spring scale on drag",
+      "descriptionLong": "Handle pill with spring scale on drag. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-6 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -152,6 +158,7 @@
         "resizable"
       ],
       "description": "Handle with large capsule expansion on drag",
+      "descriptionLong": "Handle with large capsule expansion on drag. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-7 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -176,6 +183,7 @@
         "resizable"
       ],
       "description": "Nested layout with animated pill handles",
+      "descriptionLong": "Nested layout with animated pill handles. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-8 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -200,6 +208,7 @@
         "resizable"
       ],
       "description": "Three-panel layout with animated pill handles",
+      "descriptionLong": "Three-panel layout with animated pill handles. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-9 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],
@@ -224,6 +233,7 @@
         "resizable"
       ],
       "description": "State-tracked resizable layout.",
+      "descriptionLong": "State-tracked resizable layout. Built with the Resizable component. A free, open source shadcn resizable example you can install with npx shadcn@latest add @reui/c-resizable-10 and edit as your own code.",
       "registryDependencies": [
         "resizable"
       ],

@@ -5,7 +5,7 @@ import { createContext, useContext, useMemo, useState } from "react"
 import * as BasePhoneInput from "react-phone-number-input"
 import flags from "react-phone-number-input/flags"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
   Combobox,

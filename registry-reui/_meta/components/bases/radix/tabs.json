@@ -8,6 +8,7 @@
         "tabs"
       ],
       "description": "Basic tabs.",
+      "descriptionLong": "Basic tabs. Built by composing Button, Card, Input, Label, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -36,6 +37,7 @@
         "tabs"
       ],
       "description": "Tabs with line variant.",
+      "descriptionLong": "Tabs with line variant. Built by composing Button, Card, Input, Label, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -64,6 +66,7 @@
         "tabs"
       ],
       "description": "Tabs with vertical orientation.",
+      "descriptionLong": "Tabs with vertical orientation. Built by composing Button, Card, Input, Label, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -92,6 +95,7 @@
         "tabs"
       ],
       "description": "Tabs with vertical orientation and line variant.",
+      "descriptionLong": "Tabs with vertical orientation and line variant. Built by composing Button, Card, Input, Label, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -120,6 +124,7 @@
         "tabs"
       ],
       "description": "Tabs with icons.",
+      "descriptionLong": "Tabs with icons. Built by composing Button, Card, Input, Label, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -148,6 +153,7 @@
         "tabs"
       ],
       "description": "Tabs with icons",
+      "descriptionLong": "Tabs with icons. Built by composing Card, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "tabs"
@@ -173,6 +179,7 @@
         "tabs"
       ],
       "description": "Tabs with badge counts",
+      "descriptionLong": "Tabs with badge counts. Built by composing Badge, Card, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -199,6 +206,7 @@
         "tabs"
       ],
       "description": "Tabs with icons and line variant",
+      "descriptionLong": "Tabs with icons and line variant. Built by composing Badge, Card, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -225,6 +233,7 @@
         "tabs"
       ],
       "description": "Segmented control tabs",
+      "descriptionLong": "Segmented control tabs. Built by composing Card, Tabs. A free, open source shadcn tabs example you can install with npx shadcn@latest add @reui/c-tabs-9 and edit as your own code.",
       "registryDependencies": [
         "card",
         "tabs"

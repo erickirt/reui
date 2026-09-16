@@ -9,7 +9,7 @@ import {
   normalizeComponentSearchQuery,
 } from "@/lib/component-search-filter"
 import { parseAsSearchStringClient } from "@/lib/nuqs"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig } from "@/hooks/use-config"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Spinner } from "@/components/ui/spinner"

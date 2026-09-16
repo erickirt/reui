@@ -8,6 +8,7 @@
         "icon-stack"
       ],
       "description": "Layered isometric icon",
+      "descriptionLong": "Isometric icon stack. Built with the Icon Stack component. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-1 and edit as your own code.",
       "registryDependencies": [
         "icon-stack"
       ],
@@ -31,6 +32,7 @@
         "icon-stack"
       ],
       "description": "Responsive icon stack sizes",
+      "descriptionLong": "Icon stack sizes. Built with the Icon Stack component. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-2 and edit as your own code.",
       "registryDependencies": [
         "icon-stack"
       ],
@@ -54,6 +56,7 @@
         "icon-stack"
       ],
       "description": "Semantic icon stack colors",
+      "descriptionLong": "Icon stack colors. Built with the Icon Stack component. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-3 and edit as your own code.",
       "registryDependencies": [
         "icon-stack"
       ],
@@ -77,6 +80,7 @@
         "icon-stack"
       ],
       "description": "Icon stack with badge overlay",
+      "descriptionLong": "Icon badge stack. Built with the Icon Stack component. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-4 and edit as your own code.",
       "registryDependencies": [
         "icon-stack"
       ],
@@ -100,6 +104,7 @@
         "icon-stack"
       ],
       "description": "Shadcn empty state illustration",
+      "descriptionLong": "Empty state illustration. Built by composing Button, Empty, Icon Stack. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty",
@@ -126,6 +131,7 @@
         "icon-stack"
       ],
       "description": "Icon stack in shadcn item",
+      "descriptionLong": "Item media stack. Built by composing Icon Stack, Item. A free, open source shadcn icon stack example you can install with npx shadcn@latest add @reui/c-icon-stack-6 and edit as your own code.",
       "registryDependencies": [
         "icon-stack",
         "item"

@@ -8,6 +8,7 @@
         "alert"
       ],
       "description": "Basic alert",
+      "descriptionLong": "Basic alert. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-1 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -31,6 +32,7 @@
         "alert"
       ],
       "description": "Alert with icon",
+      "descriptionLong": "Alert with icon. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-2 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -54,6 +56,7 @@
         "alert"
       ],
       "description": "Alert with icon and action buttons",
+      "descriptionLong": "Alert with icon and action buttons. Built by composing Alert, Button. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-3 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button"
@@ -78,6 +81,7 @@
         "alert"
       ],
       "description": "Destructive alert with icon and action buttons",
+      "descriptionLong": "Destructive alert with icon and action buttons. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-4 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -101,6 +105,7 @@
         "alert"
       ],
       "description": "Info alert with icon and action buttons",
+      "descriptionLong": "Info alert with icon and action buttons. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-5 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -124,6 +129,7 @@
         "alert"
       ],
       "description": "Success alert",
+      "descriptionLong": "Success alert. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-6 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -147,6 +153,7 @@
         "alert"
       ],
       "description": "Warning alert",
+      "descriptionLong": "Warning alert. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-7 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -170,6 +177,7 @@
         "alert"
       ],
       "description": "Error alert",
+      "descriptionLong": "Error alert. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-8 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -193,6 +201,7 @@
         "alert"
       ],
       "description": "Invert alert",
+      "descriptionLong": "Invert alert. Built with the Alert component. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-9 and edit as your own code.",
       "registryDependencies": [
         "alert"
       ],
@@ -216,6 +225,7 @@
         "alert"
       ],
       "description": "Alert with icon and action buttons",
+      "descriptionLong": "Alert with icon and action buttons. Built by composing Alert, Button. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-10 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button"
@@ -240,6 +250,7 @@
         "alert"
       ],
       "description": "Alert with description and action buttons",
+      "descriptionLong": "Alert with description and action buttons. Built by composing Alert, Button. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-11 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button"
@@ -264,6 +275,7 @@
         "alert"
       ],
       "description": "Alert integrated within a Frame with reset borders",
+      "descriptionLong": "Alert integrated within a Frame with reset borders. Built by composing Alert, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-12 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "frame"
@@ -288,6 +300,7 @@
         "alert"
       ],
       "description": "Stacked alerts within a Frame",
+      "descriptionLong": "Stacked alerts within a Frame. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-13 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -313,6 +326,7 @@
         "alert"
       ],
       "description": "Alert with actions integrated within a Frame",
+      "descriptionLong": "Alert with actions integrated within a Frame. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-14 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -338,6 +352,7 @@
         "alert"
       ],
       "description": "Inverted alert variant",
+      "descriptionLong": "Inverted alert variant. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-15 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -363,6 +378,7 @@
         "alert"
       ],
       "description": "Urgent billing notice",
+      "descriptionLong": "Urgent billing notice. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-16 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -388,6 +404,7 @@
         "alert"
       ],
       "description": "Service status summary stacked within a frame",
+      "descriptionLong": "Service status summary stacked within a frame. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-17 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -413,6 +430,7 @@
         "alert"
       ],
       "description": "Feature discovery alert",
+      "descriptionLong": "Feature discovery alert. Built by composing Alert, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-18 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -438,6 +456,7 @@
         "alert"
       ],
       "description": "User message notification alert",
+      "descriptionLong": "User message notification alert. Built by composing Alert, Avatar, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-19 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "avatar",
@@ -464,6 +483,7 @@
         "alert"
       ],
       "description": "User message notification alert",
+      "descriptionLong": "User message notification alert. Built by composing Alert, Avatar, Button, Frame. A free, open source shadcn alert example you can install with npx shadcn@latest add @reui/c-alert-20 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "avatar",

@@ -28,7 +28,7 @@ function createVersionedRegistryRedirects(source, destination) {
 }
 
 const canonicalComponentDocRedirectPattern =
-  "alert|autocomplete|badge|data-grid|date-selector|file-upload|filters|frame|kanban|number-field|phone-input|rating|scrollspy|sortable|stepper|timeline|tree"
+  "alert|autocomplete|badge|cascader|data-grid|date-selector|event-calendar|file-upload|filters|frame|gantt|kanban|number-field|phone-input|rating|scrollspy|sortable|stepper|timeline|tree"
 
 const legacyComponentCategoryRedirectPattern =
   "accordion|alert-dialog|aspect-ratio|avatar|breadcrumb|button|button-group|calendar|card|carousel|chart|checkbox|collapsible|combobox|command|context-menu|dialog|drawer|dropdown-menu|empty|field|hover-card|input|input-group|input-otp|item|kbd|label|menubar|native-select|navigation-menu|pagination|popover|progress|radio-group|resizable|scroll-area|select|separator|sheet|skeleton|slider|sonner|spinner|switch|table|tabs|textarea|toggle|toggle-group|tooltip"

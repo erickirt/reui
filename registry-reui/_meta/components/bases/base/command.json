@@ -8,6 +8,7 @@
         "command"
       ],
       "description": "Basic command",
+      "descriptionLong": "Basic command. Built by composing Card, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-1 and edit as your own code.",
       "registryDependencies": [
         "card",
         "command"
@@ -32,6 +33,7 @@
         "command"
       ],
       "description": "Command with shortcuts",
+      "descriptionLong": "Command with shortcuts. Built by composing Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "command"
@@ -56,6 +58,7 @@
         "command"
       ],
       "description": "Command with groups",
+      "descriptionLong": "Command with groups. Built by composing Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "command"
@@ -80,6 +83,7 @@
         "command"
       ],
       "description": "Command with many groups",
+      "descriptionLong": "Command with many groups. Built by composing Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "command"
@@ -104,6 +108,7 @@
         "command"
       ],
       "description": "File search command palette",
+      "descriptionLong": "File search command palette. Built by composing Badge, Button, Command, Kbd. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-5 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -130,6 +135,7 @@
         "command"
       ],
       "description": "User search command with avatars",
+      "descriptionLong": "User search command with avatars. Built by composing Avatar, Badge, Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-6 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -156,6 +162,7 @@
         "command"
       ],
       "description": "Action palette with keyboard shortcuts",
+      "descriptionLong": "Action palette with keyboard shortcuts. Built by composing Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "command"
@@ -180,6 +187,7 @@
         "command"
       ],
       "description": "Command with recent and favorites sections",
+      "descriptionLong": "Command with recent and favorites sections. Built by composing Button, Command. A free, open source shadcn command example you can install with npx shadcn@latest add @reui/c-command-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "command"

@@ -8,13 +8,16 @@
         "filters"
       ],
       "description": "Multi-select, nested fields, async options and stacked values.",
+      "descriptionLong": "Everything in one filter bar. Built by composing Avatar, Filters, Filters Query, Filters Types. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-1 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "filters",
         "filters-query",
         "filters-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-1.tsx",
@@ -36,6 +39,7 @@
         "filters"
       ],
       "description": "Drill-down groups, a filterable branch and deep search.",
+      "descriptionLong": "Nested attributes at workspace scale. Built by composing Filters, Filters Query, Filters Types. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-2 and edit as your own code.",
       "registryDependencies": [
         "filters",
         "filters-query",
@@ -63,13 +67,16 @@
         "filters"
       ],
       "description": "Colour-coded options and badges in the chip.",
+      "descriptionLong": "Status and priority colour badges. Built by composing Badge, Filters, Filters Query, Filters Types. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-3 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "filters",
         "filters-query",
         "filters-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-3.tsx",
@@ -91,6 +98,7 @@
         "filters"
       ],
       "description": "Avatar options, results paged over the wire and a saved view.",
+      "descriptionLong": "Avatars, paging and a restored view. Built by composing Avatar, Button, Filters, Filters Query, Filters Types. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-4 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -120,6 +128,7 @@
         "filters"
       ],
       "description": "Consumer-owned date and date range controls.",
+      "descriptionLong": "A date and a date range editor. Built by composing Button, Calendar, Filters, Filters Date, Filters Query and 2 more. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -151,6 +160,7 @@
         "filters"
       ],
       "description": "One slider editor for range and single-value operators.",
+      "descriptionLong": "Sliders as the value editor. Built by composing Button, Filters, Filters Query, Filters Types, Slider. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "filters",
@@ -180,6 +190,7 @@
         "filters"
       ],
       "description": "The query tree compiled to a row predicate.",
+      "descriptionLong": "Filtering a table. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 6 more. Uses @tanstack/react-table, cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-7 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -194,7 +205,8 @@
         "filters-types"
       ],
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "files": [
         {
@@ -217,6 +229,7 @@
         "filters"
       ],
       "description": "Toggle group, radios, checkboxes, select and switch.",
+      "descriptionLong": "Choice controls as editors. Built by composing Button, Checkbox, Filters, Filters Query, Filters Types and 5 more. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "checkbox",
@@ -229,7 +242,9 @@
         "switch",
         "toggle-group"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-8.tsx",
@@ -251,6 +266,7 @@
         "filters"
       ],
       "description": "An input group, a term list, code slots and a validated domain.",
+      "descriptionLong": "Typed values in shadcn inputs. Built by composing Button, Filters, Filters Query, Filters Types, Input and 3 more. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-9 and edit as your own code.",
       "registryDependencies": [
         "button",
         "filters",
@@ -261,7 +277,9 @@
         "input-otp",
         "textarea"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-9.tsx",
@@ -283,6 +301,7 @@
         "filters"
       ],
       "description": "A data grid paged, sorted and totalled under a popover builder.",
+      "descriptionLong": "Nested groups in a popover. Built by composing Avatar, Badge, Button, Card, Data Grid and 8 more. Uses @tanstack/react-table, cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-10 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -299,7 +318,8 @@
         "filters-types"
       ],
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "files": [
         {
@@ -322,6 +342,7 @@
         "filters"
       ],
       "description": "The builder inline, beside its own tree read back as an expression.",
+      "descriptionLong": "Nested groups inline, walked back out. Built by composing Avatar, Button, Card, Filters, Filters Query and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-11 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -330,7 +351,9 @@
         "filters-query",
         "filters-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-11.tsx",
@@ -352,6 +375,7 @@
         "filters"
       ],
       "description": "One controlled query, three locales and every change reported.",
+      "descriptionLong": "Controlled, sized and translated. Built by composing Avatar, Badge, Filters, Filters Operators, Filters Query and 2 more. Uses cn alongside the shadcn primitives. A free, open source shadcn filters example you can install with npx shadcn@latest add @reui/c-filters-12 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -361,7 +385,9 @@
         "filters-types",
         "toggle-group"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/filters/c-filters-12.tsx",

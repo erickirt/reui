@@ -12,7 +12,7 @@ import type {
   FilterQuery,
 } from "@/registry-reui/bases/radix/reui/filters/filters-types"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import {
   Avatar,
   AvatarFallback,

@@ -207,7 +207,7 @@ function NavMenuItem({
                 {item.icon}
               </div>
             </ItemMedia>
-            <ItemTitle className="data-[state=open]/collapsible:font-semibold text-sm">
+            <ItemTitle className="text-sm group-data-[state=open]/collapsible:font-semibold">
               {item.name}
             </ItemTitle>
             <IconPlaceholder
@@ -263,7 +263,7 @@ export default function Pattern() {
     <div className="min-h-64 w-full max-w-56">
       <Card className="p-0">
         <CardContent className="p-1">
-          <div className="gap-0/5 flex flex-col">
+          <div className="flex flex-col gap-0.5">
             {navItems.map((item) => (
               <NavMenuItem
                 key={item.id}

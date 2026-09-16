@@ -8,6 +8,7 @@
         "native-select"
       ],
       "description": "Basic native select.",
+      "descriptionLong": "Basic native select. Built with the Native Select component. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-1 and edit as your own code.",
       "registryDependencies": [
         "native-select"
       ],
@@ -31,6 +32,7 @@
         "native-select"
       ],
       "description": "Native select with options grouped.",
+      "descriptionLong": "Native select with options grouped. Built with the Native Select component. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-2 and edit as your own code.",
       "registryDependencies": [
         "native-select"
       ],
@@ -54,6 +56,7 @@
         "native-select"
       ],
       "description": "Small native select.",
+      "descriptionLong": "Small native select. Built with the Native Select component. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-3 and edit as your own code.",
       "registryDependencies": [
         "native-select"
       ],
@@ -77,6 +80,7 @@
         "native-select"
       ],
       "description": "Native select embedded within a field.",
+      "descriptionLong": "Native select embedded within a field. Built by composing Field, Native Select. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "native-select"
@@ -101,6 +105,7 @@
         "native-select"
       ],
       "description": "Disabled native select.",
+      "descriptionLong": "Disabled native select. Built with the Native Select component. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-5 and edit as your own code.",
       "registryDependencies": [
         "native-select"
       ],
@@ -124,6 +129,7 @@
         "native-select"
       ],
       "description": "Invalid native select.",
+      "descriptionLong": "Invalid native select. Built with the Native Select component. A free, open source shadcn native select example you can install with npx shadcn@latest add @reui/c-native-select-6 and edit as your own code.",
       "registryDependencies": [
         "native-select"
       ],

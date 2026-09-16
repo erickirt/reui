@@ -8,6 +8,7 @@
         "label"
       ],
       "description": "Basic label.",
+      "descriptionLong": "Basic label. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -33,6 +34,7 @@
         "label"
       ],
       "description": "Label paired with a checkbox.",
+      "descriptionLong": "Label paired with a checkbox. Built by composing Checkbox, Field, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-2 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -58,6 +60,7 @@
         "label"
       ],
       "description": "Label for a textarea field.",
+      "descriptionLong": "Label for a textarea field. Built by composing Field, Label, Textarea. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "label",
@@ -83,6 +86,7 @@
         "label"
       ],
       "description": "Label in a disabled state.",
+      "descriptionLong": "Label in a disabled state. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -108,6 +112,7 @@
         "label"
       ],
       "description": "Label with required indicator",
+      "descriptionLong": "Label with required indicator. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -133,6 +138,7 @@
         "label"
       ],
       "description": "Label with optional indicator",
+      "descriptionLong": "Label with optional indicator. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -158,6 +164,7 @@
         "label"
       ],
       "description": "Label with tooltip info icon",
+      "descriptionLong": "Label with tooltip info icon. Built by composing Field, Input, Label, Tooltip. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-7 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -184,6 +191,7 @@
         "label"
       ],
       "description": "Label with badge indicator",
+      "descriptionLong": "Label with badge indicator. Built by composing Badge, Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "field",
@@ -210,6 +218,7 @@
         "label"
       ],
       "description": "Label with character counter",
+      "descriptionLong": "Label with character counter. Built by composing Field, Label, Textarea. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-9 and edit as your own code.",
       "registryDependencies": [
         "field",
         "label",
@@ -235,6 +244,7 @@
         "label"
       ],
       "description": "Label with helper description text",
+      "descriptionLong": "Label with helper description text. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-10 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -260,6 +270,7 @@
         "label"
       ],
       "description": "Label with error state",
+      "descriptionLong": "Label with error state. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-11 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -285,6 +296,7 @@
         "label"
       ],
       "description": "Label with inline edit toggle",
+      "descriptionLong": "Label with inline edit toggle. Built by composing Button, Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -311,6 +323,7 @@
         "label"
       ],
       "description": "Label with status indicator dot",
+      "descriptionLong": "Label with status indicator dot. Built by composing Field, Input, Label. A free, open source shadcn label example you can install with npx shadcn@latest add @reui/c-label-13 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",

@@ -1,4 +1,4 @@
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/base/ui/scroll-area"
 
 export default function Pattern() {

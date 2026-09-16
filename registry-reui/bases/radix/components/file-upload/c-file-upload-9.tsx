@@ -13,7 +13,7 @@ import {
   AlertTitle,
 } from "@/registry-reui/bases/radix/reui/alert"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
   Tooltip,

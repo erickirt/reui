@@ -8,6 +8,7 @@
         "sonner"
       ],
       "description": "Basic toast notification.",
+      "descriptionLong": "Basic toast notification. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-1 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -33,6 +34,7 @@
         "sonner"
       ],
       "description": "Toast notification with description.",
+      "descriptionLong": "Toast notification with description. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-2 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -58,6 +60,7 @@
         "sonner"
       ],
       "description": "Toast positions",
+      "descriptionLong": "Toast positions. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-3 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -83,6 +86,7 @@
         "sonner"
       ],
       "description": "Toast variants with colored icons",
+      "descriptionLong": "Toast variants with colored icons. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-4 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -108,6 +112,7 @@
         "sonner"
       ],
       "description": "Toast duration options",
+      "descriptionLong": "Toast duration options. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-5 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -133,6 +138,7 @@
         "sonner"
       ],
       "description": "Toast with action button",
+      "descriptionLong": "Toast with action button. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-6 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -158,6 +164,7 @@
         "sonner"
       ],
       "description": "Promise toast with loading state",
+      "descriptionLong": "Promise toast with loading state. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-7 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -183,6 +190,7 @@
         "sonner"
       ],
       "description": "Toast with custom close and cancel buttons",
+      "descriptionLong": "Toast with custom close and cancel buttons. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-8 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -208,6 +216,7 @@
         "sonner"
       ],
       "description": "Toast with custom rich content",
+      "descriptionLong": "Toast with custom rich content. Built by composing Avatar, Button. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-9 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -234,6 +243,7 @@
         "sonner"
       ],
       "description": "Toast with upload progress simulation",
+      "descriptionLong": "Toast with upload progress simulation. Built by composing Button, Progress. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "progress"
@@ -260,6 +270,7 @@
         "sonner"
       ],
       "description": "Toast with status alert markup",
+      "descriptionLong": "Toast with status alert markup. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-11 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -285,6 +296,7 @@
         "sonner"
       ],
       "description": "Custom accent border toast",
+      "descriptionLong": "Custom accent border toast. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-12 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -310,6 +322,7 @@
         "sonner"
       ],
       "description": "Custom invert success toast",
+      "descriptionLong": "Custom invert success toast. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-13 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -335,6 +348,7 @@
         "sonner"
       ],
       "description": "Custom invert error toast with details",
+      "descriptionLong": "Custom invert error toast with details. Built by composing Button, Separator. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-14 and edit as your own code.",
       "registryDependencies": [
         "button",
         "separator"
@@ -361,6 +375,7 @@
         "sonner"
       ],
       "description": "Custom invert info toast with avatar",
+      "descriptionLong": "Custom invert info toast with avatar. Built by composing Avatar, Button. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button"
@@ -387,6 +402,7 @@
         "sonner"
       ],
       "description": "Custom invert warning toast with countdown",
+      "descriptionLong": "Custom invert warning toast with countdown. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-16 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -412,6 +428,7 @@
         "sonner"
       ],
       "description": "Multi-action invert toast with avatar group",
+      "descriptionLong": "Multi-action invert toast with avatar group. Built by composing Avatar, Button, Separator. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-17 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -439,6 +456,7 @@
         "sonner"
       ],
       "description": "Toast with close button on top-right",
+      "descriptionLong": "Toast with close button on top-right. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-18 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -464,6 +482,7 @@
         "sonner"
       ],
       "description": "Toast with custom icon",
+      "descriptionLong": "Toast with custom icon. Built with the Button component. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-19 and edit as your own code.",
       "registryDependencies": [
         "button"
       ],
@@ -489,6 +508,7 @@
         "sonner"
       ],
       "description": "Custom integration toast",
+      "descriptionLong": "Custom integration toast. Built by composing Button, Separator. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-20 and edit as your own code.",
       "registryDependencies": [
         "button",
         "separator"
@@ -515,6 +535,7 @@
         "sonner"
       ],
       "description": "Updatable toast with ID",
+      "descriptionLong": "Updatable toast with ID. Built by composing Button, Spinner. Uses sonner alongside the shadcn primitives. A free, open source shadcn sonner example you can install with npx shadcn@latest add @reui/c-sonner-21 and edit as your own code.",
       "registryDependencies": [
         "button",
         "spinner"

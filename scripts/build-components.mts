@@ -69,6 +69,7 @@ type ComponentRegistryItem = {
   title: string
   categories: string[]
   description?: string
+  descriptionLong?: string
   registryDependencies: string[]
   dependencies: string[]
   files: GeneratedRegistryFile[]
@@ -279,6 +280,69 @@ async function parseComponentFile(
   }
 }
 
+/**
+ * Compose a longer, page-specific description for an example.
+ *
+ * WHY THIS EXISTS: most examples ship a `description` that is byte-identical to
+ * their `title`, averaging 33 characters. That is fine for a card tooltip and
+ * far too thin for a page: a thousand-odd indexable pages carrying one short
+ * sentence each, wrapped in a shared template, is the shape search engines
+ * treat as scaled content.
+ *
+ * Nothing here is invented. Every clause is composed from data this script has
+ * already resolved - the authored title, the primitives the file actually
+ * imports, the npm packages it actually pulls, and the example's position in
+ * its category - so the output is specific to the example and stays true as the
+ * source changes. Generated output, never hand-edited.
+ */
+function buildDescriptionLong(
+  name: string,
+  category: string,
+  title: string,
+  registryDependencies: string[],
+  dependencies: string[]
+): string {
+  const label = category
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ")
+
+  const primitives = registryDependencies
+    .map((dependency) => dependency.replace(/^@reui\//, ""))
+    .map((slug) =>
+      slug
+        .split("-")
+        .filter(Boolean)
+        .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+        .join(" ")
+    )
+
+  const sentences = [`${title.replace(/\.$/, "")}.`]
+
+  if (primitives.length === 1) {
+    sentences.push(`Built with the ${primitives[0]} component.`)
+  } else if (primitives.length > 1) {
+    const shown = primitives.slice(0, 5)
+    const rest = primitives.length - shown.length
+    sentences.push(
+      `Built by composing ${shown.join(", ")}${rest > 0 ? ` and ${rest} more` : ""}.`
+    )
+  }
+
+  if (dependencies.length > 0) {
+    sentences.push(
+      `Uses ${dependencies.slice(0, 3).join(", ")} alongside the shadcn primitives.`
+    )
+  }
+
+  sentences.push(
+    `A free, open source shadcn ${label.toLowerCase()} example you can install with npx shadcn@latest add @reui/${name} and edit as your own code.`
+  )
+
+  return sentences.join(" ")
+}
+
 function sortComponentItems(
   a: ComponentRegistryItem,
   b: ComponentRegistryItem
@@ -391,6 +455,14 @@ async function generate() {
             title: info.title || info.description || formatTitle(name),
             categories: [category],
             description: info.description || undefined,
+            // Longer prose for the example's own page. See buildDescriptionLong.
+            descriptionLong: buildDescriptionLong(
+              name,
+              category,
+              info.title || info.description || formatTitle(name),
+              info.registryDependencies,
+              info.dependencies
+            ),
             registryDependencies: info.registryDependencies,
             dependencies: info.dependencies,
             files: dedupeFiles([

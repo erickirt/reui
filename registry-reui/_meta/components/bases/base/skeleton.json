@@ -8,6 +8,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for avatars and user info.",
+      "descriptionLong": "Skeleton loader for avatars and user info. Built with the Skeleton component. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-1 and edit as your own code.",
       "registryDependencies": [
         "skeleton"
       ],
@@ -32,6 +33,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a card component.",
+      "descriptionLong": "Skeleton loader for a card component. Built by composing Card, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-2 and edit as your own code.",
       "registryDependencies": [
         "card",
         "skeleton"
@@ -57,6 +59,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for text and paragraphs.",
+      "descriptionLong": "Skeleton loader for text and paragraphs. Built with the Skeleton component. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-3 and edit as your own code.",
       "registryDependencies": [
         "skeleton"
       ],
@@ -81,6 +84,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a form.",
+      "descriptionLong": "Skeleton loader for a form. Built with the Skeleton component. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-4 and edit as your own code.",
       "registryDependencies": [
         "skeleton"
       ],
@@ -105,6 +109,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a data table.",
+      "descriptionLong": "Skeleton loader for a data table. Built with the Skeleton component. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-5 and edit as your own code.",
       "registryDependencies": [
         "skeleton"
       ],
@@ -129,6 +134,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a dashboard stats row",
+      "descriptionLong": "Skeleton loader for a dashboard stats row. Built by composing Card, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "skeleton"
@@ -154,6 +160,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a list with actions",
+      "descriptionLong": "Skeleton loader for a list with actions. Built by composing Separator, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-7 and edit as your own code.",
       "registryDependencies": [
         "separator",
         "skeleton"
@@ -179,6 +186,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a card grid",
+      "descriptionLong": "Skeleton loader for a card grid. Built by composing Card, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-8 and edit as your own code.",
       "registryDependencies": [
         "card",
         "skeleton"
@@ -204,6 +212,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for a full profile page",
+      "descriptionLong": "Skeleton loader for a full profile page. Built by composing Card, Separator, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-9 and edit as your own code.",
       "registryDependencies": [
         "card",
         "separator",
@@ -230,6 +239,7 @@
         "skeleton"
       ],
       "description": "Skeleton loader for chat messages",
+      "descriptionLong": "Skeleton loader for chat messages. Built by composing Card, Skeleton. A free, open source shadcn skeleton example you can install with npx shadcn@latest add @reui/c-skeleton-10 and edit as your own code.",
       "registryDependencies": [
         "card",
         "skeleton"

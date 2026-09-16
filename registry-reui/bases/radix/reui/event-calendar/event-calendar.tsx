@@ -59,7 +59,7 @@ import type {
 import { addDays, type Locale } from "date-fns"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 const BASE_VIEWS: CalendarView[] = ["month", "week", "day", "days", "agenda"]
 const ALL_VIEWS: CalendarView[] = [...BASE_VIEWS, "resource"]

@@ -43,7 +43,7 @@ import type {
   CodeBlockWordSpec,
 } from "@/registry-reui/bases/radix/reui/code-block/code-block-highlight"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 
 /* -------------------------------------------------------------------------- */

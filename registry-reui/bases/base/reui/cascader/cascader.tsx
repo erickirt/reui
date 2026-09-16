@@ -79,7 +79,7 @@ import { Combobox as ComboboxPrimitive } from "@base-ui/react"
 import { mergeProps } from "@base-ui/react/merge-props"
 import { useRender } from "@base-ui/react/use-render"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/base/ui/scroll-area"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

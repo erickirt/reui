@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 
 const emojis = [
   { value: 1, emoji: "😞", label: "Terrible" },

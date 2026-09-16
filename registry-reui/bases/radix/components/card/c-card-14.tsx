@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Card, CardContent } from "@/registry/bases/radix/ui/card"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

@@ -8,6 +8,7 @@
         "item"
       ],
       "description": "Basic item with title and description",
+      "descriptionLong": "Basic item with title and description. Built with the Item component. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-1 and edit as your own code.",
       "registryDependencies": [
         "item"
       ],
@@ -31,6 +32,7 @@
         "item"
       ],
       "description": "Items with icon media and action buttons",
+      "descriptionLong": "Items with icon media and action buttons. Built by composing Button, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "item"
@@ -55,6 +57,7 @@
         "item"
       ],
       "description": "User item with avatar, info, and follow button",
+      "descriptionLong": "User item with avatar, info, and follow button. Built by composing Avatar, Button, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-3 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -80,6 +83,7 @@
         "item"
       ],
       "description": "Clickable navigation items with icons and chevron",
+      "descriptionLong": "Clickable navigation items with icons and chevron. Built with the Item component. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-4 and edit as your own code.",
       "registryDependencies": [
         "item"
       ],
@@ -103,6 +107,7 @@
         "item"
       ],
       "description": "Item group with status badges",
+      "descriptionLong": "Item group with status badges. Built by composing Avatar, Badge, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-5 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -128,6 +133,7 @@
         "item"
       ],
       "description": "File items with icon media, size, and actions",
+      "descriptionLong": "File items with icon media, size, and actions. Built by composing Badge, Button, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-6 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -153,6 +159,7 @@
         "item"
       ],
       "description": "Items with keyboard shortcuts",
+      "descriptionLong": "Items with keyboard shortcuts. Built by composing Item, Kbd. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-7 and edit as your own code.",
       "registryDependencies": [
         "item",
         "kbd"
@@ -177,6 +184,7 @@
         "item"
       ],
       "description": "Small-size items with badges",
+      "descriptionLong": "Small-size items with badges. Built by composing Badge, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "item"
@@ -201,6 +209,7 @@
         "item"
       ],
       "description": "Team members with roles and multiple actions",
+      "descriptionLong": "Team members with roles and multiple actions. Built by composing Avatar, Badge, Button, Dropdown Menu, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-9 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -228,6 +237,7 @@
         "item"
       ],
       "description": "Item with header and footer sections",
+      "descriptionLong": "Item with header and footer sections. Built by composing Avatar, Badge, Button, Item, Progress. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-10 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -255,6 +265,7 @@
         "item"
       ],
       "description": "Integration items with connect actions",
+      "descriptionLong": "Integration items with connect actions. Built by composing Badge, Button, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-11 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -280,6 +291,7 @@
         "item"
       ],
       "description": "Activity feed items with avatars and actions",
+      "descriptionLong": "Activity feed items with avatars and actions. Built by composing Avatar, Badge, Item. A free, open source shadcn item example you can install with npx shadcn@latest add @reui/c-item-12 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",

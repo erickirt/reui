@@ -15,7 +15,7 @@ import {
 } from "@/registry-reui/bases/radix/reui/alert"
 import { Badge } from "@/registry-reui/bases/radix/reui/badge"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Progress } from "@/registry/bases/radix/ui/progress"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"

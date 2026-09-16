@@ -8,6 +8,7 @@
         "slider"
       ],
       "description": "Basic slider.",
+      "descriptionLong": "Basic slider. Built with the Slider component. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-1 and edit as your own code.",
       "registryDependencies": [
         "slider"
       ],
@@ -31,6 +32,7 @@
         "slider"
       ],
       "description": "Disabled slider",
+      "descriptionLong": "Disabled slider. Built with the Slider component. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-2 and edit as your own code.",
       "registryDependencies": [
         "slider"
       ],
@@ -54,6 +56,7 @@
         "slider"
       ],
       "description": "Slider with multiple discrete values",
+      "descriptionLong": "Slider with multiple discrete values. Built with the Slider component. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-3 and edit as your own code.",
       "registryDependencies": [
         "slider"
       ],
@@ -77,6 +80,7 @@
         "slider"
       ],
       "description": "Vertical slider with range selection",
+      "descriptionLong": "Vertical slider with range selection. Built with the Slider component. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-4 and edit as your own code.",
       "registryDependencies": [
         "slider"
       ],
@@ -100,6 +104,7 @@
         "slider"
       ],
       "description": "Slider with controlled value tracking",
+      "descriptionLong": "Slider with controlled value tracking. Built by composing Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-5 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"
@@ -124,6 +129,7 @@
         "slider"
       ],
       "description": "Slider with range selection",
+      "descriptionLong": "Slider with range selection. Built with the Slider component. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-6 and edit as your own code.",
       "registryDependencies": [
         "slider"
       ],
@@ -147,6 +153,7 @@
         "slider"
       ],
       "description": "Slider synced with number input",
+      "descriptionLong": "Slider synced with number input. Built by composing Input, Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-7 and edit as your own code.",
       "registryDependencies": [
         "input",
         "label",
@@ -172,6 +179,7 @@
         "slider"
       ],
       "description": "Color temperature slider",
+      "descriptionLong": "Color temperature slider. Built by composing Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-8 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"
@@ -196,6 +204,7 @@
         "slider"
       ],
       "description": "Slider with reference labels",
+      "descriptionLong": "Slider with reference labels. Built by composing Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-9 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"
@@ -220,11 +229,14 @@
         "slider"
       ],
       "description": "Slider with tick marks",
+      "descriptionLong": "Slider with tick marks. Built by composing Label, Slider. Uses cn alongside the shadcn primitives. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-10 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/slider/c-slider-10.tsx",
@@ -244,6 +256,7 @@
         "slider"
       ],
       "description": "Slider with dynamic tooltip indicator",
+      "descriptionLong": "Slider with dynamic tooltip indicator. Built by composing Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-11 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"
@@ -268,6 +281,7 @@
         "slider"
       ],
       "description": "Rating slider with emoji feedback",
+      "descriptionLong": "Rating slider with emoji feedback. Built by composing Label, Slider. A free, open source shadcn slider example you can install with npx shadcn@latest add @reui/c-slider-12 and edit as your own code.",
       "registryDependencies": [
         "label",
         "slider"

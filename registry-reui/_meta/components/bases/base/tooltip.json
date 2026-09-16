@@ -8,6 +8,7 @@
         "tooltip"
       ],
       "description": "Basic tooltip.",
+      "descriptionLong": "Basic tooltip. Built by composing Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "tooltip"
@@ -32,6 +33,7 @@
         "tooltip"
       ],
       "description": "Tooltips opening from different sides.",
+      "descriptionLong": "Tooltips opening from different sides. Built by composing Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "tooltip"
@@ -56,6 +58,7 @@
         "tooltip"
       ],
       "description": "Tooltip with icon trigger.",
+      "descriptionLong": "Tooltip with icon trigger. Built by composing Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "tooltip"
@@ -80,6 +83,7 @@
         "tooltip"
       ],
       "description": "Tooltip with keyboard shortcut.",
+      "descriptionLong": "Tooltip with keyboard shortcut. Built by composing Button, Kbd, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "kbd",
@@ -105,6 +109,7 @@
         "tooltip"
       ],
       "description": "Tooltip on notification bell with badge count",
+      "descriptionLong": "Tooltip on notification bell with badge count. Built by composing Badge, Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-5 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -130,6 +135,7 @@
         "tooltip"
       ],
       "description": "Tooltip with status badge",
+      "descriptionLong": "Tooltip with status badge. Built by composing Badge, Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-6 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -155,6 +161,7 @@
         "tooltip"
       ],
       "description": "Tooltip with icon and description",
+      "descriptionLong": "Tooltip with icon and description. Built by composing Badge, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "tooltip"
@@ -179,6 +186,7 @@
         "tooltip"
       ],
       "description": "Toolbar with tooltip actions",
+      "descriptionLong": "Toolbar with tooltip actions. Built by composing Button, Separator, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "separator",
@@ -204,6 +212,7 @@
         "tooltip"
       ],
       "description": "Tooltip with warning badge",
+      "descriptionLong": "Tooltip with warning badge. Built by composing Badge, Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-9 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -229,6 +238,7 @@
         "tooltip"
       ],
       "description": "Tooltip with feature badge and upgrade link",
+      "descriptionLong": "Tooltip with feature badge and upgrade link. Built by composing Badge, Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -254,6 +264,7 @@
         "tooltip"
       ],
       "description": "Tooltip with avatar and role badge",
+      "descriptionLong": "Tooltip with avatar and role badge. Built by composing Avatar, Badge, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-11 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -279,6 +290,7 @@
         "tooltip"
       ],
       "description": "Tooltip on disabled button with wrapper",
+      "descriptionLong": "Tooltip on disabled button with wrapper. Built by composing Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "tooltip"
@@ -303,6 +315,7 @@
         "tooltip"
       ],
       "description": "Tooltip with online status indicator",
+      "descriptionLong": "Tooltip with online status indicator. Built by composing Avatar, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-13 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "tooltip"
@@ -327,6 +340,7 @@
         "tooltip"
       ],
       "description": "Tooltip with file info and badges",
+      "descriptionLong": "Tooltip with file info and badges. Built by composing Badge, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-14 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "tooltip"
@@ -351,6 +365,7 @@
         "tooltip"
       ],
       "description": "Tooltip with label badges",
+      "descriptionLong": "Tooltip with label badges. Built by composing Badge, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-15 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "tooltip"
@@ -375,6 +390,7 @@
         "tooltip"
       ],
       "description": "Tooltip with action button inside",
+      "descriptionLong": "Tooltip with action button inside. Built by composing Button, Tooltip. A free, open source shadcn tooltip example you can install with npx shadcn@latest add @reui/c-tooltip-16 and edit as your own code.",
       "registryDependencies": [
         "button",
         "tooltip"

@@ -13,8 +13,8 @@ import {
   AlertTitle,
 } from "@/registry-reui/bases/radix/reui/alert"
 import { Badge } from "@/registry-reui/bases/radix/reui/badge"
+import { cn } from "cn"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
   Table,
@@ -447,7 +447,7 @@ export default function Pattern({
                               </div>
                             </div>
                           ) : (
-                            <div className="not-[]:size-8 flex items-center justify-center">
+                            <div className="flex size-8 items-center justify-center">
                               {getFileIcon(fileItem.file)}
                             </div>
                           )}

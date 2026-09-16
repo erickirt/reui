@@ -98,9 +98,14 @@ const REUI_REGISTRY_NAMESPACE = "@reui"
 const REGISTRY_MANIFEST_NAME = "reui"
 const REGISTRY_MANIFEST_HOMEPAGE = "https://reui.io"
 const REQUIRED_REGISTRY_ITEMS = [
+  "cascader",
   "data-grid",
+  "data-grid-cell-selection",
   "data-grid-scroll-area",
   "data-grid-table-virtual",
+  "event-calendar",
+  "filters",
+  "gantt",
 ]
 // Keep these style alternations in sync with the STYLES list in registry/styles.tsx.
 const GENERATED_STYLE_PATTERN = "(?:vega|nova|maia|lyra|mira|luma|sera|rhea)"

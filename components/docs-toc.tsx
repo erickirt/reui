@@ -3,7 +3,7 @@
 import * as React from "react"
 import { IconMenu3 } from "@tabler/icons-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,

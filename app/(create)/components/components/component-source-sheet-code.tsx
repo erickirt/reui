@@ -4,7 +4,7 @@ import * as React from "react"
 
 import { loadComponentSourcePayloadFromApi } from "@/lib/component-source-client-loader"
 import type { ComponentSourcePayload } from "@/lib/component-source-request"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig } from "@/hooks/use-config"
 import { Spinner } from "@/components/ui/spinner"
 import { CopyButton } from "@/components/copy-button"

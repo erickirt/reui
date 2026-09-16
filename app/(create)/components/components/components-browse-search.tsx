@@ -8,7 +8,7 @@ import {
   hasActiveComponentSearch,
   normalizeComponentSearchQuery,
 } from "@/lib/component-search-filter"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 
 const SEARCH_DEBOUNCE_MS = 250

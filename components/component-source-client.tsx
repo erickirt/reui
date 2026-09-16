@@ -9,7 +9,7 @@ import {
   resolveRegistryOptions,
 } from "@/lib/docs-registry-options"
 import { transformIcons } from "@/lib/icons"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig } from "@/hooks/use-config"
 import { Spinner } from "@/components/ui/spinner"
 import { CodeCollapsibleWrapper } from "@/components/code-collapsible-wrapper"

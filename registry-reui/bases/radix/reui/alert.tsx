@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 const alertVariants = cva(
   [

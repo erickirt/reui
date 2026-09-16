@@ -3,7 +3,7 @@
 import { useId, useState } from "react"
 import { format } from "date-fns"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Calendar } from "@/registry/bases/radix/ui/calendar"
 import { Field, FieldGroup, FieldLabel } from "@/registry/bases/radix/ui/field"

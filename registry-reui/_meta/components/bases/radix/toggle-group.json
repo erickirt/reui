@@ -8,6 +8,7 @@
         "toggle-group"
       ],
       "description": "Basic toggle group.",
+      "descriptionLong": "Basic toggle group. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-1 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -31,6 +32,7 @@
         "toggle-group"
       ],
       "description": "Toggle group with outline variant.",
+      "descriptionLong": "Toggle group with outline variant. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-2 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -54,6 +56,7 @@
         "toggle-group"
       ],
       "description": "Toggle groups in different sizes.",
+      "descriptionLong": "Toggle groups in different sizes. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-3 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -77,6 +80,7 @@
         "toggle-group"
       ],
       "description": "Toggle group with custom spacing.",
+      "descriptionLong": "Toggle group with custom spacing. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-4 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -100,6 +104,7 @@
         "toggle-group"
       ],
       "description": "Toggle group with filter control.",
+      "descriptionLong": "Toggle group with filter control. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-5 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -123,6 +128,7 @@
         "toggle-group"
       ],
       "description": "Toggle group with vertical orientation.",
+      "descriptionLong": "Toggle group with vertical orientation. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-6 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -146,6 +152,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for text alignment",
+      "descriptionLong": "Toggle group for text alignment. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-7 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -169,6 +176,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for view mode switching",
+      "descriptionLong": "Toggle group for view mode switching. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-8 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -192,6 +200,7 @@
         "toggle-group"
       ],
       "description": "Vertical toggle group for settings",
+      "descriptionLong": "Vertical toggle group for settings. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-9 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -215,6 +224,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for color theme",
+      "descriptionLong": "Toggle group for color theme. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-10 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -238,6 +248,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for font size",
+      "descriptionLong": "Toggle group for font size. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-11 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -261,6 +272,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for time range filter",
+      "descriptionLong": "Toggle group for time range filter. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-12 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -284,6 +296,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for notification channels",
+      "descriptionLong": "Toggle group for notification channels. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-13 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -307,6 +320,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for layout columns",
+      "descriptionLong": "Toggle group for layout columns. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-14 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -330,6 +344,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for sort direction",
+      "descriptionLong": "Toggle group for sort direction. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-15 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],
@@ -353,6 +368,7 @@
         "toggle-group"
       ],
       "description": "Toggle group for pricing tier",
+      "descriptionLong": "Toggle group for pricing tier. Built with the Toggle Group component. A free, open source shadcn toggle group example you can install with npx shadcn@latest add @reui/c-toggle-group-16 and edit as your own code.",
       "registryDependencies": [
         "toggle-group"
       ],

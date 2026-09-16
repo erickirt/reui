@@ -8,7 +8,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -52,7 +53,8 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -70,7 +72,8 @@ export const reui: Registry["items"] = [
     "registryDependencies": [],
     "dependencies": [
       "@base-ui/react",
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -128,7 +131,8 @@ export const reui: Registry["items"] = [
       "scroll-area"
     ],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -160,7 +164,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -194,7 +199,8 @@ export const reui: Registry["items"] = [
       "spinner"
     ],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -226,7 +232,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -279,7 +286,8 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
-      "@tanstack/react-virtual"
+      "@tanstack/react-virtual",
+      "cn"
     ],
     "files": [
       {
@@ -365,6 +373,7 @@ export const reui: Registry["items"] = [
       "button"
     ],
     "dependencies": [
+      "cn",
       "shiki"
     ],
     "files": [
@@ -413,7 +422,8 @@ export const reui: Registry["items"] = [
       "button"
     ],
     "dependencies": [
-      "@tanstack/react-table"
+      "@tanstack/react-table",
+      "cn"
     ],
     "files": [
       {
@@ -436,7 +446,8 @@ export const reui: Registry["items"] = [
       "separator"
     ],
     "dependencies": [
-      "@tanstack/react-table"
+      "@tanstack/react-table",
+      "cn"
     ],
     "files": [
       {
@@ -456,7 +467,8 @@ export const reui: Registry["items"] = [
       "dropdown-menu"
     ],
     "dependencies": [
-      "@tanstack/react-table"
+      "@tanstack/react-table",
+      "cn"
     ],
     "files": [
       {
@@ -510,7 +522,9 @@ export const reui: Registry["items"] = [
       "select",
       "skeleton"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/data-grid/data-grid-pagination.tsx",
@@ -526,7 +540,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -549,7 +564,8 @@ export const reui: Registry["items"] = [
       "@dnd-kit/modifiers",
       "@dnd-kit/sortable",
       "@dnd-kit/utilities",
-      "@tanstack/react-table"
+      "@tanstack/react-table",
+      "cn"
     ],
     "files": [
       {
@@ -591,7 +607,8 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@tanstack/react-table",
-      "@tanstack/react-virtual"
+      "@tanstack/react-virtual",
+      "cn"
     ],
     "files": [
       {
@@ -612,7 +629,8 @@ export const reui: Registry["items"] = [
       "spinner"
     ],
     "dependencies": [
-      "@tanstack/react-table"
+      "@tanstack/react-table",
+      "cn"
     ],
     "files": [
       {
@@ -646,7 +664,8 @@ export const reui: Registry["items"] = [
       "@dnd-kit/sortable",
       "@dnd-kit/utilities",
       "@tanstack/react-table",
-      "@tanstack/react-virtual"
+      "@tanstack/react-virtual",
+      "cn"
     ],
     "files": [
       {
@@ -725,6 +744,7 @@ export const reui: Registry["items"] = [
       "use-mobile"
     ],
     "dependencies": [
+      "cn",
       "date-fns",
       "react-day-picker"
     ],
@@ -747,6 +767,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -764,7 +785,8 @@ export const reui: Registry["items"] = [
     "description": "Active-view switchboard rendering month, week, day, N-days, or agenda; swappable per view via the components prop.",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -801,6 +823,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -857,6 +880,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -881,6 +905,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -919,6 +944,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -939,6 +965,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -981,6 +1008,7 @@ export const reui: Registry["items"] = [
     "dependencies": [
       "@base-ui/react",
       "@date-fns/tz",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -1063,7 +1091,9 @@ export const reui: Registry["items"] = [
       "popover",
       "tooltip"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/filters/filters-advanced.tsx",
@@ -1082,7 +1112,9 @@ export const reui: Registry["items"] = [
       "cascader",
       "popover"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/filters/filters-builder.tsx",
@@ -1103,7 +1135,9 @@ export const reui: Registry["items"] = [
       "popover",
       "tooltip"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/filters/filters-chip.tsx",
@@ -1185,7 +1219,9 @@ export const reui: Registry["items"] = [
       "cascader",
       "input"
     ],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/filters/filters-editors.tsx",
@@ -1287,6 +1323,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "class-variance-authority",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -1369,7 +1406,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -1389,7 +1427,8 @@ export const reui: Registry["items"] = [
       "tooltip"
     ],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -1465,6 +1504,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -1522,6 +1562,7 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -1550,6 +1591,7 @@ export const reui: Registry["items"] = [
     "dependencies": [
       "@base-ui/react",
       "@date-fns/tz",
+      "cn",
       "date-fns"
     ],
     "files": [
@@ -1606,7 +1648,9 @@ export const reui: Registry["items"] = [
     "title": "Layered icon illustration container",
     "description": "Layered icon illustration container",
     "registryDependencies": [],
-    "dependencies": [],
+    "dependencies": [
+      "cn"
+    ],
     "files": [
       {
         "path": "reui/icon-stack.tsx",
@@ -1623,7 +1667,8 @@ export const reui: Registry["items"] = [
     "registryDependencies": [],
     "dependencies": [
       "@base-ui/react",
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -1643,7 +1688,8 @@ export const reui: Registry["items"] = [
       "@base-ui/react",
       "@dnd-kit/core",
       "@dnd-kit/sortable",
-      "@dnd-kit/utilities"
+      "@dnd-kit/utilities",
+      "cn"
     ],
     "files": [
       {
@@ -1663,7 +1709,8 @@ export const reui: Registry["items"] = [
     ],
     "dependencies": [
       "@base-ui/react",
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -1685,6 +1732,7 @@ export const reui: Registry["items"] = [
       "scroll-area"
     ],
     "dependencies": [
+      "cn",
       "react-phone-number-input"
     ],
     "files": [
@@ -1702,7 +1750,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "class-variance-authority"
+      "class-variance-authority",
+      "cn"
     ],
     "files": [
       {
@@ -1737,7 +1786,8 @@ export const reui: Registry["items"] = [
       "@base-ui/react",
       "@dnd-kit/core",
       "@dnd-kit/sortable",
-      "@dnd-kit/utilities"
+      "@dnd-kit/utilities",
+      "cn"
     ],
     "files": [
       {
@@ -1754,7 +1804,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -1771,7 +1822,8 @@ export const reui: Registry["items"] = [
     "description": "",
     "registryDependencies": [],
     "dependencies": [
-      "@base-ui/react"
+      "@base-ui/react",
+      "cn"
     ],
     "files": [
       {
@@ -1789,7 +1841,8 @@ export const reui: Registry["items"] = [
     "registryDependencies": [],
     "dependencies": [
       "@base-ui/react",
-      "@headless-tree/core"
+      "@headless-tree/core",
+      "cn"
     ],
     "files": [
       {

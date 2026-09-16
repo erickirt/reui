@@ -8,6 +8,7 @@
         "checkbox"
       ],
       "description": "Basic checkbox with label",
+      "descriptionLong": "Basic checkbox with label. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-1 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -32,6 +33,7 @@
         "checkbox"
       ],
       "description": "Disabled checkbox",
+      "descriptionLong": "Disabled checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-2 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -56,6 +58,7 @@
         "checkbox"
       ],
       "description": "Invalid checkbox",
+      "descriptionLong": "Invalid checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-3 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -80,6 +83,7 @@
         "checkbox"
       ],
       "description": "Indeterminate checkbox",
+      "descriptionLong": "Indeterminate checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-4 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -104,6 +108,7 @@
         "checkbox"
       ],
       "description": "Checkbox with label and description",
+      "descriptionLong": "Checkbox with label and description. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-5 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -128,6 +133,7 @@
         "checkbox"
       ],
       "description": "Colored checkbox",
+      "descriptionLong": "Colored checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-6 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -152,6 +158,7 @@
         "checkbox"
       ],
       "description": "Circle checkbox",
+      "descriptionLong": "Circle checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-7 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -176,6 +183,7 @@
         "checkbox"
       ],
       "description": "Checkbox group",
+      "descriptionLong": "Checkbox group. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-8 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -200,6 +208,7 @@
         "checkbox"
       ],
       "description": "Card checkbox with group",
+      "descriptionLong": "Card checkbox with group. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-9 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -224,6 +233,7 @@
         "checkbox"
       ],
       "description": "Checkbox group in a frame",
+      "descriptionLong": "Checkbox group in a frame. Built by composing Checkbox, Field, Frame, Separator. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-10 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -250,6 +260,7 @@
         "checkbox"
       ],
       "description": "Card checkbox group with icons",
+      "descriptionLong": "Card checkbox group with icons. Built by composing Card, Checkbox, Field, Separator. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-11 and edit as your own code.",
       "registryDependencies": [
         "card",
         "checkbox",
@@ -276,6 +287,7 @@
         "checkbox"
       ],
       "description": "Card checkbox group with icons",
+      "descriptionLong": "Card checkbox group with icons. Built by composing Card, Checkbox, Field, Separator. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-12 and edit as your own code.",
       "registryDependencies": [
         "card",
         "checkbox",
@@ -302,6 +314,7 @@
         "checkbox"
       ],
       "description": "Custom positioned checkbox",
+      "descriptionLong": "Custom positioned checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-13 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -326,6 +339,7 @@
         "checkbox"
       ],
       "description": "Custom positioned checkbox",
+      "descriptionLong": "Custom positioned checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-14 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -350,6 +364,7 @@
         "checkbox"
       ],
       "description": "Avatar based card checkbox",
+      "descriptionLong": "Avatar based card checkbox. Built by composing Avatar, Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "checkbox",
@@ -375,6 +390,7 @@
         "checkbox"
       ],
       "description": "Nested checkbox group",
+      "descriptionLong": "Nested checkbox group. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-16 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -399,6 +415,7 @@
         "checkbox"
       ],
       "description": "Payment method card checkbox",
+      "descriptionLong": "Payment method card checkbox. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-17 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -423,6 +440,7 @@
         "checkbox"
       ],
       "description": "Checkbox with label and tooltip info",
+      "descriptionLong": "Checkbox with label and tooltip info. Built by composing Checkbox, Field, Tooltip. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-18 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -448,6 +466,7 @@
         "checkbox"
       ],
       "description": "Checkbox group with badge",
+      "descriptionLong": "Checkbox group with badge. Built by composing Badge, Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-19 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "checkbox",
@@ -473,6 +492,7 @@
         "checkbox"
       ],
       "description": "Checkbox with label and tooltip info",
+      "descriptionLong": "Checkbox with label and tooltip info. Built by composing Checkbox, Field, Tooltip. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-20 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -498,6 +518,7 @@
         "checkbox"
       ],
       "description": "Inline horizontal checkbox group",
+      "descriptionLong": "Inline horizontal checkbox group. Built by composing Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-21 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -522,6 +543,7 @@
         "checkbox"
       ],
       "description": "Checkbox with feature badge",
+      "descriptionLong": "Checkbox with feature badge. Built by composing Badge, Checkbox, Field. A free, open source shadcn checkbox example you can install with npx shadcn@latest add @reui/c-checkbox-22 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "checkbox",

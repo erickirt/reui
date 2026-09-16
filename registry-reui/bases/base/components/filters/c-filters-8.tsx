@@ -13,7 +13,7 @@ import type {
   FilterQuery,
 } from "@/registry-reui/bases/base/reui/filters/filters-types"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Checkbox } from "@/registry/bases/base/ui/checkbox"
 import { Label } from "@/registry/bases/base/ui/label"

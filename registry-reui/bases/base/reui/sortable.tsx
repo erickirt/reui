@@ -49,7 +49,7 @@ import {
 import { CSS } from "@dnd-kit/utilities"
 import { createPortal } from "react-dom"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 
 // Sortable Item Context
 const SortableItemContext = createContext<{

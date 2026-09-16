@@ -8,6 +8,7 @@
         "icon-tile"
       ],
       "description": "Default icon tile",
+      "descriptionLong": "Default icon tile. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-1 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -32,6 +33,7 @@
         "icon-tile"
       ],
       "description": "Icon tile with elevated surface",
+      "descriptionLong": "Elevated icon tile. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-2 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -56,6 +58,7 @@
         "icon-tile"
       ],
       "description": "Icon tile with framed surface",
+      "descriptionLong": "Framed icon tile. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-3 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -80,6 +83,7 @@
         "icon-tile"
       ],
       "description": "Every icon tile variant",
+      "descriptionLong": "All variants. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-4 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -104,6 +108,7 @@
         "icon-tile"
       ],
       "description": "Icon tile size scale",
+      "descriptionLong": "Sizes. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-5 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -128,6 +133,7 @@
         "icon-tile"
       ],
       "description": "Icon tiles with circular shape",
+      "descriptionLong": "Circular tiles. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-6 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -152,6 +158,7 @@
         "icon-tile"
       ],
       "description": "Icon tile with custom sizing",
+      "descriptionLong": "Custom sizing. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-7 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -176,6 +183,7 @@
         "icon-tile"
       ],
       "description": "Semantic icon tile color tones",
+      "descriptionLong": "Color tones. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-8 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -200,6 +208,7 @@
         "icon-tile"
       ],
       "description": "Icon tile with text content",
+      "descriptionLong": "Text content. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-9 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -224,6 +233,7 @@
         "icon-tile"
       ],
       "description": "Icon tile in a list row",
+      "descriptionLong": "List row. Built by composing Icon Tile, Item. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-10 and edit as your own code.",
       "registryDependencies": [
         "icon-tile",
         "item"
@@ -249,6 +259,7 @@
         "icon-tile"
       ],
       "description": "Icon tile in a feature card",
+      "descriptionLong": "Feature card. Built by composing Frame, Icon Tile. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-11 and edit as your own code.",
       "registryDependencies": [
         "frame",
         "icon-tile"
@@ -274,6 +285,7 @@
         "icon-tile"
       ],
       "description": "Icon tile in an empty state",
+      "descriptionLong": "Empty state. Built by composing Empty, Icon Tile. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-12 and edit as your own code.",
       "registryDependencies": [
         "empty",
         "icon-tile"
@@ -299,6 +311,7 @@
         "icon-tile"
       ],
       "description": "Interactive icon tile",
+      "descriptionLong": "Interactive tile. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-13 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -323,6 +336,7 @@
         "icon-tile"
       ],
       "description": "Icon tile with status overlay",
+      "descriptionLong": "Status overlay. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-14 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -347,6 +361,7 @@
         "icon-tile"
       ],
       "description": "Tone-adjustable soft variant",
+      "descriptionLong": "Soft tones. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-15 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -371,6 +386,7 @@
         "icon-tile"
       ],
       "description": "Tone-adjustable solid variant",
+      "descriptionLong": "Solid tones. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-16 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],
@@ -395,6 +411,7 @@
         "icon-tile"
       ],
       "description": "Elevated tile with a Tailwind color fill",
+      "descriptionLong": "Brand colors. Built with the Icon Tile component. A free, open source shadcn icon tile example you can install with npx shadcn@latest add @reui/c-icon-tile-17 and edit as your own code.",
       "registryDependencies": [
         "icon-tile"
       ],

@@ -8,6 +8,7 @@
         "separator"
       ],
       "description": "Horizontal separator for content sections.",
+      "descriptionLong": "Horizontal separator for content sections. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-1 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],
@@ -31,6 +32,7 @@
         "separator"
       ],
       "description": "Vertical separator for inline elements.",
+      "descriptionLong": "Vertical separator for inline elements. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-2 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],
@@ -54,6 +56,7 @@
         "separator"
       ],
       "description": "Vertical separator groups related menu items.",
+      "descriptionLong": "Vertical separator groups related menu items. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-3 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],
@@ -77,6 +80,7 @@
         "separator"
       ],
       "description": "Horizontal separator between items in a list.",
+      "descriptionLong": "Horizontal separator between items in a list. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-4 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],
@@ -100,6 +104,7 @@
         "separator"
       ],
       "description": "Separator with centered text label",
+      "descriptionLong": "Separator with centered text label. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-5 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],
@@ -123,6 +128,7 @@
         "separator"
       ],
       "description": "Order summary with separators",
+      "descriptionLong": "Order summary with separators. Built with the Separator component. A free, open source shadcn separator example you can install with npx shadcn@latest add @reui/c-separator-6 and edit as your own code.",
       "registryDependencies": [
         "separator"
       ],

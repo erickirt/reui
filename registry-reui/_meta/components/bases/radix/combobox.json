@@ -8,6 +8,7 @@
         "combobox"
       ],
       "description": "A basic combobox with a list of options",
+      "descriptionLong": "A basic combobox with a list of options. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-1 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -32,6 +33,7 @@
         "combobox"
       ],
       "description": "A disabled combobox",
+      "descriptionLong": "A disabled combobox. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-2 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -56,6 +58,7 @@
         "combobox"
       ],
       "description": "A combobox in an invalid state",
+      "descriptionLong": "A combobox in an invalid state. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-3 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -80,6 +83,7 @@
         "combobox"
       ],
       "description": "A combobox with a clear button",
+      "descriptionLong": "A combobox with a clear button. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-4 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -104,6 +108,7 @@
         "combobox"
       ],
       "description": "A combobox with auto-highlight enabled",
+      "descriptionLong": "A combobox with auto-highlight enabled. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-5 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -128,6 +133,7 @@
         "combobox"
       ],
       "description": "A combobox with grouped options",
+      "descriptionLong": "A combobox with grouped options. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-6 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -152,6 +158,7 @@
         "combobox"
       ],
       "description": "A combobox with grouped options and separators",
+      "descriptionLong": "A combobox with grouped options and separators. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-7 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -176,6 +183,7 @@
         "combobox"
       ],
       "description": "A combobox with a large list of options",
+      "descriptionLong": "A combobox with a large list of options. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-8 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -200,6 +208,7 @@
         "combobox"
       ],
       "description": "A combobox with an icon addon",
+      "descriptionLong": "A combobox with an icon addon. Built by composing Combobox, Field, Input Group. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-9 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field",
@@ -225,6 +234,7 @@
         "combobox"
       ],
       "description": "A combobox rendered inside a popup",
+      "descriptionLong": "A combobox rendered inside a popup. Built by composing Button, Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
@@ -250,6 +260,7 @@
         "combobox"
       ],
       "description": "A combobox used within a form",
+      "descriptionLong": "A combobox used within a form. Built by composing Button, Combobox, Field. Uses sonner alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
@@ -277,6 +288,7 @@
         "combobox"
       ],
       "description": "A multi-select combobox",
+      "descriptionLong": "A multi-select combobox. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-12 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -301,6 +313,7 @@
         "combobox"
       ],
       "description": "A disabled multi-select combobox",
+      "descriptionLong": "A disabled multi-select combobox. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-13 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -325,6 +338,7 @@
         "combobox"
       ],
       "description": "A multi-select combobox in an invalid state",
+      "descriptionLong": "A multi-select combobox in an invalid state. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-14 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -349,6 +363,7 @@
         "combobox"
       ],
       "description": "A multi-select with chips that cannot be removed",
+      "descriptionLong": "A multi-select with chips that cannot be removed. Built by composing Combobox, Field. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-15 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -373,6 +388,7 @@
         "combobox"
       ],
       "description": "A combobox with custom item rendering",
+      "descriptionLong": "A combobox with custom item rendering. Built by composing Avatar, Button, Combobox, Field, Item. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-16 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -400,6 +416,7 @@
         "combobox"
       ],
       "description": "A combobox used within a dialog",
+      "descriptionLong": "A combobox used within a dialog. Built by composing Button, Combobox, Dialog, Field. Uses sonner alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-17 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
@@ -428,6 +445,7 @@
         "combobox"
       ],
       "description": "A combobox with a custom trigger icon",
+      "descriptionLong": "A combobox with a custom trigger icon. Built by composing Combobox, Field. Uses @base-ui/react alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-18 and edit as your own code.",
       "registryDependencies": [
         "combobox",
         "field"
@@ -454,6 +472,7 @@
         "combobox"
       ],
       "description": "A multi-select combobox with user tags",
+      "descriptionLong": "A multi-select combobox with user tags. Built by composing Avatar, Combobox, Field, Item. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-19 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "combobox",
@@ -480,6 +499,7 @@
         "combobox"
       ],
       "description": "Invisible combobox with member tags",
+      "descriptionLong": "Invisible combobox with member tags. Built by composing Avatar, Combobox, Field, Item. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-20 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "combobox",
@@ -506,12 +526,15 @@
         "combobox"
       ],
       "description": "A status change combobox",
+      "descriptionLong": "A status change combobox. Built by composing Button, Combobox, Field. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-21 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
         "field"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-21.tsx",
@@ -531,12 +554,15 @@
         "combobox"
       ],
       "description": "A priority change combobox",
+      "descriptionLong": "A priority change combobox. Built by composing Button, Combobox, Field. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-22 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
         "field"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-22.tsx",
@@ -556,6 +582,7 @@
         "combobox"
       ],
       "description": "A lead selection combobox",
+      "descriptionLong": "A lead selection combobox. Built by composing Avatar, Button, Combobox, Field, Item. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-23 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -563,7 +590,9 @@
         "field",
         "item"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-23.tsx",
@@ -583,6 +612,7 @@
         "combobox"
       ],
       "description": "A multi-member selection combobox",
+      "descriptionLong": "A multi-member selection combobox. Built by composing Avatar, Button, Combobox, Field, Item. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-24 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -590,7 +620,9 @@
         "field",
         "item"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-24.tsx",
@@ -610,6 +642,7 @@
         "combobox"
       ],
       "description": "A date selection combobox with an optional custom picker dialog",
+      "descriptionLong": "A date selection combobox with an optional custom picker dialog. Built by composing Button, Calendar, Combobox, Dialog, Field. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-25 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -618,6 +651,7 @@
         "field"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [
@@ -639,12 +673,15 @@
         "combobox"
       ],
       "description": "A multi-label selection combobox with a no-label mode",
+      "descriptionLong": "A multi-label selection combobox with a no-label mode. Built by composing Button, Combobox, Field. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-26 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
         "field"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-26.tsx",
@@ -664,12 +701,15 @@
         "combobox"
       ],
       "description": "A team selection combobox",
+      "descriptionLong": "A team selection combobox. Built by composing Button, Combobox, Field. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-27 and edit as your own code.",
       "registryDependencies": [
         "button",
         "combobox",
         "field"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-27.tsx",
@@ -689,6 +729,7 @@
         "combobox"
       ],
       "description": "An assignee selection combobox",
+      "descriptionLong": "An assignee selection combobox. Built by composing Avatar, Button, Combobox, Field, Item. Uses cn alongside the shadcn primitives. A free, open source shadcn combobox example you can install with npx shadcn@latest add @reui/c-combobox-28 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -696,7 +737,9 @@
         "field",
         "item"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/combobox/c-combobox-28.tsx",

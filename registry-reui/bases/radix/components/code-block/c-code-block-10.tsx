@@ -10,7 +10,7 @@ import {
   useCodeBlockConfig,
 } from "@/registry-reui/bases/radix/reui/code-block/code-block"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { ScrollArea, ScrollBar } from "@/registry/bases/radix/ui/scroll-area"
 
 /**

@@ -8,6 +8,7 @@
         "dialog"
       ],
       "description": "Basic dialog",
+      "descriptionLong": "Basic dialog. Built by composing Button, Dialog, Field, Input. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -34,6 +35,7 @@
         "dialog"
       ],
       "description": "Dialog with scrollable content",
+      "descriptionLong": "Dialog with scrollable content. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"
@@ -58,6 +60,7 @@
         "dialog"
       ],
       "description": "Dialog with scrollable content and sticky footer.",
+      "descriptionLong": "Dialog with scrollable content and sticky footer. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"
@@ -82,6 +85,7 @@
         "dialog"
       ],
       "description": "Dialog without a close button.",
+      "descriptionLong": "Dialog without a close button. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"
@@ -106,13 +110,16 @@
         "dialog"
       ],
       "description": "Dialog with custom close button",
+      "descriptionLong": "Dialog with custom close button. Built by composing Button, Dialog, Field, Input. Uses cn alongside the shadcn primitives. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
         "field",
         "input"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/dialog/c-dialog-5.tsx",
@@ -132,6 +139,7 @@
         "dialog"
       ],
       "description": "Full-screen fluid dialog with sticky header and footer",
+      "descriptionLong": "Full-screen fluid dialog with sticky header and footer. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"
@@ -156,6 +164,7 @@
         "dialog"
       ],
       "description": "Confirmation dialog with destructive action",
+      "descriptionLong": "Confirmation dialog with destructive action. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"
@@ -180,6 +189,7 @@
         "dialog"
       ],
       "description": "Cookie consent dialog",
+      "descriptionLong": "Cookie consent dialog. Built by composing Button, Dialog, Label, Switch. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -206,6 +216,7 @@
         "dialog"
       ],
       "description": "Dialog with keyboard shortcuts list",
+      "descriptionLong": "Dialog with keyboard shortcuts list. Built by composing Button, Dialog, Kbd. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-9 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -231,6 +242,7 @@
         "dialog"
       ],
       "description": "Dialog with full width button",
+      "descriptionLong": "Dialog with full width button. Built by composing Button, Dialog. A free, open source shadcn dialog example you can install with npx shadcn@latest add @reui/c-dialog-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog"

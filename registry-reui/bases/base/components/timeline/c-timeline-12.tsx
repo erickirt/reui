@@ -10,7 +10,7 @@ import {
   TimelineTitle,
 } from "@/registry-reui/bases/base/reui/timeline"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 const releases = [

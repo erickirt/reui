@@ -12,7 +12,7 @@ import {
   startOfDay,
 } from "date-fns"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Calendar } from "@/registry/bases/base/ui/calendar"
 import {

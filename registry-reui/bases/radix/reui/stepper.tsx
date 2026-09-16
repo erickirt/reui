@@ -16,7 +16,7 @@ import {
 } from "react"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 // Types
 type StepperOrientation = "horizontal" | "vertical"

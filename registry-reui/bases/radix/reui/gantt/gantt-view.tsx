@@ -71,7 +71,7 @@ import {
 } from "date-fns"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Checkbox } from "@/registry/bases/radix/ui/checkbox"
 import {

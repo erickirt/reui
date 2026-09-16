@@ -26,7 +26,7 @@ import {
 } from "next/font/google"
 
 import { FONT_DEFINITIONS, type FontName } from "@/lib/font-definitions"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 
 type PreviewFont = ReturnType<typeof Inter>
 

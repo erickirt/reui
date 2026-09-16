@@ -8,6 +8,7 @@
         "field"
       ],
       "description": "Fields with input groups",
+      "descriptionLong": "Fields with input groups. Built by composing Field, Input, Input Group. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -33,6 +34,7 @@
         "field"
       ],
       "description": "Field with input and textarea",
+      "descriptionLong": "Field with input and textarea. Built by composing Field, Input, Textarea. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-2 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input",
@@ -58,6 +60,7 @@
         "field"
       ],
       "description": "Field with select control",
+      "descriptionLong": "Field with select control. Built by composing Field, Select. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "select"
@@ -82,6 +85,7 @@
         "field"
       ],
       "description": "Field with radio groups and checkboxes",
+      "descriptionLong": "Field with radio groups and checkboxes. Built by composing Checkbox, Field, Radio Group. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-4 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -107,6 +111,7 @@
         "field"
       ],
       "description": "Filed with slider and switch",
+      "descriptionLong": "Filed with slider and switch. Built by composing Field, Slider, Switch. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "slider",
@@ -132,6 +137,7 @@
         "field"
       ],
       "description": "Field with OTP input",
+      "descriptionLong": "Field with OTP input. Built by composing Field, Input Otp, Native Select. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-otp",
@@ -157,6 +163,7 @@
         "field"
       ],
       "description": "Settings form with validation",
+      "descriptionLong": "Settings form with validation. Built by composing Button, Checkbox, Field, Input, Switch and 1 more. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "checkbox",
@@ -185,6 +192,7 @@
         "field"
       ],
       "description": "Permission settings with checkboxes",
+      "descriptionLong": "Permission settings with checkboxes. Built by composing Checkbox, Field. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-8 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field"
@@ -209,6 +217,7 @@
         "field"
       ],
       "description": "Responsive field layout",
+      "descriptionLong": "Responsive field layout. Built by composing Button, Field, Input, Select. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-9 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -235,6 +244,7 @@
         "field"
       ],
       "description": "Notification preferences form",
+      "descriptionLong": "Notification preferences form. Built by composing Checkbox, Field, Switch. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-10 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -260,6 +270,7 @@
         "field"
       ],
       "description": "Form with validation errors",
+      "descriptionLong": "Form with validation errors. Built by composing Button, Field, Input, Input Group. A free, open source shadcn field example you can install with npx shadcn@latest add @reui/c-field-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",

@@ -2,7 +2,7 @@
 
 import { useId, useState } from "react"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Field, FieldLabel } from "@/registry/bases/radix/ui/field"
 import { Input } from "@/registry/bases/radix/ui/input"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"

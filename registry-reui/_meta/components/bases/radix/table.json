@@ -8,6 +8,7 @@
         "table"
       ],
       "description": "Basic table.",
+      "descriptionLong": "Basic table. Built with the Table component. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-1 and edit as your own code.",
       "registryDependencies": [
         "table"
       ],
@@ -31,6 +32,7 @@
         "table"
       ],
       "description": "Table with footer.",
+      "descriptionLong": "Table with footer. Built with the Table component. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-2 and edit as your own code.",
       "registryDependencies": [
         "table"
       ],
@@ -54,6 +56,7 @@
         "table"
       ],
       "description": "Table in card with status badges.",
+      "descriptionLong": "Table in card with status badges. Built by composing Card, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-3 and edit as your own code.",
       "registryDependencies": [
         "card",
         "table"
@@ -78,6 +81,7 @@
         "table"
       ],
       "description": "Table card with actions column.",
+      "descriptionLong": "Table card with actions column. Built by composing Button, Card, Dropdown Menu, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -104,6 +108,7 @@
         "table"
       ],
       "description": "Table with interactive elements.",
+      "descriptionLong": "Table with interactive elements. Built by composing Card, Input, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-5 and edit as your own code.",
       "registryDependencies": [
         "card",
         "input",
@@ -129,6 +134,7 @@
         "table"
       ],
       "description": "Team members table with avatars, roles, and status",
+      "descriptionLong": "Team members table with avatars, roles, and status. Built by composing Avatar, Badge, Frame, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-6 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -155,6 +161,7 @@
         "table"
       ],
       "description": "Orders table with customer info and payment status",
+      "descriptionLong": "Orders table with customer info and payment status. Built by composing Avatar, Badge, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-7 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -181,6 +188,7 @@
         "table"
       ],
       "description": "Projects table with team avatars and status",
+      "descriptionLong": "Projects table with team avatars and status. Built by composing Avatar, Badge, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-8 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -207,6 +215,7 @@
         "table"
       ],
       "description": "Activity log table with user avatars and timestamps",
+      "descriptionLong": "Activity log table with user avatars and timestamps. Built by composing Avatar, Badge, Frame, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-9 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -234,6 +243,7 @@
         "table"
       ],
       "description": "Subscriptions table with plan badges and billing info",
+      "descriptionLong": "Subscriptions table with plan badges and billing info. Built by composing Badge, Button, Frame, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -261,6 +271,7 @@
         "table"
       ],
       "description": "Product inventory table with stock badges and prices",
+      "descriptionLong": "Product inventory table with stock badges and prices. Built by composing Badge, Button, Dropdown Menu, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-11 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -288,6 +299,7 @@
         "table"
       ],
       "description": "API keys table with permission badges and actions",
+      "descriptionLong": "API keys table with permission badges and actions. Built by composing Badge, Button, Card, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-12 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -315,6 +327,7 @@
         "table"
       ],
       "description": "File manager table with owners and sharing badges",
+      "descriptionLong": "File manager table with owners and sharing badges. Built by composing Avatar, Badge, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-13 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -341,6 +354,7 @@
         "table"
       ],
       "description": "Issues table with priority, assignee, and labels",
+      "descriptionLong": "Issues table with priority, assignee, and labels. Built by composing Avatar, Badge, Card, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-14 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -368,6 +382,7 @@
         "table"
       ],
       "description": "Leaderboard table with rank, score, and level badges",
+      "descriptionLong": "Leaderboard table with rank, score, and level badges. Built by composing Avatar, Badge, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -394,6 +409,7 @@
         "table"
       ],
       "description": "Vertical table with employee profile details",
+      "descriptionLong": "Vertical table with employee profile details. Built by composing Avatar, Badge, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-16 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -420,6 +436,7 @@
         "table"
       ],
       "description": "Vertical table with server configuration details",
+      "descriptionLong": "Vertical table with server configuration details. Built by composing Badge, Frame, Table. A free, open source shadcn table example you can install with npx shadcn@latest add @reui/c-table-17 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "frame",

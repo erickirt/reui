@@ -8,6 +8,7 @@
         "calendar"
       ],
       "description": "Basic calendar",
+      "descriptionLong": "Basic calendar. Built by composing Calendar, Card. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-1 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -32,6 +33,7 @@
         "calendar"
       ],
       "description": "Range calendar",
+      "descriptionLong": "Range calendar. Built by composing Calendar, Card. Uses date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-2 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -59,6 +61,7 @@
         "calendar"
       ],
       "description": "Disabled dates",
+      "descriptionLong": "Disabled dates. Built by composing Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-3 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -85,6 +88,7 @@
         "calendar"
       ],
       "description": "Multiple day selection",
+      "descriptionLong": "Multiple day selection. Built by composing Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-4 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -111,6 +115,7 @@
         "calendar"
       ],
       "description": "Custom select day style",
+      "descriptionLong": "Custom select day style. Built by composing Calendar, Card. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-5 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -135,6 +140,7 @@
         "calendar"
       ],
       "description": "Custom select range style",
+      "descriptionLong": "Custom select range style. Built by composing Calendar, Card. Uses date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-6 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -162,6 +168,7 @@
         "calendar"
       ],
       "description": "Right navigation",
+      "descriptionLong": "Right navigation. Built by composing Calendar, Card. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-7 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -186,6 +193,7 @@
         "calendar"
       ],
       "description": "Month and year selection",
+      "descriptionLong": "Month and year selection. Built by composing Calendar, Card, Select. Uses react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-8 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card",
@@ -213,6 +221,7 @@
         "calendar"
       ],
       "description": "Year select with navigation",
+      "descriptionLong": "Year select with navigation. Built by composing Calendar, Card, Select. Uses react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-9 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card",
@@ -240,6 +249,7 @@
         "calendar"
       ],
       "description": "Display week numbers",
+      "descriptionLong": "Display week numbers. Built by composing Calendar, Card. Uses react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-10 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -266,6 +276,7 @@
         "calendar"
       ],
       "description": "Current month button",
+      "descriptionLong": "Current month button. Built by composing Button, Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -293,6 +304,7 @@
         "calendar"
       ],
       "description": "Today button",
+      "descriptionLong": "Today button. Built by composing Button, Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -320,6 +332,7 @@
         "calendar"
       ],
       "description": "Custom navigation with year view",
+      "descriptionLong": "Custom navigation with year view. Built by composing Button, Calendar, Card, Scroll Area. Uses date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-13 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -349,6 +362,7 @@
         "calendar"
       ],
       "description": "Preset time selection",
+      "descriptionLong": "Preset time selection. Built by composing Button, Calendar, Card, Scroll Area. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-14 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -377,6 +391,7 @@
         "calendar"
       ],
       "description": "Calendar with presets",
+      "descriptionLong": "Calendar with presets. Built by composing Button, Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-15 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -404,6 +419,7 @@
         "calendar"
       ],
       "description": "Range calendar with presets",
+      "descriptionLong": "Range calendar with presets. Built by composing Button, Calendar, Card. Uses date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-16 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -432,6 +448,7 @@
         "calendar"
       ],
       "description": "Calendar with pricing",
+      "descriptionLong": "Calendar with pricing. Built with the Calendar component. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-17 and edit as your own code.",
       "registryDependencies": [
         "calendar"
       ],
@@ -455,6 +472,7 @@
         "calendar"
       ],
       "description": "Calendar with presets",
+      "descriptionLong": "Calendar with presets. Built by composing Button, Calendar, Card. Uses date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-18 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -482,6 +500,7 @@
         "calendar"
       ],
       "description": "Appointment calendar",
+      "descriptionLong": "Appointment calendar. Built by composing Button, Calendar, Card, Scroll Area. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-19 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -508,6 +527,7 @@
         "calendar"
       ],
       "description": "Display 2 months",
+      "descriptionLong": "Display 2 months. Built by composing Calendar, Card. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-20 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -532,6 +552,7 @@
         "calendar"
       ],
       "description": "Display 2 months with range picker",
+      "descriptionLong": "Display 2 months with range picker. Built by composing Calendar, Card. Uses react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-21 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card"
@@ -558,12 +579,14 @@
         "calendar"
       ],
       "description": "Calendar with event list",
+      "descriptionLong": "Calendar with event list. Built by composing Button, Calendar, Card. Uses cn, little-date alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-22 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
         "card"
       ],
       "dependencies": [
+        "cn",
         "little-date"
       ],
       "files": [
@@ -585,6 +608,7 @@
         "calendar"
       ],
       "description": "Localize calendar",
+      "descriptionLong": "Localize calendar. Built by composing Calendar, Card, Select. Uses react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-23 and edit as your own code.",
       "registryDependencies": [
         "calendar",
         "card",
@@ -612,12 +636,14 @@
         "calendar"
       ],
       "description": "Calendar with date picker",
+      "descriptionLong": "Calendar with date picker. Built by composing Button, Calendar, Popover. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-24 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
         "popover"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [
@@ -639,6 +665,7 @@
         "calendar"
       ],
       "description": "Calendar with date range picker",
+      "descriptionLong": "Calendar with date range picker. Built by composing Button, Calendar, Card, Popover. Uses cn, date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-25 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -646,6 +673,7 @@
         "popover"
       ],
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -668,6 +696,7 @@
         "calendar"
       ],
       "description": "Calendar with date picker and year view",
+      "descriptionLong": "Calendar with date picker and year view. Built by composing Button, Calendar, Card, Popover, Scroll Area. Uses cn, date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-26 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -676,6 +705,7 @@
         "scroll-area"
       ],
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -698,6 +728,7 @@
         "calendar"
       ],
       "description": "Calendar with date and appointment picker",
+      "descriptionLong": "Calendar with date and appointment picker. Built by composing Button, Calendar, Card, Popover, Scroll Area. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-27 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -706,6 +737,7 @@
         "scroll-area"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [
@@ -727,6 +759,7 @@
         "calendar"
       ],
       "description": "Calendar with date picker and presets",
+      "descriptionLong": "Calendar with date picker and presets. Built by composing Button, Calendar, Card, Popover. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-28 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -734,6 +767,7 @@
         "popover"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [
@@ -755,6 +789,7 @@
         "calendar"
       ],
       "description": "Range calendar with date picker and presets",
+      "descriptionLong": "Range calendar with date picker and presets. Built by composing Button, Calendar, Card, Popover. Uses cn, date-fns, react-day-picker alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-29 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -762,6 +797,7 @@
         "popover"
       ],
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -784,6 +820,7 @@
         "calendar"
       ],
       "description": "Calendar with date and time range picker",
+      "descriptionLong": "Calendar with date and time range picker. Built by composing Button, Calendar, Field, Input Group, Popover and 1 more. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn calendar example you can install with npx shadcn@latest add @reui/c-calendar-30 and edit as your own code.",
       "registryDependencies": [
         "button",
         "calendar",
@@ -793,6 +830,7 @@
         "separator"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [

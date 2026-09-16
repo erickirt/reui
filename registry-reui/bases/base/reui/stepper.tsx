@@ -17,7 +17,7 @@ import {
 import { mergeProps } from "@base-ui/react/merge-props"
 import { useRender } from "@base-ui/react/use-render"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 
 // Types
 type StepperOrientation = "horizontal" | "vertical"

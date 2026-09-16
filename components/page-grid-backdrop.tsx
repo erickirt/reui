@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 
 const GRID_TEXTURE =
   "bg-[linear-gradient(to_right,var(--color-site-border)_1px,transparent_1px),linear-gradient(to_bottom,var(--color-site-border)_1px,transparent_1px)] bg-[size:3px_3px]"

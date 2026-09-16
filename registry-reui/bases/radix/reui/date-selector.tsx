@@ -20,7 +20,7 @@ import {
 import type { DateRange, DayButton } from "react-day-picker"
 
 import { useIsMobile } from "@/registry/bases/radix/hooks/use-mobile"
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Calendar, CalendarDayButton } from "@/registry/bases/radix/ui/calendar"
 import { Input } from "@/registry/bases/radix/ui/input"

@@ -8,6 +8,7 @@
         "data-grid"
       ],
       "description": "Data grid with pagination",
+      "descriptionLong": "Data grid with pagination. Built by composing Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-1 and edit as your own code.",
       "registryDependencies": [
         "data-grid",
         "data-grid-pagination",
@@ -38,6 +39,7 @@
         "data-grid"
       ],
       "description": "Data grid with cell border",
+      "descriptionLong": "Data grid with cell border. Built by composing Avatar, Card, Data Grid, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-2 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "card",
@@ -70,6 +72,7 @@
         "data-grid"
       ],
       "description": "Data grid with dense layout",
+      "descriptionLong": "Data grid with dense layout. Built by composing Avatar, Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-3 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -101,6 +104,7 @@
         "data-grid"
       ],
       "description": "Data grid without table borders",
+      "descriptionLong": "Data grid without table borders. Built by composing Avatar, Badge, Data Grid, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @tanstack/react-table, cn alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-4 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -110,7 +114,8 @@
         "data-grid-table"
       ],
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "files": [
         {
@@ -133,6 +138,7 @@
         "data-grid"
       ],
       "description": "Data grid with striped rows",
+      "descriptionLong": "Data grid with striped rows. Built by composing Avatar, Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-5 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -164,6 +170,7 @@
         "data-grid"
       ],
       "description": "Data grid with auto width table layout",
+      "descriptionLong": "Data grid with auto width table layout. Built by composing Avatar, Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-6 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -195,6 +202,7 @@
         "data-grid"
       ],
       "description": "Data grid with row selection",
+      "descriptionLong": "Data grid with row selection. Built by composing Avatar, Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table. Uses @tanstack/react-table, cn alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-7 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -203,7 +211,8 @@
         "data-grid-table"
       ],
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "files": [
         {
@@ -226,6 +235,7 @@
         "data-grid"
       ],
       "description": "Data grid with expandable rows",
+      "descriptionLong": "Data grid with expandable rows. Built by composing Avatar, Badge, Button, Data Grid, Data Grid Pagination and 2 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-8 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -259,6 +269,7 @@
         "data-grid"
       ],
       "description": "Data grid with sub table",
+      "descriptionLong": "Data grid with sub table. Built by composing Avatar, Badge, Button, Card, Data Grid and 4 more. Uses @tanstack/react-table, class-variance-authority alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-9 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -295,6 +306,7 @@
         "data-grid"
       ],
       "description": "Data grid with column icons",
+      "descriptionLong": "Data grid with column icons. Built by composing Avatar, Data Grid, Data Grid Column Header, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-10 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -327,6 +339,7 @@
         "data-grid"
       ],
       "description": "Data grid with sortable columns",
+      "descriptionLong": "Data grid with sortable columns. Built by composing Avatar, Data Grid, Data Grid Column Header, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-11 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -359,6 +372,7 @@
         "data-grid"
       ],
       "description": "Data grid with movable columns",
+      "descriptionLong": "Data grid with movable columns. Built by composing Avatar, Badge, Data Grid, Data Grid Column Header, Data Grid Pagination and 2 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-12 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -392,6 +406,7 @@
         "data-grid"
       ],
       "description": "Data grid with draggable columns",
+      "descriptionLong": "Data grid with draggable columns. Built by composing Avatar, Badge, Data Grid, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @dnd-kit/core, @dnd-kit/sortable, @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-13 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -426,6 +441,7 @@
         "data-grid"
       ],
       "description": "Data grid with draggable rows",
+      "descriptionLong": "Data grid with draggable rows. Built by composing Avatar, Data Grid, Data Grid Pagination, Data Grid Scroll Area, Data Grid Table Dnd Rows. Uses @dnd-kit/core, @dnd-kit/sortable, @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-14 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "data-grid",
@@ -459,6 +475,7 @@
         "data-grid"
       ],
       "description": "Data grid with column resizing",
+      "descriptionLong": "Data grid with column resizing. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -493,6 +510,7 @@
         "data-grid"
       ],
       "description": "Data grid with pinnable columns",
+      "descriptionLong": "Data grid with pinnable columns. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-16 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -527,6 +545,7 @@
         "data-grid"
       ],
       "description": "Data grid with sticky header",
+      "descriptionLong": "Data grid with sticky header. Built by composing Avatar, Badge, Data Grid, Data Grid Pagination, Data Grid Scroll Area and 1 more. Uses @tanstack/react-table, cn alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-17 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -536,7 +555,8 @@
         "data-grid-table"
       ],
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "files": [
         {
@@ -559,6 +579,7 @@
         "data-grid"
       ],
       "description": "Data grid with column controls",
+      "descriptionLong": "Data grid with column controls. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-18 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -593,6 +614,7 @@
         "data-grid"
       ],
       "description": "Data grid with card container",
+      "descriptionLong": "Data grid with card container. Built by composing Avatar, Badge, Button, Card, Data Grid and 4 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-19 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -628,6 +650,7 @@
         "data-grid"
       ],
       "description": "Data grid with column visibility controls",
+      "descriptionLong": "Data grid with column visibility controls. Built by composing Avatar, Badge, Button, Card, Data Grid and 5 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-20 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -664,6 +687,7 @@
         "data-grid"
       ],
       "description": "Data grid with loading skeleton",
+      "descriptionLong": "Data grid with loading skeleton. Built by composing Avatar, Badge, Button, Card, Data Grid and 5 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-21 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -700,6 +724,7 @@
         "data-grid"
       ],
       "description": "Data grid with CRUD features",
+      "descriptionLong": "Data grid with CRUD features. Built by composing Avatar, Badge, Button, Card, Checkbox and 10 more. Uses @tanstack/react-table, sonner alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-22 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -742,6 +767,7 @@
         "data-grid"
       ],
       "description": "Data grid with CRUD in frame container",
+      "descriptionLong": "Data grid with CRUD in frame container. Built by composing Avatar, Badge, Button, Checkbox, Data Grid and 10 more. Uses @tanstack/react-table, sonner alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-23 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -784,6 +810,7 @@
         "data-grid"
       ],
       "description": "Data grid with column totals footer",
+      "descriptionLong": "Data grid with column totals footer. Built by composing Avatar, Badge, Button, Card, Data Grid and 7 more. Uses @tanstack/react-table, sonner alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-24 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -823,6 +850,7 @@
         "data-grid"
       ],
       "description": "Data grid with summary stats footer",
+      "descriptionLong": "Data grid with summary stats footer. Built by composing Avatar, Badge, Button, Card, Data Grid and 4 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-25 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -858,6 +886,7 @@
         "data-grid"
       ],
       "description": "Data grid with per-column aggregate footer",
+      "descriptionLong": "Data grid with per-column aggregate footer. Built by composing Avatar, Badge, Button, Card, Data Grid and 4 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-26 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -893,6 +922,7 @@
         "data-grid"
       ],
       "description": "Data grid with local infinite scroll",
+      "descriptionLong": "Data grid with local infinite scroll. Built by composing Avatar, Badge, Button, Card, Data Grid and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-27 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -927,6 +957,7 @@
         "data-grid"
       ],
       "description": "Data grid with remote infinite scroll",
+      "descriptionLong": "Data grid with remote infinite scroll. Built by composing Avatar, Badge, Button, Card, Data Grid and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-28 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -961,6 +992,7 @@
         "data-grid"
       ],
       "description": "Data grid with row pinning support",
+      "descriptionLong": "Data grid with row pinning support. Built by composing Avatar, Badge, Button, Card, Data Grid and 6 more. Uses @tanstack/react-table, sonner alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-29 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -999,6 +1031,7 @@
         "data-grid"
       ],
       "description": "Data grid with tree rows",
+      "descriptionLong": "Data grid with tree rows. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 3 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-30 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -1033,6 +1066,7 @@
         "data-grid"
       ],
       "description": "Data grid with spreadsheet editing",
+      "descriptionLong": "Data grid with spreadsheet editing. Built by composing Alert Dialog, Avatar, Badge, Button, Calendar and 11 more. Uses @tanstack/react-table, date-fns, sonner alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-31 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "avatar",
@@ -1077,6 +1111,7 @@
         "data-grid"
       ],
       "description": "Data grid with column virtualization",
+      "descriptionLong": "Data grid with column virtualization. Built by composing Avatar, Button, Card, Data Grid, Data Grid Column Header and 2 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-32 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -1110,6 +1145,7 @@
         "data-grid"
       ],
       "description": "Data grid with localized labels",
+      "descriptionLong": "Data grid with localized labels. Built by composing Avatar, Badge, Card, Data Grid, Data Grid Column Header and 5 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-33 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -1146,6 +1182,7 @@
         "data-grid"
       ],
       "description": "Data grid with server side pagination, sorting, search and status filter",
+      "descriptionLong": "Data grid with server side pagination. Built by composing Avatar, Badge, Button, Card, Data Grid and 7 more. Uses @tanstack/react-table alongside the shadcn primitives. A free, open source shadcn data grid example you can install with npx shadcn@latest add @reui/c-data-grid-34 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",

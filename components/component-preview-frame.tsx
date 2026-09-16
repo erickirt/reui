@@ -6,7 +6,7 @@ import {
   CATALOG_FRAME_DESIGN_KEYS,
   getComponentPreviewFramePath,
 } from "@/lib/component-preview-frame"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig } from "@/hooks/use-config"
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer"
 import { Spinner } from "@/components/ui/spinner"

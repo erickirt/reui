@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/lib/config"
 import { FIGMA_URL, FigmaIcon } from "@/lib/nav-config"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Tooltip,
   TooltipContent,

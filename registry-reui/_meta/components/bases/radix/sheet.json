@@ -8,6 +8,7 @@
         "sheet"
       ],
       "description": "Sheet containing a form for editing profile information.",
+      "descriptionLong": "Sheet containing a form for editing profile information. Built by composing Button, Field, Input, Sheet. A free, open source shadcn sheet example you can install with npx shadcn@latest add @reui/c-sheet-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -34,6 +35,7 @@
         "sheet"
       ],
       "description": "Sheet containing a form for editing profile information.",
+      "descriptionLong": "Sheet containing a form for editing profile information. Built by composing Button, Field, Input, Sheet. A free, open source shadcn sheet example you can install with npx shadcn@latest add @reui/c-sheet-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -60,6 +62,7 @@
         "sheet"
       ],
       "description": "Sheets that open from any side.",
+      "descriptionLong": "Sheets that open from any side. Built by composing Button, Sheet. A free, open source shadcn sheet example you can install with npx shadcn@latest add @reui/c-sheet-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "sheet"
@@ -84,6 +87,7 @@
         "sheet"
       ],
       "description": "Sheet with scrollable content",
+      "descriptionLong": "Sheet with scrollable content. Built by composing Button, Scroll Area, Sheet. A free, open source shadcn sheet example you can install with npx shadcn@latest add @reui/c-sheet-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "scroll-area",

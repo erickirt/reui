@@ -3,7 +3,7 @@
 import * as React from "react"
 import { CheckIcon, CopyIcon } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 
 /**
  * Copy button for docs code panels. Reads the code straight from the rendered

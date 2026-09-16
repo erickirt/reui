@@ -21,7 +21,7 @@ import {
 } from "date-fns"
 import type { CaptionLabelProps, MonthGridProps } from "react-day-picker"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Calendar } from "@/registry/bases/radix/ui/calendar"
 import { Card, CardContent } from "@/registry/bases/radix/ui/card"

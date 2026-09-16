@@ -1,7 +1,7 @@
 "use client"
 
 import type { ComponentCategoryInfo } from "@/lib/component-stats"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 
 import { ComponentsCategoryCard } from "./components-category-card"
 import { ComponentsEmptyState } from "./components-empty-state"

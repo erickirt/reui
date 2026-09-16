@@ -8,6 +8,7 @@
         "context-menu"
       ],
       "description": "Basic context menu.",
+      "descriptionLong": "Basic context menu. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-1 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -31,6 +32,7 @@
         "context-menu"
       ],
       "description": "Context menu with icons for common actions.",
+      "descriptionLong": "Context menu with icons for common actions. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-2 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -54,6 +56,7 @@
         "context-menu"
       ],
       "description": "Context menu with keyboard shortcuts.",
+      "descriptionLong": "Context menu with keyboard shortcuts. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-3 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -77,6 +80,7 @@
         "context-menu"
       ],
       "description": "Context menu with nested submenus.",
+      "descriptionLong": "Context menu with nested submenus. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-4 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -100,6 +104,7 @@
         "context-menu"
       ],
       "description": "Context menu labels and separators.",
+      "descriptionLong": "Context menu labels and separators. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-5 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -123,6 +128,7 @@
         "context-menu"
       ],
       "description": "Context menu with checkbox items.",
+      "descriptionLong": "Context menu with checkbox items. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-6 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -146,6 +152,7 @@
         "context-menu"
       ],
       "description": "Context menu with radio items.",
+      "descriptionLong": "Context menu with radio items. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-7 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -169,6 +176,7 @@
         "context-menu"
       ],
       "description": "Context menu with destructive actions.",
+      "descriptionLong": "Context menu with destructive actions. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-8 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -192,6 +200,7 @@
         "context-menu"
       ],
       "description": "Context menu with different alignment sides.",
+      "descriptionLong": "Context menu with different alignment sides. Built with the Context Menu component. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-9 and edit as your own code.",
       "registryDependencies": [
         "context-menu"
       ],
@@ -215,6 +224,7 @@
         "context-menu"
       ],
       "description": "Context menu used inside a dialog component.",
+      "descriptionLong": "Context menu used inside a dialog component. Built by composing Button, Context Menu, Dialog. A free, open source shadcn context menu example you can install with npx shadcn@latest add @reui/c-context-menu-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "context-menu",

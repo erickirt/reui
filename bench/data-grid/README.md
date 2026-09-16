@@ -19,13 +19,13 @@ Written first, because it is true and the comparison is worthless without it:
 
 ## What is measured
 
-| Measure | How |
-| --- | --- |
-| First paint | `first-contentful-paint` from the Performance API |
-| Ready | Navigation until the page marks its first rows painted |
+| Measure          | How                                                                      |
+| ---------------- | ------------------------------------------------------------------------ |
+| First paint      | `first-contentful-paint` from the Performance API                        |
+| Ready            | Navigation until the page marks its first rows painted                   |
 | Scroll p50 / p95 | Frame gaps (requestAnimationFrame deltas) during 40 wheel steps of 600px |
-| Filter latency | Typing "Berlin" into the filter until two frames after the DOM settles |
-| JS bytes | Script bytes transferred on first load |
+| Filter latency   | Typing "Berlin" into the filter until two frames after the DOM settles   |
+| JS bytes         | Script bytes transferred on first load                                   |
 
 Three targets:
 
@@ -66,11 +66,11 @@ display (so a scroll p50 of 8.3 ms is one frame), 100,000 rows, median of 3.
 Raw numbers in `results/2026-09-02.json` (local) and
 `results/2026-09-02-prod.json` (the live block from reui.io).
 
-| target | first paint | ready | scroll p50 | scroll p95 | scrolled | filter | JS bytes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| AG Grid Community 36.1 | 48 ms | 303 ms | 8.3 ms | 9.8 ms | 24,000 px | 76.2 ms | 1,319 KB |
-| ReUI Data Grid engine (TanStack Table 8 + Virtual 3) | 292 ms | 291 ms | 8.3 ms | 12 ms | 24,000 px | 130.1 ms | 267 KB |
-| ReUI virtualization block, live on reui.io | 1340 ms | 2170 ms | 8.3 ms | 48.3 ms | 3,404 px | 32.6 ms | 937 KB |
+| target                                               | first paint | ready   | scroll p50 | scroll p95 | scrolled  | filter   | JS bytes |
+| ---------------------------------------------------- | ----------- | ------- | ---------- | ---------- | --------- | -------- | -------- |
+| AG Grid Community 36.1                               | 48 ms       | 303 ms  | 8.3 ms     | 9.8 ms     | 24,000 px | 76.2 ms  | 1,319 KB |
+| ReUI Data Grid engine (TanStack Table 8 + Virtual 3) | 292 ms      | 291 ms  | 8.3 ms     | 12 ms      | 24,000 px | 130.1 ms | 267 KB   |
+| ReUI virtualization block, live on reui.io           | 1340 ms     | 2170 ms | 8.3 ms     | 48.3 ms    | 3,404 px  | 32.6 ms  | 937 KB   |
 
 Reading it honestly:
 

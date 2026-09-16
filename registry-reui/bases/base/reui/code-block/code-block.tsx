@@ -43,7 +43,7 @@ import type {
   CodeBlockWordSpec,
 } from "@/registry-reui/bases/base/reui/code-block/code-block-highlight"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 
 /* -------------------------------------------------------------------------- */

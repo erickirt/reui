@@ -37,7 +37,7 @@ import {
 import { getDefaultFilterOperator } from "@/registry-reui/bases/radix/reui/filters/filters-operators"
 import type { FilterField } from "@/registry-reui/bases/radix/reui/filters/filters-types"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
   Popover,

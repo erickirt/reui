@@ -6,7 +6,8 @@ import {
   getComponentCategoryInfo,
   getComponentCountByCategory,
 } from "@/lib/component-stats"
-import { cn, normalizeSlug } from "@/lib/utils"
+import { cn } from "cn"
+import { normalizeSlug } from "@/lib/utils"
 
 interface ComponentCategoryPagerProps {
   currentCategory: string

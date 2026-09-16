@@ -4,7 +4,7 @@ import { createContext, useContext, useMemo, useState } from "react"
 import * as BasePhoneInput from "react-phone-number-input"
 import flags from "react-phone-number-input/flags"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import {
   Combobox,

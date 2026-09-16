@@ -4,7 +4,7 @@ import * as React from "react"
 import { CheckIcon, Copy } from "lucide-react"
 
 import { Event, trackEvent } from "@/lib/events"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 import {
   Tooltip,

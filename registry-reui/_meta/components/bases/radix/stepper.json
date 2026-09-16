@@ -8,6 +8,7 @@
         "stepper"
       ],
       "description": "Basic stepper",
+      "descriptionLong": "Basic stepper. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-1 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -32,6 +33,7 @@
         "stepper"
       ],
       "description": "Stepper with completed state",
+      "descriptionLong": "Stepper with completed state. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-2 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -56,6 +58,7 @@
         "stepper"
       ],
       "description": "Stepper with loading state",
+      "descriptionLong": "Stepper with loading state. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-3 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -80,6 +83,7 @@
         "stepper"
       ],
       "description": "Controlled stepper",
+      "descriptionLong": "Controlled stepper. Built by composing Button, Stepper. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "stepper"
@@ -105,6 +109,7 @@
         "stepper"
       ],
       "description": "Stepper with title and indicator",
+      "descriptionLong": "Stepper with title and indicator. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-5 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -129,6 +134,7 @@
         "stepper"
       ],
       "description": "Stepper with progress bar indicator",
+      "descriptionLong": "Stepper with progress bar indicator. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-6 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -153,6 +159,7 @@
         "stepper"
       ],
       "description": "Stepper with icons and badges",
+      "descriptionLong": "Stepper with icons and badges. Built by composing Badge, Button, Stepper. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -179,6 +186,7 @@
         "stepper"
       ],
       "description": "Stepper with descriptions",
+      "descriptionLong": "Stepper with descriptions. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-8 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -203,6 +211,7 @@
         "stepper"
       ],
       "description": "Stepper with inline titles",
+      "descriptionLong": "Stepper with inline titles. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-9 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -227,6 +236,7 @@
         "stepper"
       ],
       "description": "Stepper with content for each step",
+      "descriptionLong": "Stepper with content for each step. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-10 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -251,6 +261,7 @@
         "stepper"
       ],
       "description": "Stepper with progress bar and titles",
+      "descriptionLong": "Stepper with progress bar and titles. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-11 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -275,11 +286,14 @@
         "stepper"
       ],
       "description": "Stepper with segmented progress bar",
+      "descriptionLong": "Stepper with segmented progress bar. Built by composing Button, Stepper. Uses cn alongside the shadcn primitives. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "stepper"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/stepper/c-stepper-12.tsx",
@@ -300,6 +314,7 @@
         "stepper"
       ],
       "description": "Stepper with vertical orientation and descriptions",
+      "descriptionLong": "Stepper with vertical orientation and descriptions. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-13 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -324,6 +339,7 @@
         "stepper"
       ],
       "description": "Stepper with vertical orientation",
+      "descriptionLong": "Stepper with vertical orientation. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-14 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],
@@ -348,6 +364,7 @@
         "stepper"
       ],
       "description": "Stepper with vertical orientation and titles",
+      "descriptionLong": "Stepper with vertical orientation and titles. Built with the Stepper component. A free, open source shadcn stepper example you can install with npx shadcn@latest add @reui/c-stepper-15 and edit as your own code.",
       "registryDependencies": [
         "stepper"
       ],

@@ -67,7 +67,7 @@ import { flexRender } from "@tanstack/react-table"
 import type { Cell, HeaderGroup, Row, Table } from "@tanstack/react-table"
 import { createPortal } from "react-dom"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

@@ -20,7 +20,7 @@ import { Combobox as ComboboxPrimitive } from "@base-ui/react"
 import { mergeProps } from "@base-ui/react/merge-props"
 import { useRender } from "@base-ui/react/use-render"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Spinner } from "@/registry/bases/base/ui/spinner"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

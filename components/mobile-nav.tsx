@@ -12,7 +12,8 @@ import {
   type NavEntry,
   type NavStats,
 } from "@/lib/nav-config"
-import { cn, isActive } from "@/lib/utils"
+import { cn } from "cn"
+import { isActive } from "@/lib/utils"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {

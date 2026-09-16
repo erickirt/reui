@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Card } from "@/registry/bases/base/ui/card"
 import {
   Carousel,

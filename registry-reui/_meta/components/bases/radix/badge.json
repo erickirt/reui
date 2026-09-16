@@ -8,6 +8,7 @@
         "badge"
       ],
       "description": "Default badge",
+      "descriptionLong": "Default badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-1 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -31,6 +32,7 @@
         "badge"
       ],
       "description": "Secondary badge",
+      "descriptionLong": "Secondary badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-2 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -54,6 +56,7 @@
         "badge"
       ],
       "description": "Destructive badge",
+      "descriptionLong": "Destructive badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-3 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -77,6 +80,7 @@
         "badge"
       ],
       "description": "Success badge",
+      "descriptionLong": "Success badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-4 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -100,6 +104,7 @@
         "badge"
       ],
       "description": "Info badge",
+      "descriptionLong": "Info badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-5 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -123,6 +128,7 @@
         "badge"
       ],
       "description": "Warning badge",
+      "descriptionLong": "Warning badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-6 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -146,6 +152,7 @@
         "badge"
       ],
       "description": "Outline badge",
+      "descriptionLong": "Outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-7 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -169,6 +176,7 @@
         "badge"
       ],
       "description": "Primary outline badge",
+      "descriptionLong": "Primary outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-8 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -192,6 +200,7 @@
         "badge"
       ],
       "description": "Destructive outline badge",
+      "descriptionLong": "Destructive outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-9 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -215,6 +224,7 @@
         "badge"
       ],
       "description": "Info outline badge",
+      "descriptionLong": "Info outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-10 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -238,6 +248,7 @@
         "badge"
       ],
       "description": "Success outline badge",
+      "descriptionLong": "Success outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-11 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -261,6 +272,7 @@
         "badge"
       ],
       "description": "Warning outline badge",
+      "descriptionLong": "Warning outline badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-12 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -284,6 +296,7 @@
         "badge"
       ],
       "description": "Primary light badge",
+      "descriptionLong": "Primary light badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-13 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -307,6 +320,7 @@
         "badge"
       ],
       "description": "Destructive light badge",
+      "descriptionLong": "Destructive light badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-14 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -330,6 +344,7 @@
         "badge"
       ],
       "description": "Success light badge",
+      "descriptionLong": "Success light badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-15 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -353,6 +368,7 @@
         "badge"
       ],
       "description": "Info light badge",
+      "descriptionLong": "Info light badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-16 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -376,6 +392,7 @@
         "badge"
       ],
       "description": "Warning light badge",
+      "descriptionLong": "Warning light badge. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-17 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -399,6 +416,7 @@
         "badge"
       ],
       "description": "Badge size variations",
+      "descriptionLong": "Badge size variations. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-18 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -422,6 +440,7 @@
         "badge"
       ],
       "description": "Badge with full radius (radius=\"full\")",
+      "descriptionLong": "Badge with full radius (radius=\"full\"). Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-19 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -445,6 +464,7 @@
         "badge"
       ],
       "description": "Badge with an icon",
+      "descriptionLong": "Badge with an icon. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-20 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -468,6 +488,7 @@
         "badge"
       ],
       "description": "Badge with a dismiss button",
+      "descriptionLong": "Badge with a dismiss button. Built by composing Badge, Button. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-21 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button"
@@ -492,6 +513,7 @@
         "badge"
       ],
       "description": "Badge with a status dot",
+      "descriptionLong": "Badge with a status dot. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-22 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -515,6 +537,7 @@
         "badge"
       ],
       "description": "Badge rendered as a link",
+      "descriptionLong": "Badge rendered as a link. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-23 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],
@@ -538,6 +561,7 @@
         "badge"
       ],
       "description": "Badge with avatar",
+      "descriptionLong": "Badge with avatar. Built by composing Avatar, Badge, Button. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-24 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -563,6 +587,7 @@
         "badge"
       ],
       "description": "Badge with flag image",
+      "descriptionLong": "Badge with flag image. Built with the Badge component. A free, open source shadcn badge example you can install with npx shadcn@latest add @reui/c-badge-25 and edit as your own code.",
       "registryDependencies": [
         "badge"
       ],

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Field } from "@/registry/bases/radix/ui/field"
 import {
   Select,

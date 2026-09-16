@@ -8,6 +8,7 @@
         "drawer"
       ],
       "description": "A basic drawer with scrollable content",
+      "descriptionLong": "A basic drawer with scrollable content. Built by composing Button, Drawer. A free, open source shadcn drawer example you can install with npx shadcn@latest add @reui/c-drawer-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "drawer"
@@ -32,6 +33,7 @@
         "drawer"
       ],
       "description": "A drawer that opens from the right side",
+      "descriptionLong": "A drawer that opens from the right side. Built by composing Button, Drawer. A free, open source shadcn drawer example you can install with npx shadcn@latest add @reui/c-drawer-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "drawer"
@@ -56,6 +58,7 @@
         "drawer"
       ],
       "description": "A drawer that opens from the left side",
+      "descriptionLong": "A drawer that opens from the left side. Built by composing Button, Drawer. A free, open source shadcn drawer example you can install with npx shadcn@latest add @reui/c-drawer-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "drawer"
@@ -80,6 +83,7 @@
         "drawer"
       ],
       "description": "A drawer that opens from the top side",
+      "descriptionLong": "A drawer that opens from the top side. Built by composing Button, Drawer. A free, open source shadcn drawer example you can install with npx shadcn@latest add @reui/c-drawer-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "drawer"
@@ -104,6 +108,7 @@
         "drawer"
       ],
       "description": "Drawers opening from different sides",
+      "descriptionLong": "Drawers opening from different sides. Built by composing Button, Drawer. A free, open source shadcn drawer example you can install with npx shadcn@latest add @reui/c-drawer-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "drawer"

@@ -6,7 +6,7 @@ import { mergeProps } from "@base-ui/react/merge-props"
 import { useRender } from "@base-ui/react/use-render"
 import type { ItemInstance } from "@headless-tree/core"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 type ToggleIconType = "chevron" | "plus-minus"
@@ -165,7 +165,7 @@ function TreeItemLabel<T = any>({
       data-slot="tree-item-label"
       className={cn(
         "in-focus-visible:ring-ring/50 bg-background hover:bg-accent in-data-[selected=true]:bg-accent in-data-[selected=true]:text-accent-foreground in-data-[drag-target=true]:bg-accent flex items-center gap-1 transition-colors not-in-data-[folder=true]:ps-7 in-focus-visible:ring-[3px] in-data-[search-match=true]:bg-blue-50! [&_svg]:pointer-events-none [&_svg]:shrink-0",
-        "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-rhea:rounded-2xl style-sera:rounded-none",
+        "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-rhea:rounded-xl style-sera:rounded-none",
         "py-1.5",
         "px-2",
         "text-sm",

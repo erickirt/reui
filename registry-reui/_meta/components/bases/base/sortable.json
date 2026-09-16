@@ -8,6 +8,7 @@
         "sortable"
       ],
       "description": "Sortable list of items with drag-and-drop",
+      "descriptionLong": "Sortable list of items with drag-and-drop. Built by composing Badge, Sortable. Uses sonner alongside the shadcn primitives. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-1 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "sortable"
@@ -35,11 +36,13 @@
         "sortable"
       ],
       "description": "Sortable list of items with grid layout",
+      "descriptionLong": "Sortable list of items with grid layout. Built by composing Badge, Sortable. Uses cn, sonner alongside the shadcn primitives. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-2 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "sortable"
       ],
       "dependencies": [
+        "cn",
         "sonner"
       ],
       "files": [
@@ -62,6 +65,7 @@
         "sortable"
       ],
       "description": "Sortable list of items with nested layout",
+      "descriptionLong": "Sortable list of items with nested layout. Built by composing Card, Sortable. Uses sonner alongside the shadcn primitives. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-3 and edit as your own code.",
       "registryDependencies": [
         "card",
         "sortable"
@@ -89,6 +93,7 @@
         "sortable"
       ],
       "description": "Sortable playlist with frame",
+      "descriptionLong": "Sortable playlist with frame. Built by composing Badge, Frame, Sortable. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-4 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "frame",
@@ -115,6 +120,7 @@
         "sortable"
       ],
       "description": "Sortable settings priority with frame",
+      "descriptionLong": "Sortable settings priority with frame. Built by composing Frame, Sortable, Switch. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-5 and edit as your own code.",
       "registryDependencies": [
         "frame",
         "sortable",
@@ -141,6 +147,7 @@
         "sortable"
       ],
       "description": "Sortable sidebar navigation with frame",
+      "descriptionLong": "Sortable sidebar navigation with frame. Built by composing Badge, Frame, Sortable. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-6 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "frame",
@@ -167,6 +174,7 @@
         "sortable"
       ],
       "description": "Sortable image gallery grid with frame",
+      "descriptionLong": "Sortable image gallery grid with frame. Built by composing Frame, Sortable. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-7 and edit as your own code.",
       "registryDependencies": [
         "frame",
         "sortable"
@@ -192,6 +200,7 @@
         "sortable"
       ],
       "description": "Persist the new order with onValueCommit, optimistic updates, and Sonner rollback",
+      "descriptionLong": "Sortable list persisted to a backend. Built by composing Badge, Sortable. Uses sonner alongside the shadcn primitives. A free, open source shadcn sortable example you can install with npx shadcn@latest add @reui/c-sortable-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "sortable"

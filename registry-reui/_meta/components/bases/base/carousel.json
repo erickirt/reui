@@ -8,6 +8,7 @@
         "carousel"
       ],
       "description": "Basic carousel with single item",
+      "descriptionLong": "Basic carousel with single item. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-1 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -32,6 +33,7 @@
         "carousel"
       ],
       "description": "Vertical carousel orientation",
+      "descriptionLong": "Vertical carousel orientation. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-2 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -56,6 +58,7 @@
         "carousel"
       ],
       "description": "Carousel with multiple items visible",
+      "descriptionLong": "Carousel with multiple items visible. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-3 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -81,6 +84,7 @@
         "carousel"
       ],
       "description": "Carousel with responsive basis",
+      "descriptionLong": "Carousel with responsive basis. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-4 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -106,6 +110,7 @@
         "carousel"
       ],
       "description": "Carousel with autoplay plugin",
+      "descriptionLong": "Carousel with autoplay plugin. Built by composing Card, Carousel. Uses embla-carousel-autoplay alongside the shadcn primitives. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-5 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -132,6 +137,7 @@
         "carousel"
       ],
       "description": "Carousel with centered slide alignment",
+      "descriptionLong": "Carousel with centered slide alignment. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -156,6 +162,7 @@
         "carousel"
       ],
       "description": "Carousel with custom spacing",
+      "descriptionLong": "Carousel with custom spacing. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-7 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -180,6 +187,7 @@
         "carousel"
       ],
       "description": "Carousel with images and overlays",
+      "descriptionLong": "Carousel with images and overlays. Built by composing Card, Carousel. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-8 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
@@ -204,10 +212,13 @@
         "carousel"
       ],
       "description": "Carousel with thumbnail navigation",
+      "descriptionLong": "Carousel with thumbnail navigation. Built with the Carousel component. Uses cn alongside the shadcn primitives. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-9 and edit as your own code.",
       "registryDependencies": [
         "carousel"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/carousel/c-carousel-9.tsx",
@@ -227,10 +238,13 @@
         "carousel"
       ],
       "description": "Carousel with overlay thumbnail navigation",
+      "descriptionLong": "Carousel with overlay thumbnail navigation. Built with the Carousel component. Uses cn alongside the shadcn primitives. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-10 and edit as your own code.",
       "registryDependencies": [
         "carousel"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/carousel/c-carousel-10.tsx",
@@ -250,11 +264,14 @@
         "carousel"
       ],
       "description": "Carousel with dots navigation and content overlays",
+      "descriptionLong": "Carousel with dots navigation and content overlays. Built by composing Card, Carousel. Uses cn alongside the shadcn primitives. A free, open source shadcn carousel example you can install with npx shadcn@latest add @reui/c-carousel-11 and edit as your own code.",
       "registryDependencies": [
         "card",
         "carousel"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/carousel/c-carousel-11.tsx",

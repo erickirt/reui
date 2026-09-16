@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { SectionLabel } from "@/components/custom/section-label"
 
 /**

@@ -20,7 +20,7 @@ import {
 import type { CascaderNode } from "@/registry-reui/bases/radix/reui/cascader/cascader-types"
 import { CascaderVirtualItems } from "@/registry-reui/bases/radix/reui/cascader/cascader-virtual"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Spinner } from "@/registry/bases/radix/ui/spinner"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { buttonVariants } from "@/registry/bases/radix/ui/button"
 import {
   Pagination,

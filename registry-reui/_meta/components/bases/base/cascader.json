@@ -8,6 +8,7 @@
         "cascader"
       ],
       "description": "Nested attribute picker with drill-down navigation.",
+      "descriptionLong": "Nested attribute picker with drill-down navigation. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -35,6 +36,7 @@
         "cascader"
       ],
       "description": "Multi-select permissions with checkboxes and a selection cap.",
+      "descriptionLong": "Multi-select permissions with checkboxes and a selection cap. Built by composing Button, Cascader, Cascader Footer, Cascader Item, Cascader Nav and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -43,7 +45,9 @@
         "cascader-nav",
         "cascader-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-2.tsx",
@@ -63,6 +67,7 @@
         "cascader"
       ],
       "description": "Deep search across every level with path-annotated results.",
+      "descriptionLong": "Deep search across every level with path-annotated results. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -90,6 +95,7 @@
         "cascader"
       ],
       "description": "Pinned footer with a side-anchored import flyout.",
+      "descriptionLong": "Pinned footer with a side-anchored import flyout. Built by composing Button, Cascader, Cascader Footer, Cascader Item, Cascader Nav and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -158,6 +164,7 @@
         "cascader"
       ],
       "description": "Custom rows pairing avatars with outline role badges that color-code seniority.",
+      "descriptionLong": "Custom rows with avatars and role badges. Built by composing Avatar, Badge, Button, Cascader, Cascader Item and 2 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-5 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -167,7 +174,9 @@
         "cascader-nav",
         "cascader-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-5.tsx",
@@ -187,6 +196,7 @@
         "cascader"
       ],
       "description": "Trigger path formatting and collapsing.",
+      "descriptionLong": "Trigger path formatting and collapsing. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -260,6 +270,7 @@
         "cascader"
       ],
       "description": "Embedded panel without a popover.",
+      "descriptionLong": "Embedded panel without a popover. Built by composing Card, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-7 and edit as your own code.",
       "registryDependencies": [
         "card",
         "cascader",
@@ -287,6 +298,7 @@
         "cascader"
       ],
       "description": "Flat adjacency data with a parent pointer.",
+      "descriptionLong": "Flat adjacency data with a parent pointer. Built by composing Button, Cascader, Cascader Footer, Cascader Item, Cascader Nav and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -315,6 +327,7 @@
         "cascader"
       ],
       "description": "External buttons jump the panel to a level, reset it to the root and clear the selection, with all four controlled props printed under the control.",
+      "descriptionLong": "Controlled path, value, query and open state. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-9 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -342,6 +355,7 @@
         "cascader"
       ],
       "description": "A German country picker where every string the primitive renders comes from labels, including the live-region announcements, with each flag in an IconTile.",
+      "descriptionLong": "Translated labels across a country picker. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -369,6 +383,7 @@
         "cascader"
       ],
       "description": "Two-line rows with descriptions and a disabled option.",
+      "descriptionLong": "Two-line rows with descriptions and a disabled option. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -397,6 +412,7 @@
         "cascader"
       ],
       "description": "Form field that submits like a native input.",
+      "descriptionLong": "Form field that submits like a native input. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -425,6 +441,7 @@
         "cascader"
       ],
       "description": "A media library in Miller columns where all three panes overflow and each scrolls on its own.",
+      "descriptionLong": "Columns mode with independently scrolling panels. Built by composing Badge, Button, Cascader, Cascader Columns, Cascader Nav and 2 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-13 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -434,7 +451,9 @@
         "cascader-types",
         "icon-tile"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-13.tsx",
@@ -454,6 +473,7 @@
         "cascader"
       ],
       "description": "Tree mode with inline expand and multi-select scopes.",
+      "descriptionLong": "Tree mode with inline expand and multi-select scopes. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-14 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -481,6 +501,7 @@
         "cascader"
       ],
       "description": "Async drill-down that loads before it navigates.",
+      "descriptionLong": "Async drill-down that loads before it navigates. Built by composing Badge, Button, Cascader, Cascader Item, Cascader Nav and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-15 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -489,7 +510,9 @@
         "cascader-nav",
         "cascader-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-15.tsx",
@@ -509,6 +532,7 @@
         "cascader"
       ],
       "description": "Six unevenly sized regions of country markets, windowed so only the visible rows ever mount.",
+      "descriptionLong": "Virtualized level with thousands of rows. Built by composing Badge, Button, Cascader, Cascader Nav, Cascader Types and 2 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-16 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -518,7 +542,9 @@
         "cascader-virtual",
         "spinner"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-16.tsx",
@@ -538,6 +564,7 @@
         "cascader"
       ],
       "description": "Chips rendered outside the primitive from useCascaderSelection, each carrying its full path so repeated column names stay distinct.",
+      "descriptionLong": "Consumer-rendered removable chips with path-aware labels. Built by composing Badge, Button, Cascader, Cascader Item, Cascader Nav and 1 more. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-17 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -566,6 +593,7 @@
         "cascader"
       ],
       "description": "A cascading tree with indeterminate branches in a popover, bounded by the positioner's available height.",
+      "descriptionLong": "Cascading tree multi-select inside a popover. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-18 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -593,6 +621,7 @@
         "cascader"
       ],
       "description": "Status and priority colour dots via renderLabel.",
+      "descriptionLong": "Status and priority colour dots via renderLabel. Built by composing Button, Cascader, Cascader Footer, Cascader Item, Cascader Nav and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-19 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -601,7 +630,9 @@
         "cascader-nav",
         "cascader-types"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-19.tsx",
@@ -621,6 +652,7 @@
         "cascader"
       ],
       "description": "Expense accounts with a colour inherited down each branch.",
+      "descriptionLong": "Expense accounts with a colour inherited down each branch. Built by composing Button, Cascader, Cascader Item, Cascader Nav, Cascader Types and 1 more. Uses cn alongside the shadcn primitives. A free, open source shadcn cascader example you can install with npx shadcn@latest add @reui/c-cascader-20 and edit as your own code.",
       "registryDependencies": [
         "button",
         "cascader",
@@ -629,7 +661,9 @@
         "cascader-types",
         "icon-tile"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/cascader/c-cascader-20.tsx",

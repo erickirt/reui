@@ -18,7 +18,7 @@ import {
   useTable,
 } from "@tanstack/react-table"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Avatar,
   AvatarBadge,

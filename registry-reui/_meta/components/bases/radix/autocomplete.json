@@ -8,6 +8,7 @@
         "autocomplete"
       ],
       "description": "Basic autocomplete control",
+      "descriptionLong": "Basic autocomplete control. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-1 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -31,6 +32,7 @@
         "autocomplete"
       ],
       "description": "Disabled state",
+      "descriptionLong": "Disabled state. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-2 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -54,6 +56,7 @@
         "autocomplete"
       ],
       "description": "Auto highlight option as you type",
+      "descriptionLong": "Auto highlight option as you type. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-3 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -77,6 +80,7 @@
         "autocomplete"
       ],
       "description": "Control with label",
+      "descriptionLong": "Control with label. Built by composing Autocomplete, Label. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-4 and edit as your own code.",
       "registryDependencies": [
         "autocomplete",
         "label"
@@ -101,6 +105,7 @@
         "autocomplete"
       ],
       "description": "With clear button",
+      "descriptionLong": "With clear button. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-5 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -124,6 +129,7 @@
         "autocomplete"
       ],
       "description": "With trigger button",
+      "descriptionLong": "With trigger button. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-6 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -147,6 +153,7 @@
         "autocomplete"
       ],
       "description": "With clear and trigger buttons",
+      "descriptionLong": "With clear and trigger buttons. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-7 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -170,6 +177,7 @@
         "autocomplete"
       ],
       "description": "With groups and labels",
+      "descriptionLong": "With groups and labels. Built by composing Autocomplete, Avatar. Uses @base-ui/react alongside the shadcn primitives. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-8 and edit as your own code.",
       "registryDependencies": [
         "autocomplete",
         "avatar"
@@ -196,6 +204,7 @@
         "autocomplete"
       ],
       "description": "With search results",
+      "descriptionLong": "With search results. Built by composing Autocomplete, Avatar. Uses @base-ui/react alongside the shadcn primitives. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-9 and edit as your own code.",
       "registryDependencies": [
         "autocomplete",
         "avatar"
@@ -222,6 +231,7 @@
         "autocomplete"
       ],
       "description": "Small autocomplete",
+      "descriptionLong": "Small autocomplete. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-10 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -245,6 +255,7 @@
         "autocomplete"
       ],
       "description": "Large autocomplete",
+      "descriptionLong": "Large autocomplete. Built with the Autocomplete component. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-11 and edit as your own code.",
       "registryDependencies": [
         "autocomplete"
       ],
@@ -268,6 +279,7 @@
         "autocomplete"
       ],
       "description": "Form integration",
+      "descriptionLong": "Form integration. Built by composing Alert, Autocomplete, Button, Field. Uses @hookform/resolvers, react-hook-form, sonner alongside the shadcn primitives. A free, open source shadcn autocomplete example you can install with npx shadcn@latest add @reui/c-autocomplete-12 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "autocomplete",

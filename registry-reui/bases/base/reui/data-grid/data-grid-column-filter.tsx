@@ -6,7 +6,7 @@ import { useDataGrid } from "@/registry-reui/bases/base/reui/data-grid/data-grid
 import type { DataGridFeatures } from "@/registry-reui/bases/base/reui/data-grid/data-grid"
 import type { Column } from "@tanstack/react-table"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Input } from "@/registry/bases/base/ui/input"
 import {
@@ -138,7 +138,7 @@ function DataGridColumnFilter<TData extends object, TValue>({
                       }
                     }}
                     className={cn(
-                      "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-sera:rounded-none style-rhea:rounded-2xl relative flex cursor-pointer items-center gap-2 px-2 py-1.5 text-sm outline-hidden select-none",
+                      "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-sera:rounded-none style-rhea:rounded-xl relative flex cursor-pointer items-center gap-2 px-2 py-1.5 text-sm outline-hidden select-none",
                       "hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                     )}
                   >
@@ -187,7 +187,7 @@ function DataGridColumnFilter<TData extends object, TValue>({
                       column?.setFilterValue(undefined)
                     }
                   }}
-                  className="hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-sera:rounded-none style-rhea:rounded-2xl relative flex cursor-pointer items-center justify-center px-2 py-1.5 text-sm outline-hidden select-none"
+                  className="hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-sera:rounded-none style-rhea:rounded-xl relative flex cursor-pointer items-center justify-center px-2 py-1.5 text-sm outline-hidden select-none"
                 >
                   {i18n.labels.filterClear}
                 </div>

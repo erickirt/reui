@@ -5,6 +5,13 @@ description: Learn how to use the ReUI Registry with shadcn/ui.
 
 The ReUI Registry uses a single `@reui` namespace. The shadcn CLI resolves the full alias suffix into the registry URL, so you can install everything from one namespace.
 
+<Callout title="@reui is a registry namespace, not an npm scope" variant="warning">
+  There is no ReUI npm package to install. Running `npm i @reui/button` pulls
+  an unrelated publisher's package from npm's own `@reui` scope, which is not
+  ours. ReUI items are installed only with the shadcn CLI, which resolves
+  `@reui/<name>` against the registry URL in your `components.json`.
+</Callout>
+
 ## Setup ReUI Registry
 
 Add the ReUI registry namespace to your `components.json`. Learn more about registry config from [shadcn registry docs](https://ui.shadcn.com/docs/registry).
@@ -16,6 +23,48 @@ Add the ReUI registry namespace to your `components.json`. Learn more about regi
   }
 }
 ```
+
+### Style Values
+
+`{style}` is not free-form. The shadcn CLI substitutes it with the `style` value from your `components.json`, which ReUI reads as `<base>-<variant>`: the base picks the primitive library the code is built on, the variant picks the visual style. Every pairing of the two lists below is served, so `base-nova` (the default), `radix-lyra` and `base-sera` are all valid. A `{style}` outside these lists is not served and the install fails as not found.
+
+| `<base>` | Primitive library                    |
+| :------- | :----------------------------------- |
+| `base`   | [Base UI](https://base-ui.com)       |
+| `radix`  | [Radix UI](https://www.radix-ui.com) |
+
+| `<variant>` | Look                           |
+| :---------- | :----------------------------- |
+| `vega`      | Clean, neutral, and familiar   |
+| `nova`      | Reduced padding and margins    |
+| `maia`      | Rounded, with generous spacing |
+| `lyra`      | Boxy and sharp. For mono fonts |
+| `mira`      | Made for compact interfaces    |
+| `luma`      | Fluid, luminous, and soft      |
+| `sera`      | Editorial and typographic      |
+| `rhea`      | Like Luma but compact          |
+
+### Class Merging
+
+ReUI items that merge classes use [`cn`](https://www.npmjs.com/package/cn), a compiled drop-in for `clsx` plus `tailwind-merge`, imported as a package:
+
+```tsx
+import { cn } from "cn"
+```
+
+The CLI installs it for you: any item that imports it lists `cn` in its `dependencies`, so `shadcn add` adds it to your `package.json` on the first such install and skips it after that.
+
+This follows shadcn, which moved every component onto the package in its [September 2026 `cn` release](https://ui.shadcn.com/docs/changelog/2026-09-cn): one dependency instead of two, and no local helper to maintain.
+
+Earlier ReUI releases imported `cn` from your own `@/lib/utils`. Items already in your project keep working, and your `@/lib/utils` is untouched.
+
+To drop `clsx` and `tailwind-merge` from your own project, run the upstream migration:
+
+```bash
+pnpm dlx shadcn@latest migrate cn
+```
+
+If you had customized `cn` in `@/lib/utils`, rebuild it with `createCn` from `cn/config`. Newly installed ReUI items import the package directly, so they no longer route through that file.
 
 ## Installing Components
 

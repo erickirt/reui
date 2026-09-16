@@ -8,6 +8,7 @@
         "navigation-menu"
       ],
       "description": "Basic navigation menu.",
+      "descriptionLong": "Basic navigation menu. Built with the Navigation Menu component. A free, open source shadcn navigation menu example you can install with npx shadcn@latest add @reui/c-navigation-menu-1 and edit as your own code.",
       "registryDependencies": [
         "navigation-menu"
       ],
@@ -31,6 +32,7 @@
         "navigation-menu"
       ],
       "description": "Navigation menu with grid layout.",
+      "descriptionLong": "Navigation menu with grid layout. Built with the Navigation Menu component. A free, open source shadcn navigation menu example you can install with npx shadcn@latest add @reui/c-navigation-menu-2 and edit as your own code.",
       "registryDependencies": [
         "navigation-menu"
       ],
@@ -54,6 +56,7 @@
         "navigation-menu"
       ],
       "description": "Navigation menu with icons.",
+      "descriptionLong": "Navigation menu with icons. Built with the Navigation Menu component. A free, open source shadcn navigation menu example you can install with npx shadcn@latest add @reui/c-navigation-menu-3 and edit as your own code.",
       "registryDependencies": [
         "navigation-menu"
       ],
@@ -77,6 +80,7 @@
         "navigation-menu"
       ],
       "description": "Navigation menu with grid layout and learn more button.",
+      "descriptionLong": "Navigation menu with grid layout and learn more button. Built by composing Button, Navigation Menu. A free, open source shadcn navigation menu example you can install with npx shadcn@latest add @reui/c-navigation-menu-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "navigation-menu"

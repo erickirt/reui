@@ -8,6 +8,7 @@
         "hover-card"
       ],
       "description": "Basic hover card.",
+      "descriptionLong": "Basic hover card. Built by composing Button, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "hover-card"
@@ -32,6 +33,7 @@
         "hover-card"
       ],
       "description": "Hover card with positions.",
+      "descriptionLong": "Hover card with positions. Built by composing Button, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "hover-card"
@@ -56,6 +58,7 @@
         "hover-card"
       ],
       "description": "Hover card with profile information.",
+      "descriptionLong": "Hover card with profile information. Built by composing Avatar, Hover Card. Uses lucide-react alongside the shadcn primitives. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-3 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "hover-card"
@@ -82,6 +85,7 @@
         "hover-card"
       ],
       "description": "Hover card with icon",
+      "descriptionLong": "Hover card with icon. Built by composing Button, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "hover-card"
@@ -106,6 +110,7 @@
         "hover-card"
       ],
       "description": "Hover card with an image and text content.",
+      "descriptionLong": "Hover card with an image and text content. Built by composing Button, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "hover-card"
@@ -130,6 +135,7 @@
         "hover-card"
       ],
       "description": "Hover card inside a dialog.",
+      "descriptionLong": "Hover card inside a dialog. Built by composing Button, Dialog, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -155,6 +161,7 @@
         "hover-card"
       ],
       "description": "Timestamp hover card with active relative time",
+      "descriptionLong": "Timestamp hover card with active relative time. Built by composing Badge, Hover Card, Separator. Uses date-fns alongside the shadcn primitives. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "hover-card",
@@ -182,6 +189,7 @@
         "hover-card"
       ],
       "description": "Hover card with paginated release notes",
+      "descriptionLong": "Hover card with paginated release notes. Built by composing Badge, Button, Hover Card. A free, open source shadcn hover card example you can install with npx shadcn@latest add @reui/c-hover-card-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",

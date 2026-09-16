@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
+import { cn } from "cn"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { ButtonGroup } from "@/registry/bases/radix/ui/button-group"
 import {
@@ -28,7 +28,6 @@ export default function Pattern() {
               hugeicons="FilterMailIcon"
               phosphor="FunnelSimpleIcon"
               remixicon="RiFilter3Line"
-              className="..."
             />
           </Button>
         </DropdownMenuTrigger>

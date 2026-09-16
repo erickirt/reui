@@ -4,7 +4,7 @@ import type { HTMLAttributes, TimeHTMLAttributes } from "react"
 import { createContext, useCallback, useContext, useState } from "react"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 // Types
 type TimelineContextValue = {

@@ -8,6 +8,7 @@
         "aspect-ratio"
       ],
       "description": "16:9 widescreen aspect ratio",
+      "descriptionLong": "16:9 widescreen aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-1 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -31,6 +32,7 @@
         "aspect-ratio"
       ],
       "description": "4:3 standard aspect ratio",
+      "descriptionLong": "4:3 standard aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-2 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -54,6 +56,7 @@
         "aspect-ratio"
       ],
       "description": "1:1 square aspect ratio",
+      "descriptionLong": "1:1 square aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-3 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -77,6 +80,7 @@
         "aspect-ratio"
       ],
       "description": "21:9 ultrawide aspect ratio",
+      "descriptionLong": "21:9 ultrawide aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-4 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -100,6 +104,7 @@
         "aspect-ratio"
       ],
       "description": "9:16 portrait aspect ratio",
+      "descriptionLong": "9:16 portrait aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-5 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -123,6 +128,7 @@
         "aspect-ratio"
       ],
       "description": "3:2 classic photography aspect ratio",
+      "descriptionLong": "3:2 classic photography aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-6 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -146,6 +152,7 @@
         "aspect-ratio"
       ],
       "description": "4:5 social media portrait aspect ratio",
+      "descriptionLong": "4:5 social media portrait aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-7 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],
@@ -169,6 +176,7 @@
         "aspect-ratio"
       ],
       "description": "16:10 computer monitor aspect ratio",
+      "descriptionLong": "16:10 computer monitor aspect ratio. Built with the Aspect Ratio component. A free, open source shadcn aspect ratio example you can install with npx shadcn@latest add @reui/c-aspect-ratio-8 and edit as your own code.",
       "registryDependencies": [
         "aspect-ratio"
       ],

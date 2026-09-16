@@ -51,7 +51,7 @@ import type {
   FilterOptionsState,
 } from "@/registry-reui/bases/radix/reui/filters/filters-types"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { ButtonGroup } from "@/registry/bases/radix/ui/button-group"
 import { Input } from "@/registry/bases/radix/ui/input"

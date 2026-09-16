@@ -11,7 +11,7 @@ import {
   StepperTrigger,
 } from "@/registry-reui/bases/base/reui/stepper"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

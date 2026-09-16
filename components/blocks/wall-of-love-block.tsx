@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card } from "@/components/custom/card"
 import { Heading } from "@/components/custom/heading"

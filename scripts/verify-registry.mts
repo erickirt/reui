@@ -65,6 +65,16 @@ type RegistryItem = {
 /** Resolve an import specifier to its npm package name, or null if it is not a
  *  bare npm import (relative, alias, or a Node built-in). */
 function packageNameFromImport(specifier: string): string | null {
+  // Guard against false matches: the `from "..."` pattern also matches the
+  // ordinary English word "from" inside string / template-literal content
+  // (e.g. a comment reading: tells "this level is empty" from "not fetched
+  // yet"). A real module specifier can never contain template-expression,
+  // call, or whitespace characters, so reject any candidate that does. This
+  // only narrows what counts as an import - it can never mask a genuinely
+  // missing dependency, since no valid npm specifier contains these.
+  if (/[\s$(){}`]/.test(specifier)) {
+    return null
+  }
   if (
     specifier.startsWith(".") ||
     specifier.startsWith("/") ||
@@ -80,9 +90,29 @@ function packageNameFromImport(specifier: string): string | null {
   return specifier.split("/")[0] || null
 }
 
+/**
+ * Blank out template-literal CONTENT, keeping the backticks and every newline.
+ *
+ * A file that teaches an SDK ships that SDK's code as data, and such a snippet
+ * opens with a well-formed specifier that `packageNameFromImport` cannot tell
+ * from a real import - so the item would be asked to declare a dependency on a
+ * package that does not exist. Declaring it would make `shadcn add` try to
+ * install it.
+ *
+ * Import syntax is never evaluated inside a template literal, so nothing real
+ * is lost. Newlines survive so any line-based reporting keeps its numbers.
+ */
+function stripTemplateLiteralContent(content: string): string {
+  return content.replace(
+    /`(?:\\[\s\S]|[^`\\])*`/g,
+    (literal) => "`" + literal.slice(1, -1).replace(/[^\n]/g, " ") + "`"
+  )
+}
+
 /** Every npm package specifier imported (statically, dynamically, or via
  *  require / side-effect) from a file's content. */
-function collectImportedPackages(content: string): Set<string> {
+function collectImportedPackages(rawContent: string): Set<string> {
+  const content = stripTemplateLiteralContent(rawContent)
   const packages = new Set<string>()
   const patterns = [
     /\bfrom\s+["']([^"']+)["']/g, // import/export ... from "x"

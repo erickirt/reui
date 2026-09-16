@@ -1,4 +1,4 @@
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Label } from "@/registry/bases/base/ui/label"
 import { Slider } from "@/registry/bases/base/ui/slider"
 

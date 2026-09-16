@@ -8,6 +8,7 @@
         "dropdown-menu"
       ],
       "description": "Basic dropdown menu",
+      "descriptionLong": "Basic dropdown menu. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -32,6 +33,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menus opening positions",
+      "descriptionLong": "Dropdown menus opening positions. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -56,6 +58,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menu with icons",
+      "descriptionLong": "Dropdown menu with icons. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -80,6 +83,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menu with keyboard shortcuts",
+      "descriptionLong": "Dropdown menu with keyboard shortcuts. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -104,6 +108,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menu with nested submenus",
+      "descriptionLong": "Dropdown menu with nested submenus. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -128,6 +133,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menu with checkboxes",
+      "descriptionLong": "Dropdown menu with checkboxes. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -152,6 +158,7 @@
         "dropdown-menu"
       ],
       "description": "Dropdown menu with radio groups",
+      "descriptionLong": "Dropdown menu with radio groups. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -176,6 +183,7 @@
         "dropdown-menu"
       ],
       "description": "Advance dropdown menu",
+      "descriptionLong": "Advance dropdown menu. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -200,6 +208,7 @@
         "dropdown-menu"
       ],
       "description": "User profile dropdown menu",
+      "descriptionLong": "User profile dropdown menu. Built by composing Avatar, Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-9 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -225,6 +234,7 @@
         "dropdown-menu"
       ],
       "description": "Workspace switcher dropdown menu",
+      "descriptionLong": "Workspace switcher dropdown menu. Built by composing Avatar, Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-10 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -265,6 +275,7 @@
         "dropdown-menu"
       ],
       "description": "Notifications dropdown menu",
+      "descriptionLong": "Notifications dropdown menu. Built by composing Avatar, Badge, Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-11 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -291,6 +302,7 @@
         "dropdown-menu"
       ],
       "description": "Actions dropdown menu",
+      "descriptionLong": "Actions dropdown menu. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -315,6 +327,7 @@
         "dropdown-menu"
       ],
       "description": "Share and export dropdown menu",
+      "descriptionLong": "Share and export dropdown menu. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-13 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -339,6 +352,7 @@
         "dropdown-menu"
       ],
       "description": "User profile dropdown menu with theme toggle and status selector",
+      "descriptionLong": "User profile dropdown menu with theme toggle and status selector. Built by composing Avatar, Badge, Button, Dropdown Menu, Tabs. Uses cn alongside the shadcn primitives. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-14 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -346,7 +360,9 @@
         "dropdown-menu",
         "tabs"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/dropdown-menu/c-dropdown-menu-14.tsx",
@@ -366,6 +382,7 @@
         "dropdown-menu"
       ],
       "description": "User and create menu",
+      "descriptionLong": "User and create menu. Built by composing Avatar, Button, Dropdown Menu, Separator. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-15 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -392,6 +409,7 @@
         "dropdown-menu"
       ],
       "description": "Quick action menu",
+      "descriptionLong": "Quick action menu. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-16 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -416,6 +434,7 @@
         "dropdown-menu"
       ],
       "description": "Notifications dropdown with items",
+      "descriptionLong": "Notifications dropdown with items. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-17 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"
@@ -440,6 +459,7 @@
         "dropdown-menu"
       ],
       "description": "AI model selector with provider icons",
+      "descriptionLong": "AI model selector with provider icons. Built by composing Button, Dropdown Menu. A free, open source shadcn dropdown menu example you can install with npx shadcn@latest add @reui/c-dropdown-menu-18 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dropdown-menu"

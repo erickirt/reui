@@ -2,7 +2,7 @@ import { type ReactNode } from "react"
 import Link from "next/link"
 
 import { getFAQCategories } from "@/lib/data/faq-data"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Accordion,
   AccordionContent,

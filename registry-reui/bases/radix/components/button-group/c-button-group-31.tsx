@@ -15,7 +15,6 @@ export default function Pattern() {
           hugeicons="Share08Icon"
           phosphor="ShareNetworkIcon"
           remixicon="RiStackshareLine"
-          className="..."
         />
         Share
       </Button>

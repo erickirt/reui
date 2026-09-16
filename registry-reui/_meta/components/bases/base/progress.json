@@ -8,6 +8,7 @@
         "progress"
       ],
       "description": "Basic progress.",
+      "descriptionLong": "Basic progress. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-1 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],
@@ -31,6 +32,7 @@
         "progress"
       ],
       "description": "Small progress.",
+      "descriptionLong": "Small progress. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-2 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],
@@ -54,6 +56,7 @@
         "progress"
       ],
       "description": "Large progress.",
+      "descriptionLong": "Large progress. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-3 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],
@@ -77,6 +80,7 @@
         "progress"
       ],
       "description": "Progress bar with status messages.",
+      "descriptionLong": "Progress bar with status messages. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-4 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],
@@ -100,6 +104,7 @@
         "progress"
       ],
       "description": "File upload list with progress & status.",
+      "descriptionLong": "File upload list with progress & status. Built by composing Item, Progress. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-5 and edit as your own code.",
       "registryDependencies": [
         "item",
         "progress"
@@ -124,6 +129,7 @@
         "progress"
       ],
       "description": "Progress bar with slider.",
+      "descriptionLong": "Progress bar with slider. Built by composing Progress, Slider. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-6 and edit as your own code.",
       "registryDependencies": [
         "progress",
         "slider"
@@ -148,6 +154,7 @@
         "progress"
       ],
       "description": "Multi-step progress indicator",
+      "descriptionLong": "Multi-step progress indicator. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-7 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],
@@ -171,6 +178,7 @@
         "progress"
       ],
       "description": "Progress bar with custom colors.",
+      "descriptionLong": "Progress bar with custom colors. Built with the Progress component. A free, open source shadcn progress example you can install with npx shadcn@latest add @reui/c-progress-8 and edit as your own code.",
       "registryDependencies": [
         "progress"
       ],

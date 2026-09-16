@@ -8,6 +8,7 @@
         "menubar"
       ],
       "description": "Basic menubar.",
+      "descriptionLong": "Basic menubar. Built with the Menubar component. A free, open source shadcn menubar example you can install with npx shadcn@latest add @reui/c-menubar-1 and edit as your own code.",
       "registryDependencies": [
         "menubar"
       ],
@@ -31,6 +32,7 @@
         "menubar"
       ],
       "description": "Menubar with dropdown submenus.",
+      "descriptionLong": "Menubar with dropdown submenus. Built with the Menubar component. A free, open source shadcn menubar example you can install with npx shadcn@latest add @reui/c-menubar-2 and edit as your own code.",
       "registryDependencies": [
         "menubar"
       ],
@@ -54,6 +56,7 @@
         "menubar"
       ],
       "description": "Menubar with checkbox & radio items.",
+      "descriptionLong": "Menubar with checkbox & radio items. Built with the Menubar component. A free, open source shadcn menubar example you can install with npx shadcn@latest add @reui/c-menubar-3 and edit as your own code.",
       "registryDependencies": [
         "menubar"
       ],
@@ -77,6 +80,7 @@
         "menubar"
       ],
       "description": "Menubar with icons.",
+      "descriptionLong": "Menubar with icons. Built with the Menubar component. A free, open source shadcn menubar example you can install with npx shadcn@latest add @reui/c-menubar-4 and edit as your own code.",
       "registryDependencies": [
         "menubar"
       ],
@@ -100,6 +104,7 @@
         "menubar"
       ],
       "description": "Menubar for formatting and media.",
+      "descriptionLong": "Menubar for formatting and media. Built with the Menubar component. A free, open source shadcn menubar example you can install with npx shadcn@latest add @reui/c-menubar-5 and edit as your own code.",
       "registryDependencies": [
         "menubar"
       ],

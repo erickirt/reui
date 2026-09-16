@@ -8,6 +8,7 @@
         "toggle"
       ],
       "description": "Basic toggle.",
+      "descriptionLong": "Basic toggle. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-1 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -31,6 +32,7 @@
         "toggle"
       ],
       "description": "Toggle buttons with outline variant.",
+      "descriptionLong": "Toggle buttons with outline variant. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-2 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -54,6 +56,7 @@
         "toggle"
       ],
       "description": "Toggle buttons in different sizes.",
+      "descriptionLong": "Toggle buttons in different sizes. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-3 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -77,6 +80,7 @@
         "toggle"
       ],
       "description": "Toggle with button and icon.",
+      "descriptionLong": "Toggle with button and icon. Built by composing Button, Toggle. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "toggle"
@@ -101,6 +105,7 @@
         "toggle"
       ],
       "description": "Disabled toggle.",
+      "descriptionLong": "Disabled toggle. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-5 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -124,6 +129,7 @@
         "toggle"
       ],
       "description": "Toggle with icon.",
+      "descriptionLong": "Toggle with icon. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-6 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -147,6 +153,7 @@
         "toggle"
       ],
       "description": "Toggle with notification count badge",
+      "descriptionLong": "Toggle with notification count badge. Built by composing Badge, Toggle. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "toggle"
@@ -171,6 +178,7 @@
         "toggle"
       ],
       "description": "Toggle size variants showcase",
+      "descriptionLong": "Toggle size variants showcase. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-8 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -194,6 +202,7 @@
         "toggle"
       ],
       "description": "Toggle with icon swap on press",
+      "descriptionLong": "Toggle with icon swap on press. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-9 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -217,6 +226,7 @@
         "toggle"
       ],
       "description": "Toggle with text label that changes",
+      "descriptionLong": "Toggle with text label that changes. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-10 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -240,6 +250,7 @@
         "toggle"
       ],
       "description": "Social media reaction toggles",
+      "descriptionLong": "Social media reaction toggles. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-11 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -263,6 +274,7 @@
         "toggle"
       ],
       "description": "Toggle with tooltip",
+      "descriptionLong": "Toggle with tooltip. Built by composing Toggle, Tooltip. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-12 and edit as your own code.",
       "registryDependencies": [
         "toggle",
         "tooltip"
@@ -287,6 +299,7 @@
         "toggle"
       ],
       "description": "Disabled toggle states",
+      "descriptionLong": "Disabled toggle states. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-13 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],
@@ -310,6 +323,7 @@
         "toggle"
       ],
       "description": "Toggle as mute/unmute button",
+      "descriptionLong": "Toggle as mute/unmute button. Built with the Toggle component. A free, open source shadcn toggle example you can install with npx shadcn@latest add @reui/c-toggle-14 and edit as your own code.",
       "registryDependencies": [
         "toggle"
       ],

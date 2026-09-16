@@ -10,7 +10,7 @@ import {
   normalizeComponentSearchQuery,
 } from "@/lib/component-search-filter"
 import { parseAsSearchStringClient } from "@/lib/nuqs"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/components/ui/button"
 
 const SEARCH_DEBOUNCE_MS = 320

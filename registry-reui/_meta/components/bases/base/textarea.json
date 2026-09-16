@@ -8,6 +8,7 @@
         "textarea"
       ],
       "description": "Basic textarea.",
+      "descriptionLong": "Basic textarea. Built with the Textarea component. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-1 and edit as your own code.",
       "registryDependencies": [
         "textarea"
       ],
@@ -31,6 +32,7 @@
         "textarea"
       ],
       "description": "Invalid textarea.",
+      "descriptionLong": "Invalid textarea. Built with the Textarea component. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-2 and edit as your own code.",
       "registryDependencies": [
         "textarea"
       ],
@@ -54,6 +56,7 @@
         "textarea"
       ],
       "description": "Textarea with label.",
+      "descriptionLong": "Textarea with label. Built by composing Field, Textarea. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "textarea"
@@ -78,6 +81,7 @@
         "textarea"
       ],
       "description": "Textarea with description.",
+      "descriptionLong": "Textarea with description. Built by composing Field, Textarea. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "textarea"
@@ -102,6 +106,7 @@
         "textarea"
       ],
       "description": "Disabled textarea.",
+      "descriptionLong": "Disabled textarea. Built by composing Field, Textarea. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "textarea"
@@ -126,6 +131,7 @@
         "textarea"
       ],
       "description": "Auto-resize textarea with character count",
+      "descriptionLong": "Auto-resize textarea with character count. Built by composing Field, Textarea. A free, open source shadcn textarea example you can install with npx shadcn@latest add @reui/c-textarea-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "textarea"

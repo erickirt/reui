@@ -6,7 +6,7 @@ import type {
   ComponentCategorySeo,
   RelatedComponentsBlock,
 } from "@/lib/components"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Accordion,
   AccordionContent,

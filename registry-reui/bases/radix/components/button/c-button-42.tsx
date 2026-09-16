@@ -1,6 +1,6 @@
 "use client"
 
-import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard"
+import { useCopyToClipboard } from "@/registry-reui/bases/radix/hooks/use-copy-to-clipboard"
 import { Button } from "@/registry/bases/radix/ui/button"
 import {
   Tooltip,

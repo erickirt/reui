@@ -4,7 +4,7 @@ import Link from "next/link.js"
 import defaultMdxComponents from "fumadocs-ui/mdx"
 import type { MDXComponents } from "mdx/types"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Accordion,
   AccordionContent,

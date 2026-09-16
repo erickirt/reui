@@ -20,7 +20,7 @@ import {
 import type { DateRange, DayButton } from "react-day-picker"
 
 import { useIsMobile } from "@/registry/bases/base/hooks/use-mobile"
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Calendar, CalendarDayButton } from "@/registry/bases/base/ui/calendar"
 import { Input } from "@/registry/bases/base/ui/input"

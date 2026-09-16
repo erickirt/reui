@@ -33,6 +33,12 @@ Useful commands:
   by Next directly, so changes show up instantly (no rebuild step).
 - `pnpm dev:packages` — dev with the workspace component packages rebuilt on
   change via esbuild (`--watch`), matching the production bundling path.
+- `pnpm lint:ds` — design-system lint over `registry-reui/` with
+  [`@shadcn/lint`](https://www.npmjs.com/package/@shadcn/lint): catches classes
+  Tailwind cannot generate, dynamically built `className`s, and consumer
+  restyling of a primitive. `pnpm lint:ds:errors` shows errors only. The rule
+  vocabulary lives in `reui-lint.shared.mjs`; this repo's scope and local
+  exceptions live in `reui-lint.config.mjs`.
 - `pnpm registry:build` — regenerate `public/r/styles/**`.
 - `pnpm registry:all` — full regenerate + `registry:verify` production gate.
 - `pnpm components:packages` — (re)build the `@reui/components-*` workspace
@@ -51,6 +57,7 @@ brand-new category, also run `pnpm install` once so pnpm links the new
 ## Before you open a pull request
 
 - Run `pnpm lint` and `pnpm typecheck`.
+- If you touched `registry-reui/`, run `pnpm lint:ds` and do not add new errors.
 - Run `pnpm build` to confirm the production build passes.
 - If you changed the registry, run `pnpm registry:all` and commit the
   regenerated `public/r/styles/**` and `registry-reui/_meta/**`.

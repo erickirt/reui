@@ -132,7 +132,7 @@ export default function Pattern() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Industries</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <div className="w-[500px]2">
+              <div className="w-[500px]">
                 <ul className="grid grid-cols-2 gap-1">
                   {industries.map((item) => (
                     <li key={item.title}>

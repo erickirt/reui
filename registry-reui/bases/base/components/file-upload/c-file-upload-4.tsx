@@ -12,8 +12,8 @@ import {
   AlertDescription,
   AlertTitle,
 } from "@/registry-reui/bases/base/reui/alert"
+import { cn } from "cn"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/registry/bases/base/ui/button"
 import {
   Dialog,
@@ -103,7 +103,7 @@ export default function Pattern({
       {/* Upload Area */}
       <div
         className={cn(
-          "rounded-lg relative border border-dashed p-8 text-center transition-colors",
+          "relative rounded-lg border border-dashed p-8 text-center transition-colors",
           isDragging
             ? "border-primary bg-primary/5"
             : "border-muted-foreground/25 hover:border-muted-foreground/50"
@@ -191,7 +191,7 @@ export default function Pattern({
               {isImage(fileItem.file) && fileItem.preview ? (
                 <>
                   {loadingImages[fileItem.id] !== false && (
-                    <div className="bg-muted/50 rounded-lg absolute inset-0 flex items-center justify-center border">
+                    <div className="bg-muted/50 absolute inset-0 flex items-center justify-center rounded-lg border">
                       <Spinner className="text-muted-foreground size-6" />
                     </div>
                   )}
@@ -205,7 +205,7 @@ export default function Pattern({
                       }))
                     }
                     className={cn(
-                      "rounded-lg h-full w-full border object-cover transition-all group-hover/item:scale-105",
+                      "h-full w-full rounded-lg border object-cover transition-all group-hover/item:scale-105",
                       loadingImages[fileItem.id] !== false
                         ? "opacity-0"
                         : "opacity-100"
@@ -213,7 +213,7 @@ export default function Pattern({
                   />
                 </>
               ) : (
-                <div className="bg-muted rounded-lg flex h-full w-full items-center justify-center border">
+                <div className="bg-muted flex h-full w-full items-center justify-center rounded-lg border">
                   <IconPlaceholder
                     lucide="ImageIcon"
                     tabler="IconPhoto"
@@ -226,7 +226,7 @@ export default function Pattern({
               )}
 
               {/* Overlay */}
-              <div className="bg-black/50 absolute inset-0 flex items-center justify-center gap-2 opacity-0 transition-opacity group-hover/item:opacity-100">
+              <div className="absolute inset-0 flex items-center justify-center gap-2 bg-black/50 opacity-0 transition-opacity group-hover/item:opacity-100">
                 {/* View Button */}
                 {fileItem.preview && (
                   <Button
@@ -244,7 +244,6 @@ export default function Pattern({
                       hugeicons="SearchAddIcon"
                       phosphor="MagnifyingGlassPlusIcon"
                       remixicon="RiZoomInLine"
-                      className="opacity-100/80"
                     />
                   </Button>
                 )}
@@ -262,13 +261,12 @@ export default function Pattern({
                     hugeicons="MultiplicationSignIcon"
                     phosphor="XIcon"
                     remixicon="RiCloseLine"
-                    className="opacity-100/8"
                   />
                 </Button>
               </div>
 
               {/* File Info */}
-              <div className="rounded-b-lg absolute right-0 bottom-0 left-0 bg-black/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+              <div className="absolute right-0 bottom-0 left-0 rounded-b-lg bg-black/70 p-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
                 <p className="truncate text-xs font-medium">
                   {fileItem.file.name}
                 </p>
@@ -324,7 +322,7 @@ export default function Pattern({
                   alt="Preview"
                   onLoad={() => setIsPreviewLoading(false)}
                   className={cn(
-                    "rounded-lg h-full w-auto object-contain transition-opacity duration-300",
+                    "h-full w-auto rounded-lg object-contain transition-opacity duration-300",
                     isPreviewLoading ? "opacity-0" : "opacity-100"
                   )}
                 />

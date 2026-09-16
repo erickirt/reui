@@ -8,6 +8,7 @@
         "spinner"
       ],
       "description": "Basic spinner.",
+      "descriptionLong": "Basic spinner. Built with the Spinner component. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-1 and edit as your own code.",
       "registryDependencies": [
         "spinner"
       ],
@@ -31,6 +32,7 @@
         "spinner"
       ],
       "description": "Spinners in buttons.",
+      "descriptionLong": "Spinners in buttons. Built by composing Button, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "spinner"
@@ -55,6 +57,7 @@
         "spinner"
       ],
       "description": "Spinners in badges.",
+      "descriptionLong": "Spinners in badges. Built by composing Badge, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-3 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "spinner"
@@ -79,6 +82,7 @@
         "spinner"
       ],
       "description": "Spinner in input group.",
+      "descriptionLong": "Spinner in input group. Built by composing Field, Input Group, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -104,6 +108,7 @@
         "spinner"
       ],
       "description": "Spinner in empty state.",
+      "descriptionLong": "Spinner in empty state. Built by composing Button, Empty, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty",
@@ -129,6 +134,7 @@
         "spinner"
       ],
       "description": "Button loading states",
+      "descriptionLong": "Button loading states. Built by composing Button, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "spinner"
@@ -153,6 +159,7 @@
         "spinner"
       ],
       "description": "Overlay loading spinner",
+      "descriptionLong": "Overlay loading spinner. Built by composing Card, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-7 and edit as your own code.",
       "registryDependencies": [
         "card",
         "spinner"
@@ -177,6 +184,7 @@
         "spinner"
       ],
       "description": "Full page loading state",
+      "descriptionLong": "Full page loading state. Built by composing Card, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-8 and edit as your own code.",
       "registryDependencies": [
         "card",
         "spinner"
@@ -201,6 +209,7 @@
         "spinner"
       ],
       "description": "Inline loading text with spinner",
+      "descriptionLong": "Inline loading text with spinner. Built with the Spinner component. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-9 and edit as your own code.",
       "registryDependencies": [
         "spinner"
       ],
@@ -224,6 +233,7 @@
         "spinner"
       ],
       "description": "Animated loading dots",
+      "descriptionLong": "Animated loading dots. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-10 and edit as your own code.",
       "registryDependencies": [],
       "dependencies": [],
       "files": [
@@ -245,6 +255,7 @@
         "spinner"
       ],
       "description": "Spinner overlay on card",
+      "descriptionLong": "Spinner overlay on card. Built by composing Card, Spinner. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-11 and edit as your own code.",
       "registryDependencies": [
         "card",
         "spinner"
@@ -269,6 +280,7 @@
         "spinner"
       ],
       "description": "Spinner color variants",
+      "descriptionLong": "Spinner color variants. Built with the Spinner component. A free, open source shadcn spinner example you can install with npx shadcn@latest add @reui/c-spinner-12 and edit as your own code.",
       "registryDependencies": [
         "spinner"
       ],

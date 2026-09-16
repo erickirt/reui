@@ -1,7 +1,7 @@
 {
   "root": {
-    "description": "Free shadcn components for React and Tailwind CSS. {{count}} copy-ready layouts covering data grids, kanban, event calendars, Gantt charts, forms, and 60+ open-source components compatible with shadcn/ui.",
-    "intro": "Browse {{count}} open-source shadcn components for React and Tailwind CSS. From `@tanstack/react-table`-powered data grids and `@dnd-kit/core` kanban boards to event calendars, Gantt charts, form fields, and navigation, every component is copy-ready, maintained as part of the ReUI library, and fully compatible with your shadcn/ui setup and all five Shadcn Create style themes.",
+    "description": "Free shadcn components for React and Tailwind CSS. {{count}} copy-ready layouts covering data grids, kanban, event calendars, Gantt charts, forms, and open-source components compatible with shadcn/ui.",
+    "intro": "Browse {{count}} open-source shadcn components for React and Tailwind CSS. From `@tanstack/react-table`-powered data grids and `@dnd-kit/core` kanban boards to event calendars, Gantt charts, form fields, and navigation, every component is copy-ready, maintained as part of the ReUI library, and fully compatible with your shadcn/ui setup and all 8 Shadcn Create style themes.",
     "keywords": [
       "shadcn components",
       "shadcn/ui components",
@@ -32,7 +32,7 @@
       "title": "Shadcn Components: Go Beyond AI Defaults",
       "summary": [
         "ReUI is an open-source component library for the shadcn/ui ecosystem. Every component is built from shadcn primitives, styled with Tailwind CSS, and composed inside realistic dashboard layouts, not isolated component playgrounds. Browse {{count}} copy-ready catalog components and drop them directly into your React or Next.js project.",
-        "The library covers standard shadcn/ui components such as Button, Badge, and Dialog, plus 19 in-house custom components including Data Grid, Kanban, Filters, Event Calendar, Gantt, File Upload, Sortable, Timeline, and Stepper that extend the ecosystem beyond base shadcn/ui. All in-house components ship in both *Radix UI* and *Base UI* flavors.",
+        "The library covers standard shadcn/ui components such as Button, Badge, and Dialog, plus 22 in-house custom components including Data Grid, Kanban, Filters, Event Calendar, Gantt, File Upload, Sortable, Timeline, and Stepper that extend the ecosystem beyond base shadcn/ui. All in-house components ship in both *Radix UI* and *Base UI* flavors.",
         "Use the sections below to explore popular components, understand standard versus in-house components, check Shadcn Create compatibility, and compare *Radix UI* and *Base UI* variants."
       ],
       "sections": [
@@ -139,7 +139,7 @@
         {
           "title": "Shadcn Create Compatibility",
           "paragraphs": [
-            "All ReUI components are fully compatible with Shadcn Create. The five named themes (Vega, Nova, Maia, Lyra, and Mira) and the style controls for *Radius*, *Font Family*, *Base Color*, and *Color Scale* propagate to every component preview. The component source you copy uses the same CSS variable tokens, so what you see in the preview is exactly what you get in your project.",
+            "All ReUI components are fully compatible with Shadcn Create. The 8 named themes (Vega, Nova, Maia, Lyra, Mira, Luma, Sera, and Rhea) and the style controls for *Radius*, *Font Family*, *Base Color*, and *Color Scale* propagate to every component preview. The component source you copy uses the same CSS variable tokens, so what you see in the preview is exactly what you get in your project.",
             "This applies to both standard and in-house components. In-house components like Data Grid and Kanban reference the same `--radius`, `--background`, `--foreground`, and `--primary` tokens that Shadcn Create writes to your `globals.css`."
           ]
         },
@@ -158,7 +158,7 @@
         },
         {
           "question": "How is ReUI different from shadcn/ui itself?",
-          "answer": "shadcn/ui provides the primitive components and the CLI install model. ReUI builds on top of that foundation: it adds {{count}} composed components, 19 in-house custom components not in base shadcn/ui (Data Grid, Kanban, Filters, File Upload, Sortable, Timeline, Stepper, and more), and presents everything inside realistic dashboard frames rather than isolated demos. If shadcn/ui is the ingredient kit, ReUI is the recipe collection."
+          "answer": "shadcn/ui provides the primitive components and the CLI install model. ReUI builds on top of that foundation: it adds {{count}} composed components, 22 in-house custom components not in base shadcn/ui (Data Grid, Kanban, Filters, File Upload, Sortable, Timeline, Stepper, and more), and presents everything inside realistic dashboard frames rather than isolated demos. If shadcn/ui is the ingredient kit, ReUI is the recipe collection."
         },
         {
           "question": "Do I need to install an npm package to use ReUI components?",
@@ -257,7 +257,7 @@
             },
             {
               "title": "Shadcn Create Compatible.",
-              "description": "All five Shadcn Create themes (Vega, Nova, Maia, Lyra, and Mira) and the *Radius*, *Font Family*, and *Color Scale* controls apply directly to accordion previews and exported code."
+              "description": "All 8 Shadcn Create themes (Vega, Nova, Maia, Lyra, Mira, Luma, Sera, and Rhea) and the *Radius*, *Font Family*, and *Color Scale* controls apply directly to accordion previews and exported code."
             }
           ]
         }
@@ -338,8 +338,7 @@
         {
           "title": "Why Use Shadcn Alert?",
           "paragraphs": [
-            "Teams use alerts when users must notice state without opening a modal. That includes payment failures, form errors at the top of a page, or irreversible actions that need a short explanation and a primary [Shadcn Button](/components/button).",
-            "Searchers often look for \"shadcn alert\", \"tailwind alert\", or \"react accessible alert\". This page answers those intents with concrete layouts and copy that stays technically accurate for the shadcn ecosystem."
+            "Teams use alerts when users must notice state without opening a modal. That includes payment failures, form errors at the top of a page, or irreversible actions that need a short explanation and a primary [Shadcn Button](/components/button)."
           ]
         },
         {
@@ -372,7 +371,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Alert is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Alert extends the standard shadcn Alert with additional variants: success, warning, info, and invert: each backed by dedicated CSS variable tokens. This makes it a drop-in replacement that covers the full semantic range modern products need without patching base shadcn.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -459,7 +458,7 @@
           "title": "Why Use Shadcn Alert Dialog?",
           "paragraphs": [
             "Teams use alert dialogs when an action is permanent and accidental activation would harm the product or user data. Bulk deletes, account closures, and irreversible state changes need explicit, focused confirmation that a toast or inline message cannot provide.",
-            "Searchers look for 'delete confirmation react', 'destructive dialog component', and 'alert dialog shadcn'. This page answers those queries with real layouts showing how to combine text, icons, and button variants to make consequences unmistakable without alarm fatigue."
+            "The layouts on this page show how to combine text, icons, and button variants to make consequences unmistakable without alarm fatigue."
           ]
         },
         {
@@ -564,7 +563,7 @@
           "title": "Why Use Shadcn Aspect Ratio?",
           "paragraphs": [
             "Layouts jump when images load asynchronously, hurting Core Web Vitals and user experience. Aspect ratio containers solve this by claiming space upfront so text and buttons stay put while media loads.",
-            "Searchers look for 'react aspect ratio', 'image container responsive', and 'prevent layout shift'. This page answers with concrete gallery and card examples showing how aspect ratio pairs with [Shadcn Skeleton](/components/skeleton) for loading states and responsive grids so your UI feels polished on all screen sizes."
+            "The gallery and card examples on this page show how aspect ratio pairs with [Shadcn Skeleton](/components/skeleton) for loading states and responsive grids so your UI feels polished on all screen sizes."
           ]
         },
         {
@@ -656,7 +655,7 @@
       "title": "Shadcn Autocomplete: Base UI Typeahead for React Forms",
       "summary": [
         "ReUI Autocomplete is built on `@base-ui/react` Autocomplete: the headless, WAI-ARIA-compliant autocomplete primitive from the Base UI library. It manages listbox open state, active option highlight, keyboard navigation (arrow keys, Enter, Escape), and screen reader announcements without any CSS assumptions.",
-        "Twelve components cover basic typeahead, small and large size variants, auto-highlight on keystroke, grouped options with section labels, clear button, trigger button, combined clear and trigger, search results layout, form integration with React Hook Form, and Zod schema validation.",
+        "{{count}} components cover basic typeahead, small and large size variants, auto-highlight on keystroke, grouped options with section labels, clear button, trigger button, combined clear and trigger, search results layout, form integration with React Hook Form, and Zod schema validation.",
         "The sections below explain how ReUI Autocomplete differs from Combobox and Command, real use cases, features, and integration guidance."
       ],
       "sections": [
@@ -723,7 +722,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Autocomplete is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Autocomplete is built on `@base-ui/react` Autocomplete: a primitive not available in base shadcn/ui. It handles WAI-ARIA combobox semantics, listbox state, keyboard navigation, and screen reader announcements while leaving all styling to Tailwind CSS and your design tokens.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -810,7 +809,7 @@
           "title": "Why Use Shadcn Avatar?",
           "paragraphs": [
             "User photos humanize interfaces and help identify people at a glance. Avatars are essential in team tools, comment sections, and collaborative apps, but image loading failures and missing photos need graceful fallbacks to avoid blank spaces.",
-            "Searchers look for 'react avatar component', 'user profile image fallback', and 'shadcn avatar'. This page answers with real team rosters, comment threads, and profile cards showing how avatars integrate with names, roles, and status indicators."
+            "Real team rosters, comment threads, and profile cards on this page show how avatars integrate with names, roles, and status indicators."
           ]
         },
         {
@@ -915,7 +914,7 @@
           "title": "Why Use Shadcn Badge?",
           "paragraphs": [
             "Status labels at a glance reduce noise and speed up scanning. Tables with 50+ rows become instantly readable when badges show subscription state, approval status, or role without extra columns.",
-            "Searchers look for 'react badge component', 'status indicator label', and 'tailwind badge'. This page answers with real tables, cards, and user lists showing how badges pair with avatars, buttons, and text to clarify state without overwhelming the layout."
+            "Real tables, cards, and user lists on this page show how badges pair with avatars, buttons, and text to clarify state without overwhelming the layout."
           ]
         },
         {
@@ -948,7 +947,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Badge is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Badge extends the standard shadcn Badge with semantic color variants: success, warning, info, and invert: each mapped to CSS variables in your Tailwind theme. Use it anywhere you need status-coded labels beyond the default shadcn variant set.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -1039,7 +1038,7 @@
           "title": "Why Use Shadcn Breadcrumb?",
           "paragraphs": [
             "Breadcrumbs reduce cognitive load by showing users where they are without needing a full navigation menu. They're essential in e-commerce (Home / Category / Subcategory / Product), docs (Home / Guide / Topic / Article), and admin tools (Home / Module / Section / Record).",
-            "Searchers look for 'react breadcrumb', 'navigation trail component', and 'wayfinding'. This page answers with real hierarchies showing how breadcrumbs work with [Shadcn Button](/components/button) back actions, links, and Next.js routing."
+            "The hierarchies on this page show how breadcrumbs work with [Shadcn Button](/components/button) back actions, links, and Next.js routing."
           ]
         },
         {
@@ -1109,7 +1108,7 @@
     }
   },
   "button": {
-    "description": "Shadcn Button components: 61 free layouts with loading states and icon buttons. {{count}} accessible React buttons with Tailwind CSS and variants.",
+    "description": "Shadcn Button components: {{count}} free layouts with loading states and icon buttons. Accessible React buttons with Tailwind CSS and variants.",
     "intro": "Browse {{count}} production-ready shadcn button components for primary actions, form submissions, destructive actions, and loading states. Button is compatible with Radix UI and Base UI stacks and fully aligned with Shadcn Create styling.",
     "keywords": [
       "shadcn button",
@@ -1144,7 +1143,7 @@
           "title": "Why Use Shadcn Button?",
           "paragraphs": [
             "Buttons are the fundamental interaction element in apps. Consistent styling across variants (primary, secondary, destructive) helps users scan for actions without confusion.",
-            "Searchers look for 'react button component', 'form submit button', and 'button variants'. This page answers with real forms, toolbars, and dialog examples showing how buttons pair with loading states, icons, and disabled states."
+            "The forms, toolbars, and dialog examples on this page show how buttons pair with loading states, icons, and disabled states."
           ]
         },
         {
@@ -1249,7 +1248,7 @@
           "title": "Why Use Shadcn Button Group?",
           "paragraphs": [
             "Segmented controls save space compared to dropdowns and keep all options visible. They're essential in dashboards for view toggles, filters, and tool selection where users need quick access without opening a menu.",
-            "Searchers look for 'react segmented control', 'button group component', and 'toggle button group'. This page answers with real dashboards and toolbars showing how button groups pair with icons and manage selection state."
+            "The dashboards and toolbars on this page show how button groups pair with icons and manage selection state."
           ]
         },
         {
@@ -1346,7 +1345,7 @@
           "title": "Why Use Shadcn Calendar?",
           "paragraphs": [
             "Date pickers are essential for booking, scheduling, filtering, and data range inputs. A calendar interface is faster and more reliable than typing dates manually.",
-            "Searchers look for 'react calendar', 'date picker component', and 'booking calendar'. This page answers with real forms and filters showing how calendars integrate with [Shadcn Popover](/components/popover) and [Shadcn Input](/components/input)."
+            "The forms and filters on this page show how calendars integrate with [Shadcn Popover](/components/popover) and [Shadcn Input](/components/input)."
           ]
         },
         {
@@ -1408,7 +1407,7 @@
     }
   },
   "card": {
-    "description": "Shadcn Card components: 21 free layouts for content containers in React apps. {{count}} clickable cards and skeletons with responsive Tailwind CSS.",
+    "description": "Shadcn Card components: {{count}} free layouts for content containers in React apps. Clickable cards, headers, footers, and skeletons with responsive Tailwind CSS.",
     "intro": "Browse {{count}} production-ready shadcn card components for dashboard widgets, product cards, and content containers. Card is compatible with Radix UI and Base UI stacks and fully aligned with Shadcn Create styling.",
     "keywords": [
       "shadcn card",
@@ -1443,7 +1442,7 @@
           "title": "Why Use Shadcn Card?",
           "paragraphs": [
             "Cards create visual hierarchy and make scanning easier. Dashboards, product grids, and list views use cards to separate content blocks and reduce cognitive load.",
-            "Searchers look for 'react card component', 'dashboard card', and 'product card layout'. This page answers with real dashboards and grids showing how cards pair with images, buttons, and metadata."
+            "The dashboards and grids on this page show how cards pair with images, buttons, and metadata."
           ]
         },
         {
@@ -1527,7 +1526,7 @@
       "title": "Shadcn Carousel: Embla-Powered Slides and Galleries",
       "summary": [
         "Shadcn Carousel is built on Embla Carousel: the most widely used React carousel library: wrapped in shadcn-compatible primitives. Embla handles touch, pointer, and keyboard scroll snapping, slide transitions, and plugin architecture without prescribing visual styles.",
-        "Eleven components cover basic single-item carousel, overlay thumbnail navigation, dots navigation with content overlays, vertical orientation, multiple visible items, responsive slide basis, autoplay with the `embla-carousel-autoplay` plugin, centered slide alignment, custom inter-slide spacing, images with overlays, and thumbnail strip navigation.",
+        "{{count}} components cover basic single-item carousel, overlay thumbnail navigation, dots navigation with content overlays, vertical orientation, multiple visible items, responsive slide basis, autoplay with the `embla-carousel-autoplay` plugin, centered slide alignment, custom inter-slide spacing, images with overlays, and thumbnail strip navigation.",
         "The sections below cover the Embla foundation, real use cases in product and marketing pages, feature details, and composition guidance."
       ],
       "sections": [
@@ -1541,7 +1540,7 @@
         {
           "title": "Why Use Shadcn Carousel?",
           "paragraphs": [
-            "Image galleries, product photo viewers, testimonial sliders, feature showcases, and media players all need a touch-friendly, keyboard-accessible slide container. Embla Carousel is the de facto standard for React carousels in 2024–2025: it is lightweight (6 kB gzipped), framework-agnostic at the core, and supports CSS-native scroll behavior.",
+            "Image galleries, product photo viewers, testimonial sliders, feature showcases, and media players all need a touch-friendly, keyboard-accessible slide container. Embla Carousel is the de facto standard for React carousels in 2024 to 2025: it is lightweight (6 kB gzipped), framework-agnostic at the core, and supports CSS-native scroll behavior.",
             "The autoplay plugin (`embla-carousel-autoplay`) handles play/pause on hover and focus, respects reduced-`motion` preferences, and integrates with the Embla event system. Pair with [Shadcn Aspect Ratio](/components/aspect-ratio) to keep slide images consistent across different screen sizes."
           ]
         },
@@ -1577,7 +1576,7 @@
             },
             {
               "title": "Multiple Visible Items.",
-              "description": "Multi-item carousel shows 2–4 slides simultaneously with gap spacing. Slide basis adapts to the number of visible items. Responsive basis variant changes the visible count at different container widths."
+              "description": "Multi-item carousel shows 2 to 4 slides simultaneously with gap spacing. Slide basis adapts to the number of visible items. Responsive basis variant changes the visible count at different container widths."
             },
             {
               "title": "Centered Slide Alignment.",
@@ -1752,10 +1751,17 @@
         "[Shadcn Button](/components/button) is the natural trigger through the composition prop, [Shadcn Badge](/docs/components/base/badge) renders removable chips and per-row status, and every level scrolls inside a [Shadcn Scroll Area](/components/scroll-area), which is what gives each Miller column a thumb of its own. Reach for [Shadcn Tree](/components/tree) when the surface is for browsing rather than committing a value, and [Shadcn Combobox](/components/combobox) when the options are a flat list."
       ]
     },
-    "inHouse": true
+    "inHouse": true,
+    "searchAliases": [
+      "multiselect",
+      "multi-select",
+      "nested select",
+      "drill down",
+      "tree select"
+    ]
   },
   "chart": {
-    "description": "Shadcn Chart components powered by Recharts and Motion. Bar, area, line, pie, and radar charts with animations, gradients, and responsive layouts. 25 production.",
+    "description": "Shadcn Chart components powered by Recharts and Motion. Bar, area, line, pie, and radar charts with animations, gradients, and responsive layouts. {{count}} examples.",
     "intro": "Browse {{count}} production-ready shadcn chart components built on Recharts and Motion. Covers bar, vertical bar, area, step area, stacked area, line, forecast, donut, pie, radar, and 3D isometric chart types with gradient fills, animation, stripe component overlays, glowing markers, and crosshatch textures.",
     "keywords": [
       "shadcn chart",
@@ -1778,7 +1784,7 @@
       "title": "Shadcn Chart: Recharts and Motion Data Visualization",
       "summary": [
         "ReUI Chart wraps Recharts: the composable charting library for React: and Motion for animation, surfacing production-ready chart components inside shadcn-compatible containers. All charts use design tokens from your shadcn theme so colors, radius, and typography stay consistent with the rest of the UI.",
-        "Twenty-five components span bar, vertical bar, stacked area, step area, line, forecast, donut, multi-dataset pie, radar, and 3D isometric layouts with visual treatments including gradient fills, stripe component overlays, crosshatch textures, glowing dot markers, and animated entrance transitions.",
+        "{{count}} components span bar, vertical bar, stacked area, step area, line, forecast, donut, multi-dataset pie, radar, and 3D isometric layouts with visual treatments including gradient fills, stripe component overlays, crosshatch textures, glowing dot markers, and animated entrance transitions.",
         "The sections below cover the library stack, chart type catalogue, visual feature set, and how charts compose with Card, Badge, and Skeleton."
       ],
       "sections": [
@@ -1848,7 +1854,7 @@
         },
         {
           "question": "What chart types are available?",
-          "answer": "Bar (standard, vertical, monochrome, 3D, isometric), area (gradient, stacked, step, forecast), line, donut (center total, center stats, active segment), pie (multi-dataset, stripe components), radar (gradient fill, glowing stroke), and Lighthouse scores radial. 25 components in total."
+          "answer": "Bar (standard, vertical, monochrome, 3D, isometric), area (gradient, stacked, step, forecast), line, donut (center total, center stats, active segment), pie (multi-dataset, stripe components), radar (gradient fill, glowing stroke), and Lighthouse scores radial. {{count}} components in total."
         },
         {
           "question": "How are gradient and component fills implemented?",
@@ -2007,7 +2013,7 @@
       "title": "Shadcn Code Block: Streaming, Diffs, and AI Chat",
       "summary": [
         "ReUI Code Block is a custom shadcn component, not part of the base shadcn/ui library, for rendering source code with syntax highlighting from Shiki. It handles the cases an AI product actually needs: code streaming in token by token, agent-proposed diffs, diagnostics on specific lines, and per-line actions, alongside the ordinary documentation cases.",
-        "Eighteen components cover the range: a streaming agent response with a caret and stick-to-bottom scrolling, an AI chat message that renders markdown code fences as they arrive, diff review with added and removed lines, focus walkthroughs, line selection for asking an assistant about a range, terminal output with no highlighting, and multi-file patches in tabs.",
+        "{{count}} components cover the range: a streaming agent response with a caret and stick-to-bottom scrolling, an AI chat message that renders markdown code fences as they arrive, diff review with added and removed lines, focus walkthroughs, line selection for asking an assistant about a range, terminal output with no highlighting, and multi-file patches in tabs.",
         "The component is composable rather than configured. The root renders the code surface and children supply the chrome, so the same block works bare, inside a shadcn Card, or inside a ReUI Frame without a doubled border."
       ],
       "sections": [
@@ -2175,7 +2181,7 @@
     }
   },
   "combobox": {
-    "description": "Shadcn Combobox components using Base UI. Multi-select with chips, grouped options, async search, and form integration. 20 production examples.",
+    "description": "Shadcn Combobox components using Base UI. Multi-select with chips, grouped options, async search, and form integration. {{count}} production examples.",
     "intro": "Browse {{count}} production-ready shadcn combobox components using `@base-ui/react` Combobox. Covers single select, multi-select with removable chips, non-removable chips, user tag creation, dialog-embedded combobox, grouped options with separators, custom item rendering, large list performance, clear button, auto-highlight, and form integration.",
     "keywords": [
       "shadcn combobox",
@@ -2197,7 +2203,7 @@
       "title": "Shadcn Combobox: Multi-Select and Grouped Options",
       "summary": [
         "ReUI Combobox is built on `@base-ui/react` Combobox: the headless multi-select primitive that handles listbox state, keyboard navigation, selection model, and WAI-ARIA combobox roles. It supports single and multi-select modes, chip display for selected values, and inline filtering.",
-        "Twenty components cover basic single-select, popup-rendered combobox, form integration, multi-select with removable chips, non-removable chips, invalid state, user tag creation, custom item rendering, dialog-embedded combobox, custom trigger icon, large list performance, grouped options with separators, icon addons, and disabled states.",
+        "{{count}} components cover basic single-select, popup-rendered combobox, form integration, multi-select with removable chips, non-removable chips, invalid state, user tag creation, custom item rendering, dialog-embedded combobox, custom trigger icon, large list performance, grouped options with separators, icon addons, and disabled states.",
         "The sections below cover the Base UI foundation, real use cases, feature details, and how Combobox composes with Dialog, Field, and Input Group."
       ],
       "sections": [
@@ -2205,13 +2211,13 @@
           "title": "What is Shadcn Combobox?",
           "paragraphs": [
             "ReUI Combobox is a custom shadcn component built on `@base-ui/react`'s Combobox primitive. It is distinct from the shadcn Autocomplete (optimized for single-value typed search) and from the Command palette (full keyboard-driven command interface). Combobox handles multi-select with chip display, user-defined tag creation, and grouped option lists: use cases that need a richer selection model than a basic autocomplete.",
-            "The component renders selected values as removable chips inside the input field, supports an invisible trigger mode for inline tag inputs, and embeds inside Dialog for modal selection flows. Twenty components show all major variants inside realistic form and dashboard layouts."
+            "The component renders selected values as removable chips inside the input field, supports an invisible trigger mode for inline tag inputs, and embeds inside Dialog for modal selection flows. {{count}} components show all major variants inside realistic form and dashboard layouts."
           ]
         },
         {
           "title": "Why Use Shadcn Combobox?",
           "paragraphs": [
-            "Multi-select is one of the most requested form controls in SaaS products: skill tags, team member assignment, category classification, permission role selection, and label management all need a searchable multi-select with chip display. `@base-ui/react` provides the headless foundation with full ARIA compliance; ReUI adds the Tailwind styling, chip removal, and the 20 production components developers actually need.",
+            "Multi-select is one of the most requested form controls in SaaS products: skill tags, team member assignment, category classification, permission role selection, and label management all need a searchable multi-select with chip display. `@base-ui/react` provides the headless foundation with full ARIA compliance; ReUI adds the Tailwind styling, chip removal, and the {{count}} production components developers actually need.",
             "The large list performance component handles hundreds of options without virtualization: Base UI's internal filtering keeps renders minimal. For truly enormous lists, pair with [Shadcn Autocomplete](/docs/components/base/autocomplete) in async search mode. For full command palettes, use [Shadcn Command](/components/command)."
           ]
         },
@@ -2298,7 +2304,14 @@
         "For single-value typed search in a form field use [Shadcn Autocomplete](/docs/components/base/autocomplete). For full command palettes with sections, actions, and shortcuts use [Shadcn Command](/components/command). For a lightweight single-select without search use [Shadcn Select](/components/select).",
         "Embed Combobox inside [Shadcn Dialog](/components/dialog) for modal selection flows, or inside [Shadcn Popover](/components/popover) for inline panel selection. Use [Shadcn Sonner](/components/sonner) for async feedback when selections trigger server mutations."
       ]
-    }
+    },
+    "searchAliases": [
+      "multiselect",
+      "multi-select",
+      "multi select",
+      "tag input",
+      "token input"
+    ]
   },
   "command": {
     "description": "Shadcn Command components for keyboard-driven interfaces. Command palettes, search filters, and navigation shortcuts with grouped commands and custom rendering.",
@@ -2504,7 +2517,7 @@
     }
   },
   "data-grid": {
-    "description": "Shadcn Data Grid components using TanStack React Table with virtual scrolling. Spreadsheet cell selection, clipboard, inline editing, sortable and filterable columns, i18n. 33 examples.",
+    "description": "Shadcn Data Grid components using TanStack React Table with virtual scrolling. Spreadsheet cell selection, clipboard, inline editing, sortable and filterable columns, i18n. {{count}} examples.",
     "intro": "Browse {{count}} production-ready shadcn data grid components built on TanStack Table v9 and TanStack Virtual. Sorting, filtering, pagination, pinning, column resizing, drag and drop, tree rows, CRUD, infinite scroll, row and column virtualization, spreadsheet cell selection with clipboard and inline editing, and localized labels through one i18n prop.",
     "keywords": [
       "shadcn data grid",
@@ -2534,7 +2547,7 @@
       "title": "Shadcn Data Grid: TanStack Table, Virtual, and DnD",
       "summary": [
         "ReUI Data Grid is built on TanStack Table v9 and TanStack Virtual: the headless table and virtualization engines trusted by thousands of production React apps. It handles sorting, filtering, pagination, column sizing, pinning, selection, grouping, and virtual row rendering without dictating markup.",
-        "Components cover 29 real layouts including drag-and-drop rows and columns via @dnd-kit, local and remote infinite scroll, CRUD with Sonner feedback, expandable rows, sub-tables, footer aggregates, and dense or borderless visual variants.",
+        "Components cover {{count}} real layouts including drag-and-drop rows and columns via @dnd-kit, local and remote infinite scroll, CRUD with Sonner feedback, expandable rows, sub-tables, footer aggregates, and dense or borderless visual variants.",
         "ReUI shows every data grid component inside realistic dashboards and frame containers so you can evaluate density, sticky headers, and column controls next to real chrome: not an isolated sandbox. The sections below cover architecture, features, and integration guidance."
       ],
       "sections": [
@@ -2629,7 +2642,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Data Grid is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Data Grid is a comprehensive custom component not available in base shadcn/ui. It is built on `@tanstack/react-table` for headless table state, `@tanstack/react-virtual` for row virtualization, and `@dnd-kit/core` with `@dnd-kit/sortable` for accessible drag-and-drop. The component ships as 10 composable sub-files covering the table, DnD rows, DnD columns, virtual table, scroll area, column header, column filter, column visibility, and pagination: each independently importable.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -2754,7 +2767,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Date Selector is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Date Selector is a custom inline date picker component not available in base shadcn/ui. Built on `react-day-picker` for the calendar UI and `date-fns` for date formatting and locale support, it renders in a Popover, Dialog, or Dropdown Menu trigger depending on your layout needs.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -3133,15 +3146,15 @@
       "title": "Shadcn Empty State: Zero-Data Screens with Illustrations",
       "summary": [
         "ReUI Empty is a custom shadcn component for rendering intentional empty states: screens where data is absent, searches return no results, or users have not yet taken an onboarding action. It structures the empty state as an icon or illustration, a title, a description, and an optional call-to-action.",
-        "Twenty components cover a broad range of product contexts: analytics no-data, bookmarks, tasks, automations with toggle illustration, comments with isometric board, products with stacked cards and blur, search with file cards, payments with credit card illustration, integrations with connected nodes, events with calendar, inbox, team members, notifications, dashed upload zones, and document upload.",
-        "The sections below cover the component structure, why empty states matter for retention, all twenty components, and composition with Button, Input, and Kbd."
+        "{{count}} components cover a broad range of product contexts: analytics no-data, bookmarks, tasks, automations with toggle illustration, comments with isometric board, products with stacked cards and blur, search with file cards, payments with credit card illustration, integrations with connected nodes, events with calendar, inbox, team members, notifications, dashed upload zones, and document upload.",
+        "The sections below cover the component structure, why empty states matter for retention, all {{count}} components, and composition with Button, Input, and Kbd."
       ],
       "sections": [
         {
           "title": "What is Shadcn Empty?",
           "paragraphs": [
             "ReUI Empty is a custom shadcn component for empty state screens. It renders a centered layout with an illustration or icon, a concise heading, a one-to-two sentence description, and a primary action button. The illustration slot accepts SVG, image, or any React node: ReUI ships inline SVG illustrations for each product context so no external image hosting is required.",
-            "Twenty components cover the most common empty state contexts in SaaS products. Each component is designed for a specific product screen: the payments empty state uses a credit card illustration, the integrations empty state shows connected node graphics, and the search empty state shows a stacked file card animation. All illustrations use Tailwind colors and CSS variables so they adapt to light and dark themes."
+            "{{count}} components cover the most common empty state contexts in SaaS products. Each component is designed for a specific product screen: the payments empty state uses a credit card illustration, the integrations empty state shows connected node graphics, and the search empty state shows a stacked file card animation. All illustrations use Tailwind colors and CSS variables so they adapt to light and dark themes."
           ]
         },
         {
@@ -3160,7 +3173,7 @@
             },
             {
               "title": "Context-Specific Illustrations.",
-              "description": "Twenty inline SVG illustrations match specific product contexts: analytics charts, credit card, connected nodes, calendar, stacked file cards, chat bubbles, isometric board, and more. No external image hosting required."
+              "description": "{{count}} inline SVG illustrations match specific product contexts: analytics charts, credit card, connected nodes, calendar, stacked file cards, chat bubbles, isometric board, and more. No external image hosting required."
             },
             {
               "title": "Light and Dark Theme Illustrations.",
@@ -3168,11 +3181,11 @@
             },
             {
               "title": "Dashed Upload Empty State.",
-              "description": "Dashed border dropzone variant doubles as an empty state and file upload trigger — used in document management and media library screens where upload is the primary action."
+              "description": "Dashed border dropzone variant doubles as an empty state and file upload trigger, used in document management and media library screens where upload is the primary action."
             },
             {
               "title": "Search Input and Keyboard Shortcut.",
-              "description": "Empty state with search input embeds a shadcn Input Group for immediate search entry. Kbd component shows keyboard shortcuts inline — useful for command palette trigger hints on empty screens."
+              "description": "Empty state with search input embeds a shadcn Input Group for immediate search entry. Kbd component shows keyboard shortcuts inline, useful for command palette trigger hints on empty screens."
             },
             {
               "title": "Add Button and Onboarding Actions.",
@@ -3180,7 +3193,7 @@
             },
             {
               "title": "Stacked Card and Blur Effects.",
-              "description": "Product and payments empty states use layered card or credit card illustrations with blur effects to preview what the filled state looks like — reducing uncertainty about what users are enabling."
+              "description": "Product and payments empty states use layered card or credit card illustrations with blur effects to preview what the filled state looks like, reducing uncertainty about what users are enabling."
             },
             {
               "title": "Grid and Inline Variants.",
@@ -3303,7 +3316,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Event Calendar is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It follows the same copy-and-own installation model as every shadcn/ui component: the source lands directly in your repository as a set of composable files (root, views, nav, interaction engine, recurrence, i18n, types), and you own, extend, and style it with your Tailwind CSS tokens.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling - only the underlying headless primitive differs. ReUI maintains 19 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling - only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -3477,7 +3490,7 @@
       "title": "Shadcn File Upload: Drag, Drop, Preview, and Manage Files",
       "summary": [
         "ReUI File Upload is a custom shadcn component for handling file input, drag-and-drop zones, image previews, and multi-file management. It wraps the native file input in an accessible label-based trigger, announces selection state to assistive technologies, and emits Sonner toast feedback for upload errors.",
-        "Ten components cover basic file input, cover image upload, avatar replacement, drag-and-drop zones, gallery upload, upload with progress tracking, table-based file management, image upload with cropping intent, image upload with drag-to-reorder via Sortable, and card-style upload UI.",
+        "{{count}} components cover basic file input, cover image upload, avatar replacement, drag-and-drop zones, gallery upload, upload with progress tracking, table-based file management, image upload with cropping intent, image upload with drag-to-reorder via Sortable, and card-style upload UI.",
         "The sections below cover what the component provides, real use cases in SaaS and B2B products, features, and integration with Sortable for reordering uploaded images."
       ],
       "sections": [
@@ -3524,7 +3537,7 @@
             },
             {
               "title": "Sortable Image Grid.",
-              "description": "Composes with ReUI Sortable (@dnd-kit/sortable) to let users drag-and-drop uploaded images into a custom order before saving — essential for product photo management and gallery ordering."
+              "description": "Composes with ReUI Sortable (@dnd-kit/sortable) to let users drag-and-drop uploaded images into a custom order before saving, essential for product photo management and gallery ordering."
             },
             {
               "title": "Card and Dialog Variants.",
@@ -3541,15 +3554,15 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI File Upload is a custom shadcn component for multi-file upload with validation, preview, and progress tracking.",
-            "Available in Radix UI and Base UI flavors via `@base-ui/react`. ReUI maintains 19 such in-house components."
+            "Available in Radix UI and Base UI flavors via `@base-ui/react`. ReUI maintains 22 such in-house components."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/file-upload"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/file-upload"
             }
           ]
@@ -3590,7 +3603,12 @@
         "Combine with [Shadcn Field](/components/field) and [Shadcn Label](/components/label) for form-integrated upload fields. Use [Shadcn Sonner](/components/`sonner`) for non-blocking upload error and success toasts, and [Shadcn Alert](/docs/components/base/alert) for persistent validation messages."
       ]
     },
-    "inHouse": true
+    "inHouse": true,
+    "searchAliases": [
+      "usefileupload",
+      "dropzone",
+      "drag and drop upload"
+    ]
   },
   "filters": {
     "description": "Free shadcn filters components for data filtering with URL persistence. Custom React component for client and server-side filtering with date ranges.",
@@ -3617,7 +3635,7 @@
       "title": "Shadcn Filters: Faceted Search with TanStack and nuqs",
       "summary": [
         "ReUI Filters is a custom shadcn component for building filter panels that connect directly to TanStack Table's column filter API. It renders a composable set of field types: text, select, multi-select, date range, number range, and boolean toggles: validates input with Zod, and persists active filters to the URL with nuqs for shareable, bookmarkable filtered views.",
-        "Nine components cover field variety, input validation, custom trigger buttons, compact and large size variants, custom control rendering, full data grid integration, async filter mode for server-side filtering, and i18n support with locale-aware labels and date formatting.",
+        "{{count}} components cover field variety, input validation, custom trigger buttons, compact and large size variants, custom control rendering, full data grid integration, async filter mode for server-side filtering, and i18n support with locale-aware labels and date formatting.",
         "The sections below explain the architecture, why URL-persistent filters matter, feature details, and how Filters integrates with Data Grid and other ReUI primitives."
       ],
       "sections": [
@@ -3663,7 +3681,7 @@
             },
             {
               "title": "Multi-Field Type Support.",
-              "description": "Text search, single select, multi-select with checkboxes, date ranges, number ranges, and boolean toggles — all defined in a single field schema and rendered by the filter panel automatically."
+              "description": "Text search, single select, multi-select with checkboxes, date ranges, number ranges, and boolean toggles, all defined in a single field schema and rendered by the filter panel automatically."
             },
             {
               "title": "Applied Filter Chips.",
@@ -3688,15 +3706,15 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Filters is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Filters is a custom schema-driven filter panel not available in base shadcn/ui. It integrates directly with @tanstack/react-table column filter APIs, persists filter state to URL search params via nuqs, validates inputs with zod, and supports async server-side filtering for large datasets. The i18n and custom control components extend it for global products.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on @base-ui/react. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on @base-ui/react. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/filters"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/filters"
             }
           ]
@@ -3777,7 +3795,7 @@
           "title": "Why Use Shadcn Frame?",
           "paragraphs": [
             "Frames reduce noise by creating clear visual boundaries between page regions. They make layout predictable when many sections or cards sit on one URL, and they help responsive design by centralizing max-width and padding logic in one reusable component.",
-            "Searchers often look for \"shadcn frame\", \"tailwind container\", or \"react bounded layout\". This page answers those intents with concrete layouts that show how frames nest with [Shadcn Card](/components/card), [Shadcn Dialog](/components/dialog), and form regions."
+            "The layouts on this page show how frames nest with [Shadcn Card](/components/card), [Shadcn Dialog](/components/dialog), and form regions."
           ]
         },
         {
@@ -3810,15 +3828,15 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Frame is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Frame is a custom container component not available in base shadcn/ui. It provides a consistent layout shell: title, toolbar slot, action button, and scrollable content area: used across Data Grid, Kanban, Timeline, Chart, and Sortable components to produce self-contained dashboard panels without writing per-page chrome code.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on @base-ui/react. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on @base-ui/react. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/frame"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/frame"
             }
           ]
@@ -3939,7 +3957,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Gantt is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It follows the same copy-and-own installation model as every shadcn/ui component: the source lands directly in your repository as a set of composable files (root, view, nav, bar, interaction engine, recurrence, i18n, types), and you own, extend, and style it with your Tailwind CSS tokens.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling - only the underlying headless primitive differs. ReUI maintains 19 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling - only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -4024,7 +4042,7 @@
           "title": "Why Use Shadcn Hover Card?",
           "paragraphs": [
             "Hover cards reduce noise by hiding rich detail until users request it. They work well for user mentions, link previews, or product details when you want to avoid modal overhead and keep users in scanning mode. Marketing sites, dashboards, and social features often use them.",
-            "Searchers often look for \"shadcn hover card\", \"react popover\", or \"tailwind preview card\". This page answers those intents with layouts that show hover cards next to a [Shadcn Popover](/components/popover) or [Shadcn Tooltip](/components/tooltip) to clarify when each makes sense."
+            "The layouts on this page place hover cards next to a [Shadcn Popover](/components/popover) or [Shadcn Tooltip](/components/tooltip) so it is clear when each one makes sense."
           ]
         },
         {
@@ -4056,7 +4074,7 @@
       "faqs": [
         {
           "question": "When should I use a hover card instead of a tooltip or popover?",
-          "answer": "Use hover card for rich content like user profiles, product summaries, or link previews—content that benefits from multiple lines, images, or actions. Tooltips are for brief hints (one line). Popovers are for interactive forms or complex controls. Hover cards balance density and interactivity."
+          "answer": "Use hover card for rich content like user profiles, product summaries, or link previews, content that benefits from multiple lines, images, or actions. Tooltips are for brief hints (one line). Popovers are for interactive forms or complex controls. Hover cards balance density and interactivity."
         },
         {
           "question": "Is a hover card accessible for keyboard and screen reader users?",
@@ -4315,7 +4333,7 @@
     "inHouse": true
   },
   "input": {
-    "description": "Free shadcn input components with prefixes, suffixes, masking, and addons. Password toggle, clearing support. Copy-ready 17 React input variations.",
+    "description": "Free shadcn input components with prefixes, suffixes, masking, and addons. Password toggle, clearing support. {{count}} copy-ready React input variations.",
     "intro": "Browse {{count}} production-ready shadcn input components for text entry, search fields, passwords, and real-time validation. Shadcn Input is compatible with Radix UI and Base UI form components and is fully aligned with Shadcn Create style options so your previews match your design tokens.",
     "keywords": [
       "shadcn input",
@@ -4351,8 +4369,8 @@
         {
           "title": "Why Use Shadcn Input?",
           "paragraphs": [
-            "Teams use inputs in every form—login, signup, search, filters, and data entry. A consistent, accessible input saves time and keeps UX predictable. Inputs pair with [Shadcn Field](/components/field) for labels, descriptions, and error messages so validation stays near the field.",
-            "Searchers often look for \"shadcn input\", \"react text input\", or \"tailwind form field\". This page answers those intents with layouts that show inputs with [Shadcn Label](/components/label), [Shadcn Input Group](/components/input-group), and error states together."
+            "Teams use inputs in every form - login, signup, search, filters, and data entry. A consistent, accessible input saves time and keeps UX predictable. Inputs pair with [Shadcn Field](/components/field) for labels, descriptions, and error messages so validation stays near the field.",
+            "The layouts on this page show inputs together with [Shadcn Label](/components/label), [Shadcn Input Group](/components/input-group), and error states."
           ]
         },
         {
@@ -4446,7 +4464,7 @@
         {
           "title": "What is Shadcn Input Group?",
           "paragraphs": [
-            "In form terms, an input group is a container that holds an input and one or more addons—text, icons, or buttons—arranged horizontally. Shadcn Input Group manages focus and layout so the input and addons feel like one unit.",
+            "In form terms, an input group is a container that holds an input and one or more addons (text, icons, or buttons) arranged horizontally. Shadcn Input Group manages focus and layout so the input and addons feel like one unit.",
             "Components here show currency inputs, search fields with buttons, URL fields with copy icons, and password toggles. They help you decide addon placement and sizing before shipping inputs with rich context into production forms."
           ]
         },
@@ -4454,7 +4472,7 @@
           "title": "Why Use Shadcn Input Group?",
           "paragraphs": [
             "Input groups reduce cognitive load by showing context right next to the field. Currency symbols, URL schemes, and action icons are all visible without extra labels or popovers. They save space in dense forms and make intent clear at a glance.",
-            "Searchers often look for \"shadcn input group\", \"react input with button\", or \"tailwind input addon\". This page answers those intents with layouts that combine input groups with [Shadcn Field](/components/field), [Shadcn Button](/components/button), and validation components."
+            "The layouts on this page combine input groups with [Shadcn Field](/components/field), [Shadcn Button](/components/button), and validation components."
           ]
         },
         {
@@ -4544,7 +4562,7 @@
       "title": "Shadcn Input OTP: Verification Codes and PIN Entry",
       "summary": [
         "ReUI Input OTP is built on the input-otp library: the lightweight, accessible OTP input component used by shadcn/ui itself. It renders individual character slots as a single controlled input, handles paste from clipboard, auto-advances focus on digit entry, and announces completion state to screen readers.",
-        "Six components cover basic OTP entry, numeric-digit-only validation, multiple separator styles between slot groups, alphanumeric verification codes, PIN code entry, and a complete verification code flow with submit action.",
+        "{{count}} components cover basic OTP entry, numeric-digit-only validation, multiple separator styles between slot groups, alphanumeric verification codes, PIN code entry, and a complete verification code flow with submit action.",
         "The sections below cover the input-otp library integration, real authentication use cases, features, and how OTP input composes with Field and Button for complete verification forms."
       ],
       "sections": [
@@ -4574,11 +4592,11 @@
           "featureItems": [
             {
               "title": "input-otp Library Foundation.",
-              "description": "Built on the input-otp library — the same library used by shadcn/ui. Single DOM input with segmented visual rendering, native mobile keyboard, SMS autofill via autocomplete='one-time-code', and clipboard paste."
+              "description": "Built on the input-otp library, the same library used by shadcn/ui. Single DOM input with segmented visual rendering, native mobile keyboard, SMS autofill via autocomplete='one-time-code', and clipboard paste."
             },
             {
               "title": "Auto-Advance and Auto-Submit.",
-              "description": "Focus moves to the next slot automatically after each character entry. When the last slot fills, an optional onChange callback fires with the complete value — wire to auto-submit or immediate validation."
+              "description": "Focus moves to the next slot automatically after each character entry. When the last slot fills, an optional onChange callback fires with the complete value. Wire it to auto-submit or immediate validation."
             },
             {
               "title": "Paste Support.",
@@ -4590,7 +4608,7 @@
             },
             {
               "title": "Separator Variants.",
-              "description": "Separator elements render between slot groups — single dash, double dash, or no separator. Useful for license keys (XXXX-XXXX-XXXX), phone number segments, or date-part inputs."
+              "description": "Separator elements render between slot groups - single dash, double dash, or no separator. Useful for license keys (XXXX-XXXX-XXXX), phone number segments, or date-part inputs."
             },
             {
               "title": "SMS Autofill.",
@@ -4677,7 +4695,7 @@
           "title": "Why Use Shadcn Item?",
           "paragraphs": [
             "Items speed up list building by providing a ready-made row structure. Instead of writing grid or flex boilerplate for each media-title-description combination, you use ItemMedia, ItemContent, ItemTitle, and add actions as needed.",
-            "Searchers often look for \"shadcn item\", \"react list row\", or \"tailwind content card\". This page answers those intents with layouts that show items inside [Shadcn Data Grid](/docs/components/base/data-grid), [Shadcn Sortable](/docs/components/base/sortable) lists, and selectable [Shadcn Checkbox](/components/checkbox) flows."
+            "The layouts on this page show items inside [Shadcn Data Grid](/docs/components/base/data-grid), [Shadcn Sortable](/docs/components/base/sortable) lists, and selectable [Shadcn Checkbox](/components/checkbox) flows."
           ]
         },
         {
@@ -4764,7 +4782,7 @@
       "title": "Shadcn Kanban: Drag-and-Drop Task Boards for React",
       "summary": [
         "ReUI Kanban is a custom shadcn component built on `@dnd-kit/core` and `@dnd-kit/sortable` : the same collision-detection engine used across ReUI's Sortable and Data Grid components. Cards drag between columns with pointer and keyboard support, drag overlays prevent layout shift, and the board state is plain React state you can wire to any backend.",
-        "Five components cover placeholder overlay, dynamic overlay, frame-column layout, minimal stacked boards, and a feature roadmap view with per-column progress tracking.",
+        "{{count}} components cover placeholder overlay, dynamic overlay, frame-column layout, minimal stacked boards, and a feature roadmap view with per-column progress tracking.",
         "The sections below cover what ReUI Kanban provides, why teams adopt it for product management and CRM, and how it composes with Card, Badge, Avatar, and other shadcn primitives."
       ],
       "sections": [
@@ -4819,8 +4837,8 @@
           "title": "ReUI Kanban: In-House Custom Shadcn Component",
           "inHouse": true,
           "paragraphs": [
-            "ReUI Kanban is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Kanban is a custom drag-and-drop board component not available in base shadcn/ui. It is powered by `@dnd-kit/core` for collision detection and sensor management, and `@dnd-kit/sortable` for the sortable context around cards and columns. Five components cover placeholder overlay, dynamic overlay, frame-column layout, minimal stacked board, and feature roadmap with Progress tracking.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 19 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "ReUI Kanban is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Kanban is a custom drag-and-drop board component not available in base shadcn/ui. It is powered by `@dnd-kit/core` for collision detection and sensor management, and `@dnd-kit/sortable` for the sortable context around cards and columns. {{count}} components cover placeholder overlay, dynamic overlay, frame-column layout, minimal stacked board, and feature roadmap with Progress tracking.",
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -4903,7 +4921,7 @@
           "title": "Why Use Shadcn Kbd?",
           "paragraphs": [
             "Kbds teach users about keyboard shortcuts without interrupting their flow. A quick visual reference (Cmd+K) is clearer than prose (\"press Command and K together\"). Teams use them in help sections, tooltips, and in-app command hints to make power-user features discoverable.",
-            "Searchers often look for \"shadcn kbd\", \"react keyboard shortcut\", or \"tailwind key display\". This page answers those intents with layouts that combine kbd elements with Shadcn Button hints, Shadcn Tooltip, and Shadcn Command palettes."
+            "The layouts on this page combine kbd elements with Shadcn Button hints, Shadcn Tooltip, and Shadcn Command palettes."
           ]
         },
         {
@@ -5003,7 +5021,7 @@
           "title": "Why Use Shadcn Label?",
           "paragraphs": [
             "Labels reduce confusion by clarifying what data each field expects. They also provide larger click targets on the label text itself, improving usability for all users, especially on mobile. Screen readers rely on label-input association to explain controls correctly.",
-            "Searchers often look for \"shadcn label\", \"react form label\", or \"accessible label html\". This page answers those intents with layouts that pair labels with Shadcn Input, Shadcn Checkbox, Shadcn Field, and validation components."
+            "The layouts on this page pair labels with Shadcn Input, Shadcn Checkbox, Shadcn Field, and validation components."
           ]
         },
         {
@@ -5104,7 +5122,7 @@
           "title": "Why Use Shadcn Menubar?",
           "paragraphs": [
             "Menubars organize commands in a familiar, persistent UI component. Desktop users expect File, Edit, and View menus. Web apps that mimic desktop behavior feel native and discoverable. Keyboard shortcuts and hierarchical nesting help power users work faster.",
-            "Searchers often look for \"shadcn menubar\", \"react desktop menu\", or \"tailwind app menu\". This page answers those intents with layouts that show menubars with Shadcn Dropdown Menu submenus, Shadcn Kbd shortcuts, and Shadcn Separator dividers."
+            "The layouts on this page show menubars with Shadcn Dropdown Menu submenus, Shadcn Kbd shortcuts, and Shadcn Separator dividers."
           ]
         },
         {
@@ -5205,7 +5223,7 @@
           "title": "Why Use Shadcn Native Select?",
           "paragraphs": [
             "Native selects are faster, more accessible, and work better on mobile. The browser renders the appropriate picker (iOS, Android) without JavaScript. They reduce bundle size and improve form performance compared to custom Shadcn Select.",
-            "Searchers often look for \"shadcn native select\", \"react dropdown\", or \"html select styling\". This page answers those intents with layouts that show native selects in forms with Shadcn Field and Shadcn Button actions."
+            "The layouts on this page show native selects in forms with Shadcn Field and Shadcn Button actions."
           ]
         },
         {
@@ -5306,7 +5324,7 @@
           "title": "Why Use Shadcn Navigation Menu?",
           "paragraphs": [
             "Navigation menus organize site structure in a persistent, familiar component. Top-level triggers hint at content below; submenus let users explore without leaving the current page. They reduce clicks and keep users in context.",
-            "Searchers often look for \"shadcn navigation menu\", \"react site navigation\", or \"tailwind mega menu\". This page answers those intents with layouts that show navigation menus in headers with Shadcn Button actions and logo placement."
+            "The layouts on this page show navigation menus in headers with Shadcn Button actions and logo placement."
           ]
         },
         {
@@ -5407,7 +5425,7 @@
           "title": "Why Use Shadcn Number Field?",
           "paragraphs": [
             "Number fields reduce errors by constraining input to numeric values. Spinners let users adjust values without typing. They improve mobile UX where on-screen number keyboards can feel slow. Use them for quantities, prices, ratings, and any numeric choice.",
-            "Searchers often look for \"shadcn number field\", \"react numeric input\", or \"tailwind spinner input\". This page answers those intents with layouts that show number fields in checkout steps, filter panels, and product pages."
+            "The layouts on this page show number fields in checkout steps, filter panels, and product pages."
           ]
         },
         {
@@ -5440,7 +5458,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Number Field is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Number Field is a custom numeric input component built on `@base-ui/react` NumberField, not available in base shadcn/ui. It provides increment and decrement stepper buttons, min/max/step constraints, and keyboard-controlled value changes with full WAI-ARIA spinbutton semantics. Integrates with `react-hook-form` and `zod` for form validation.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 19 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -5527,7 +5545,7 @@
           "title": "Why Use Shadcn Pagination?",
           "paragraphs": [
             "Pagination improves performance and UX by breaking large datasets into manageable chunks. Users see only what fits on one page, pages load faster, and users control how much data they consume. They provide clear progress (page 3 of 47) so users understand scope.",
-            "Searchers often look for \"shadcn pagination\", \"react page navigation\", or \"table pagination\". This page answers those intents with layouts that show pagination below Shadcn Table and Shadcn Data Grid in real dashboards."
+            "The layouts on this page place pagination under Shadcn Table and Shadcn Data Grid in real dashboards."
           ]
         },
         {
@@ -5613,7 +5631,7 @@
       "title": "Shadcn Phone Input: International Numbers with Country Flags",
       "summary": [
         "ReUI Phone Input is a custom shadcn component for international phone number entry. It renders a country code selector with flag icons alongside a formatted phone number input : composing shadcn Input Group, Select, and Field primitives with a country data set.",
-        "Eight components cover basic phone input, small and large size variants, disabled state, preset value initialization, error state with validation feedback, specific default country selection, and read-only display mode.",
+        "{{count}} components cover basic phone input, small and large size variants, disabled state, preset value initialization, error state with validation feedback, specific default country selection, and read-only display mode.",
         "The sections below cover the component architecture, real use cases in global SaaS products, features, and form integration guidance."
       ],
       "sections": [
@@ -5669,7 +5687,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Phone Input is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Phone Input is a custom international phone number component not available in base shadcn/ui. It is built on `react-phone-number-input` for country code management and E.164 formatting, wrapping the country selector and number input in shadcn Input Group primitives. Supports preset value, default country, error state, and disabled and read-only modes.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 19 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -5757,7 +5775,7 @@
           "title": "Why Use Shadcn Popover?",
           "paragraphs": [
             "Teams use popovers when they need to show interactive content without opening a full dialog or page. Quick edits to a table row, filter selections, date pickers, and help text are all tasks suited to popovers because they stay contextual and let users return focus to the original action.",
-            "Searchers look for 'react popover', 'tooltip with form', and 'popover vs dialog'. This page answers with real examples showing how popovers differ from tooltips (which are read-only), how they compare to dialogs (which are modal and block interaction), and when to use each component in your product."
+            "The examples on this page show how popovers differ from tooltips (which are read-only), how they compare to dialogs (which are modal and block interaction), and when to use each component in your product."
           ]
         },
         {
@@ -5852,14 +5870,14 @@
           "title": "What is Shadcn Progress?",
           "paragraphs": [
             "A progress bar is a visual indicator showing how much of a task is complete. Shadcn Progress wraps Radix UI primitives to provide accessible, themeable progress indicators that work with Tailwind styling and render clear roles for assistive technologies.",
-            "Components here show determinate progress (0–100% with a known duration), indeterminate progress (animated, duration unknown), color-coded status (success, warning, danger), and stacked progress for multi-step workflows. They help you choose a component, decide when to show a spinner vs. a progress bar, and integrate progress with form submission feedback."
+            "Components here show determinate progress (0 to 100% with a known duration), indeterminate progress (animated, duration unknown), color-coded status (success, warning, danger), and stacked progress for multi-step workflows. They help you choose a component, decide when to show a spinner vs. a progress bar, and integrate progress with form submission feedback."
           ]
         },
         {
           "title": "Why Use Shadcn Progress?",
           "paragraphs": [
             "Progress bars reduce anxiety during long operations by showing users that something is happening. File uploads, API calls, and batch processes all benefit from visible feedback so users don't think the app has frozen.",
-            "Searchers look for 'react progress bar', 'file upload progress', and 'loading indicator'. This page answers with realistic components showing how progress bars pair with Shadcn Field labels, Shadcn Button actions (pause, cancel), and status messages so users stay informed and confident."
+            "The components on this page show how progress bars pair with Shadcn Field labels, Shadcn Button actions (pause, cancel), and status messages so users stay informed and confident."
           ]
         },
         {
@@ -5867,7 +5885,7 @@
           "featureItems": [
             {
               "title": "Determinate and Indeterminate.",
-              "description": "Set a value prop (0–100) to show known progress, or omit it for animated indeterminate state when duration is unknown."
+              "description": "Set a value prop (0 to 100) to show known progress, or omit it for animated indeterminate state when duration is unknown."
             },
             {
               "title": "Accessible Roles.",
@@ -5960,7 +5978,7 @@
           "title": "Why Use Shadcn Radio Group?",
           "paragraphs": [
             "Teams use radio groups when users must choose exactly one option from a set. Payment methods, subscription tiers, delivery speeds, and notification preferences are common cases where one-at-a-time selection is required.",
-            "Searchers look for 'radio button react', 'form radio component', and 'single-select form field'. This page answers with real components showing when radio groups are better than dropdowns (fewer options, all visible), and how to pair them with [Shadcn Field](/components/field) labels and validation feedback."
+            "The components on this page show when radio groups are better than dropdowns (fewer options, all visible), and how to pair them with [Shadcn Field](/components/field) labels and validation feedback."
           ]
         },
         {
@@ -5992,7 +6010,7 @@
       "faqs": [
         {
           "question": "Should I use a radio group or a dropdown for single-select options?",
-          "answer": "Use radio groups when there are fewer than 5–7 options and you want all choices visible at once. Use a [Shadcn Select](/components/select) or [Shadcn Combobox](/components/combobox) when there are many options and space is limited, or when users might not need to see all choices."
+          "answer": "Use radio groups when there are fewer than 5 to 7 options and you want all choices visible at once. Use a [Shadcn Select](/components/select) or [Shadcn Combobox](/components/combobox) when there are many options and space is limited, or when users might not need to see all choices."
         },
         {
           "question": "How do I make a radio group field required in a form?",
@@ -6047,7 +6065,7 @@
       "title": "Shadcn Rating: Stars, Emojis, and Review Summaries",
       "summary": [
         "ReUI Rating is a custom shadcn component for collecting and displaying user ratings. It renders star icons as radio inputs, making the selection accessible to keyboard users and screen readers via standard radio group semantics without custom ARIA roles.",
-        "Nine components cover basic star rating, decimal display (3.7 stars), show-value labels, editable mode, size variants, full review summary with rating breakdown bars, interactive half-star rating, emoji reaction rating, and a combined rating with review text input.",
+        "{{count}} components cover basic star rating, decimal display (3.7 stars), show-value labels, editable mode, size variants, full review summary with rating breakdown bars, interactive half-star rating, emoji reaction rating, and a combined rating with review text input.",
         "The sections below explain the accessible radio input foundation, real use cases in e-commerce and SaaS, features, and composition with Progress, Textarea, and Button for complete review flows."
       ],
       "sections": [
@@ -6107,7 +6125,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Rating is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Rating is a custom accessible rating component not available in base shadcn/ui. Stars render as radio inputs in a fieldset for native keyboard navigation and screen reader support. Supports decimal display with CSS clip-path, editable hover preview, half-star interactive mode, emoji reaction variant, and a review summary with per-star Progress breakdown bars.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -6161,7 +6179,7 @@
       "title": "ReUI Rating: In-House Custom Shadcn Component",
       "paragraphs": [
         "ReUI Rating is a custom implementation built on Radix UI primitives, offering both interactive and read-only modes with smooth animations and full keyboard accessibility. It supports half-star selections, custom icon substitution, and seamless integration with form validation libraries.",
-        "ReUI maintains 19 in-house components that enhance the base shadcn/ui library with production-grade features for Next.js applications. The Rating component includes built-in screen reader support for star announcements and ARIA attributes."
+        "ReUI maintains 22 in-house components that enhance the base shadcn/ui library with production-grade features for Next.js applications. The Rating component includes built-in screen reader support for star announcements and ARIA attributes."
       ],
       "docsLinks": [
         {
@@ -6211,7 +6229,7 @@
           "title": "Why Use Shadcn Resizable?",
           "paragraphs": [
             "Teams use resizable panels when users benefit from controlling layout. Code editors, data dashboards, and design tools all let power users customize how much space each view occupies, improving focus and productivity.",
-            "Searchers look for 'react split pane', 'draggable panel layout', and 'resizable dashboard'. This page answers with realistic components showing how to build editor and dashboard layouts where panels adjust dynamically, and how to pair resizable with [Shadcn Card](/components/card) content containers."
+            "The components on this page show how to build editor and dashboard layouts where panels adjust dynamically, and how to pair resizable with [Shadcn Card](/components/card) content containers."
           ]
         },
         {
@@ -6312,7 +6330,7 @@
           "title": "Why Use Shadcn Scroll Area?",
           "paragraphs": [
             "Teams use scroll area when the default browser scrollbar doesn't match the design system or when fine-tuned scrolling behavior improves the product experience. Long lists, data tables, and code blocks all benefit from visible, styled scrollbars that hint at content flow.",
-            "Searchers look for 'custom scrollbar react', 'hide scrollbar tailwind', and 'scroll area component'. This page answers with components showing how scroll-area works with [Shadcn Table](/components/table) for scrollable data, and how to style scrollbars to match your Shadcn Create tokens."
+            "The components on this page show how scroll-area works with [Shadcn Table](/components/table) for scrollable data, and how to style scrollbars to match your Shadcn Create tokens."
           ]
         },
         {
@@ -6398,7 +6416,7 @@
       "title": "Shadcn Scrollspy: Active Section Navigation Highlight",
       "summary": [
         "ReUI Scrollspy is a custom shadcn component that highlights the active navigation link as users scroll through page sections. It uses the Intersection Observer API to detect which section is in the viewport and updates the active link state without scroll event listeners or manual offset calculations.",
-        "Two components cover basic scrollspy with sticky navigation links and scrollspy inside a shadcn Scroll Area for constrained-height containers. Both components are suitable for documentation sidebars, long-form content pages, and settings panels with section anchors.",
+        "{{count}} components cover basic scrollspy with sticky navigation links and scrollspy inside a shadcn Scroll Area for constrained-height containers. Both components are suitable for documentation sidebars, long-form content pages, and settings panels with section anchors.",
         "The sections below explain the Intersection Observer approach, use cases, features, and composition guidance."
       ],
       "sections": [
@@ -6450,7 +6468,7 @@
           "inHouse": true,
           "paragraphs": [
             "ReUI Scrollspy is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project : following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Scrollspy is a custom in-page navigation component not available in base shadcn/ui. It uses the browser's native IntersectionObserver API to track which content section is in the viewport and highlights the corresponding navigation link. No scroll event listeners : only intersection callbacks fire, keeping performance overhead minimal on long pages.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling : only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
@@ -6500,7 +6518,7 @@
       "title": "ReUI Scrollspy: In-House Custom Shadcn Component",
       "paragraphs": [
         "ReUI Scrollspy is a custom component that automatically highlights navigation items as the user scrolls through page sections. It handles fixed header offsets, dynamic content, and multiple scrollspy instances with minimal configuration.",
-        "ReUI maintains 19 in-house components for production Next.js apps. The Scrollspy component provides smooth scroll anchoring, performance optimization for many sections, and accessibility features."
+        "ReUI maintains 22 in-house components for production Next.js apps. The Scrollspy component provides smooth scroll anchoring, performance optimization for many sections, and accessibility features."
       ],
       "docsLinks": [
         {
@@ -6551,7 +6569,7 @@
           "title": "Why Use Shadcn Select?",
           "paragraphs": [
             "Teams use Select when they need a dropdown that looks and feels consistent with their design system. Radix UI Select provides keyboard accessibility and mobile support out of the box, while custom styling makes it a strong alternative to native <select>.",
-            "Searchers look for 'react dropdown', 'custom select component', and 'select vs combobox'. This page answers with components showing the trade-offs: native <select> is fastest and mobile-optimized; Shadcn Select offers design flexibility and animations; Combobox adds search for large lists."
+            "The components on this page show the trade-offs: native <select> is fastest and mobile-optimized; Shadcn Select offers design flexibility and animations; Combobox adds search for large lists."
           ]
         },
         {
@@ -6587,7 +6605,7 @@
         },
         {
           "question": "What is the difference between Select and Combobox?",
-          "answer": "Select displays a dropdown menu of options when clicked; users pick one. Combobox combines a text input with a dropdown; users can type to filter options or click to see all. Use Select for short lists (5–20 items); Combobox for large lists where searching saves time."
+          "answer": "Select displays a dropdown menu of options when clicked; users pick one. Combobox combines a text input with a dropdown; users can type to filter options or click to see all. Use Select for short lists (5 to 20 items); Combobox for large lists where searching saves time."
         },
         {
           "question": "How do I add search or filtering to a Select?",
@@ -6614,7 +6632,10 @@
         "For large searchable lists, use [Shadcn Combobox](/components/combobox) instead. For simple single-choice forms with few options, use [Shadcn Radio Group](/components/radio-group) so all options are visible without opening a dropdown.",
         "Pair select with [Shadcn Button](/components/button) for form submission. Add [Shadcn Popover](/components/popover) to provide help text or examples if users are unsure which option to pick. For mobile optimization, offer [Shadcn Native Select](/components/native-select) as an alternative that uses OS-level pickers."
       ]
-    }
+    },
+    "searchAliases": [
+      "dropdown"
+    ]
   },
   "separator": {
     "description": "{{count}} separator components for dividing content sections. Semantic HTML dividers, vertical layouts, decorative lines, and full WCAG accessibility.",
@@ -6652,7 +6673,7 @@
           "title": "Why Use Shadcn Separator?",
           "paragraphs": [
             "Teams use separators to group related content and improve visual hierarchy without opening a new card or section. List items, form sections, and menu items all benefit from clear dividers that guide the eye without distraction.",
-            "Searchers look for 'react divider', 'horizontal line component', and 'content separator'. This page answers with components showing when and where separators improve layouts, and how to style them to match your Shadcn Create tokens for cohesive design."
+            "The components on this page show when and where separators improve layouts, and how to style them to match your Shadcn Create tokens for cohesive design."
           ]
         },
         {
@@ -6753,7 +6774,7 @@
           "title": "Why Use Shadcn Sheet?",
           "paragraphs": [
             "Teams use sheets when they need modal content without overlaying the entire page center (where a full dialog would sit). Mobile navigation, filter menus, and product detail panels all benefit from edge-positioned overlays that feel lightweight and responsive.",
-            "Searchers look for 'react drawer', 'side panel modal', and 'mobile navigation overlay'. This page answers with components showing how sheets differ from dialogs (which center on screen), how to make sheets responsive, and when to use sheets vs. full-page navigation."
+            "The components on this page show how sheets differ from dialogs (which center on screen), how to make sheets responsive, and when to use sheets vs. full-page navigation."
           ]
         },
         {
@@ -6854,7 +6875,7 @@
           "title": "Why Use Shadcn Skeleton?",
           "paragraphs": [
             "Skeleton screens reduce the perception of load time. Instead of blank space or spinners, users see a preview of the final layout, creating anticipation rather than frustration.",
-            "Searchers look for 'react loading placeholder', 'skeleton loader', and 'shimmer effect'. This page answers with components showing how to craft skeletons that match final content dimensions, when to use skeletons vs. spinners, and how skeletons improve Core Web Vitals metrics."
+            "The components on this page show how to craft skeletons that match final content dimensions, when to use skeletons vs. spinners, and how skeletons improve Core Web Vitals metrics."
           ]
         },
         {
@@ -6955,7 +6976,7 @@
           "title": "Why Use Shadcn Slider?",
           "paragraphs": [
             "Teams use sliders when continuous numeric input fits better than dropdowns or discrete buttons. Price ranges, volume controls, zoom levels, and date ranges all benefit from a visual, draggable interface. Sliders reduce interaction cost when the user's goal is to explore or fine-tune a value.",
-            "Searchers look for 'shadcn slider', 'react range input', and 'tailwind price filter'. This page answers those intents with realistic layouts showing how to combine slider elements, labels, and helper text to guide users toward the right range."
+            "The layouts on this page show how to combine slider elements, labels, and helper text to guide users toward the right range."
           ]
         },
         {
@@ -7056,7 +7077,7 @@
           "title": "Why Use Shadcn Sonner?",
           "paragraphs": [
             "Teams use toasts for non-blocking feedback: form submissions, file uploads, bulk operations, and temporary errors that don't need a modal or overlay. Toasts keep users on task by delivering feedback without stealing focus or requiring a button click to dismiss.",
-            "Searchers look for 'shadcn toast', '`sonner` react', and 'next.js notification'. This page answers those intents with realistic workflows showing when to use toasts versus [Shadcn Alert](/docs/components/base/alert) (persistent) or [Shadcn Dialog](/components/dialog) (blocking)."
+            "The workflows on this page show when to use toasts versus [Shadcn Alert](/docs/components/base/alert) (persistent) or [Shadcn Dialog](/components/dialog) (blocking)."
           ]
         },
         {
@@ -7143,7 +7164,7 @@
       "title": "Shadcn Sortable: Reorder Lists, Grids, and Galleries",
       "summary": [
         "ReUI Sortable is a custom shadcn component built on `@dnd-kit/sortable`: the same engine powering ReUI's Kanban and Data Grid column reordering. It wraps any list or grid of items in a SortableContext and exposes a useSortable hook-based API for individual items, giving you full control over drag handles, visual feedback, and drop animation.",
-        "Seven components cover vertical drag-and-drop lists, grid layouts, nested structures, playlist ordering, settings priority queues, sidebar navigation reordering, and image gallery grids.",
+        "{{count}} components cover vertical drag-and-drop lists, grid layouts, nested structures, playlist ordering, settings priority queues, sidebar navigation reordering, and image gallery grids.",
         "The sections below explain the component architecture, practical use cases, and how Sortable composes with Kanban, File Upload, and other ReUI primitives."
       ],
       "sections": [
@@ -7182,7 +7203,7 @@
             },
             {
               "title": "Practical Real-World Presets.",
-              "description": "Seven components cover playlist ordering, settings priority, sidebar navigation, and image gallery grids: all inside Frame containers with Sonner toast feedback for persisting the new order to a backend."
+              "description": "{{count}} components cover playlist ordering, settings priority, sidebar navigation, and image gallery grids: all inside Frame containers with Sonner toast feedback for persisting the new order to a backend."
             },
             {
               "title": "Image Gallery Sorting.",
@@ -7198,16 +7219,16 @@
           "title": "ReUI Sortable: In-House Custom Shadcn Component",
           "inHouse": true,
           "paragraphs": [
-            "ReUI Sortable is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Sortable is a custom drag-and-drop reordering component not available in base shadcn/ui. Built on `@dnd-kit/sortable` using SortableContext and useSortable hooks, it handles pointer, touch, and keyboard drag with arrayMove state updates. Seven components cover vertical lists, grid galleries, nested layouts, playlist ordering, settings priority, sidebar navigation, and image gallery sorting.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "ReUI Sortable is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Sortable is a custom drag-and-drop reordering component not available in base shadcn/ui. Built on `@dnd-kit/sortable` using SortableContext and useSortable hooks, it handles pointer, touch, and keyboard drag with arrayMove state updates. {{count}} components cover vertical lists, grid galleries, nested layouts, playlist ordering, settings priority, sidebar navigation, and image gallery sorting.",
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/sortable"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/sortable"
             }
           ]
@@ -7286,7 +7307,7 @@
           "title": "Why Use Shadcn Spinner?",
           "paragraphs": [
             "Teams use spinners to indicate that the app is fetching data or processing a request. A visual indicator reduces user frustration by confirming the app is responding, even if the operation is slow. Spinners are usually paired with disabled buttons or other UI cues to prevent duplicate submissions.",
-            "Searchers look for 'react loading spinner', 'tailwind spinner animation', and 'accessible loading indicator'. This page answers those intents with realistic layouts showing how to combine spinners with buttons, skeleton loaders, and progress text."
+            "The layouts on this page show how to combine spinners with buttons, skeleton loaders, and progress text."
           ]
         },
         {
@@ -7330,7 +7351,7 @@
         },
         {
           "question": "What's the difference between a spinner and a progress bar?",
-          "answer": "Spinners indicate something is loading but don't show progress percentage. Progress bars show a completion percentage (0–100%). Use spinners for fast, indeterminate operations; use progress for long uploads/downloads."
+          "answer": "Spinners indicate something is loading but don't show progress percentage. Progress bars show a completion percentage (0 to 100%). Use spinners for fast, indeterminate operations; use progress for long uploads/downloads."
         },
         {
           "question": "Can I customize the spinner animation speed?",
@@ -7374,7 +7395,7 @@
       "title": "Shadcn Stepper: Multi-Step Forms and Onboarding Flows",
       "summary": [
         "ReUI Stepper is a custom shadcn component for guiding users through multi-step processes. It renders step indicators: numbered circles, icons, or progress segments: connected by a progress line, and controls which step is active, completed, or pending.",
-        "Fifteen components cover basic steppers, step content panels, progress bar indicator, segmented progress bar, vertical orientation with descriptions, vertical with titles, completed state, loading state per step, controlled navigation, step with titles and indicator, icons and badges per step, step descriptions, and inline title layouts.",
+        "{{count}} components cover basic steppers, step content panels, progress bar indicator, segmented progress bar, vertical orientation with descriptions, vertical with titles, completed state, loading state per step, controlled navigation, step with titles and indicator, icons and badges per step, step descriptions, and inline title layouts.",
         "The sections below explain the component model, use cases in checkout and onboarding, features, and how Stepper composes with Form, Button, and Badge."
       ],
       "sections": [
@@ -7382,7 +7403,7 @@
           "title": "What is Shadcn Stepper?",
           "paragraphs": [
             "ReUI Stepper is a custom component: not part of base shadcn/ui: that renders a multi-step progress indicator with controlled step navigation. Each step has an index, title, optional description, and content panel. The active step is set from outside via props (controlled mode) or managed internally (uncontrolled). Steps transition between pending, active, completed, loading, and error states.",
-            "Fifteen components show steppers in realistic multi-step form layouts: a checkout stepper with address, payment, and confirm steps; an onboarding wizard with account setup, profile, and preferences; a form with per-step validation where the next button is disabled until the current step's fields pass Zod validation."
+            "{{count}} components show steppers in realistic multi-step form layouts: a checkout stepper with address, payment, and confirm steps; an onboarding wizard with account setup, profile, and preferences; a form with per-step validation where the next button is disabled until the current step's fields pass Zod validation."
           ]
         },
         {
@@ -7433,16 +7454,16 @@
           "title": "ReUI Stepper: In-House Custom Shadcn Component",
           "inHouse": true,
           "paragraphs": [
-            "ReUI Stepper is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Stepper is a custom multi-step progress component not available in base shadcn/ui. It renders step indicators in horizontal and vertical orientations with distinct visual states: pending, active, loading (Spinner), completed (checkmark), and error. Fifteen components cover all common multi-step form, checkout, and onboarding wizard layouts with controlled and uncontrolled navigation modes.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "ReUI Stepper is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Stepper is a custom multi-step progress component not available in base shadcn/ui. It renders step indicators in horizontal and vertical orientations with distinct visual states: pending, active, loading (Spinner), completed (checkmark), and error. {{count}} components cover all common multi-step form, checkout, and onboarding wizard layouts with controlled and uncontrolled navigation modes.",
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/stepper"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/stepper"
             }
           ]
@@ -7521,7 +7542,7 @@
           "title": "Why Use Shadcn Switch?",
           "paragraphs": [
             "Teams use switches for settings and feature flags where the semantic is clearly on/off or enabled/disabled. Switches feel more intuitive than checkboxes for toggles because the visual design conveys state change.",
-            "Searchers look for 'react switch component', 'toggle switch react', and 'radix ui switch'. This page answers those intents with realistic layouts showing how to pair switches with labels, descriptions, and form validation."
+            "The layouts on this page show how to pair switches with labels, descriptions, and form validation."
           ]
         },
         {
@@ -7622,7 +7643,7 @@
           "title": "Why Use Shadcn Table?",
           "paragraphs": [
             "Teams use tables when data is columnar and users benefit from sorting, filtering, or searching. Dashboards, admin interfaces, data exports, and analytics all rely on tables. TanStack Table handles the stateful logic so you focus on styling and UX.",
-            "Searchers look for 'shadcn table', 'tanstack table react', and 'data table pagination sorting'. This page answers those intents with realistic layouts showing how TanStack Table integrates with [Shadcn Button](/components/button), [Shadcn Select](/components/select), and [Shadcn Checkbox](/components/checkbox) for column selection and row actions."
+            "The layouts on this page show how TanStack Table integrates with [Shadcn Button](/components/button), [Shadcn Select](/components/select), and [Shadcn Checkbox](/components/checkbox) for column selection and row actions."
           ]
         },
         {
@@ -7723,7 +7744,7 @@
           "title": "Why Use Shadcn Tabs?",
           "paragraphs": [
             "Teams use tabs when content is parallel (not hierarchical) and users frequently switch between sections. Dashboard settings, product details (description, reviews, specs), and form sections all use tabs to keep related content together without a full page navigation.",
-            "Searchers look for 'shadcn tabs', 'react tab navigation', and 'accessible tabs component'. This page answers those intents with realistic layouts showing how to combine tabs with [Shadcn Field](/components/field) groups, [Shadcn Button](/components/button) actions, and form validation."
+            "The layouts on this page show how to combine tabs with [Shadcn Field](/components/field) groups, [Shadcn Button](/components/button) actions, and form validation."
           ]
         },
         {
@@ -7824,7 +7845,7 @@
           "title": "Why Use Shadcn Textarea?",
           "paragraphs": [
             "Teams use textareas for user-generated content: feedback, comments, descriptions, and long-form text. A textarea signals to users that multi-line input is expected, unlike a single-line input which suggests brief text only.",
-            "Searchers look for 'shadcn textarea', 'react textarea component', and 'form textarea validation'. This page answers those intents with realistic layouts showing how to combine textarea with [Shadcn Label](/components/label), [Shadcn Field](/components/field), and form validation."
+            "The layouts on this page show how to combine a textarea with [Shadcn Label](/components/label), [Shadcn Field](/components/field), and form validation."
           ]
         },
         {
@@ -7913,7 +7934,7 @@
       "title": "Shadcn Timeline: Activity Feeds, Logs, and Milestones",
       "summary": [
         "ReUI Timeline is a custom shadcn component: not in the base shadcn/ui library: for rendering sequential event data in vertical and horizontal orientations. It composes shadcn Avatar, Badge, Collapsible, Frame, and Spinner to produce activity feeds, deployment logs, audit trails, milestone trackers, and pipeline status indicators.",
-        "Twelve components cover basic timelines, deployment log with collapsible log entries, activity feed with user avatars, compact horizontal milestone timeline, roadmap timeline, order status tracker, git activity history, milestone list, pipeline steps, vertical and horizontal orientations, and timelines with leading labels.",
+        "{{count}} components cover basic timelines, deployment log with collapsible log entries, activity feed with user avatars, compact horizontal milestone timeline, roadmap timeline, order status tracker, git activity history, milestone list, pipeline steps, vertical and horizontal orientations, and timelines with leading labels.",
         "The sections below explain the component architecture, real use cases in DevOps and SaaS products, feature details, and integration guidance."
       ],
       "sections": [
@@ -7921,7 +7942,7 @@
           "title": "What is Shadcn Timeline?",
           "paragraphs": [
             "ReUI Timeline is a composable list-based component that renders event nodes connected by a vertical or horizontal line. Each node has an icon, avatar, or status indicator on the line, and a content panel beside it containing timestamp, title, description, metadata, and optional actions. The component does not prescribe a data format: pass any array of events and render each node with the content you need.",
-            "Twelve components show the Timeline in realistic production contexts: a deployment log where each deploy event is collapsible to reveal raw log output; an activity feed where commits, comments, and deployments share the same timeline with user Avatar nodes; a horizontal milestone tracker for release or project progress; and a pipeline step indicator for CI/CD status."
+            "{{count}} components show the Timeline in realistic production contexts: a deployment log where each deploy event is collapsible to reveal raw log output; an activity feed where commits, comments, and deployments share the same timeline with user Avatar nodes; a horizontal milestone tracker for release or project progress; and a pipeline step indicator for CI/CD status."
           ]
         },
         {
@@ -7972,16 +7993,16 @@
           "title": "ReUI Timeline: In-House Custom Shadcn Component",
           "inHouse": true,
           "paragraphs": [
-            "ReUI Timeline is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Timeline is a custom chronological event component not available in base shadcn/ui. It composes Avatar, Badge, Collapsible, Frame, and Spinner to render deployment logs, activity feeds, order status, git history, roadmaps, and pipeline step indicators. Twelve components cover vertical, horizontal, and leading-label layouts with Collapsible-wrapped log entries for expandable detail.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "ReUI Timeline is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Timeline is a custom chronological event component not available in base shadcn/ui. It composes Avatar, Badge, Collapsible, Frame, and Spinner to render deployment logs, activity feeds, order status, git history, roadmaps, and pipeline step indicators. {{count}} components cover vertical, horizontal, and leading-label layouts with Collapsible-wrapped log entries for expandable detail.",
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/timeline"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/timeline"
             }
           ]
@@ -8010,7 +8031,7 @@
         },
         {
           "question": "What's the difference between ReUI timeline and base shadcn/ui?",
-          "answer": "ReUI Timeline is a custom in-house component with 12 components for vertical, horizontal, and collapsible layouts. Base shadcn/ui doesn't include a timeline component. ReUI's version integrates with other ReUI components for rich event displays."
+          "answer": "ReUI Timeline is a custom in-house component with {{count}} components for vertical, horizontal, and collapsible layouts. Base shadcn/ui doesn't include a timeline component. ReUI's version integrates with other ReUI components for rich event displays."
         }
       ]
     },
@@ -8060,7 +8081,7 @@
           "title": "Why Use Shadcn Toggle?",
           "paragraphs": [
             "Teams use toggles for view options (show/hide, list/grid), text formatting (bold, italic, underline), and feature toggles in dense interfaces like editors or dashboards. A toggle signals that clicking it changes a UI state, not just triggers an action.",
-            "Searchers look for 'shadcn toggle button', 'react toggle component', and 'text formatting button'. This page answers those intents with realistic layouts showing how to combine toggles with icons, labels, and groups."
+            "The layouts on this page show how to combine toggles with icons, labels, and groups."
           ]
         },
         {
@@ -8160,8 +8181,8 @@
         {
           "title": "Why Use Shadcn Toggle Group?",
           "paragraphs": [
-            "Teams use toggle groups for view switching (list, grid, details), sorting order (ascending, descending), or status filters (pending, active, completed). A toggle group makes the selected state explicit and avoids dropdown fatigue when only 2–4 options exist.",
-            "Searchers look for 'shadcn toggle-group', 'exclusive button selection', and 'multi-select button group'. This page answers those intents with realistic layouts showing how toggle groups integrate with filters, view modes, and dashboards."
+            "Teams use toggle groups for view switching (list, grid, details), sorting order (ascending, descending), or status filters (pending, active, completed). A toggle group makes the selected state explicit and avoids dropdown fatigue when only 2 to 4 options exist.",
+            "The layouts on this page show how toggle groups integrate with filters, view modes, and dashboards."
           ]
         },
         {
@@ -8262,7 +8283,7 @@
           "title": "Why Use Shadcn Tooltip?",
           "paragraphs": [
             "Teams use tooltips to avoid clutter. Rather than label every icon, a tooltip explains on demand. Keyboard shortcuts, button purposes, and disabled reasons are common tooltip uses.",
-            "Searchers look for 'shadcn tooltip', 'react tooltip component', and 'accessible tooltip'. This page answers those intents with realistic layouts showing how tooltips pair with icons, buttons, and form fields."
+            "The layouts on this page show how tooltips pair with icons, buttons, and form fields."
           ]
         },
         {
@@ -8350,7 +8371,7 @@
       "title": "Shadcn Tree: File Explorer and Hierarchical Navigation",
       "summary": [
         "ReUI Tree is a custom shadcn component built on `@headless-tree/core` and `@headless-tree/react`: a fully accessible, headless tree view library that handles expand/collapse state, keyboard navigation, selection model, async child loading, and WAI-ARIA tree roles without dictating markup.",
-        "Seven components cover a basic tree, indented guide lines, custom indent sizes, file explorer with file type icons, organization chart with avatar-based nodes, and a permissions tree with per-node checkbox selection.",
+        "{{count}} components cover a basic tree, indented guide lines, custom indent sizes, file explorer with file type icons, organization chart with avatar-based nodes, and a permissions tree with per-node checkbox selection.",
         "The sections below explain the Headless Tree foundation, use cases across file systems, org charts, and permission editors, feature details, and composition guidance."
       ],
       "sections": [
@@ -8372,7 +8393,7 @@
           "title": "Libraries and ReUI Tree Primitives",
           "paragraphs": [
             "ReUI Tree imports `@headless-tree/core` for the framework-agnostic tree state engine and `@headless-tree/react` for the React integration layer. It composes shadcn Avatar for org chart nodes and Checkbox for permission tree nodes.",
-            "The library supports sync and async child loading, virtual scroll integration, and drag-and-drop: features ReUI exposes as needed across the seven tree components."
+            "The library supports sync and async child loading, virtual scroll integration, and drag-and-drop: features ReUI exposes as needed across the {{count}} tree components."
           ]
         },
         {
@@ -8412,16 +8433,16 @@
           "title": "ReUI Tree: In-House Custom Shadcn Component",
           "inHouse": true,
           "paragraphs": [
-            "ReUI Tree is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Tree is a custom hierarchical navigation component not available in base shadcn/ui. Built on `@headless-tree/core` for framework-agnostic state management and `@base-ui/react` for React bindings, it handles expand/collapse, keyboard navigation (full WAI-ARIA tree semantics), multi-selection, and async child loading. Seven components cover basic tree, indented guide lines, file explorer with type icons, org chart with Avatar nodes, and a permissions tree with Checkbox selection.",
-            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 10+ such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
+            "ReUI Tree is an in-house component built and maintained by the ReUI team as part of the ReUI open-source library. It is designed to integrate seamlessly into any shadcn/ui project: following the same copy-and-own installation model. The component source lands directly in your repository; you own it, extend it, and style it with your Tailwind CSS tokens. ReUI Tree is a custom hierarchical navigation component not available in base shadcn/ui. Built on `@headless-tree/core` for framework-agnostic state management and `@base-ui/react` for React bindings, it handles expand/collapse, keyboard navigation (full WAI-ARIA tree semantics), multi-selection, and async child loading. {{count}} components cover basic tree, indented guide lines, file explorer with type icons, org chart with Avatar nodes, and a permissions tree with Checkbox selection.",
+            "The component is available in two API flavors to match your primitive stack: a Radix UI version for teams using Radix-based shadcn primitives, and a Base UI version for teams on `@base-ui/react`. Both versions share identical visual output and Tailwind CSS styling: only the underlying headless primitive differs. ReUI maintains 22 such in-house components, all available in both Radix and Base UI versions, each with dedicated documentation covering the full component API, usage examples, and prop references."
           ],
           "docsLinks": [
             {
-              "label": "Radix UI Version — API, Props and Usage",
+              "label": "Radix UI Version - API, Props and Usage",
               "href": "/docs/components/radix/tree"
             },
             {
-              "label": "Base UI Version — API, Props and Usage",
+              "label": "Base UI Version - API, Props and Usage",
               "href": "/docs/components/base/tree"
             }
           ]
@@ -8450,7 +8471,7 @@
         },
         {
           "question": "What makes ReUI Tree different from standard shadcn/ui?",
-          "answer": "ReUI Tree is a custom in-house component with 9 components for nested, collapsible, and draggable trees. It uses `@headless-tree/react` for keyboard navigation and ARIA roles. Both Radix and Base UI versions are available."
+          "answer": "ReUI Tree is a custom in-house component with {{count}} components for nested, collapsible, and draggable trees. It uses `@headless-tree/react` for keyboard navigation and ARIA roles. Both Radix and Base UI versions are available."
         }
       ]
     },

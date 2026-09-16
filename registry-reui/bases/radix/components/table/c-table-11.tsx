@@ -84,7 +84,7 @@ export default function Pattern() {
             <TableRow key={product.sku}>
               <TableCell>
                 <div className="flex items-center gap-3">
-                  <div className="bg-muted rounded-sm flex size-9 shrink-0 items-center justify-center">
+                  <div className="bg-muted flex size-9 shrink-0 items-center justify-center rounded-sm">
                     <IconPlaceholder
                       lucide="PackageIcon"
                       tabler="IconPackage"
@@ -97,7 +97,7 @@ export default function Pattern() {
                   </div>
                   <div className="flex flex-col">
                     <span className="text-sm font-medium">{product.name}</span>
-                    <span className="text-muted-foreground tru font-mono text-xs">
+                    <span className="text-muted-foreground truncate font-mono text-xs">
                       {product.sku}
                     </span>
                   </div>

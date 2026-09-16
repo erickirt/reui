@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Badge } from "@/registry-reui/bases/radix/reui/badge"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { ButtonGroup } from "@/registry/bases/radix/ui/button-group"
 import {

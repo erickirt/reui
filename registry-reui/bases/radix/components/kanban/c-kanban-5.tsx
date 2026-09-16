@@ -18,7 +18,7 @@ import {
   KanbanOverlay,
 } from "@/registry-reui/bases/radix/reui/kanban"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Progress } from "@/registry/bases/radix/ui/progress"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

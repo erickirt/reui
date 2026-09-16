@@ -1,4 +1,4 @@
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Label } from "@/registry/bases/radix/ui/label"
 import { Slider } from "@/registry/bases/radix/ui/slider"
 

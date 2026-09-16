@@ -4,7 +4,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 import { navEntries, type NavEntry, type NavStats } from "@/lib/nav-config"
-import { cn, isActive } from "@/lib/utils"
+import { cn } from "cn"
+import { isActive } from "@/lib/utils"
 
 /**
  * Shared look for the top-level bar items: a quiet `h-9` pill that lights up on

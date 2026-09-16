@@ -8,6 +8,7 @@
         "kbd"
       ],
       "description": "Basic keyboard keys.",
+      "descriptionLong": "Basic keyboard keys. Built with the Kbd component. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-1 and edit as your own code.",
       "registryDependencies": [
         "kbd"
       ],
@@ -31,6 +32,7 @@
         "kbd"
       ],
       "description": "Keyboard keys grouped together.",
+      "descriptionLong": "Keyboard keys grouped together. Built with the Kbd component. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-2 and edit as your own code.",
       "registryDependencies": [
         "kbd"
       ],
@@ -54,6 +56,7 @@
         "kbd"
       ],
       "description": "Keyboard keys combined with icons.",
+      "descriptionLong": "Keyboard keys combined with icons. Built with the Kbd component. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-3 and edit as your own code.",
       "registryDependencies": [
         "kbd"
       ],
@@ -77,6 +80,7 @@
         "kbd"
       ],
       "description": "Keyboard key within an input.",
+      "descriptionLong": "Keyboard key within an input. Built by composing Input Group, Kbd. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-4 and edit as your own code.",
       "registryDependencies": [
         "input-group",
         "kbd"
@@ -101,6 +105,7 @@
         "kbd"
       ],
       "description": "Keyboard shortcut in a tooltip.",
+      "descriptionLong": "Keyboard shortcut in a tooltip. Built by composing Button, Kbd, Tooltip. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "kbd",
@@ -126,6 +131,7 @@
         "kbd"
       ],
       "description": "Keyboard shortcuts reference list",
+      "descriptionLong": "Keyboard shortcuts reference list. Built by composing Kbd, Separator. A free, open source shadcn kbd example you can install with npx shadcn@latest add @reui/c-kbd-6 and edit as your own code.",
       "registryDependencies": [
         "kbd",
         "separator"

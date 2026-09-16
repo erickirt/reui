@@ -5,7 +5,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 import { COMPONENTS_MENU_UPDATES } from "@/config/update"
-import { cn, formatLabel, normalizeSlug } from "@/lib/utils"
+import { cn } from "cn"
+import { formatLabel, normalizeSlug } from "@/lib/utils"
 import { SidebarGroup, SidebarGroupContent } from "@/components/ui/sidebar"
 import {
   Tooltip,

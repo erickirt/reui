@@ -34,7 +34,7 @@ import type {
 import { addDays, format } from "date-fns"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import {
   Tooltip,
   TooltipContent,

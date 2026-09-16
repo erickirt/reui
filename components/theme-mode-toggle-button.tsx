@@ -4,7 +4,7 @@ import * as React from "react"
 import { MoonIcon, SunIcon } from "lucide-react"
 import { useTheme } from "next-themes"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useMetaColor } from "@/hooks/use-meta-color"
 import { Button } from "@/components/ui/button"
 import {

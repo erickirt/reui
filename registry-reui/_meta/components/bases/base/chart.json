@@ -8,6 +8,7 @@
         "chart"
       ],
       "description": "Basic bar chart",
+      "descriptionLong": "Basic bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-1 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -35,6 +36,7 @@
         "chart"
       ],
       "description": "Multi-dataset bar chart",
+      "descriptionLong": "Multi-dataset bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-2 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -62,6 +64,7 @@
         "chart"
       ],
       "description": "Diagonal stripe bar chart",
+      "descriptionLong": "Diagonal stripe bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-3 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -89,6 +92,7 @@
         "chart"
       ],
       "description": "Dotted pattern bar chart",
+      "descriptionLong": "Dotted pattern bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-4 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -116,6 +120,7 @@
         "chart"
       ],
       "description": "Striped and solid bar chart",
+      "descriptionLong": "Striped and solid bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-5 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -143,6 +148,7 @@
         "chart"
       ],
       "description": "3D gradient bar chart",
+      "descriptionLong": "3D gradient bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-6 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -170,6 +176,7 @@
         "chart"
       ],
       "description": "Gradient bar chart",
+      "descriptionLong": "Gradient bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -197,6 +204,7 @@
         "chart"
       ],
       "description": "3D isometric bar chart",
+      "descriptionLong": "3D isometric bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -224,6 +232,7 @@
         "chart"
       ],
       "description": "Dotted and solid bar chart",
+      "descriptionLong": "Dotted and solid bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-9 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -251,6 +260,7 @@
         "chart"
       ],
       "description": "Duotone gradient bar chart",
+      "descriptionLong": "Duotone gradient bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -278,12 +288,14 @@
         "chart"
       ],
       "description": "Animated monochrome bar chart",
+      "descriptionLong": "Animated monochrome bar chart. Built by composing Badge, Card, Chart. Uses cn, motion, recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-11 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
         "chart"
       ],
       "dependencies": [
+        "cn",
         "motion",
         "recharts"
       ],
@@ -306,6 +318,7 @@
         "chart"
       ],
       "description": "Vertical bar chart",
+      "descriptionLong": "Vertical bar chart. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-12 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -333,6 +346,7 @@
         "chart"
       ],
       "description": "Gradient area chart with stripe overlay",
+      "descriptionLong": "Gradient area chart with stripe overlay. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-13 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -360,6 +374,7 @@
         "chart"
       ],
       "description": "Stacked area chart with dashed strokes",
+      "descriptionLong": "Stacked area chart with dashed strokes. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-14 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -387,6 +402,7 @@
         "chart"
       ],
       "description": "Step area chart with dotted pattern fill",
+      "descriptionLong": "Step area chart with dotted pattern fill. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-15 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -414,6 +430,7 @@
         "chart"
       ],
       "description": "Area chart with glowing dot markers",
+      "descriptionLong": "Area chart with glowing dot markers. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-16 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -441,6 +458,7 @@
         "chart"
       ],
       "description": "Forecast line chart with stripe pattern zone",
+      "descriptionLong": "Forecast line chart with stripe pattern zone. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-17 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -467,6 +485,7 @@
         "chart"
       ],
       "description": "Stacked area chart with crosshatch pattern fill",
+      "descriptionLong": "Stacked area chart with crosshatch pattern fill. Built by composing Badge, Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-18 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -494,6 +513,7 @@
         "chart"
       ],
       "description": "Donut chart with center total",
+      "descriptionLong": "Donut chart with center total. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-19 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -520,6 +540,7 @@
         "chart"
       ],
       "description": "Donut chart with center stats",
+      "descriptionLong": "Donut chart with center stats. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-20 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -546,6 +567,7 @@
         "chart"
       ],
       "description": "Bug priority pie with stripe patterns",
+      "descriptionLong": "Bug priority pie with stripe patterns. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-21 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -572,6 +594,7 @@
         "chart"
       ],
       "description": "Active segment donut with center label",
+      "descriptionLong": "Active segment donut with center label. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-22 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -598,6 +621,7 @@
         "chart"
       ],
       "description": "Radar chart with gradient fill",
+      "descriptionLong": "Radar chart with gradient fill. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-23 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -624,6 +648,7 @@
         "chart"
       ],
       "description": "Filled radar with glowing stroke",
+      "descriptionLong": "Filled radar with glowing stroke. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-24 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"
@@ -650,6 +675,7 @@
         "chart"
       ],
       "description": "Lighthouse scores radial with labels",
+      "descriptionLong": "Lighthouse scores radial with labels. Built by composing Card, Chart. Uses recharts alongside the shadcn primitives. A free, open source shadcn chart example you can install with npx shadcn@latest add @reui/c-chart-25 and edit as your own code.",
       "registryDependencies": [
         "card",
         "chart"

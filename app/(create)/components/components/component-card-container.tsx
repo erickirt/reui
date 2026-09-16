@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer"
 import { Spinner } from "@/components/ui/spinner"
 import { Frame, FrameContent, FrameFooter } from "@/components/custom/frame"

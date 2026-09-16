@@ -8,6 +8,7 @@
         "event-calendar"
       ],
       "description": "Event calendar with all views and live settings",
+      "descriptionLong": "Event calendar with all views and live settings. Built by composing Avatar, Button, Card, Event Calendar, Event Calendar Content and 8 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn event calendar example you can install with npx shadcn@latest add @reui/c-event-calendar-1 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -46,6 +47,7 @@
         "event-calendar"
       ],
       "description": "Event calendar with resource view for room bookings",
+      "descriptionLong": "Event calendar with resource view for room bookings. Built by composing Button, Card, Event Calendar, Event Calendar Content, Event Calendar Nav and 1 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn event calendar example you can install with npx shadcn@latest add @reui/c-event-calendar-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -77,6 +79,7 @@
         "event-calendar"
       ],
       "description": "Month calendar with event CRUD in one dialog: open from an empty day, an event, or Add event, commit via apiRef. Title, color, start, duration, all-day fields. ReUI EventCalendar, Nav, Toolbar; shadcn Dialog, Field, Select, Switch. Scheduling apps.",
+      "descriptionLong": "Event calendar with create and edit dialog. Built by composing Button, Card, Dialog, Event Calendar, Event Calendar Content and 6 more. Uses cn, date-fns alongside the shadcn primitives. A free, open source shadcn event calendar example you can install with npx shadcn@latest add @reui/c-event-calendar-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -91,6 +94,7 @@
         "switch"
       ],
       "dependencies": [
+        "cn",
         "date-fns"
       ],
       "files": [
@@ -113,6 +117,7 @@
         "event-calendar"
       ],
       "description": "Event calendar with custom event chips",
+      "descriptionLong": "Event calendar with custom event chips. Built by composing Button, Card, Event Calendar, Event Calendar Content, Event Calendar Nav and 1 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn event calendar example you can install with npx shadcn@latest add @reui/c-event-calendar-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -144,6 +149,7 @@
         "event-calendar"
       ],
       "description": "Event calendar with drag-to-book appointments",
+      "descriptionLong": "Event calendar with drag-to-book appointments. Built by composing Avatar, Button, Card, Event Calendar, Event Calendar Content and 2 more. Uses date-fns alongside the shadcn primitives. A free, open source shadcn event calendar example you can install with npx shadcn@latest add @reui/c-event-calendar-5 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { renderSeoLinkedText } from "@/components/seo-linked-text"
 
 interface DocsComponentExamplesCtaProps {

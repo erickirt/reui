@@ -14,7 +14,8 @@
     }
   },
   "dependencies": {
-    "class-variance-authority": "^0.7.1"
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.3.0"
   },
   "peerDependencies": {
     "react": ">=18",

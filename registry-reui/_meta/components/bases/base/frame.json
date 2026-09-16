@@ -8,6 +8,7 @@
         "frame"
       ],
       "description": "Basic frame",
+      "descriptionLong": "Basic frame. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-1 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -31,6 +32,7 @@
         "frame"
       ],
       "description": "Frame with separated panels",
+      "descriptionLong": "Frame with separated panels. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-2 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -54,6 +56,7 @@
         "frame"
       ],
       "description": "Frame with stacked panels",
+      "descriptionLong": "Frame with stacked panels. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-3 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -77,6 +80,7 @@
         "frame"
       ],
       "description": "Frame with stacked panels and dense style",
+      "descriptionLong": "Frame with stacked panels and dense style. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-4 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -100,6 +104,7 @@
         "frame"
       ],
       "description": "Frame with collapsible panels",
+      "descriptionLong": "Frame with collapsible panels. Built by composing Collapsible, Frame. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-5 and edit as your own code.",
       "registryDependencies": [
         "collapsible",
         "frame"
@@ -124,6 +129,7 @@
         "frame"
       ],
       "description": "Frame with ghost variant",
+      "descriptionLong": "Frame with ghost variant. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-6 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -147,6 +153,7 @@
         "frame"
       ],
       "description": "Frame with dense layout",
+      "descriptionLong": "Frame with dense layout. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-7 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -170,6 +177,7 @@
         "frame"
       ],
       "description": "Frame with stacked panels",
+      "descriptionLong": "Frame with stacked panels. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-8 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -193,6 +201,7 @@
         "frame"
       ],
       "description": "Frame with extra small spacing",
+      "descriptionLong": "Frame with extra small spacing. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-9 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -216,6 +225,7 @@
         "frame"
       ],
       "description": "Frame with small spacing",
+      "descriptionLong": "Frame with small spacing. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-10 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -239,6 +249,7 @@
         "frame"
       ],
       "description": "Frame with default spacing",
+      "descriptionLong": "Frame with default spacing. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-11 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -262,6 +273,7 @@
         "frame"
       ],
       "description": "Frame with large spacing",
+      "descriptionLong": "Frame with large spacing. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-12 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -285,6 +297,7 @@
         "frame"
       ],
       "description": "Frame with small border radius",
+      "descriptionLong": "Frame with small border radius. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-13 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -308,6 +321,7 @@
         "frame"
       ],
       "description": "Frame with medium border radius",
+      "descriptionLong": "Frame with medium border radius. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-14 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -331,6 +345,7 @@
         "frame"
       ],
       "description": "Frame with large border radius",
+      "descriptionLong": "Frame with large border radius. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-15 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -354,6 +369,7 @@
         "frame"
       ],
       "description": "Frame with default border radius",
+      "descriptionLong": "Frame with default border radius. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-16 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -377,6 +393,7 @@
         "frame"
       ],
       "description": "Frame with extra large border radius",
+      "descriptionLong": "Frame with extra large border radius. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-17 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -400,6 +417,7 @@
         "frame"
       ],
       "description": "Frame with content-only panels",
+      "descriptionLong": "Frame with content-only panels. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-18 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],
@@ -423,6 +441,7 @@
         "frame"
       ],
       "description": "Frame with stacked content-only panels",
+      "descriptionLong": "Frame with stacked content-only panels. Built with the Frame component. A free, open source shadcn frame example you can install with npx shadcn@latest add @reui/c-frame-19 and edit as your own code.",
       "registryDependencies": [
         "frame"
       ],

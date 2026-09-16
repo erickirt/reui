@@ -25,7 +25,7 @@ import {
   startOfWeek,
 } from "date-fns"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Card, CardContent } from "@/registry/bases/radix/ui/card"
 import {

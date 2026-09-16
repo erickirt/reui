@@ -8,6 +8,7 @@
         "alert-dialog"
       ],
       "description": "Basic alert dialog with title, description, and action buttons",
+      "descriptionLong": "Basic alert dialog with title, description, and action buttons. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-1 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -32,6 +33,7 @@
         "alert-dialog"
       ],
       "description": "Small size alert dialog for quick confirmations",
+      "descriptionLong": "Small size alert dialog for quick confirmations. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-2 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -56,6 +58,7 @@
         "alert-dialog"
       ],
       "description": "Alert dialog with icon",
+      "descriptionLong": "Alert dialog with icon. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-3 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -80,6 +83,7 @@
         "alert-dialog"
       ],
       "description": "Small size alert dialog with media (icon)",
+      "descriptionLong": "Small size alert dialog with media (icon). Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-4 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -104,6 +108,7 @@
         "alert-dialog"
       ],
       "description": "Destructive alert dialog for irreversible actions like deletion",
+      "descriptionLong": "Destructive alert dialog for irreversible actions like deletion. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-5 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -128,6 +133,7 @@
         "alert-dialog"
       ],
       "description": "Alert dialog nested within a standard Dialog component",
+      "descriptionLong": "Alert dialog nested within a standard Dialog component. Built by composing Alert Dialog, Button, Dialog. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-6 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button",
@@ -153,6 +159,7 @@
         "alert-dialog"
       ],
       "description": "Task success confirmation",
+      "descriptionLong": "Task success confirmation. Built by composing Alert Dialog, Button, Checkbox, Label. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-7 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button",
@@ -179,6 +186,7 @@
         "alert-dialog"
       ],
       "description": "Account deactivation confirmation",
+      "descriptionLong": "Account deactivation confirmation. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-8 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -203,6 +211,7 @@
         "alert-dialog"
       ],
       "description": "Warning for unsaved changes when navigating away",
+      "descriptionLong": "Warning for unsaved changes when navigating away. Built by composing Alert Dialog, Button, Checkbox, Frame, Label. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-9 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button",
@@ -230,6 +239,7 @@
         "alert-dialog"
       ],
       "description": "Confirmation for successful e-ticket registration",
+      "descriptionLong": "Confirmation for successful e-ticket registration. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-10 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -254,6 +264,7 @@
         "alert-dialog"
       ],
       "description": "System update notification requiring application restart",
+      "descriptionLong": "System update notification requiring application restart. Built by composing Alert Dialog, Badge, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-11 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "badge",
@@ -279,6 +290,7 @@
         "alert-dialog"
       ],
       "description": "Billing warning for expired subscriptions or failed payments",
+      "descriptionLong": "Billing warning for expired subscriptions or failed payments. Built by composing Alert Dialog, Badge, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-12 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "badge",
@@ -304,6 +316,7 @@
         "alert-dialog"
       ],
       "description": "Logout confirmation dialog",
+      "descriptionLong": "Logout confirmation dialog. Built by composing Alert Dialog, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-13 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "button"
@@ -328,6 +341,7 @@
         "alert-dialog"
       ],
       "description": "Advanced security audit confirmation",
+      "descriptionLong": "Advanced security audit confirmation. Built by composing Alert Dialog, Badge, Button. A free, open source shadcn alert dialog example you can install with npx shadcn@latest add @reui/c-alert-dialog-14 and edit as your own code.",
       "registryDependencies": [
         "alert-dialog",
         "badge",

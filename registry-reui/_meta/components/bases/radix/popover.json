@@ -8,6 +8,7 @@
         "popover"
       ],
       "description": "Basic popover.",
+      "descriptionLong": "Basic popover. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"
@@ -32,6 +33,7 @@
         "popover"
       ],
       "description": "Popovers opening from different sides.",
+      "descriptionLong": "Popovers opening from different sides. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"
@@ -56,6 +58,7 @@
         "popover"
       ],
       "description": "Popover with form.",
+      "descriptionLong": "Popover with form. Built by composing Button, Field, Input, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "field",
@@ -82,6 +85,7 @@
         "popover"
       ],
       "description": "Popover alignment positions.",
+      "descriptionLong": "Popover alignment positions. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"
@@ -106,6 +110,7 @@
         "popover"
       ],
       "description": "Popover within a dialog.",
+      "descriptionLong": "Popover within a dialog. Built by composing Button, Dialog, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "dialog",
@@ -131,6 +136,7 @@
         "popover"
       ],
       "description": "Popover with user profile details.",
+      "descriptionLong": "Popover with user profile details. Built by composing Avatar, Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-6 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "button",
@@ -156,6 +162,7 @@
         "popover"
       ],
       "description": "Popover with custom content",
+      "descriptionLong": "Popover with custom content. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"
@@ -180,6 +187,7 @@
         "popover"
       ],
       "description": "Popover with media preview.",
+      "descriptionLong": "Popover with media preview. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"
@@ -204,6 +212,7 @@
         "popover"
       ],
       "description": "Relative time popover with timezone details",
+      "descriptionLong": "Relative time popover with timezone details. Built by composing Badge, Popover. Uses date-fns alongside the shadcn primitives. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-9 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "popover"
@@ -230,6 +239,7 @@
         "popover"
       ],
       "description": "Popover with controls",
+      "descriptionLong": "Popover with controls. Built by composing Button, Popover, Slider, Switch. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover",
@@ -256,6 +266,7 @@
         "popover"
       ],
       "description": "Popover with navigation",
+      "descriptionLong": "Popover with navigation. Built by composing Button, Popover. A free, open source shadcn popover example you can install with npx shadcn@latest add @reui/c-popover-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "popover"

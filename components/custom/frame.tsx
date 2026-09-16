@@ -1,7 +1,7 @@
 import * as React from "react"
 import Link from "next/link"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 
 interface FrameProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode

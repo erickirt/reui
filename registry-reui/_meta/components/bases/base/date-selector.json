@@ -8,6 +8,7 @@
         "date-selector"
       ],
       "description": "Basic date selector",
+      "descriptionLong": "Basic date selector. Built by composing Card, Date Selector. Uses date-fns alongside the shadcn primitives. A free, open source shadcn date selector example you can install with npx shadcn@latest add @reui/c-date-selector-1 and edit as your own code.",
       "registryDependencies": [
         "card",
         "date-selector"
@@ -35,6 +36,7 @@
         "date-selector"
       ],
       "description": "Date selector with popover",
+      "descriptionLong": "Date selector with popover. Built by composing Button, Date Selector, Popover, Separator. A free, open source shadcn date selector example you can install with npx shadcn@latest add @reui/c-date-selector-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "date-selector",
@@ -61,6 +63,7 @@
         "date-selector"
       ],
       "description": "Date selector with dialog",
+      "descriptionLong": "Date selector with dialog. Built by composing Button, Date Selector, Dialog. A free, open source shadcn date selector example you can install with npx shadcn@latest add @reui/c-date-selector-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "date-selector",
@@ -86,6 +89,7 @@
         "date-selector"
       ],
       "description": "Date selector with dropdown menu",
+      "descriptionLong": "Date selector with dropdown menu. Built by composing Button, Date Selector, Dialog, Dropdown Menu. A free, open source shadcn date selector example you can install with npx shadcn@latest add @reui/c-date-selector-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "date-selector",

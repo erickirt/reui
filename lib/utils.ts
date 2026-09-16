@@ -1,11 +1,6 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
-
 import { absoluteUrl as getAbsoluteUrl } from "@/lib/site-url"
 
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
-}
+export { cn } from "cn"
 
 export function isActive(pathname: string, href: string) {
   const normalizedPathname = pathname.replace(/\/$/, "")

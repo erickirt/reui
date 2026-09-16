@@ -31,7 +31,7 @@ import {
   useTable,
 } from "@tanstack/react-table"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import {
   Avatar,
   AvatarFallback,

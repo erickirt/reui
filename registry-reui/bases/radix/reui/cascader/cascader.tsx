@@ -78,7 +78,7 @@ import type {
 import { Combobox as ComboboxPrimitive } from "@base-ui/react"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/radix/ui/scroll-area"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

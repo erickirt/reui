@@ -6,7 +6,7 @@ import { NumberField as NumberFieldPrimitive } from "@base-ui/react/number-field
 import type { VariantProps } from "class-variance-authority"
 import { cva } from "class-variance-authority"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Label } from "@/registry/bases/base/ui/label"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
@@ -19,6 +19,9 @@ const numberFieldGroupVariants = cva(
   "relative flex w-full justify-between border border-input data-disabled:pointer-events-none data-disabled:opacity-50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive focus-within:has-aria-invalid:border-destructive focus-within:has-aria-invalid:ring-destructive/20 dark:focus-within:has-aria-invalid:ring-destructive/40 style-vega:rounded-md style-nova:rounded-lg style-maia:rounded-4xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-3xl style-rhea:rounded-2xl style-sera:rounded-none bg-transparent dark:bg-input/30 transition-colors focus-within:border-ring focus-within:ring-ring/50 focus-within:ring-3",
   {
     variants: {
+      // Ladders restored from the pre-rename source. Rhea was added after they
+      // were written, so its rungs are new: rhea tracks nova here because
+      // .cn-input is h-8 px-2.5 in both sheets, where luma is h-9 px-3.
       size: {
         sm: "h-7 text-sm",
         default: "h-8 text-sm",
@@ -36,10 +39,10 @@ const numberFieldButtonVariants = cva(
   {
     variants: {
       size: {
-        sm: "px-1.5 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-3.5 [&_svg:not([class*='size-'])]:size-3.5 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-3 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-3.5",
+        sm: ["style-vega:px-2 style-nova:px-1.5 style-maia:px-2 style-lyra:px-1.5 style-mira:px-1.5 style-luma:px-2 style-sera:px-3 style-rhea:px-1.5", "style-vega:[&_svg:not([class*='size-'])]:size-3.5 style-nova:[&_svg:not([class*='size-'])]:size-3.5 style-maia:[&_svg:not([class*='size-'])]:size-3.5 style-lyra:[&_svg:not([class*='size-'])]:size-3.5 style-mira:[&_svg:not([class*='size-'])]:size-3 style-luma:[&_svg:not([class*='size-'])]:size-3.5 style-sera:[&_svg:not([class*='size-'])]:size-3.5 style-rhea:[&_svg:not([class*='size-'])]:size-3.5"],
         default:
-          "px-2 ([class*='size-'])]:size-4 ([class*='size-'])]:size-4 [&_svg:not([class*='size-'])]:size-4 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5",
-        lg: "px-2.5 ([class*='size-'])]:size-4 ([class*='size-'])]:size-4 [&_svg:not([class*='size-'])]:size-4 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5",
+          ["style-vega:px-2.5 style-nova:px-2 style-maia:px-2.5 style-lyra:px-2 style-mira:px-1.5 style-luma:px-2.5 style-sera:px-3.5 style-rhea:px-2", "style-vega:[&_svg:not([class*='size-'])]:size-4 style-nova:[&_svg:not([class*='size-'])]:size-4 style-maia:[&_svg:not([class*='size-'])]:size-4 style-lyra:[&_svg:not([class*='size-'])]:size-4 style-mira:[&_svg:not([class*='size-'])]:size-3.5 style-luma:[&_svg:not([class*='size-'])]:size-4 style-sera:[&_svg:not([class*='size-'])]:size-3.5 style-rhea:[&_svg:not([class*='size-'])]:size-4"],
+        lg: ["style-vega:px-3 style-nova:px-2.5 style-maia:px-3 style-lyra:px-2.5 style-mira:px-2 style-luma:px-3 style-sera:px-4 style-rhea:px-2.5", "style-vega:[&_svg:not([class*='size-'])]:size-4 style-nova:[&_svg:not([class*='size-'])]:size-4 style-maia:[&_svg:not([class*='size-'])]:size-4 style-lyra:[&_svg:not([class*='size-'])]:size-4 style-mira:[&_svg:not([class*='size-'])]:size-3.5 style-luma:[&_svg:not([class*='size-'])]:size-4 style-sera:[&_svg:not([class*='size-'])]:size-3.5 style-rhea:[&_svg:not([class*='size-'])]:size-4"],
       },
     },
     defaultVariants: {

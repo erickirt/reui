@@ -8,6 +8,7 @@
         "input-group"
       ],
       "description": "Basic input group",
+      "descriptionLong": "Basic input group. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-1 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -32,6 +33,7 @@
         "input-group"
       ],
       "description": "Input group in disabled state",
+      "descriptionLong": "Input group in disabled state. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-2 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -56,6 +58,7 @@
         "input-group"
       ],
       "description": "Input group in invalid state",
+      "descriptionLong": "Input group in invalid state. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-3 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -80,6 +83,7 @@
         "input-group"
       ],
       "description": "Input group with prefix icon",
+      "descriptionLong": "Input group with prefix icon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-4 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -104,6 +108,7 @@
         "input-group"
       ],
       "description": "Input group with suffix icon",
+      "descriptionLong": "Input group with suffix icon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-5 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -128,6 +133,7 @@
         "input-group"
       ],
       "description": "Input group with both prefix and suffix icons",
+      "descriptionLong": "Input group with both prefix and suffix icons. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-6 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -152,6 +158,7 @@
         "input-group"
       ],
       "description": "Input group with prefix text addon",
+      "descriptionLong": "Input group with prefix text addon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-7 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -176,6 +183,7 @@
         "input-group"
       ],
       "description": "Input group with suffix text addon",
+      "descriptionLong": "Input group with suffix text addon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-8 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -200,6 +208,7 @@
         "input-group"
       ],
       "description": "Input group with both prefix and suffix text addons",
+      "descriptionLong": "Input group with both prefix and suffix text addons. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-9 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -224,6 +233,7 @@
         "input-group"
       ],
       "description": "Input group with action button addon",
+      "descriptionLong": "Input group with action button addon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-10 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -248,6 +258,7 @@
         "input-group"
       ],
       "description": "Input group with icon button action",
+      "descriptionLong": "Input group with icon button action. Built by composing Field, Input Group. Uses sonner alongside the shadcn primitives. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-11 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -274,6 +285,7 @@
         "input-group"
       ],
       "description": "Input group with dropdown menu selection",
+      "descriptionLong": "Input group with dropdown menu selection. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-12 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -299,6 +311,7 @@
         "input-group"
       ],
       "description": "Input group with keyboard shortcut (Kbd)",
+      "descriptionLong": "Input group with keyboard shortcut (Kbd). Built by composing Field, Input Group, Kbd. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-13 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -324,6 +337,7 @@
         "input-group"
       ],
       "description": "Input group with tooltip action",
+      "descriptionLong": "Input group with tooltip action. Built by composing Field, Input Group, Tooltip. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-14 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -349,6 +363,7 @@
         "input-group"
       ],
       "description": "Input group with loading spinner",
+      "descriptionLong": "Input group with loading spinner. Built by composing Field, Input Group, Spinner. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-15 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -374,6 +389,7 @@
         "input-group"
       ],
       "description": "Input group with block-start addon",
+      "descriptionLong": "Input group with block-start addon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-16 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -398,6 +414,7 @@
         "input-group"
       ],
       "description": "Textarea input group with dynamic character limit",
+      "descriptionLong": "Textarea input group with dynamic character limit. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-17 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -422,6 +439,7 @@
         "input-group"
       ],
       "description": "AI Chat textarea with rich toolbar actions",
+      "descriptionLong": "AI Chat textarea with rich toolbar actions. Built by composing Dropdown Menu, Field, Input Group, Kbd. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-18 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -448,6 +466,7 @@
         "input-group"
       ],
       "description": "AI Chat interface with file and context attachments",
+      "descriptionLong": "AI Chat interface with file and context attachments. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-19 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -473,6 +492,7 @@
         "input-group"
       ],
       "description": "Input group demonstrating label usage",
+      "descriptionLong": "Input group demonstrating label usage. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-20 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -497,6 +517,7 @@
         "input-group"
       ],
       "description": "Input group with multiple icons/buttons at the end",
+      "descriptionLong": "Input group with multiple icons/buttons at the end. Built by composing Field, Input Group. Uses sonner alongside the shadcn primitives. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-21 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -523,6 +544,7 @@
         "input-group"
       ],
       "description": "Input group with popover trigger addon",
+      "descriptionLong": "Input group with popover trigger addon. Built by composing Field, Input Group, Popover. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-22 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -548,6 +570,7 @@
         "input-group"
       ],
       "description": "Input group with Sparkles icon and complex Kbd shortcut",
+      "descriptionLong": "Input group with Sparkles icon and complex Kbd shortcut. Built by composing Field, Input Group, Kbd. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-23 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group",
@@ -573,6 +596,7 @@
         "input-group"
       ],
       "description": "Input group with success indicator circle",
+      "descriptionLong": "Input group with success indicator circle. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-24 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -597,6 +621,7 @@
         "input-group"
       ],
       "description": "Input group with search results count",
+      "descriptionLong": "Input group with search results count. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-25 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -621,6 +646,7 @@
         "input-group"
       ],
       "description": "Textarea input group with action buttons",
+      "descriptionLong": "Textarea input group with action buttons. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-26 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -645,6 +671,7 @@
         "input-group"
       ],
       "description": "Input group wrapped in a button group with text prefixes/suffixes",
+      "descriptionLong": "Input group wrapped in a button group with text prefixes/suffixes. Built by composing Button Group, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-27 and edit as your own code.",
       "registryDependencies": [
         "button-group",
         "field",
@@ -670,6 +697,7 @@
         "input-group"
       ],
       "description": "Input group with a menu button (three dots) at the end",
+      "descriptionLong": "Input group with a menu button (three dots) at the end. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-28 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -695,6 +723,7 @@
         "input-group"
       ],
       "description": "Pill-shaped input group with a category dropdown at the end",
+      "descriptionLong": "Pill-shaped input group with a category dropdown at the end. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-29 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -720,6 +749,7 @@
         "input-group"
       ],
       "description": "Input group with inline addons (no separating borders)",
+      "descriptionLong": "Input group with inline addons (no separating borders). Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-30 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -744,6 +774,7 @@
         "input-group"
       ],
       "description": "Input group with inline start and block-end addon",
+      "descriptionLong": "Input group with inline start and block-end addon. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-31 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -768,6 +799,7 @@
         "input-group"
       ],
       "description": "Member row with avatar, email and role selection",
+      "descriptionLong": "Member row with avatar, email and role selection. Built by composing Avatar, Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-32 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "dropdown-menu",
@@ -794,6 +826,7 @@
         "input-group"
       ],
       "description": "Project save interface with status and action buttons",
+      "descriptionLong": "Project save interface with status and action buttons. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-33 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -820,6 +853,7 @@
         "input-group"
       ],
       "description": "Pill-shaped AI prompt bar with voice and audio icons",
+      "descriptionLong": "Pill-shaped AI prompt bar with voice and audio icons. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-34 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -846,6 +880,7 @@
         "input-group"
       ],
       "description": "Password input with visibility toggle",
+      "descriptionLong": "Password input with visibility toggle. Built by composing Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-35 and edit as your own code.",
       "registryDependencies": [
         "field",
         "input-group"
@@ -870,12 +905,15 @@
         "input-group"
       ],
       "description": "API request input with method selector and send action",
+      "descriptionLong": "API request input with method selector and send action. Built by composing Dropdown Menu, Field, Input Group. Uses cn alongside the shadcn primitives. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-36 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
         "input-group"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/input-group/c-input-group-36.tsx",
@@ -895,6 +933,7 @@
         "input-group"
       ],
       "description": "Order search input with status filter",
+      "descriptionLong": "Order search input with status filter. Built by composing Checkbox, Field, Input Group, Label, Popover. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-37 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "field",
@@ -922,6 +961,7 @@
         "input-group"
       ],
       "description": "Company search input with region selector",
+      "descriptionLong": "Company search input with region selector. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-38 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",
@@ -947,6 +987,7 @@
         "input-group"
       ],
       "description": "Contact search input with filter and actions menu",
+      "descriptionLong": "Contact search input with filter and actions menu. Built by composing Checkbox, Dropdown Menu, Field, Input Group, Label and 1 more. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-39 and edit as your own code.",
       "registryDependencies": [
         "checkbox",
         "dropdown-menu",
@@ -975,6 +1016,7 @@
         "input-group"
       ],
       "description": "Share link input with visibility selector and copy action",
+      "descriptionLong": "Share link input with visibility selector and copy action. Built by composing Dropdown Menu, Field, Input Group. A free, open source shadcn input group example you can install with npx shadcn@latest add @reui/c-input-group-40 and edit as your own code.",
       "registryDependencies": [
         "dropdown-menu",
         "field",

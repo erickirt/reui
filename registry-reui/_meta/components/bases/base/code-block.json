@@ -8,6 +8,7 @@
         "code-block"
       ],
       "description": "Code block with header, filename, language and copy button.",
+      "descriptionLong": "Basic code block. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-1 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -33,6 +34,7 @@
         "code-block"
       ],
       "description": "Headerless block with a pinned copy button and dual-axis scrolling.",
+      "descriptionLong": "Pinned copy button. Built by composing Code Block, Scroll Area. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-2 and edit as your own code.",
       "registryDependencies": [
         "code-block",
         "scroll-area"
@@ -59,6 +61,7 @@
         "code-block"
       ],
       "description": "Agent writing code in real time with a caret and stick-to-bottom.",
+      "descriptionLong": "Streaming agent response. Built by composing Badge, Button, Code Block, Scroll Area. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-3 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -87,6 +90,7 @@
         "code-block"
       ],
       "description": "Streaming assistant message rendering markdown code fences.",
+      "descriptionLong": "AI chat with code fences. Built by composing Avatar, Code Block, Frame. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-4 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "code-block",
@@ -114,6 +118,7 @@
         "code-block"
       ],
       "description": "A props-driven diff with added and removed lines and a change summary.",
+      "descriptionLong": "Diff with change summary. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-5 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -139,6 +144,7 @@
         "code-block"
       ],
       "description": "A diff expressed through a shiki transformer instead of props.",
+      "descriptionLong": "Diff via shiki transformers. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-6 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -164,6 +170,7 @@
         "code-block"
       ],
       "description": "Line ranges and word matches highlighted together.",
+      "descriptionLong": "Highlighted lines and words. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-7 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -189,6 +196,7 @@
         "code-block"
       ],
       "description": "Stepping through regions of a file with the rest dimmed.",
+      "descriptionLong": "Focus walkthrough. Built by composing Badge, Button, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-8 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -216,6 +224,7 @@
         "code-block"
       ],
       "description": "Unhighlighted command output with a wrap toggle.",
+      "descriptionLong": "Terminal output. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-9 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -241,11 +250,14 @@
         "code-block"
       ],
       "description": "Collapsed at a line budget with an expand control and a line offset.",
+      "descriptionLong": "Long file with expand. Built by composing Code Block, Scroll Area. Uses cn alongside the shadcn primitives. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-10 and edit as your own code.",
       "registryDependencies": [
         "code-block",
         "scroll-area"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/code-block/c-code-block-10.tsx",
@@ -267,6 +279,7 @@
         "code-block"
       ],
       "description": "Error and warning lines with an action button on the active line.",
+      "descriptionLong": "Line actions and diagnostics. Built by composing Badge, Button, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-11 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -294,6 +307,7 @@
         "code-block"
       ],
       "description": "Selecting lines to ask an assistant about them.",
+      "descriptionLong": "Line selection. Built by composing Badge, Button, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-12 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -321,6 +335,7 @@
         "code-block"
       ],
       "description": "Live search marking every match, with a counter that reads the block through useCodeBlockConfig.",
+      "descriptionLong": "Search in file. Built by composing Badge, Button, Button Group, Code Block, Input and 1 more. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-13 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -351,6 +366,7 @@
         "code-block"
       ],
       "description": "A framed file switcher loading one grammar chunk per selected language.",
+      "descriptionLong": "File tabs in a dense frame. Built by composing Code Block, Frame, Tabs. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-14 and edit as your own code.",
       "registryDependencies": [
         "code-block",
         "frame",
@@ -378,6 +394,7 @@
         "code-block"
       ],
       "description": "Lines built without shiki, the shape a server component passes down.",
+      "descriptionLong": "Pre-highlighted lines. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-15 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -403,6 +420,7 @@
         "code-block"
       ],
       "description": "Two blocks stacked in a frame for a refactor review.",
+      "descriptionLong": "Before and after. Built by composing Code Block, Frame. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-16 and edit as your own code.",
       "registryDependencies": [
         "code-block",
         "frame"
@@ -429,6 +447,7 @@
         "code-block"
       ],
       "description": "Long single-line content with a wrap toggle.",
+      "descriptionLong": "Soft wrap. Built by composing Badge, Code Block, Separator. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-17 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "code-block",
@@ -456,6 +475,7 @@
         "code-block"
       ],
       "description": "A git patch parsed into files with dual old/new gutters, counters and a download.",
+      "descriptionLong": "Unified patch review. Built by composing Badge, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-18 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "code-block"
@@ -482,6 +502,7 @@
         "code-block"
       ],
       "description": "Syntax colors driven by CSS variables mapped to design tokens.",
+      "descriptionLong": "Design-token theme. Built by composing Code Block, Scroll Area. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-19 and edit as your own code.",
       "registryDependencies": [
         "code-block",
         "scroll-area"
@@ -508,6 +529,7 @@
         "code-block"
       ],
       "description": "A block that stays dark in both site themes, with window chrome and every line state.",
+      "descriptionLong": "Always-dark block. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-20 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -533,6 +555,7 @@
         "code-block"
       ],
       "description": "ANSI-style colored terminal output built from plain lines.",
+      "descriptionLong": "Dark terminal. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-21 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],
@@ -558,6 +581,7 @@
         "code-block"
       ],
       "description": "Agent-proposed diff with accept and reject actions.",
+      "descriptionLong": "Patch review actions. Built by composing Badge, Button, Card, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-22 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -586,6 +610,7 @@
         "code-block"
       ],
       "description": "Fold regions detected from indentation, with nesting and fold-all controls.",
+      "descriptionLong": "Nested code folding. Built by composing Button, Code Block, Scroll Area, Separator. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-23 and edit as your own code.",
       "registryDependencies": [
         "button",
         "code-block",
@@ -614,6 +639,7 @@
         "code-block"
       ],
       "description": "A line action scoped to the diagnostic line that applies the patch.",
+      "descriptionLong": "Fix with AI on the failing line. Built by composing Badge, Button, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-24 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -641,6 +667,7 @@
         "code-block"
       ],
       "description": "A gutter button that turns lines or a selection into file:line reference badges in a chat composer.",
+      "descriptionLong": "Reference lines in chat. Built by composing Badge, Button, Card, Code Block. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-25 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -669,6 +696,7 @@
         "code-block"
       ],
       "description": "A changed-file list where one shadcn ScrollArea scrolls every block at once.",
+      "descriptionLong": "Framed by an external ScrollArea. Built by composing Badge, Card, Code Block, Scroll Area. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-26 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card",
@@ -697,6 +725,7 @@
         "code-block"
       ],
       "description": "Agent stdout with SGR colour codes parsed by ansiToLines, retintable via --code-ansi-* variables.",
+      "descriptionLong": "ANSI terminal output. Built with the Code Block component. A free, open source shadcn code block example you can install with npx shadcn@latest add @reui/c-code-block-27 and edit as your own code.",
       "registryDependencies": [
         "code-block"
       ],

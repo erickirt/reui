@@ -33,7 +33,7 @@ import type {
 } from "@/registry-reui/bases/radix/reui/gantt/gantt-types"
 import { Slot } from "radix-ui"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import {
   ContextMenu,
   ContextMenuContent,

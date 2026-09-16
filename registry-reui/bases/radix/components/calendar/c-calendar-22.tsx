@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { formatDateRange } from "little-date"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/radix/ui/button"
 import { Calendar } from "@/registry/bases/radix/ui/calendar"
 import { Card, CardContent, CardFooter } from "@/registry/bases/radix/ui/card"

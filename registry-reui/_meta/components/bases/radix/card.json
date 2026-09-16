@@ -8,6 +8,7 @@
         "card"
       ],
       "description": "Basic card",
+      "descriptionLong": "Basic card. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -32,6 +33,7 @@
         "card"
       ],
       "description": "Card header with border",
+      "descriptionLong": "Card header with border. Built with the Card component. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-2 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],
@@ -55,6 +57,7 @@
         "card"
       ],
       "description": "Card with border separation",
+      "descriptionLong": "Card with border separation. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-3 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -79,6 +82,7 @@
         "card"
       ],
       "description": "Card with header and footer",
+      "descriptionLong": "Card with header and footer. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -103,6 +107,7 @@
         "card"
       ],
       "description": "Card with link",
+      "descriptionLong": "Card with link. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -127,6 +132,7 @@
         "card"
       ],
       "description": "Card with dropdown menu",
+      "descriptionLong": "Card with dropdown menu. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -151,6 +157,7 @@
         "card"
       ],
       "description": "Card with image",
+      "descriptionLong": "Card with image. Built by composing Badge, Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-7 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -176,6 +183,7 @@
         "card"
       ],
       "description": "Card with image scale hover effect",
+      "descriptionLong": "Card with image scale hover effect. Built with the Card component. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-8 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],
@@ -199,6 +207,7 @@
         "card"
       ],
       "description": "Card with full image",
+      "descriptionLong": "Card with full image. Built by composing Badge, Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-9 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -224,6 +233,7 @@
         "card"
       ],
       "description": "Full card with image and shadow fade effect",
+      "descriptionLong": "Full card with image and shadow fade effect. Built by composing Badge, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-10 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "card"
@@ -248,6 +258,7 @@
         "card"
       ],
       "description": "Card with stacked depth effect",
+      "descriptionLong": "Card with stacked depth effect. Built by composing Button, Card. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card"
@@ -272,6 +283,7 @@
         "card"
       ],
       "description": "Advanced clean login form card",
+      "descriptionLong": "Advanced clean login form card. Built by composing Button, Card, Field, Input, Input Group. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -299,12 +311,15 @@
         "card"
       ],
       "description": "Expandable billing usage card",
+      "descriptionLong": "Expandable billing usage card. Built by composing Button, Card, Progress. Uses cn alongside the shadcn primitives. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-13 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
         "progress"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/card/c-card-13.tsx",
@@ -324,10 +339,13 @@
         "card"
       ],
       "description": "Deployment status summary card",
+      "descriptionLong": "Deployment status summary card. Built with the Card component. Uses cn alongside the shadcn primitives. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-14 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/card/c-card-14.tsx",
@@ -347,6 +365,7 @@
         "card"
       ],
       "description": "Stat card with trend and overflow menu",
+      "descriptionLong": "Stat card with trend and overflow menu. Built by composing Badge, Button, Card, Dropdown Menu, Separator. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-15 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -374,6 +393,7 @@
         "card"
       ],
       "description": "Card with header badge and actions",
+      "descriptionLong": "Card with header badge and actions. Built by composing Avatar, Badge, Button, Card, Dropdown Menu. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-16 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -401,6 +421,7 @@
         "card"
       ],
       "description": "Card with icon, title and link",
+      "descriptionLong": "Card with icon, title and link. Built with the Card component. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-17 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],
@@ -424,6 +445,7 @@
         "card"
       ],
       "description": "Card with header label and link",
+      "descriptionLong": "Card with header label and link. Built with the Card component. A free, open source shadcn card example you can install with npx shadcn@latest add @reui/c-card-18 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],

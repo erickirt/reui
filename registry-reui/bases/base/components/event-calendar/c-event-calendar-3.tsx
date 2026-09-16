@@ -25,7 +25,7 @@ import {
   startOfWeek,
 } from "date-fns"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Card, CardContent } from "@/registry/bases/base/ui/card"
 import {

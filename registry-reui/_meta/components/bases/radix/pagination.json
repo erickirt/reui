@@ -8,6 +8,7 @@
         "pagination"
       ],
       "description": "Basic pagination.",
+      "descriptionLong": "Basic pagination. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-1 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -31,6 +32,7 @@
         "pagination"
       ],
       "description": "Pagination without labels.",
+      "descriptionLong": "Pagination without labels. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-2 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -54,6 +56,7 @@
         "pagination"
       ],
       "description": "Pagination with hover effect.",
+      "descriptionLong": "Pagination with hover effect. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-3 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -77,11 +80,14 @@
         "pagination"
       ],
       "description": "Pagination with circle buttons.",
+      "descriptionLong": "Pagination with circle buttons. Built by composing Button, Pagination. Uses cn alongside the shadcn primitives. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "pagination"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/pagination/c-pagination-4.tsx",
@@ -101,6 +107,7 @@
         "pagination"
       ],
       "description": "Pagination with go-to-page input",
+      "descriptionLong": "Pagination with go-to-page input. Built by composing Input, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-5 and edit as your own code.",
       "registryDependencies": [
         "input",
         "pagination"
@@ -125,6 +132,7 @@
         "pagination"
       ],
       "description": "Numbered pagination in card",
+      "descriptionLong": "Numbered pagination in card. Built by composing Card, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-6 and edit as your own code.",
       "registryDependencies": [
         "card",
         "pagination"
@@ -149,6 +157,7 @@
         "pagination"
       ],
       "description": "Pagination with arrows buttons",
+      "descriptionLong": "Pagination with arrows buttons. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-7 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -172,6 +181,7 @@
         "pagination"
       ],
       "description": "Pagination with page info on center",
+      "descriptionLong": "Pagination with page info on center. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-8 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -195,6 +205,7 @@
         "pagination"
       ],
       "description": "Pagination with page info on left",
+      "descriptionLong": "Pagination with page info on left. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-9 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -218,6 +229,7 @@
         "pagination"
       ],
       "description": "Pagination with ellipsis indicator",
+      "descriptionLong": "Pagination with ellipsis indicator. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-10 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -241,6 +253,7 @@
         "pagination"
       ],
       "description": "Pagination with outline style buttons",
+      "descriptionLong": "Pagination with outline style buttons. Built with the Pagination component. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-11 and edit as your own code.",
       "registryDependencies": [
         "pagination"
       ],
@@ -264,6 +277,7 @@
         "pagination"
       ],
       "description": "Rows per page select with range info and first/prev/next/last icons",
+      "descriptionLong": "Rows per page select with range info and first/prev/next/last icons. Built by composing Native Select, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-12 and edit as your own code.",
       "registryDependencies": [
         "native-select",
         "pagination"
@@ -288,6 +302,7 @@
         "pagination"
       ],
       "description": "Pagination with page select dropdown and first/last navigation",
+      "descriptionLong": "Pagination with page select dropdown and first/last navigation. Built by composing Native Select, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-13 and edit as your own code.",
       "registryDependencies": [
         "native-select",
         "pagination"
@@ -312,6 +327,7 @@
         "pagination"
       ],
       "description": "Numbered pagination with go-to-page input",
+      "descriptionLong": "Numbered pagination with go-to-page input. Built by composing Input, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-14 and edit as your own code.",
       "registryDependencies": [
         "input",
         "pagination"
@@ -336,6 +352,7 @@
         "pagination"
       ],
       "description": "Pagination with page info, numbered pages, ellipsis, and per-page select",
+      "descriptionLong": "Pagination with page info, numbered pages, ellipsis, and per-page select. Built by composing Native Select, Pagination. A free, open source shadcn pagination example you can install with npx shadcn@latest add @reui/c-pagination-15 and edit as your own code.",
       "registryDependencies": [
         "native-select",
         "pagination"

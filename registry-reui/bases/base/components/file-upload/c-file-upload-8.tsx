@@ -11,9 +11,9 @@ import {
   SortableItem,
   SortableItemHandle,
 } from "@/registry-reui/bases/base/reui/sortable"
+import { cn } from "cn"
 import { toast } from "sonner"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Card, CardContent } from "@/registry/bases/base/ui/card"
 import { Progress } from "@/registry/bases/base/ui/progress"
@@ -313,10 +313,10 @@ export default function Pattern({
         >
           {allImages.map((item) => (
             <SortableItem key={item.id} value={item.id}>
-              <div className="bg-accent/50 group/item border-border hover:bg-accent/70 rounded-md relative flex shrink-0 items-center justify-center border shadow-none transition-all duration-200 hover:z-10 data-[dragging=true]:z-50">
+              <div className="bg-accent/50 group/item border-border hover:bg-accent/70 relative flex shrink-0 items-center justify-center rounded-md border shadow-none transition-all duration-200 hover:z-10 data-[dragging=true]:z-50">
                 <img
                   src={item.src}
-                  className="rounded-md pointer-events-none h-[120px] w-full object-cover"
+                  className="pointer-events-none h-[120px] w-full rounded-md object-cover"
                   alt={item.alt}
                 />
 
@@ -384,7 +384,7 @@ export default function Pattern({
               className="size-4"
             />
           </div>
-          <h3 className="text-2sm text-foreground mb-0.5 font-medium">
+          <h3 className="text-foreground mb-0.5 text-sm font-medium">
             Choose a file or drag & drop here.
           </h3>
           <span className="text-secondary-foreground mb-3 block text-xs font-normal">
@@ -400,12 +400,9 @@ export default function Pattern({
       {images.length > 0 && (
         <div className="mt-6 space-y-3">
           {images.map((imageFile) => (
-            <Card
-              key={imageFile.id}
-              className="rounded-md shadow-none"
-            >
+            <Card key={imageFile.id} className="rounded-md shadow-none">
               <CardContent className="flex items-center gap-2 p-2.5">
-                <div className="border-border rounded-md flex size-[32px] shrink-0 items-center justify-center border">
+                <div className="border-border flex size-[32px] shrink-0 items-center justify-center rounded-md border">
                   <IconPlaceholder
                     lucide="ImageIcon"
                     tabler="IconPhoto"

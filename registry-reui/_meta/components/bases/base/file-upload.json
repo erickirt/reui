@@ -8,6 +8,7 @@
         "file-upload"
       ],
       "description": "Basic file upload",
+      "descriptionLong": "Basic file upload. Built by composing Button, Use File Upload. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "use-file-upload"
@@ -32,12 +33,15 @@
         "file-upload"
       ],
       "description": "Avatar upload",
+      "descriptionLong": "Avatar upload. Built by composing Alert, Button, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-2 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-2.tsx",
@@ -57,12 +61,15 @@
         "file-upload"
       ],
       "description": "Basic drag and drop file upload",
+      "descriptionLong": "Basic drag and drop file upload. Built by composing Alert, Button, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-3 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-3.tsx",
@@ -83,6 +90,7 @@
         "file-upload"
       ],
       "description": "Gallery file upload",
+      "descriptionLong": "Gallery file upload. Built by composing Alert, Button, Dialog, Spinner, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-4 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -90,7 +98,9 @@
         "spinner",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-4.tsx",
@@ -111,6 +121,7 @@
         "file-upload"
       ],
       "description": "Progress file upload",
+      "descriptionLong": "Progress file upload. Built by composing Alert, Badge, Button, Progress, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-5 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "badge",
@@ -118,7 +129,9 @@
         "progress",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-5.tsx",
@@ -139,6 +152,7 @@
         "file-upload"
       ],
       "description": "Table file upload",
+      "descriptionLong": "Table file upload. Built by composing Alert, Badge, Button, Table, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-6 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "badge",
@@ -146,7 +160,9 @@
         "table",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-6.tsx",
@@ -167,13 +183,16 @@
         "file-upload"
       ],
       "description": "Image upload",
+      "descriptionLong": "Image upload. Built by composing Alert, Button, Card, Progress. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-7 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
         "card",
         "progress"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-7.tsx",
@@ -194,6 +213,7 @@
         "file-upload"
       ],
       "description": "Image upload with sorting.",
+      "descriptionLong": "Image upload with sorting. Built by composing Alert, Button, Card, Progress, Sortable. Uses cn, sonner alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-8 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
@@ -202,6 +222,7 @@
         "sortable"
       ],
       "dependencies": [
+        "cn",
         "sonner"
       ],
       "files": [
@@ -224,13 +245,16 @@
         "file-upload"
       ],
       "description": "Card file upload.",
+      "descriptionLong": "Card file upload. Built by composing Alert, Button, Tooltip, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-9 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
         "tooltip",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-9.tsx",
@@ -251,12 +275,15 @@
         "file-upload"
       ],
       "description": "Cover image upload.",
+      "descriptionLong": "Cover image upload. Built by composing Alert, Button, Use File Upload. Uses cn alongside the shadcn primitives. A free, open source shadcn file upload example you can install with npx shadcn@latest add @reui/c-file-upload-10 and edit as your own code.",
       "registryDependencies": [
         "alert",
         "button",
         "use-file-upload"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/file-upload/c-file-upload-10.tsx",

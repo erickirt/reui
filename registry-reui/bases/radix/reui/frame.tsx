@@ -1,38 +1,32 @@
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 
 /**
- * CSS variable architecture for FramePanel theming:
- *
- * The Frame parent sets --frame-panel-bg and --frame-panel-border-color.
- * FramePanel consumes them directly via bg-(--frame-panel-bg) and
- * border-(--frame-panel-border-color). This means:
- *
- *   - variant="inverse" overrides those vars on Frame → all panels pick it up
- *   - <FramePanel className="bg-blue-50"> adds a direct utility on the element
- *     which wins over bg-(--frame-panel-bg) by Tailwind source order — no
- *     :not() or !important needed
+ * Frame sets --frame-panel-bg and --frame-panel-border-color; FramePanel reads
+ * them back as bg-(--frame-panel-bg) and border-(--frame-panel-border-color).
+ * So variant="inverse" re-points every panel from one place, and a consumer's
+ * own bg-* on a panel still wins on source order, with no :not() and no `!`.
  */
 const frameVariants = cva(
   [
     "relative flex flex-col bg-muted/50 gap-(--frame-gap) px-(--frame-px) py-(--frame-py) rounded-(--frame-radius)",
-    "(--radius-xl)] [--frame-radius:var(--radius-xl)]",
-    "(--radius-none)] (--radius-2xl)] (--radius-lg)] (--radius-none)]",
+    // Each rung is the radius that style's own .cn-card resolves through, so a
+    // Frame and a Card side by side agree. lyra/sera are 0px, NOT
+    // var(--radius-none): no such token exists, and it only reached 0 by being
+    // invalid, which also left --frame-radius empty for anything reading it.
+    "style-vega:[--frame-radius:var(--radius-xl)] style-nova:[--frame-radius:var(--radius-xl)] style-lyra:[--frame-radius:0px] style-maia:[--frame-radius:var(--radius-2xl)] style-mira:[--frame-radius:var(--radius-lg)] style-luma:[--frame-radius:var(--radius-4xl)] style-sera:[--frame-radius:0px] style-rhea:[--frame-radius:min(var(--radius-4xl),24px)]",
     "[--frame-gap:--spacing(0.75)] [--frame-px:--spacing(0.75)] [--frame-py:--spacing(0.75)] [--frame-panel-header-gap:0rem] [--frame-panel-footer-gap:--spacing(1)]",
     "[--frame-panel-px-adjust:0px] [--frame-panel-py-adjust:0px] [--frame-panel-header-px-adjust:0px] [--frame-panel-header-py-adjust:0px] [--frame-panel-footer-px-adjust:0px] [--frame-panel-footer-py-adjust:0px]",
-    "[--frame-panel-px:calc(var(--frame-panel-px-base)_+_var(--frame-panel-px-adjust))] [--frame-panel-py:calc(var(--frame-panel-py-base)_+_var(--frame-panel-py-adjust))] [--frame-panel-header-px:calc(var(--frame-panel-header-px-base)_+_var(--frame-panel-header-px-adjust))] [--frame-panel-header-py:calc(var(--frame-panel-header-py-base)_+_var(--frame-panel-header-py-adjust))] [--frame-panel-footer-px:calc(var(--frame-panel-footer-px-base)_+_var(--frame-panel-footer-px-adjust))] [--frame-panel-footer-py:calc(var(--frame-panel-footer-py-base)_+_var(--frame-panel-footer-py-adjust))]",
-    "(1)] (1)] (1.25)] (1.5)] (1.5)] (0.5)] (1)] (1)]",
-    // Default panel token values — overridden per-variant below
+    "[--frame-panel-px:calc(var(--frame-panel-px-base)+var(--frame-panel-px-adjust))] [--frame-panel-py:calc(var(--frame-panel-py-base)+var(--frame-panel-py-adjust))] [--frame-panel-header-px:calc(var(--frame-panel-header-px-base)+var(--frame-panel-header-px-adjust))] [--frame-panel-header-py:calc(var(--frame-panel-header-py-base)+var(--frame-panel-header-py-adjust))] [--frame-panel-footer-px:calc(var(--frame-panel-footer-px-base)+var(--frame-panel-footer-px-adjust))] [--frame-panel-footer-py:calc(var(--frame-panel-footer-py-base)+var(--frame-panel-footer-py-adjust))]",
+    // Luma alone re-times the frame: wider gap and padding, roomier bars.
+    "style-luma:[--frame-gap:--spacing(1)] style-luma:[--frame-px:--spacing(1)] style-luma:[--frame-py:--spacing(1.25)] style-luma:[--frame-panel-header-gap:--spacing(1.5)] style-luma:[--frame-panel-footer-gap:--spacing(1.5)] style-luma:[--frame-panel-py-adjust:--spacing(0.5)] style-luma:[--frame-panel-header-py-adjust:--spacing(1)] style-luma:[--frame-panel-footer-py-adjust:--spacing(1)]",
     "[--frame-panel-bg:var(--color-card)] [--frame-panel-border-color:var(--color-border)] [--frame-border-color:var(--color-border)]",
-    // Concentric inner radius: the panel corner nests smoothly inside the frame
-    // corner instead of matching it. The panel sits inset from the frame's outer
-    // edge by the frame's 1px border + --frame-px padding, so its radius is
-    // reduced by that same gap (radius − gap keeps the two arcs parallel). This
-    // base value assumes the bordered default/inverse frame; `ghost` drops the
-    // 1px border term and `dense` pins it back to the frame radius (its panels
-    // are pulled flush to the edge).
-    "[--frame-panel-radius:calc(var(--frame-radius)_-_var(--frame-px)_-_1px)]",
+    // Concentric: the panel nests inside the frame's corner rather than copying
+    // it. It is inset by the 1px border plus --frame-px, so subtracting exactly
+    // that keeps the two arcs parallel. `ghost` drops the border term (no
+    // border), `dense` pins it to the frame radius (panels sit flush).
+    "[--frame-panel-radius:calc(var(--frame-radius)-var(--frame-px)-1px)]",
   ],
   {
     variants: {
@@ -40,17 +34,12 @@ const frameVariants = cva(
         default: "border border-[var(--frame-border-color)] bg-clip-padding",
         inverse:
           "[--frame-panel-bg:color-mix(in_oklch,var(--color-muted)_40%,transparent)] border border-[var(--frame-border-color)] bg-background bg-clip-padding",
-        // No frame border, so the panel is inset by --frame-px padding only.
-        ghost: "[--frame-panel-radius:calc(var(--frame-radius)_-_var(--frame-px))]",
+        ghost: "[--frame-panel-radius:calc(var(--frame-radius)-var(--frame-px))]",
       },
-      // Header/footer vertical rhythm is tighter than the panel body's, and
-      // the gap widens as the frame grows: the bars read as chrome rather than
-      // as another content block. py ladder is 0.5 / 1.5 / 2 / 2.5 against a
-      // body py of 2 / 3.5 / 4 / 5. These vars are style-agnostic - no
-      // style-*.css overrides them - so this single ladder drives all shadcn
-      // styles. `px` is deliberately left level with the body so header,
-      // content and footer stay left-aligned. `xs` holds at 0.5 (2px): it is
-      // the practical floor, since anything lower stops reading as padding.
+      // Bars read as chrome, not a second content block: py runs 0.5/1.5/2/2.5
+      // against a body py of 2/3.5/4/5, while px stays level with the body so
+      // header, content and footer left-align. xs floors at 0.5 (2px), below
+      // which it stops reading as padding. No style-*.css overrides these.
       spacing: {
         xs: "[--frame-panel-px-base:--spacing(2)] [--frame-panel-py-base:--spacing(2)] [--frame-panel-header-px-base:--spacing(2)] [--frame-panel-header-py-base:--spacing(0.5)] [--frame-panel-footer-px-base:--spacing(2)] [--frame-panel-footer-py-base:--spacing(0.5)]",
         sm: "[--frame-panel-px-base:--spacing(3)] [--frame-panel-py-base:--spacing(3.5)] [--frame-panel-header-px-base:--spacing(3)] [--frame-panel-header-py-base:--spacing(1.5)] [--frame-panel-footer-px-base:--spacing(3)] [--frame-panel-footer-py-base:--spacing(1.5)]",
@@ -72,9 +61,8 @@ const frameVariants = cva(
         ],
       },
       dense: {
-        // Positional rules must stay as parent selectors — cannot be expressed via CSS vars.
-        // Padding is 0 and panels are pulled flush to the frame edge (-mx-px), so
-        // their corners align with the frame radius rather than nesting inside it.
+        // Parent selectors, not CSS vars: these are positional. Panels are
+        // pulled flush (-mx-px), so corners align with the frame's own radius.
         true: "p-0 gap-0 border-[var(--frame-border-color)] [--frame-panel-radius:var(--frame-radius)] [&_[data-slot=frame-panel]]:-mx-px [&_[data-slot=frame-panel]]:before:hidden [&_[data-slot=frame-panel]:last-child]:-mb-px [&:not(:has([data-slot=frame-panel-header]))_[data-slot=frame-panel]:is(:first-child)]:-mt-px",
         false: "",
       },
@@ -117,13 +105,10 @@ function FramePanel({
   return (
     <div
       className={cn(
-        // bg-(--frame-panel-bg) and border-(--frame-panel-border-color) consume the
-        // CSS vars set by the Frame parent. Any explicit bg-* or border-* class passed
-        // via className overrides these by Tailwind source order - no ! needed.
         "relative overflow-hidden rounded-(--frame-panel-radius) border border-(--frame-panel-border-color) bg-(--frame-panel-bg) bg-clip-padding shadow-xs",
         // `fit` sizes the panel to its content; otherwise it grows to fill the frame.
         !fit && "grow",
-        "before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--frame-panel-radius)_-_1px)] before:shadow-black/5",
+        "before:pointer-events-none before:absolute before:inset-0 before:rounded-[calc(var(--frame-panel-radius)-1px)] before:shadow-black/5",
         "dark:bg-clip-border dark:before:shadow-white/5",
         "px-(--frame-panel-px) py-(--frame-panel-py)",
         className

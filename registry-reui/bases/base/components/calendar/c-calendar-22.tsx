@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { formatDateRange } from "little-date"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Calendar } from "@/registry/bases/base/ui/calendar"
 import { Card, CardContent, CardFooter } from "@/registry/bases/base/ui/card"

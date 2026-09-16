@@ -8,6 +8,7 @@
         "scrollspy"
       ],
       "description": "Basic scrollspy",
+      "descriptionLong": "Basic scrollspy. Built by composing Button, Scroll Area, Scrollspy. A free, open source shadcn scrollspy example you can install with npx shadcn@latest add @reui/c-scrollspy-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "scroll-area",
@@ -34,6 +35,7 @@
         "scrollspy"
       ],
       "description": "Basic scroll area",
+      "descriptionLong": "Basic scroll area. Built by composing Button, Scroll Area, Scrollspy. A free, open source shadcn scrollspy example you can install with npx shadcn@latest add @reui/c-scrollspy-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "scroll-area",

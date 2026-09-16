@@ -12,7 +12,7 @@ import type {
   FilterQuery,
 } from "@/registry-reui/bases/base/reui/filters/filters-types"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Badge } from "@/registry-reui/bases/base/reui/badge"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

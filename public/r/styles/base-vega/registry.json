@@ -8,7 +8,8 @@
       "title": "Alert",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -50,7 +51,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [
         "scroll-area"
@@ -70,7 +72,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -112,7 +115,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-async",
@@ -208,7 +212,8 @@
       "title": "Cascader Columns",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -247,7 +252,8 @@
       "title": "Cascader Footer",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -286,7 +292,8 @@
       "title": "Cascader Item",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -325,7 +332,8 @@
       "title": "Cascader Nav",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/cascader-context",
@@ -383,6 +391,7 @@
       "title": "Shadcn code block with Shiki highlighting, streaming, diffs, folding and per-line interaction for AI chat UIs.",
       "description": "Shadcn code block with Shiki highlighting, streaming, diffs, folding and per-line interaction for AI chat UIs.",
       "dependencies": [
+        "cn",
         "shiki"
       ],
       "registryDependencies": [
@@ -455,7 +464,8 @@
         "@dnd-kit/sortable",
         "@dnd-kit/utilities",
         "@tanstack/react-table",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/badge",
@@ -540,7 +550,8 @@
       "title": "Data Grid Cell Selection",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -560,7 +571,8 @@
       "title": "Data Grid Column Filter",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/badge",
@@ -584,7 +596,8 @@
       "title": "Data Grid Column Header",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -639,7 +652,9 @@
       "type": "registry:ui",
       "title": "Data Grid Pagination",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/data-grid",
@@ -660,7 +675,8 @@
       "title": "Data Grid Scroll Area",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/data-grid"
@@ -679,7 +695,8 @@
       "title": "Data Grid Table",
       "description": "",
       "dependencies": [
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -729,7 +746,8 @@
         "@dnd-kit/modifiers",
         "@dnd-kit/sortable",
         "@dnd-kit/utilities",
-        "@tanstack/react-table"
+        "@tanstack/react-table",
+        "cn"
       ],
       "registryDependencies": [
         "button",
@@ -751,7 +769,8 @@
       "description": "",
       "dependencies": [
         "@tanstack/react-table",
-        "@tanstack/react-virtual"
+        "@tanstack/react-virtual",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/data-grid",
@@ -772,6 +791,7 @@
       "title": "Date Selector",
       "description": "",
       "dependencies": [
+        "cn",
         "date-fns",
         "react-day-picker"
       ],
@@ -799,6 +819,7 @@
       "dependencies": [
         "@base-ui/react",
         "@date-fns/tz",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -895,6 +916,7 @@
       "description": "Chronological agenda grouped by day - a day header row plus a clean time / dot / title table.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -919,7 +941,8 @@
       "title": "Active-view switchboard rendering month, week, day, N-days, or agenda; swappable per view via the components prop.",
       "description": "Active-view switchboard rendering month, week, day, N-days, or agenda; swappable per view via the components prop.",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "@reui/event-calendar",
@@ -965,6 +988,7 @@
       "description": "The reusable event chip/bar/block - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1029,6 +1053,7 @@
       "description": "ARIA-grid month view with week rows, day cells, event chips, and overflow counts.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1055,6 +1080,7 @@
       "description": "Composable navigation - Today, prev/next, period title, view switcher dropdown, and a free toolbar slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1102,6 +1128,7 @@
       "description": "Resource-columns day grid for booking scenarios - one time axis, one column per resource, full drag, resize, and drag-create.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1128,6 +1155,7 @@
       "description": "Shared week/day/N-days engine - hour gutter, minute-positioned events, all-day row, drag ghosts, now indicator, and configurable scrolling.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1168,6 +1196,7 @@
       "description": "",
       "dependencies": [
         "class-variance-authority",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1276,7 +1305,9 @@
       "type": "registry:ui",
       "title": "Filters Advanced",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "dropdown-menu",
@@ -1306,7 +1337,9 @@
       "type": "registry:ui",
       "title": "Filters Builder",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "@reui/cascader",
@@ -1333,7 +1366,9 @@
       "type": "registry:ui",
       "title": "Filters Chip",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -1428,7 +1463,9 @@
       "type": "registry:ui",
       "title": "Filters Editors",
       "description": "",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [
         "button",
         "button-group",
@@ -1543,7 +1580,8 @@
       "title": "Frame",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1562,6 +1600,7 @@
       "dependencies": [
         "@base-ui/react",
         "@date-fns/tz",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1634,7 +1673,8 @@
       "title": "The interactive gantt bar - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "description": "The interactive gantt bar - selection, clicks, drag + resize wiring, and the consumer render slot.",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [
         "context-menu",
@@ -1720,6 +1760,7 @@
       "description": "Composable navigation - Today, view selector, prev/next, go-to-date, period title, and a free toolbar slot.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1782,6 +1823,7 @@
       "description": "The gantt body - split resizable tree/timeline panes with synced scrolling, multi-column tree, grouped two-row header, day through year scales, zoom, drag-to-pan, lanes, drag and resize.",
       "dependencies": [
         "@base-ui/react",
+        "cn",
         "date-fns"
       ],
       "registryDependencies": [
@@ -1809,7 +1851,9 @@
       "type": "registry:ui",
       "title": "Layered icon illustration container",
       "description": "Layered icon illustration container",
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "registryDependencies": [],
       "files": [
         {
@@ -1826,7 +1870,8 @@
       "description": "Square container that gives icons a consistent surface",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1846,7 +1891,8 @@
         "@base-ui/react",
         "@dnd-kit/core",
         "@dnd-kit/sortable",
-        "@dnd-kit/utilities"
+        "@dnd-kit/utilities",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1864,7 +1910,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [
         "label"
@@ -1883,6 +1930,7 @@
       "title": "Phone Input",
       "description": "",
       "dependencies": [
+        "cn",
         "react-phone-number-input"
       ],
       "registryDependencies": [
@@ -1905,7 +1953,8 @@
       "title": "Rating",
       "description": "",
       "dependencies": [
-        "class-variance-authority"
+        "class-variance-authority",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1940,7 +1989,8 @@
         "@base-ui/react",
         "@dnd-kit/core",
         "@dnd-kit/sortable",
-        "@dnd-kit/utilities"
+        "@dnd-kit/utilities",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1957,7 +2007,8 @@
       "title": "Stepper",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1974,7 +2025,8 @@
       "title": "Timeline",
       "description": "",
       "dependencies": [
-        "@base-ui/react"
+        "@base-ui/react",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [
@@ -1992,7 +2044,8 @@
       "description": "",
       "dependencies": [
         "@base-ui/react",
-        "@headless-tree/core"
+        "@headless-tree/core",
+        "cn"
       ],
       "registryDependencies": [],
       "files": [

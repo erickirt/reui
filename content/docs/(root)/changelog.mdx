@@ -3,6 +3,32 @@ title: Changelog
 description: Latest updates and announcements.
 ---
 
+## v2.5.5 - 16 September, 2026.
+
+ReUI follows shadcn onto the `cn` package, and the Event Calendar and Data Grid each get back an interaction that was unreachable before.
+
+**Breaking changes:**
+
+- ReUI items that merge classes now import `cn` from the [`cn` package](https://www.npmjs.com/package/cn) instead of your `@/lib/utils`, following shadcn upstream - [Docs](/docs/registry#class-merging).
+- Any item that imports it lists `cn` in its `dependencies`, so `shadcn add` installs the package on the first such install - [Docs](/docs/registry#class-merging).
+- Items already installed keep working and your `@/lib/utils` is untouched - [Docs](/docs/registry#class-merging).
+- To drop `clsx` and `tailwind-merge` from your own project, run `pnpm dlx shadcn@latest migrate cn` - [Changelog](https://ui.shadcn.com/docs/changelog/2026-09-cn).
+- If you had customized `cn` in `@/lib/utils`, rebuild it with `createCn` from `cn/config`; newly installed items no longer route through that file - [Docs](/docs/registry#class-merging).
+
+**Fixes & Improvements:**
+
+- `EventCalendar`: timed views reserve a clickable strip at the end of each day column, so a press beside a full-width block creates a new event instead of doing nothing - [Preview](/components/event-calendar).
+- `EventCalendar`: the strip's width is the `--ec-event-gutter` custom property, default `0.75rem`; set `classNames.dayColumn: "[--ec-event-gutter:0px]"` to restore edge-to-edge blocks - [Docs](/docs/components/base/event-calendar).
+- `DataGridPagination`: moved from fixed page blocks to an adaptive window carrying the first and last page, so the last page is always one click away instead of several ellipsis steps - [Docs](/docs/components/base/data-grid#datagridpagination).
+- `DataGridPagination`: the existing `moreLimit` prop now counts the buttons in the truncated middle and is rounded down to an odd count with a floor of 3; page buttons carry a per-style min-width so the row keeps a steady width as you page - [Docs](/docs/components/base/data-grid#datagridpagination).
+- `Cascader`: virtual rows froze at their first window in apps built with React Compiler, which cached the row list against a virtualizer identity that never changes - [Preview](/components/cascader).
+- `Filters`: `defaultOperator` now documents what it does - the operator a rule falls back to when its field changes, not a preselection on create - [Docs](/docs/components/base/filters).
+- `Frame`: the radius ladder was structurally broken and is now resolved per style - [Preview](/components/frame).
+- `NumberField`: size ladders restored across all 8 styles - [Preview](/components/number-field).
+- `DataGrid`: the column resize handle used a non-Tailwind class to suppress text selection during a drag - [Preview](/components/data-grid).
+- Two Button examples imported a hook from a path no installer creates, so they failed to build once installed - [Preview](/components/button).
+- Four example files carried broken class strings and a dead variant - [Preview](/components).
+
 ## v2.5.2 - 1 September, 2026.
 
 **New: Data Grid Editing API and Localization.**

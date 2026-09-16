@@ -18,7 +18,7 @@ import {
 import type { CascaderNode } from "@/registry-reui/bases/base/reui/cascader/cascader-types"
 import { IconTile } from "@/registry-reui/bases/base/reui/icon-tile"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 

@@ -3,7 +3,7 @@
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete"
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { ScrollArea } from "@/registry/bases/base/ui/scroll-area"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
@@ -164,9 +164,11 @@ function AutocompleteItem({
       data-slot="autocomplete-item"
       className={cn(
         "text-foreground data-highlighted:text-foreground data-highlighted:before:bg-accent gap-1.5",
-        "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-rhea:rounded-2xl style-sera:rounded-none",
-        "style-vega:data-highlighted:before:rounded-sm style-nova:data-highlighted:before:rounded-md style-maia:data-highlighted:before:rounded-xl style-lyra:data-highlighted:before:rounded-none style-mira:data-highlighted:before:rounded-md style-luma:data-highlighted:before:rounded-2xl style-rhea:data-highlighted:before:rounded-2xl style-sera:data-highlighted:before:rounded-none",
-        "px-1.5 py-1 text-sm ([class*='size-'])]:size-4 ([class*='size-'])]:size-4 [&_svg:not([class*='size-'])]:size-4 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5 ([class*='size-'])]:size-4 ([class*='size-'])]:size-3.5 relative flex cursor-default items-center outline-hidden transition-colors select-none data-disabled:pointer-events-none data-disabled:opacity-50 data-highlighted:relative data-highlighted:z-0 data-highlighted:before:absolute data-highlighted:before:inset-x-0 data-highlighted:before:inset-y-0 data-highlighted:before:z-[-1] [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([role=img]):not([class*=text-])]:opacity-60",
+        "style-vega:rounded-sm style-nova:rounded-md style-maia:rounded-xl style-lyra:rounded-none style-mira:rounded-md style-luma:rounded-2xl style-rhea:rounded-xl style-sera:rounded-none",
+        "style-vega:data-highlighted:before:rounded-sm style-nova:data-highlighted:before:rounded-md style-maia:data-highlighted:before:rounded-xl style-lyra:data-highlighted:before:rounded-none style-mira:data-highlighted:before:rounded-md style-luma:data-highlighted:before:rounded-2xl style-rhea:data-highlighted:before:rounded-xl style-sera:data-highlighted:before:rounded-none",
+        // Icon sizing mirrors .cn-select-item. Rhea tracks nova, matching its
+        // .cn-input metrics; the row radius above follows .cn-*-item at xl.
+        "px-1.5 py-1 text-sm style-vega:[&_svg:not([class*='size-'])]:size-4 style-nova:[&_svg:not([class*='size-'])]:size-4 style-maia:[&_svg:not([class*='size-'])]:size-4 style-lyra:[&_svg:not([class*='size-'])]:size-4 style-mira:[&_svg:not([class*='size-'])]:size-3.5 style-luma:[&_svg:not([class*='size-'])]:size-4 style-sera:[&_svg:not([class*='size-'])]:size-3.5 style-rhea:[&_svg:not([class*='size-'])]:size-4 relative flex cursor-default items-center outline-hidden transition-colors select-none data-disabled:pointer-events-none data-disabled:opacity-50 data-highlighted:relative data-highlighted:z-0 data-highlighted:before:absolute data-highlighted:before:inset-x-0 data-highlighted:before:inset-y-0 data-highlighted:before:z-[-1] [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([role=img]):not([class*=text-])]:opacity-60",
         className
       )}
       {...props}

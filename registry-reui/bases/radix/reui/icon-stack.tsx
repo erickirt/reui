@@ -1,7 +1,7 @@
 // Title: Icon Stack
 // Description: Layered icon illustration container
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 
 type IconStackProps = React.ComponentProps<"div">
 

@@ -8,6 +8,7 @@
         "empty"
       ],
       "description": "Basic empty state",
+      "descriptionLong": "Basic empty state. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-1 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -32,6 +33,7 @@
         "empty"
       ],
       "description": "Search empty state",
+      "descriptionLong": "Search empty state. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -56,6 +58,7 @@
         "empty"
       ],
       "description": "Empty state with search input",
+      "descriptionLong": "Empty state with search input. Built by composing Empty, Input Group, Kbd. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-3 and edit as your own code.",
       "registryDependencies": [
         "empty",
         "input-group",
@@ -81,6 +84,7 @@
         "empty"
       ],
       "description": "Empty state with add button",
+      "descriptionLong": "Empty state with add button. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -105,6 +109,7 @@
         "empty"
       ],
       "description": "Document empty state",
+      "descriptionLong": "Document empty state. Built by composing Button, Card, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -130,6 +135,7 @@
         "empty"
       ],
       "description": "Dashed upload empty state",
+      "descriptionLong": "Dashed upload empty state. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-6 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -154,6 +160,7 @@
         "empty"
       ],
       "description": "Inbox empty state",
+      "descriptionLong": "Inbox empty state. Built with the Empty component. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-7 and edit as your own code.",
       "registryDependencies": [
         "empty"
       ],
@@ -177,6 +184,7 @@
         "empty"
       ],
       "description": "Team members empty state",
+      "descriptionLong": "Team members empty state. Built by composing Button, Card, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-8 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -202,6 +210,7 @@
         "empty"
       ],
       "description": "No notifications empty state",
+      "descriptionLong": "No notifications empty state. Built with the Empty component. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-9 and edit as your own code.",
       "registryDependencies": [
         "empty"
       ],
@@ -225,6 +234,7 @@
         "empty"
       ],
       "description": "No data analytics empty state",
+      "descriptionLong": "No data analytics empty state. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -249,6 +259,7 @@
         "empty"
       ],
       "description": "Bookmarks empty state",
+      "descriptionLong": "Bookmarks empty state. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-11 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -273,6 +284,7 @@
         "empty"
       ],
       "description": "Tasks empty state",
+      "descriptionLong": "Tasks empty state. Built by composing Button, Card, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-12 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -298,6 +310,7 @@
         "empty"
       ],
       "description": "No automations empty state with toggle illustration",
+      "descriptionLong": "No automations empty state with toggle illustration. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-13 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -322,6 +335,7 @@
         "empty"
       ],
       "description": "Comments empty state with isometric board illustration",
+      "descriptionLong": "Comments empty state with isometric board illustration. Built with the Empty component. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-14 and edit as your own code.",
       "registryDependencies": [
         "empty"
       ],
@@ -345,6 +359,7 @@
         "empty"
       ],
       "description": "No products empty state with stacked cards and blur effect",
+      "descriptionLong": "No products empty state with stacked cards and blur effect. Built with the Empty component. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-15 and edit as your own code.",
       "registryDependencies": [
         "empty"
       ],
@@ -368,6 +383,7 @@
         "empty"
       ],
       "description": "Search empty state with stacked file cards illustration",
+      "descriptionLong": "Search empty state with stacked file cards illustration. Built with the Empty component. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-16 and edit as your own code.",
       "registryDependencies": [
         "empty"
       ],
@@ -391,6 +407,7 @@
         "empty"
       ],
       "description": "No messages empty state with chat bubbles illustration",
+      "descriptionLong": "No messages empty state with chat bubbles illustration. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-17 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -415,6 +432,7 @@
         "empty"
       ],
       "description": "No payments empty state with credit card illustration",
+      "descriptionLong": "No payments empty state with credit card illustration. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-18 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -439,6 +457,7 @@
         "empty"
       ],
       "description": "No integrations empty state with connected nodes illustration",
+      "descriptionLong": "No integrations empty state with connected nodes illustration. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-19 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"
@@ -463,6 +482,7 @@
         "empty"
       ],
       "description": "No events empty state with calendar illustration",
+      "descriptionLong": "No events empty state with calendar illustration. Built by composing Button, Empty. A free, open source shadcn empty example you can install with npx shadcn@latest add @reui/c-empty-20 and edit as your own code.",
       "registryDependencies": [
         "button",
         "empty"

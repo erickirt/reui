@@ -16,7 +16,7 @@ import type { CascaderActionItem } from "@/registry-reui/bases/radix/reui/cascad
 import { Popover as PopoverPrimitive } from "@base-ui/react"
 import { useDirection } from "@base-ui/react/direction-provider"
 
-import { cn } from "@/registry/bases/radix/lib/utils"
+import { cn } from "cn"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 /**

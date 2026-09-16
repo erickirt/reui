@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { PageGridBackdrop } from "@/components/page-grid-backdrop"
 import { SiteChrome } from "@/components/site-chrome"
 import { SiteFooter } from "@/components/site-footer"

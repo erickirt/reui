@@ -8,6 +8,7 @@
         "collapsible"
       ],
       "description": "Basic collapsible",
+      "descriptionLong": "Basic collapsible. Built by composing Badge, Button, Collapsible. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-1 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
@@ -33,6 +34,7 @@
         "collapsible"
       ],
       "description": "Collapsible with checkbox settings",
+      "descriptionLong": "Collapsible with checkbox settings. Built by composing Button, Card, Checkbox, Collapsible, Field. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-2 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -60,6 +62,7 @@
         "collapsible"
       ],
       "description": "Collapsible animated card",
+      "descriptionLong": "Collapsible animated card. Built with the Card component. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-3 and edit as your own code.",
       "registryDependencies": [
         "card"
       ],
@@ -83,6 +86,7 @@
         "collapsible"
       ],
       "description": "Collapsible card with bottom trigger",
+      "descriptionLong": "Collapsible card with bottom trigger. Built by composing Button, Card, Collapsible, Progress. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-4 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -109,6 +113,7 @@
         "collapsible"
       ],
       "description": "Collapsible form fields",
+      "descriptionLong": "Collapsible form fields. Built by composing Button, Card, Collapsible, Field, Input Group. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-5 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",
@@ -136,6 +141,7 @@
         "collapsible"
       ],
       "description": "Collapsible frame",
+      "descriptionLong": "Collapsible frame. Built by composing Collapsible, Frame. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-6 and edit as your own code.",
       "registryDependencies": [
         "collapsible",
         "frame"
@@ -160,6 +166,7 @@
         "collapsible"
       ],
       "description": "Nested collapsible list with actions",
+      "descriptionLong": "Nested collapsible list with actions. Built by composing Button, Collapsible, Dropdown Menu, Frame, Use Copy To Clipboard. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-7 and edit as your own code.",
       "registryDependencies": [
         "button",
         "collapsible",
@@ -187,6 +194,7 @@
         "collapsible"
       ],
       "description": "Collapsible User profile",
+      "descriptionLong": "Collapsible User profile. Built by composing Avatar, Collapsible, Frame. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-8 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "collapsible",
@@ -212,6 +220,7 @@
         "collapsible"
       ],
       "description": "Multi-level collapsible menu",
+      "descriptionLong": "Multi-level collapsible menu. Built by composing Card, Collapsible, Item. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-9 and edit as your own code.",
       "registryDependencies": [
         "card",
         "collapsible",
@@ -237,6 +246,7 @@
         "collapsible"
       ],
       "description": "Tree view with file actions",
+      "descriptionLong": "Tree view with file actions. Built by composing Button, Card, Collapsible, Item, Tabs. A free, open source shadcn collapsible example you can install with npx shadcn@latest add @reui/c-collapsible-10 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",

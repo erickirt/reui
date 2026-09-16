@@ -5,7 +5,7 @@ import { Badge } from "@/registry-reui/bases/radix/reui/badge"
 import { motion } from "motion/react"
 import { Bar, BarChart, XAxis } from "recharts"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import {
   Card,
   CardContent,

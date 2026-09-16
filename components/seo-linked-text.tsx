@@ -2,7 +2,7 @@ import * as React from "react"
 import Link from "next/link"
 
 import { isCanonicalComponentDoc } from "@/lib/component-doc-paths"
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { Badge } from "@/components/ui/badge"
 
 function SeoInlineLink({

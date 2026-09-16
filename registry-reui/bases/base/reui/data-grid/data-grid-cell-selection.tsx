@@ -18,7 +18,7 @@ import type {
 } from "@/registry-reui/bases/base/reui/data-grid/data-grid"
 import { Subscribe } from "@tanstack/react-table"
 
-import { cn } from "@/registry/bases/base/lib/utils"
+import { cn } from "cn"
 import { Button } from "@/registry/bases/base/ui/button"
 
 /** Where a finished edit sends the focused cell, or null to stay. */

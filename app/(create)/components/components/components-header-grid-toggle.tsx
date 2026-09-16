@@ -3,7 +3,7 @@
 import * as React from "react"
 import { Columns2Icon, Rows2Icon } from "lucide-react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "cn"
 import { useConfig, type ComponentGridMode } from "@/hooks/use-config"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 

@@ -8,6 +8,7 @@
         "rating"
       ],
       "description": "Basic rating.",
+      "descriptionLong": "Basic rating. Built with the Rating component. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-1 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -31,6 +32,7 @@
         "rating"
       ],
       "description": "Rating with decimal value.",
+      "descriptionLong": "Rating with decimal value. Built with the Rating component. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-2 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -54,6 +56,7 @@
         "rating"
       ],
       "description": "Rating with show value.",
+      "descriptionLong": "Rating with show value. Built with the Rating component. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-3 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -77,6 +80,7 @@
         "rating"
       ],
       "description": "Rating with editable.",
+      "descriptionLong": "Rating with editable. Built with the Rating component. Uses sonner alongside the shadcn primitives. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-4 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -102,6 +106,7 @@
         "rating"
       ],
       "description": "Rating with size.",
+      "descriptionLong": "Rating with size. Built with the Rating component. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-5 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -125,6 +130,7 @@
         "rating"
       ],
       "description": "Rating with review summary",
+      "descriptionLong": "Rating with review summary. Built by composing Progress, Rating, Separator. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-6 and edit as your own code.",
       "registryDependencies": [
         "progress",
         "rating",
@@ -150,6 +156,7 @@
         "rating"
       ],
       "description": "Interactive half-star rating",
+      "descriptionLong": "Interactive half-star rating. Built with the Rating component. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-7 and edit as your own code.",
       "registryDependencies": [
         "rating"
       ],
@@ -173,8 +180,11 @@
         "rating"
       ],
       "description": "Emoji reaction rating",
+      "descriptionLong": "Emoji reaction rating. Uses cn alongside the shadcn primitives. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-8 and edit as your own code.",
       "registryDependencies": [],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/rating/c-rating-8.tsx",
@@ -194,6 +204,7 @@
         "rating"
       ],
       "description": "Rating with review text input",
+      "descriptionLong": "Rating with review text input. Built by composing Button, Card, Label, Rating, Textarea. A free, open source shadcn rating example you can install with npx shadcn@latest add @reui/c-rating-9 and edit as your own code.",
       "registryDependencies": [
         "button",
         "card",

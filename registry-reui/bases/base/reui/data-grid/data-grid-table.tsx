@@ -29,8 +29,8 @@ import type {
 } from "@/registry-reui/bases/base/reui/data-grid/data-grid"
 import { flexRender, Subscribe } from "@tanstack/react-table"
 import type { Cell, Column, Header, Row, Table } from "@tanstack/react-table"
+import { cn } from "cn"
 
-import { cn } from "@/registry/bases/base/lib/utils"
 import { Button } from "@/registry/bases/base/ui/button"
 import { Checkbox } from "@/registry/bases/base/ui/checkbox"
 import { Spinner } from "@/registry/bases/base/ui/spinner"
@@ -1195,7 +1195,7 @@ function DataGridTableHeadRowCellResize<TData extends object>({
         onMouseDown: handleMouseDown,
         onTouchStart: handleTouchStart,
         className: cn(
-          "absolute top-0 h-full cursor-col-resize user-select-none touch-none z-10 flex",
+          "absolute top-0 h-full cursor-col-resize touch-none select-none z-10 flex",
           isPinned === "end"
             ? cn(
                 // An end-pinned column grows from its START edge (its end is

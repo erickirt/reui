@@ -8,6 +8,7 @@
         "accordion"
       ],
       "description": "A basic single-expand accordion",
+      "descriptionLong": "A basic single-expand accordion. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-1 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -31,6 +32,7 @@
         "accordion"
       ],
       "description": "Accordion with plus/minus indicators",
+      "descriptionLong": "Accordion with plus/minus indicators. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-2 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -54,6 +56,7 @@
         "accordion"
       ],
       "description": "Accordion with borders and rounded corners",
+      "descriptionLong": "Accordion with borders and rounded corners. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-3 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -77,6 +80,7 @@
         "accordion"
       ],
       "description": "Accordion embedded within a Card",
+      "descriptionLong": "Accordion embedded within a Card. Built by composing Accordion, Button, Card. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-4 and edit as your own code.",
       "registryDependencies": [
         "accordion",
         "button",
@@ -102,6 +106,7 @@
         "accordion"
       ],
       "description": "Accordion with disabled items and highlighted state",
+      "descriptionLong": "Accordion with disabled items and highlighted state. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-5 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -125,6 +130,7 @@
         "accordion"
       ],
       "description": "Advanced accordion with custom icons and badges",
+      "descriptionLong": "Advanced accordion with custom icons and badges. Built by composing Accordion, Badge. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-6 and edit as your own code.",
       "registryDependencies": [
         "accordion",
         "badge"
@@ -149,6 +155,7 @@
         "accordion"
       ],
       "description": "Accordion items integrated within Frame and FramePanel",
+      "descriptionLong": "Accordion items integrated within Frame and FramePanel. Built by composing Accordion, Badge, Frame. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-7 and edit as your own code.",
       "registryDependencies": [
         "accordion",
         "badge",
@@ -174,6 +181,7 @@
         "accordion"
       ],
       "description": "Nested accordion example with bordered items",
+      "descriptionLong": "Nested accordion example with bordered items. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-8 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -197,6 +205,7 @@
         "accordion"
       ],
       "description": "User list accordion with avatars and role indicators",
+      "descriptionLong": "User list accordion with avatars and role indicators. Built by composing Accordion, Avatar, Badge, Frame. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-9 and edit as your own code.",
       "registryDependencies": [
         "accordion",
         "avatar",
@@ -223,6 +232,7 @@
         "accordion"
       ],
       "description": "Accordion with rotating arrow indicator",
+      "descriptionLong": "Accordion with rotating arrow indicator. Built with the Accordion component. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-10 and edit as your own code.",
       "registryDependencies": [
         "accordion"
       ],
@@ -246,6 +256,7 @@
         "accordion"
       ],
       "description": "Accordion pattern for onboarding or setup steps with icons, badges, and QR codes",
+      "descriptionLong": "Accordion pattern for onboarding or setup steps with icons, badges, and QR codes. Built by composing Accordion, Badge, Button, Button Group, Input and 1 more. A free, open source shadcn accordion example you can install with npx shadcn@latest add @reui/c-accordion-11 and edit as your own code.",
       "registryDependencies": [
         "accordion",
         "badge",

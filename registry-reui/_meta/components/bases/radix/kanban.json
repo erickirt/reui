@@ -8,6 +8,7 @@
         "kanban"
       ],
       "description": "Kanban board with placeholder overlay",
+      "descriptionLong": "Kanban board with placeholder overlay. Built by composing Avatar, Badge, Button, Card, Kanban. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-1 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -36,6 +37,7 @@
         "kanban"
       ],
       "description": "Kanban board with dynamic overlay",
+      "descriptionLong": "Kanban board with dynamic overlay. Built by composing Avatar, Badge, Button, Card, Kanban. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-2 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -64,6 +66,7 @@
         "kanban"
       ],
       "description": "Kanban board with frame columns",
+      "descriptionLong": "Kanban board with frame columns. Built by composing Badge, Frame, Kanban. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-3 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "frame",
@@ -90,6 +93,7 @@
         "kanban"
       ],
       "description": "Minimal kanban with stacked frame",
+      "descriptionLong": "Minimal kanban with stacked frame. Built by composing Avatar, Badge, Frame, Kanban, Progress. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-4 and edit as your own code.",
       "registryDependencies": [
         "avatar",
         "badge",
@@ -118,13 +122,16 @@
         "kanban"
       ],
       "description": "Feature roadmap kanban with progress",
+      "descriptionLong": "Feature roadmap kanban with progress. Built by composing Badge, Frame, Kanban, Progress. Uses cn alongside the shadcn primitives. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-5 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "frame",
         "kanban",
         "progress"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cn"
+      ],
       "files": [
         {
           "path": "components/kanban/c-kanban-5.tsx",
@@ -145,6 +152,7 @@
         "kanban"
       ],
       "description": "Persist moves with onValueCommit, optimistic updates, and Sonner rollback",
+      "descriptionLong": "Kanban board persisted to a backend. Built by composing Badge, Button, Card, Kanban. Uses sonner alongside the shadcn primitives. A free, open source shadcn kanban example you can install with npx shadcn@latest add @reui/c-kanban-6 and edit as your own code.",
       "registryDependencies": [
         "badge",
         "button",
